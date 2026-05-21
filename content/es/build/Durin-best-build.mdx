@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mejor Build de Durin: Composiciones de Equipo y Builds Meta 2026",
+  description: "Domina la mejor build de Durin en Genshin Impact. Guía experta para los modos Blanco y Oscuro, sets de artefactos, clasificación de armas y composiciones de equipo Hexerei.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Best+Build",
+  date: "2026-05-21",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Estilos de Juego Duales**: Durin presenta dos modos distintos: el **Modo Blanco** para soporte Pyro AOE/reducción de RES y el **Modo Oscuro** para potencial de carry de Vaporización/Derretido de objetivo único.
+- **Umbral de ATK**: Apunta a **2,500 ATK efectivo** para maximizar el pasivo Fusión Primordial, que otorga un aumento del 75% de DMG a su Habilidad Definitiva.
+- **Sinergia Hexerei**: Siempre empareja a Durin con al menos otro **personaje Hexerei** (como Fischl, Mona o Albedo) para aumentar sus pasivas en un 75%.
+- **Prioridad de Artefactos**: **Nobleza Obliga** es la elección estándar de soporte, mientras que el nuevo set **Un Día Tallado por Vientos Ascendentes** (Versión 6.3) es el mejor para daño personal.
+- **Gestión de Energía**: Con la Habilidad Elemental a Nivel 10, devuelve **33 de Energía**, reduciendo efectivamente el costo de su Habilidad Definitiva de 70 a unos manejables 37.
+</Callout>
+
+<Section icon={Sparkles} title="Mecánicas del Kit de Durin: Modo Blanco vs. Modo Oscuro">
+
+Durin es un versátil usuario de Espada Pyro de 5 estrellas lanzado en la Versión 6.2. Su jugabilidad gira en torno a la mecánica **Forma Binaria**. Después de usar su Habilidad Elemental, la siguiente entrada determina su forma durante los próximos 30 segundos. Presionar la Habilidad nuevamente activa la **Confirmación de Pureza (Modo Blanco)**, mientras que realizar un Ataque Normal activa la **Negación de la Oscuridad (Modo Oscuro)**.
+
+**Puntos Destacados del Video:**
+- **Cambio de Modo**: Desglose detallado de las mecánicas Habilidad-Habilidad vs. Habilidad-Ataque Normal.
+- **Restitución de Energía**: Cómo su ganancia de energía fija permite una inversión mínima en Recarga de Energía.
+- **Buffs Hexerei**: Visualización de la masiva reducción de resistencia y los aumentos de daño por reacción.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="¡GUÍA COMPLETA DE DURIN! Mejor Build de Durin" />
+
+La elección entre modos cambia fundamentalmente su Habilidad Definitiva, **Principio de Pureza/Oscuridad**. En Modo Blanco, actúa como un soporte fuera de campo de primera categoría, aplicando Pyro cada segundo y reduciendo resistencias. En Modo Oscuro, se transforma en un DPS de daño frontal con multiplicadores de Vaporización y Derretido mejorados.
+
+| Mecánica | Modo Blanco (Pureza) | Modo Oscuro (Oscuridad) |
+| :--- | :--- | :--- |
+| **Activación** | Habilidad > Habilidad | Habilidad > Ataque Normal |
+| **Tipo de Habilidad Definitiva** | Pyro AOE (21 Ticks) | Objetivo Único (16 Ticks) |
+| **Buff Principal** | 20-35% Reducción de RES | 40-70% DMG de Vape/Derretido |
+| **Mejor Para** | Sobrecarga, Quemadura, Mono-Pyro | Vaporización, Carry de Derretido |
+| **Aplicación** | Intervalo de 1.0s | Intervalo de 1.25s |
+
+<Callout type="warning" title="Prioridad de Rotación">
+La Habilidad Definitiva de Durin **no hace snapshot**. Esto significa que los buffs como el Círculo de Bennett o Nobleza Obliga deben permanecer activos durante toda la duración de su Habilidad Definitiva para proporcionar sus beneficios. Asegúrate siempre de que los buffs de tu equipo se refresquen antes de cambiar a Durin.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores Artefactos y Prioridades de Estadísticas">
+
+Construir la **mejor build de Durin** requiere equilibrar sus altos requisitos de ATK con las estadísticas de Crítico estándar. Su pasiva A4, **Caos Formado Como la Noche**, proporciona un bono de daño que llega a un máximo de 2,500 ATK. Si bien el Crítico sigue siendo el rey del daño, alcanzar este umbral de ATK a través de sub-estadísticas o buffs de equipo (como Bennett o Resonancia Pyro) es esencial para maximizar sus primeros 10 golpes de Habilidad Definitiva.
+
+<CardGrid cols={3}>
+  <Card title="Nobleza Obliga">
+    - **Mejor para Soporte**
+    - Aumenta el DMG de la Habilidad Definitiva en un 20%
+    - Proporciona un buff de ATK del 20% para todo el equipo
+    - Estándar para el Modo Blanco
+  </Card>
+  <Card title="Vientos Ascendentes (6.3)">
+    - **Mejor para DMG Personal**
+    - Altos buffs de ATK% y Tasa CRÍT
+    - Fácil de activar fuera del campo
+    - Superior para el Modo Oscuro
+  </Card>
+  <Card title="Cazador Fantasma">
+    - **Mejor para En Campo**
+    - Requiere sinergia con Furina
+    - Masivo bono de Tasa CRÍT del 36%
+    - Ideal para equipos con Bennett C6
+  </Card>
+</CardGrid>
+
+Para las estadísticas principales, Durin típicamente sigue la plantilla **ATK / Pyro / Crítico**. Sin embargo, su alta restitución de energía de la Habilidad Elemental significa que a menudo puedes ignorar completamente la Recarga de Energía (ER) si está emparejado con otra unidad Pyro o Fischl.
+
+| Pieza de Artefacto | Estadística Principal Recomendada | Opciones Alternativas |
+| :--- | :--- | :--- |
+| **Arena** | **ATK%** | Maestría Elemental (solo Vape/Derretido) / ER (Pyro solo) |
+| **Cáliz** | **Bono de DMG Pyro** | ATK% (si usa buffers de DMG como Furina) |
+| **Corona** | **Tasa CRÍT / DMG CRÍT** | ATK% (solo para builds de soporte C1) |
+
+<Callout type="tip" title="Puntos de Referencia de Estadísticas">
+Apunte a una **Relación CRÍT de 60/120** como base, empujando hacia **70/200** para builds de endgame. Si su ATK está por debajo de 2,000, priorice las sub-estadísticas de ATK% sobre mejoras menores de Crítico hasta que alcance el umbral de 2,500 con buffs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Clasificación de Armas: Firma vs. F2P">
+
+La espada insignia de Durin, **Athame Artis**, es su indiscutible Mejor en Slot (BiS). Proporciona Tasa CRÍT, DMG de Habilidad Definitiva y un buff de ATK para todo el equipo que escala significativamente con la **Resonancia Hexerei**. Sin embargo, Durin es notablemente flexible con las armas, utilizando casi cualquier espada que escale con Crítico o ATK en el juego.
+
+| Nivel | Arma | Beneficios Clave |
+| :--- | :--- | :--- |
+| **Nivel S** | **Athame Artis** | Crítico masivo, buff de ATK de equipo, sinergia Hexerei |
+| **Nivel S** | **Reflejo de la Cortalunas** | Alto ATK base, bono masivo de DMG Elemental |
+| **Nivel A** | **Cortador de Jade Primordial** | Alta Tasa CRÍT, conversión de HP a ATK |
+| **Nivel A** | **Colmillo de Lobo (R5)** | DMG de Habilidad/Definitiva y Tasa CRÍT (Pase de Batalla) |
+| **BiS F2P** | **Final del Abismo** | Enormes buffs de ATK (Requiere un sanador) |
+| **Alternativa F2P** | **Amanecer del Tejedor Lunar** | Alto bono de DMG de Habilidad Definitiva (recompensa Nod-Krai) |
+
+<Callout type="info" title="La Elección de Juramento por la Libertad">
+**Juramento por la Libertad** es una opción de soporte subestimada. Si bien la Maestría Elemental es de nicho para el Modo Blanco, el buff de DMG de Ataque Normal/Cargado/Descendente para todo el equipo es increíble al apoyar a carries como Arlecchino, Kinich o Xiao.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Composiciones de Equipo de Nivel Superior">
+
+La versatilidad de Durin le permite encajar en casi cualquier equipo que requiera un Pyro fuera de campo. Su sinergia más poderosa es con los **personajes Hexerei**, lo que activa el Rito Secreto: Hexerei. Esta resonancia aumenta su reducción de RES en Modo Blanco del 20% al 35% y su bono de reacción en Modo Oscuro del 40% al 70%.
+
+<Steps>
+  <Step num="1" title="El Núcleo de Sobrecarga">
+    Empareja a Durin con **Fischl** (Hexerei) y **Chevreuse**. Agrega un DPS Pyro o Electro como Arlecchino o Raiden. Durin proporciona aplicación Pyro permanente y una reducción de RES Electro/Pyro del 35%.
+  </Step>
+  <Step num="2" title="Soporte de Quemadura/Florecimiento">
+    Usa a Durin en equipos de **Kinich** o **Emilie**. La duración de 20 segundos de su Habilidad Definitiva asegura un 100% de tiempo activo en Quemadura, permitiendo un daño Dendro consistente y reducción de RES.
+  </Step>
+  <Step num="3" title="Vaporización en Modo Oscuro">
+    Empareja a Durin con **Mona** (Hexerei) y **Furina**. Durin actúa como un potente DPS de Habilidad Definitiva fuera de campo, vaporizando sus golpes de Modo Oscuro de alto escalado para un daño masivo de objetivo único.
+  </Step>
+  <Step num="4" title="Carry en Campo">
+    Combina a Durin con **Bennett C6**, **Furina** y **Xianyun**. Esto permite a Durin usar ataques descendentes infundidos con Pyro mientras se beneficia de los buffs de reacción del Modo Oscuro.
+  </Step>
+</Steps>
+
+<Checklist
+  id="durin-team-check"
+  title="Lista de Verificación para la Construcción de Equipos:"
+  items={[
+    "Incluir al menos otra unidad Hexerei (Fischl, Mona, Albedo, etc.)",
+    "Asegurarse de que haya un sanador presente si se usa Final del Abismo",
+    "Verificar si el DPS principal se beneficia de la reducción de RES Pyro/Elemental",
+    "Confirmar que tu rotación permite a Durin usar su Habilidad antes de su Habilidad Definitiva"
+  ]}
+/>
+
+<Callout type="success" title="Lista de Personajes Hexerei">
+Los personajes Hexerei actuales incluyen: **Durin, Fischl, Sacarosa, Razor, Albedo, Mona, Varka, Alice y Nicole**. Se recomienda encarecidamente usar cualquiera de ellos junto con Durin.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Constelaciones y Prioridad de Inversión">
+
+Durin es altamente funcional en C0, pero sus primeras constelaciones proporcionan algunos de los mejores valores de inversión vertical en el juego. C1 y C2 son particularmente notables por sus buffs universales para el equipo.
+
+| Constelación | Nombre | Resumen del Efecto |
+| :--- | :--- | :--- |
+| **C1** | Redención de Adamah | Agrega acumulaciones de 'Pluma' al equipo (Blanco) o a sí mismo (Oscuro) según el ATK |
+| **C2** | Visiones Subterráneas | **50% de bono de DMG Elemental** para el equipo después de la Habilidad Definitiva |
+| **C4** | Fuente de Emanare | Aumento del 40% de DMG de la Habilidad Definitiva y 30% de conservación de acumulaciones |
+| **C6** | Nacimiento Dual | La Habilidad Definitiva ignora el 30-70% de la DEF y reduce la DEF del oponente en un 30% |
+
+<Callout type="tip" title="Estrategia de Inversión">
+Si estás eligiendo entre **C1 y su Arma Insignia**, C1 es generalmente un aumento de daño más consistente para todo el equipo. Sin embargo, el Arma Insignia es una mejor "stat-stick" para la longevidad de tu cuenta. **C2** es el punto óptimo para los jugadores de gasto bajo a medio.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes de Durin">
+
+<FAQ items={[
+  {
+    question: "¿Necesita Durin Recarga de Energía?",
+    answer: "Muy poca. Si subes su Habilidad Elemental a nivel 10, devuelve 33 de Energía. En equipos con Fischl u otra unidad Pyro, 110-120% de ER suele ser suficiente."
+  },
+  {
+    question: "¿Qué modo es mejor para uso general?",
+    answer: "El Modo Blanco es generalmente mejor para la mejor build de Durin en la mayoría de los equipos porque proporciona daño AOE y una masiva reducción de resistencia para todo el grupo."
+  },
+  {
+    question: "¿Puedo jugar con Durin sin otros personajes Hexerei?",
+    answer: "Sí, sigue siendo un fuerte sub-DPS Pyro. Sin embargo, pierdes el bono del 75% a sus pasivas, lo que representa una caída significativa tanto en el soporte como en el daño personal."
+  },
+  {
+    question: "¿Cómo funciona el límite de 2,500 ATK?",
+    answer: "Su pasiva aumenta el daño de la Habilidad Definitiva en un 3% por cada 100 de ATK, hasta un 75%. Esto tiene en cuenta todos los buffs activos, por lo que no necesitas 2,500 de ATK en la hoja de tu personaje, solo mientras estás en combate."
+  }
+]} />
+
+</Section>

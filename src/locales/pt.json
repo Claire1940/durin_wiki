@@ -11,12 +11,11 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "build": "Build",
+    "guide": "Guide",
+    "materials": "Materials",
+    "teams": "Teams",
+    "weapons": "Weapons"
   },
   "common": {
     "home": "Início",

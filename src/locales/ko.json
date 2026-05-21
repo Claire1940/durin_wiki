@@ -1,1 +1,9 @@
-{}
+{
+  "nav": {
+    "build": "Build",
+    "guide": "Guide",
+    "materials": "Materials",
+    "teams": "Teams",
+    "weapons": "Weapons"
+  }
+}

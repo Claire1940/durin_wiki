@@ -1,0 +1,287 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build Durin Genshin : Artéfacts, Armes et Équipes Optimaux",
+  description: "Maîtrisez les deux formes de Durin dans Genshin Impact avec ce guide de build complet, couvrant les meilleurs artéfacts, armes et compositions d'équipe pour 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Durin+Build+Guide",
+  date: "2026-05-20",
+  author: "Équipe Wiki Durin"
+}
+
+<Callout type="info" title="Guide Rapide">
+- Le **build Durin Genshin** se concentre sur ses deux modes : le **Mode Blanc** pour le support/sub-DPS et le **Mode Sombre** pour les dégâts personnels.
+- **Artéfacts** : Priorisez **Un jour sculpté par les vents ascendants** (Mode Sombre), **Noblesse Oblige** (support Mode Blanc), ou **Emblème du destin brisé** pour une utilisation équilibrée.
+- **Armes** : Son arme signature **Athame Artis** est la meilleure option ; **Coupe-jade Primordial** et **Serment de la liberté** sont de fortes alternatives.
+- **Stats** : Visez un **Taux/Dégâts CRIT** élevé, un **ATQ%** et une **Recharge d'Énergie** suffisante (souvent minimale si sa compétence est améliorée).
+- **Compositions d'équipe** : Excellent dans les équipes **Surcharge**, **Bourgeonnement**, et diverses équipes de résonance **Hexerei**.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendre les Deux Formes de Durin">
+Durin, le tout nouveau personnage Pyro Épée 5 étoiles de Genshin Impact, offre une polyvalence inégalée grâce à ses deux formes uniques : **Confirmation de Pureté (Mode Blanc)** et **Déni des Ténèbres (Mode Sombre)**. Chaque mode modifie fondamentalement son Déchaînement Élémentaire et ses capacités passives, lui permettant de s'adapter à diverses compositions d'équipe et scénarios de combat. Maîtriser les deux formes est crucial pour optimiser votre **build Durin Genshin**.
+
+En utilisant sa Compétence Élémentaire, vous pouvez choisir d'entrer dans l'un ou l'autre mode. Appuyer à nouveau sur le bouton de la Compétence Élémentaire active le Mode Blanc, tandis qu'une Attaque Normale après la compétence déclenche le Mode Sombre. Ce choix détermine son rôle dans l'équipe, d'un puissant support hors champ à un distributeur de dégâts autonome.
+
+**Points forts de la vidéo :**
+- La Compétence Élémentaire de Durin permet de changer de mode (Mode Blanc : Compétence à nouveau ; Mode Sombre : Attaque Normale).
+- Le Mode Blanc offre une application continue de Pyro de zone et une réduction de résistance.
+- Le Mode Sombre se concentre sur les dégâts monocibles avec une puissance accrue pour la Vaporisation/Fonte.
+- Sa compétence génère également une énergie plate significative (30-33 au niveau de talent 9-10).
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="GUIDE COMPLET DE DURIN ! Meilleur build Durin [TOUS les styles de jeu] - Artéfacts, Armes, Équipes | Genshin Impact" />
+
+<Callout type="tip">
+Le Déchaînement Élémentaire de Durin ne prend pas de snapshot des statistiques. Assurez-vous que tous les buffs sont actifs *avant* de lancer son Déchaînement pour un maximum de dégâts tout au long de sa durée.
+</Callout>
+
+### Mode Blanc : Support hors champ et Sub-DPS
+En Mode Blanc, le Déchaînement Élémentaire de Durin, "Dragon de Flamme Blanche", fournit une application continue de Pyro de zone hors champ, infligeant des dégâts une fois par seconde et appliquant Pyro tous les deux coups. Ce mode excelle dans sa capacité à réduire les résistances. Lorsque Durin déclenche des réactions liées au Pyro (Surcharge, Dispersion Pyro, Cristallisation Pyro, Brûlure, ou Brûlure Dendro), il réduit la résistance du Pyro et de l'élément impliqué de 20 % (jusqu'à 35 % avec la résonance Hexerei). Cela en fait un support exceptionnel pour les équipes qui dépendent de ces réactions.
+
+### Mode Sombre : Carry sur champ ou hors champ
+Inversement, le Déchaînement Élémentaire du Mode Sombre, "Dragon de Décomposition Sombre", inflige des dégâts Pyro monocibles avec une mise à l'échelle plus élevée, mais à un rythme plus lent (une fois toutes les 1,25 secondes). Dans ce mode, Durin gagne des dégâts accrus pour les réactions de Vaporisation et de Fonte (40 % de base, jusqu'à 70 % avec la résonance Hexerei). Le Mode Sombre le transforme en un formidable distributeur de dégâts personnels, idéal pour les équipes centrées sur les auras Hydro ou Cryo.
+
+<Callout type="warning">
+La réduction de résistance du Mode Blanc ne s'applique **pas** aux réactions de Vaporisation ou de Fonte, car ces réactions impliquent Hydro ou Cryo. Pour ces réactions, le bonus de dégâts personnels du Mode Sombre est généralement préféré.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sets d'artéfacts optimaux pour Durin">
+Le choix du bon set d'artéfacts pour votre **build Durin Genshin** dépend fortement de son rôle prévu et de la composition de l'équipe. Compte tenu de sa double nature, plusieurs sets peuvent être très efficaces.
+
+<CardGrid cols={2}>
+  <Card title="Mode Blanc (Support/Sub-DPS)">
+    - **4 pièces Noblesse Oblige** : Augmente les DGT du Déchaînement Élémentaire de 20 % et augmente l'ATQ de tous les membres de l'équipe de 20 % pendant 12 s après l'utilisation du Déchaînement Élémentaire. Idéal si aucun autre support ne l'utilise.
+    - **2 pièces Noblesse + 2 pièces Sorcière des Flammes Ardentes** : Un bon hybride pour les dégâts de déchaînement personnels et le bonus de DGT Pyro.
+  </Card>
+  <Card title="Mode Sombre (DPS Personnel)">
+    - **4 pièces Un jour sculpté par les vents ascendants** : (Nouvel artéfact 6.3) Fournit des bonus d'ATQ% et de Taux CRIT, particulièrement puissant avec les membres Hexerei. Excellent pour maximiser les dégâts personnels.
+    - **4 pièces Chasseur de la Maréchaussée** : Idéal pour Durin sur le terrain avec Furina, offrant un Taux CRIT massif.
+    - **4 pièces Sorcière des Flammes Ardentes** : Fort pour les équipes Vaporisation/Fonte, surtout avec des déclencheurs de réaction constants.
+  </Card>
+</CardGrid>
+
+### Comparaison des sets d'artéfacts
+
+| Set d'artéfacts | Bonus 2 pièces | Bonus 4 pièces (Effets clés) | Meilleur cas d'utilisation | Évaluation |
+| :----------- | :------------ | :-------------------------- | :------------ | :----- |
+| **Un jour sculpté par les vents ascendants** | ATQ +18% | ATQ +25%, Taux CRIT +20% (avec Hexerei) | DPS sur le terrain en Mode Sombre | ★★★★★ |
+| **Noblesse Oblige** | DGT Déchaînement Élémentaire +20% | ATQ de l'équipe +20% pendant 12s | Support/Sub-DPS en Mode Blanc | ★★★★☆ |
+| **Emblème du destin brisé** | Recharge d'Énergie +20% | DGT Déchaînement Élémentaire +25% de la RE | DPS hors champ général (si RE nécessaire) | ★★★★☆ |
+| **Chasseur de la Maréchaussée** | DGT ATQ Normale/Chargée +15% | Taux CRIT +36% (fluctuations de PV) | DPS sur le terrain avec Furina | ★★★★★ |
+| **Sorcière des Flammes Ardentes** | Bonus DGT Pyro +15% | Augmente Surcharge/Brûlure/Bourgeonnement (40%), Vaporisation/Fonte (15%) | Mode Sombre axé sur les réactions | ★★★★☆ |
+| **Rêve doré** | Maîtrise Élémentaire +80 | Bonus ATQ/ME basé sur les éléments de l'équipe | Mode Sombre hors champ (Vape/Fonte) | ★★★★☆ |
+
+<Callout type="info">
+"Un jour sculpté par les vents ascendants" est un nouveau set d'artéfacts (Version 6.3) qui est très synergique avec Durin, en particulier dans son Mode Sombre, offrant des bonus significatifs d'ATQ et de Taux CRIT.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleures armes pour l'arsenal de Durin">
+Choisir l'arme optimale pour votre **build Durin Genshin** peut améliorer considérablement ses performances. Bien que son arme signature soit souvent idéale, plusieurs alternatives offrent des dégâts compétitifs ou une forte utilité.
+
+### Meilleurs choix d'armes
+
+| Nom de l'arme | Rareté | Statistique principale | Passif (Effets clés) | Meilleur cas d'utilisation | Évaluation |
+| :---------- | :----- | :-------- | :-------------------- | :------------ | :----- |
+| **Athame Artis** | 5 étoiles | Taux CRIT (33,1%) | DGT CRIT au Déchaînement, ATQ% pour soi et l'équipe (amélioré avec Hexerei) | Meilleure option (Tous modes, surtout support) | ★★★★★ |
+| **Coupe-jade Primordial** | 5 étoiles | Taux CRIT (44,1%) | Augmentation des PV%, bonus d'ATQ basé sur les PV Max | Dégâts personnels (Taux CRIT élevé) | ★★★★☆ |
+| **Reforgé de l'éclat** | 5 étoiles | DGT CRIT (44,1%) | Bonus DGT Élémentaires (cumulable) | Dégâts personnels (DGT Élémentaires élevés) | ★★★★☆ |
+| **Serment de la liberté** | 5 étoiles | Maîtrise Élémentaire (198) | Augmentation des DGT, ATQ% et DGT ATQ Normale/Chargée/Plongeante pour l'équipe | Support (buffs d'équipe, ME pour les réactions) | ★★★★☆ |
+| **Croc-de-loup** | 4 étoiles | Taux CRIT (27,6%) | DGT Compétence/Déchaînement, Taux CRIT (cumulable) | Passe de combat (forte option 4 étoiles) | ★★★★☆ |
+| **Finale de la Profondeur** | 4 étoiles | ATQ% (27,6%) | Augmentation d'ATQ après la Compétence, bonus d'ATQ supplémentaire lorsque le Lien Vital est effacé | F2P (nécessite un soigneur pour effacer le Lien Vital) | ★★★☆☆ |
+| **Aube de la Tisseuse de Lune** | 4 étoiles | ATQ% (27,6%) | Augmentation des DGT du Déchaînement Élémentaire (dépend de l'énergie) | F2P (récompense de quête, bons dégâts de déchaînement) | ★★★☆☆ |
+| **Rugissement du Lion** | 4 étoiles | ATQ% (41,3%) | DGT contre les ennemis affectés par Pyro/Électro | Équipes Surcharge/Brûlure (situationnel) | ★★★☆☆ |
+
+<Callout type="tip">
+Pour les joueurs free-to-play, l'**Aube de la Tisseuse de Lune** (obtenue lors des quêtes du monde de Nod-Krai) est un excellent choix pour son solide bonus de dégâts de déchaînement, même au R1.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Priorité des statistiques et amélioration des talents">
+L'optimisation des statistiques et des talents de Durin est essentielle pour maximiser son potentiel dans votre **build Durin Genshin**.
+
+### Priorité des statistiques pour Durin
+
+| Statistique principale | Priorité | Notes |
+| :-------- | :------- | :---- |
+| **Sablier** | ATQ% | ME pour le Mode Sombre axé sur Bourgeonnement/Vaporisation/Fonte (si l'ATQ est saturée). |
+| **Coupe** | Bonus DGT Pyro | L'ATQ% peut être compétitive si peu de buffs d'ATQ. |
+| **Couronne** | Taux CRIT / DGT CRIT | Équilibre basé sur les sous-stats et l'arme. Durin s'ascensionne avec les DGT CRIT. |
+
+<Callout type="success">
+Visez au moins **2000 ATQ** (en tenant compte des buffs d'équipe) pour maximiser le passif A4 de Durin, qui augmente considérablement les dégâts de son Déchaînement.
+</Callout>
+
+### Priorité des sous-statistiques
+
+1.  **Taux CRIT / DGT CRIT** : Essentiel pour maximiser tous les dégâts. Maintenez un rapport sain de 1:2 (par exemple, 70% Taux CRIT, 140% DGT CRIT).
+2.  **ATQ%** : Très utile, surtout jusqu'à 2500 ATQ effective.
+3.  **Recharge d'Énergie** : La Compétence Élémentaire de Durin fournit un remboursement d'énergie plat significatif.
+    -   **0-110% RE** : Dans les équipes avec de forts personnages batterie (par exemple, Fischl, Bennett, d'autres unités Pyro) ou lorsque sa compétence est couronnée.
+    -   **110-140% RE** : Pour les scénarios Pyro solo ou une génération d'énergie moins favorable.
+4.  **Maîtrise Élémentaire** : Cruciale pour les builds axés sur les réactions (Bourgeonnement, Vaporisation, Fonte).
+
+### Priorité des talents
+
+<Steps>
+  <Step num="1" title="Déchaînement Élémentaire (Principe de Pureté / Déni des Ténèbres)">
+    C'est la principale source de dégâts et d'utilité de Durin. L'améliorer en premier maximise sa contribution globale.
+  </Step>
+  <Step num="2" title="Compétence Élémentaire (Forme Binaire : Convergence et Division)">
+    Augmente à la fois les dégâts de son coup initial de compétence et, plus important encore, le remboursement d'énergie plat, réduisant ses exigences en RE.
+  </Step>
+  <Step num="3" title="Attaque Normale (Coupe d'Ailes Radiante)">
+    À améliorer uniquement si vous prévoyez de le jouer comme DPS sur le terrain, généralement avec un Bennett C6 pour infuser ses attaques avec Pyro. Sinon, cela peut être ignoré.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Meilleures compositions d'équipe de Durin">
+La polyvalence de Durin lui permet de s'intégrer dans un large éventail de compositions d'équipe, en particulier avec le nouveau système de résonance Hexerei. Son efficacité dépend souvent de son association avec un autre personnage Hexerei pour débloquer des buffs amplifiés.
+
+<Callout type="info">
+La résonance Hexerei améliore considérablement les effets passifs de Durin, augmentant la réduction de résistance du Mode Blanc de 20 % à 35 % et le bonus de dégâts de Vaporisation/Fonte du Mode Sombre de 40 % à 70 %.
+</Callout>
+
+### Équipes Mode Blanc (Support/Sub-DPS)
+
+<CardGrid cols={2}>
+  <Card title="Équipe Surcharge">
+    - **Durin (Mode Blanc)**
+    - **Support Électro (Fischl)**
+    - **Buffer Surcharge (Chevreuse / Bennett C6)**
+    - **DPS Pyro/Électro (Arlecchino, Klee, Raiden, Keqing)**
+    - *Explication* : Durin fournit du Pyro hors champ constant et réduit les RÉS Pyro/Électro, permettant des dégâts de Surcharge massifs.
+  </Card>
+  <Card title="Équipe DPS Anémo">
+    - **Durin (Mode Blanc)**
+    - **DPS Anémo (Venti, Nomade, Xiao)**
+    - **Support Anémo (Faruzan, Sucrose)**
+    - **Flex (Bennett, Furina, Albedo)**
+    - *Explication* : Durin offre une application de Pyro hors champ et une réduction générale de RÉS pour les Dispersions Anémo et autres réactions.
+  </Card>
+  <Card title="Équipe Bourgeonnement">
+    - **Durin (Mode Blanc, ME complète)**
+    - **Applicateur Hydro (Neuvillette, Kokomi, Mona)**
+    - **Générateur de Noyaux Dendro (Nahida, Lauma)**
+    - **Flex (Albedo, Fischl)**
+    - *Explication* : Durin déclenche le Bourgeonnement avec une ME élevée, bénéficiant de la réduction générale de RÉS du Mode Blanc.
+  </Card>
+  <Card title="Équipe DPS Géo">
+    - **Durin (Mode Blanc)**
+    - **DPS Géo (Navia, Itto, Noelle)**
+    - **Support Géo (Albedo, Gorou, Chiori)**
+    - **Buffer (Bennett)**
+    - *Explication* : Fournit du Pyro constant pour les réactions de Cristallisation et une réduction générale de RÉS, supportant les dégâts Géo.
+  </Card>
+</CardGrid>
+
+### Équipes Mode Sombre (DPS Personnel)
+
+<CardGrid cols={2}>
+  <Card title="Équipe Vaporisation">
+    - **Durin (Mode Sombre)**
+    - **Applicateur Hydro (Xingqiu, Mona, Furina)**
+    - **Buffer (Bennett, Sucrose)**
+    - **Flex (Xiangling, Arlecchino)**
+    - *Explication* : Maximise les dégâts de Vaporisation personnels de Durin avec l'application Hydro et les buffs.
+  </Card>
+  <Card title="Équipe Fonte">
+    - **Durin (Mode Sombre)**
+    - **Applicateur Cryo (Rosaria, Layla, Kaeya)**
+    - **Buffer (Bennett, Sucrose)**
+    - **Flex (Xiangling, Ganyu)**
+    - *Explication* : Se concentre sur les dégâts de Fonte personnels de Durin avec une application Cryo constante.
+  </Card>
+  <Card title="DPS sur le terrain (Bennett C6)">
+    - **Durin (Mode Sombre)**
+    - **Bennett C6**
+    - **Applicateur Hydro/Électro (Xingqiu, Fischl, Mona)**
+    - **Soigneur/Bouclier (Furina, Zhongli)**
+    - *Explication* : Bennett C6 infuse les Attaques Normales de Durin avec Pyro, lui permettant de déclencher des réactions sur le terrain tout en bénéficiant du bonus de Vaporisation/Fonte du Mode Sombre.
+  </Card>
+</CardGrid>
+
+<Callout type="warning">
+Bien que Durin puisse fonctionner sans un deuxième membre Hexerei, tout son potentiel, en particulier sa réduction de RÉS amplifiée et ses bonus de dégâts de réaction, est débloqué lorsqu'il est associé à une autre unité Hexerei comme Fischl ou Albedo.
+</Callout>
+
+### Archétypes d'équipe recommandés
+
+| Archétype | Personnages clés | Rôle de Durin | Synergies clés |
+| :-------- | :-------------- | :----------- | :------------ |
+| **Surcharge** | Durin, Fischl, Chevreuse/Bennett, DPS Électro/Pyro | Pyro hors champ, Réduction de RÉS | Résonance Hexerei, dégâts Électro/Pyro élevés |
+| **Bourgeonnement** | Durin (ME), Hydro, Dendro, Flex | Déclencheur de Bourgeonnement, Réduction de RÉS | Génération de Noyaux Dendro de zone, application Hydro |
+| **Vaporisation/Fonte** | Durin (Sombre), Hydro/Cryo, Buffer, Flex | DPS de réaction personnel | Aura Hydro/Cryo constante, amplification des dégâts de réaction |
+| **DPS Anémo** | Durin, Venti/Nomade/Xiao, Support Anémo, Flex | Pyro hors champ, Réduction de RÉS | Réactions de Dispersion, bonus de DGT Élémentaires |
+| **Mono Pyro** | Durin, Klee/Lyney, Bennett, Sucrose/Fischl | Pyro hors champ, Réduction de RÉS, Hexerei | Résonance Pyro, dégâts Pyro bruts |
+
+</Section>
+
+<Section icon={Map} title="Constellations de Durin : Guide d'investissement">
+Durin est un personnage puissant même à C0, mais ses constellations offrent des boosts de puissance significatifs, améliorant à la fois ses capacités de support et de dégâts.
+
+### Détail des Constellations
+
+| Constellation | Nom | Effet | Impact |
+| :------------ | :--- | :----- | :----- |
+| **C1** | Rédemption d'Adamah | Buffs les DGT du personnage actif (Mode Blanc) ou les DGT du Déchaînement de Durin (Mode Sombre) | Boost significatif des dégâts d'équipe/personnels, similaire aux Plumes de Shenhe. |
+| **C2** | Visions sans fond | Tous les membres de l'équipe gagnent 50% de DGT Pyro et de DGT élémentaires correspondants pendant 6s après avoir déclenché des réactions. | Buff de dégâts universel et substantiel pour les équipes de réaction, point d'arrêt fortement recommandé. |
+| **C3** | Révélation du Miroir de Flamme | Augmente le niveau du Déchaînement Élémentaire de 3. | Augmentation directe des multiplicateurs de dégâts du Déchaînement. |
+| **C4** | Source d'Emanare | Augmente les DGT du Déchaînement de 40% ; 30% de chance que les stacks C1 ne soient pas consommés. | Booste davantage les dégâts du Déchaînement et la cohérence du C1. |
+| **C5** | Démembrement de Flamme Épuratrice | Augmente le niveau de la Compétence Élémentaire de 3. | Améliore les dégâts de la compétence et le remboursement d'énergie. |
+| **C6** | Double Naissance | Le Déchaînement ignore 30% de la DÉF ; Mode Blanc : 30% de réduction de DÉF pour les ennemis ; Mode Sombre : 40% d'ignorance de DÉF supplémentaire pour Durin. | Augmentation massive des dégâts pour Durin et l'équipe, constellation finale puissante. |
+
+<Callout type="tip">
+Pour la plupart des joueurs souhaitant investir au-delà de C0, **C2** est un excellent point d'arrêt. Il fournit un bonus de dégâts élémentaires universel de 50 % à tous les membres de l'équipe pour les réactions liées au Pyro, offrant une valeur immense.
+</Callout>
+
+### Priorité d'investissement
+
+<Checklist
+  id="durin-constellations"
+  title="Liste de contrôle d'investissement des constellations :"
+  items={[
+    "**C0** : Entièrement fonctionnel et puissant support/sub-DPS.",
+    "**C1** : Idéal pour booster les dégâts d'équipe ou personnels.",
+    "**C2** : Bonus de DGT Élémentaires universel de 50 % pour les équipes de réaction – fortement recommandé.",
+    "**Arme signature (R1)** : Une forte alternative au C1, surtout si vous manquez d'une bonne arme. Offre des dégâts personnels et des buffs d'ATQ d'équipe.",
+    "**C6** : Réduction/ignorance de DÉF significative pour d'énormes gains de dégâts, mais un investissement élevé."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quel est le meilleur set d'artéfacts pour le build Durin Genshin ?",
+    answer: "Le meilleur set d'artéfacts dépend du rôle de Durin. Pour le DPS personnel en Mode Sombre, 'Un jour sculpté par les vents ascendants' ou 'Chasseur de la Maréchaussée' (avec Furina) sont excellents. Pour le support en Mode Blanc, 'Noblesse Oblige' est idéal si personne d'autre ne l'utilise. 'Emblème du destin brisé' est une bonne option générale pour le DPS hors champ."
+  },
+  {
+    question: "Durin a-t-il besoin de beaucoup de Recharge d'Énergie ?",
+    answer: "Généralement, Durin n'a pas besoin d'une Recharge d'Énergie excessive. Sa Compétence Élémentaire fournit un remboursement d'énergie plat significatif. Dans les équipes avec une bonne génération d'énergie ou d'autres personnages Pyro, il pourrait avoir besoin de 0-110% de RE. Dans les scénarios Pyro solo, 110-140% de RE peuvent être bénéfiques."
+  },
+  {
+    question: "L'arme signature de Durin vaut-elle la peine d'être obtenue ?",
+    answer: "L'arme signature de Durin, Athame Artis, est sa meilleure option, offrant des bonus CRIT personnels et d'ATQ significatifs, ainsi que des buffs d'ATQ d'équipe (surtout avec la résonance Hexerei). C'est une option forte si vous pouvez vous le permettre, mais il existe des alternatives compétitives 5 étoiles et 4 étoiles."
+  },
+  {
+    question: "Quelle est la principale différence entre les Modes Blanc et Sombre de Durin ?",
+    answer: "Le Mode Blanc (Confirmation de Pureté) se concentre sur l'application de Pyro de zone hors champ et la réduction de résistance pour les réactions liées au Pyro (à l'exclusion de Vaporisation/Fonte). Le Mode Sombre (Déni des Ténèbres) met l'accent sur les dégâts monocibles avec des dégâts de réaction de Vaporisation et de Fonte amplifiés pour lui-même. Votre **build Durin Genshin** doit s'aligner sur le mode choisi."
+  }
+]} />
+
+</Section>

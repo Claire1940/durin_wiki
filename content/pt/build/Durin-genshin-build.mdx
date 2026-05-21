@@ -1,0 +1,287 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de Durin no Genshin: Melhores Artefatos, Armas e Times",
+  description: "Domine as formas duais de Durin no Genshin Impact com este guia de build completo, cobrindo os melhores artefatos, armas e composições de time para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Durin+Build+Guide",
+  date: "2026-05-20",
+  author: "Equipe Wiki do Durin"
+}
+
+<Callout type="info" title="Guia Rápido">
+- A **build de Durin no Genshin** foca em seus modos duais: **Modo Branco** para suporte/sub-DPS e **Modo Sombrio** para dano pessoal.
+- **Artefatos**: Priorize **Um Dia Esculpido pelos Ventos Ascendentes** (Modo Sombrio), **Antigo Ritual Real** (suporte no Modo Branco), ou **Selo da Insolação** para uso equilibrado.
+- **Armas**: Sua assinatura **Athame Artis** é a melhor da categoria; **Cortadora de Jade Primordial** e **Juramento pela Liberdade** são alternativas fortes.
+- **Atributos**: Foque em alta **Taxa CRIT/Dano CRIT**, **ATQ%** e **Recarga de Energia** suficiente (geralmente mínima se sua habilidade estiver upada).
+- **Composições de Time**: Excelente em times de **Sobrecarga**, **Germinação** e várias ressonâncias **Hexerei**.
+</Callout>
+
+<Section icon={Sparkles} title="Entendendo as Formas Duais de Durin">
+Durin, o mais novo personagem de Espada Pyro de 5 estrelas no Genshin Impact, oferece uma versatilidade inigualável através de suas formas duais únicas: **Confirmação da Pureza (Modo Branco)** e **Negação da Escuridão (Modo Sombrio)**. Cada modo altera fundamentalmente seu Supremo e habilidades passivas, permitindo que ele se adapte a diversas composições de equipe e cenários de combate. Dominar ambas as formas é crucial para otimizar sua **build de Durin no Genshin**.
+
+Ao usar sua Habilidade Elemental, você pode escolher entrar em qualquer um dos modos. Pressionar o botão da Habilidade Elemental novamente ativa o Modo Branco, enquanto um Ataque Normal após a habilidade ativa o Modo Sombrio. Essa escolha dita seu papel na equipe, de um potente suporte off-field a um causador de dano autossuficiente.
+
+**Destaques do Vídeo:**
+- A Habilidade Elemental de Durin permite a troca de modo (Modo Branco: Habilidade novamente; Modo Sombrio: Ataque Normal).
+- O Modo Branco fornece aplicação Pyro em AdE contínua e redução de resistência.
+- O Modo Sombrio foca em dano de alvo único com maior potência de Vaporização/Fusão.
+- Sua habilidade também gera uma energia fixa significativa (30-33 no Nível de Talento 9-10).
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="GUIA COMPLETO DO DURIN! Melhor Build [Todos os Estilos] - Artefatos, Armas, Times | Genshin Impact" />
+
+<Callout type="tip">
+O Supremo de Durin não "snapshot" (trava) os atributos. Certifique-se de que todos os buffs estejam ativos *antes* de lançar seu Supremo para obter o máximo de dano durante toda a sua duração.
+</Callout>
+
+### Modo Branco: Suporte Off-field & Sub-DPS
+No Modo Branco, o Supremo de Durin, "Dragão da Chama Branca", fornece aplicação Pyro em AdE contínua fora de campo, causando dano uma vez por segundo e aplicando Pyro a cada dois acertos. Este modo brilha em sua capacidade de reduzir resistências. Quando Durin desencadeia reações relacionadas a Pyro (Sobrecarga, Redemoinho Pyro, Cristalização Pyro, Queimadura ou Queimadura Dendro), ele reduz a resistência tanto de Pyro quanto do elemento envolvido em 20% (até 35% com ressonância Hexerei). Isso o torna um suporte excepcional para equipes que dependem dessas reações.
+
+### Modo Sombrio: Carry On-field ou Off-field
+Por outro lado, o Supremo do Modo Sombrio, "Dragão da Decadência Sombria", causa dano Pyro de alvo único com multiplicadores mais altos, embora em um ritmo mais lento (uma vez a cada 1,25 segundos). Neste modo, Durin ganha aumento de dano para as reações de Vaporização e Fusão (40% base, até 70% com ressonância Hexerei). O Modo Sombrio o transforma em um formidável causador de dano pessoal, ideal para equipes centradas em auras Hydro ou Cryo.
+
+<Callout type="warning">
+A redução de resistência do Modo Branco **não** se aplica às reações de Vaporização ou Fusão, pois essas reações envolvem Hydro ou Cryo. Para essas reações, o bônus de dano pessoal do Modo Sombrio é geralmente preferido.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Conjuntos de Artefatos Otimizados para Durin">
+Escolher o conjunto de artefatos certo para sua **build de Durin no Genshin** depende muito do papel pretendido e da composição da equipe. Dada a sua natureza dual, vários conjuntos podem ser altamente eficazes.
+
+<CardGrid cols={2}>
+  <Card title="Modo Branco (Suporte/Sub-DPS)">
+    - **4 Peças Antigo Ritual Real**: Aumenta o Dano do Supremo em 20% e aumenta o ATQ de todos os membros do grupo em 20% por 12s após usar o Supremo. Ideal se nenhum outro suporte estiver usando.
+    - **2 Peças Ritual Real + 2 Peças Bruxa Carmesim**: Um bom híbrido para dano pessoal do Supremo e bônus de Dano Pyro.
+  </Card>
+  <Card title="Modo Sombrio (DPS Pessoal)">
+    - **4 Peças Um Dia Esculpido pelos Ventos Ascendentes**: (Novo Artefato 6.3) Fornece bônus de ATQ% e Taxa CRIT, especialmente potente com membros Hexerei. Excelente para maximizar o dano pessoal.
+    - **4 Peças Caçador das Sombras**: Melhor para Durin on-field com Furina, concedendo Taxa CRIT massiva.
+    - **4 Peças A Bruxa Carmesim em Chamas**: Forte para equipes de Vaporização/Fusão, especialmente com gatilhos de reação consistentes.
+  </Card>
+</CardGrid>
+
+### Comparação de Conjuntos de Artefatos
+
+| Conjunto de Artefatos | Bônus de 2 Peças | Bônus de 4 Peças (Efeitos Chave) | Melhor Caso de Uso | Avaliação |
+| :----------- | :------------ | :-------------------------- | :------------ | :----- |
+| **Um Dia Esculpido pelos Ventos Ascendentes** | ATQ +18% | ATQ +25%, Taxa CRIT +20% (com Hexerei) | DPS On-field Modo Sombrio | ★★★★★ |
+| **Antigo Ritual Real** | Dano do Supremo +20% | ATQ do Grupo +20% por 12s | Suporte/Sub-DPS Modo Branco | ★★★★☆ |
+| **Selo da Insolação** | Recarga de Energia +20% | Dano do Supremo +25% da Recarga | DPS off-field geral (se precisar de ER) | ★★★★☆ |
+| **Caçador das Sombras** | Dano de Atq Normal/Carregado +15% | Taxa CRIT +36% (flutuações de Vida) | DPS On-field com Furina | ★★★★★ |
+| **A Bruxa Carmesim em Chamas** | Bônus de Dano Pyro +15% | Aumenta Sobrecarga/Queimadura/Germinação (40%), Vaporização/Fusão (15%) | Modo Sombrio focado em Reações | ★★★★☆ |
+| **Sonhos Dourados** | Proficiência Elemental +80 | Bônus de ATQ/Proficiência baseado nos elementos do grupo | Modo Sombrio Off-field (Vap/Fusão) | ★★★★☆ |
+
+<Callout type="info">
+"Um Dia Esculpido pelos Ventos Ascendentes" é um novo conjunto de artefatos (Versão 6.3) que é altamente sinérgico com Durin, particularmente em seu Modo Sombrio, oferecendo bônus significativos de ATQ e Taxa CRIT.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Armas para o Arsenal de Durin">
+Selecionar a arma ideal para sua **build de Durin no Genshin** pode melhorar significativamente seu desempenho. Embora sua arma de assinatura seja frequentemente a ideal, várias alternativas oferecem dano competitivo ou forte utilidade.
+
+### Principais Escolhas de Armas
+
+| Nome da Arma | Raridade | Atributo Principal | Passiva (Efeitos Chave) | Melhor Caso de Uso | Avaliação |
+| :---------- | :----- | :-------- | :-------------------- | :------------ | :----- |
+| **Athame Artis** | 5 Estrelas | Taxa CRIT (33.1%) | Dano CRIT ao Supremo, ATQ% para si e para o time (melhorado com Hexerei) | Melhor da Categoria (Todos os modos) | ★★★★★ |
+| **Cortadora de Jade Primordial** | 5 Estrelas | Taxa CRIT (44.1%) | Aumento de Vida%, bônus de ATQ baseado na Vida Máxima | Dano pessoal (Alta Taxa CRIT) | ★★★★☆ |
+| **Cortadora da Neblina Reforjada** | 5 Estrelas | Dano CRIT (44.1%) | Bônus de Dano Elemental (acúmulos) | Dano pessoal (Alto Dano Elemental) | ★★★★☆ |
+| **Juramento pela Liberdade** | 5 Estrelas | Proficiência Elemental (198) | Aumento de Dano, ATQ% e Dano de Atq Normal/Carregado/Imersivo para o time | Suporte (buffs de time, Proficiência para reações) | ★★★★☆ |
+| **Presa de Lobo** | 4 Estrelas | Taxa CRIT (27.6%) | Dano de Habilidade/Supremo, Taxa CRIT (acúmulos) | Passe de Batalha (Forte opção 4 estrelas) | ★★★★☆ |
+| **Desfecho das Profundezas** | 4 Estrelas | ATQ% (27.6%) | Aumento de ATQ após Habilidade, bônus de ATQ adicional ao limpar Contrato de Vida | F2P (requer curandeiro) | ★★★☆☆ |
+| **Alvorecer do Tecelão da Lua** | 4 Estrelas | ATQ% (27.6%) | Aumento do Dano do Supremo (depende da energia) | F2P (recompensa de missão, bom dano de Supremo) | ★★★☆☆ |
+| **Rugido do Leão** | 4 Estrelas | ATQ% (41.3%) | Dano contra inimigos afetados por Pyro/Electro | Times de Sobrecarga/Queimadura (situacional) | ★★★☆☆ |
+
+<Callout type="tip">
+Para jogadores free-to-play, o **Alvorecer do Tecelão da Lua** (obtido nas missões de mundo de Nod-Krai) é uma excelente escolha pelo seu sólido aumento de dano no Supremo, mesmo em R1.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Prioridade de Atributos e Nível de Talentos">
+Otimizar os atributos e talentos de Durin é a chave para maximizar seu potencial em sua **build de Durin no Genshin**.
+
+### Prioridade de Atributos para Durin
+
+| Atributo Principal | Prioridade | Notas |
+| :-------- | :------- | :---- |
+| **Ampulheta** | ATQ% | Proficiência para Modo Sombrio focado em Germinação/Vaporização/Fusão. |
+| **Cálice** | Bônus de Dano Pyro | ATQ% pode ser competitivo se houver poucos buffs de ATQ. |
+| **Tiara** | Taxa CRIT / Dano CRIT | Equilibre com base nos sub-atributos e arma. Durin ascende com Dano CRIT. |
+
+<Callout type="success">
+Tente alcançar pelo menos **2000 de ATQ** (contando com buffs de time) para maximizar a passiva A4 de Durin, que aumenta significativamente o dano de seu Supremo.
+</Callout>
+
+### Prioridade de Sub-atributos
+
+1.  **Taxa CRIT / Dano CRIT**: Essencial para maximizar todo o dano. Mantenha uma proporção saudável de 1:2 (ex: 70% Taxa CRIT, 140% Dano CRIT).
+2.  **ATQ%**: Altamente valioso, especialmente até 2500 de ATQ efetivo.
+3.  **Recarga de Energia**: A Habilidade Elemental de Durin fornece um reembolso de energia significativo.
+    -   **0-110% ER**: Em times com fortes personagens bateria (ex: Fischl, Bennett, outros Pyro) ou quando sua habilidade está no nível máximo.
+    -   **110-140% ER**: Para cenários de Pyro solo ou geração de energia menos favorável.
+4.  **Proficiência Elemental**: Crucial para builds focadas em reações (Germinação, Vaporização, Fusão).
+
+### Prioridade de Talentos
+
+<Steps>
+  <Step num="1" title="Supremo (Princípio da Pureza / Negação da Escuridão)">
+    Esta é a principal fonte de dano e utilidade do Durin. Subir este nível primeiro maximiza sua contribuição geral.
+  </Step>
+  <Step num="2" title="Habilidade Elemental (Forma Binária: Convergência e Divisão)">
+    Aumenta tanto o dano do acerto inicial da habilidade quanto, mais importante, o reembolso de energia fixa, reduzindo suas necessidades de Recarga.
+  </Step>
+  <Step num="3" title="Ataque Normal (Corte de Asa Radiante)">
+    Só suba o nível se planeja jogá-lo como um DPS on-field, tipicamente com Bennett C6 para infundir seus ataques com Pyro. Caso contrário, pode ser ignorado.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Melhores Composições de Time para Durin">
+A versatilidade de Durin permite que ele se encaixe em uma ampla gama de composições de equipe, especialmente com o novo sistema de ressonância Hexerei. Sua eficácia muitas vezes depende de pareá-lo com outro personagem Hexerei para desbloquear buffs amplificados.
+
+<Callout type="info">
+A ressonância Hexerei aumenta significativamente os efeitos passivos de Durin, aumentando a redução de resistência do Modo Branco de 20% para 35% e o bônus de dano de Vaporização/Fusão do Modo Sombrio de 40% para 70%.
+</Callout>
+
+### Equipes de Modo Branco (Suporte/Sub-DPS)
+
+<CardGrid cols={2}>
+  <Card title="Time de Sobrecarga">
+    - **Durin (Modo Branco)**
+    - **Suporte Electro (Fischl)**
+    - **Buffer de Sobrecarga (Chevreuse / Bennett C6)**
+    - **DPS Pyro/Electro (Arlecchino, Klee, Raiden, Keqing)**
+    - *Explicação*: Durin fornece Pyro off-field consistente e reduz RES Pyro/Electro, permitindo dano de Sobrecarga massivo.
+  </Card>
+  <Card title="Time de DPS Anemo">
+    - **Durin (Modo Branco)**
+    - **DPS Anemo (Venti, Andarilho, Xiao)**
+    - **Suporte Anemo (Faruzan, Sucrose)**
+    - **Flex (Bennett, Furina, Albedo)**
+    - *Explicação*: Durin oferece aplicação Pyro off-field e redução de RES geral para Redemoinhos Anemo e outras reações.
+  </Card>
+  <Card title="Time de Germinação">
+    - **Durin (Modo Branco, Full Proficiência)**
+    - **Aplicador Hydro (Neuvillette, Kokomi, Mona)**
+    - **Gerador de Núcleo Dendro (Nahida, Lauma)**
+    - **Flex (Albedo, Fischl)**
+    - *Explicação*: Durin ativa Germinação com alta Proficiência, beneficiando-se da redução de RES geral do Modo Branco.
+  </Card>
+  <Card title="Time de DPS Geo">
+    - **Durin (Modo Branco)**
+    - **DPS Geo (Navia, Itto, Noelle)**
+    - **Suporte Geo (Albedo, Gorou, Chiori)**
+    - **Buffer (Bennett)**
+    - *Explicação*: Fornece Pyro consistente para reações de Cristalização e redução de RES geral, apoiando o dano Geo.
+  </Card>
+</CardGrid>
+
+### Equipes de Modo Sombrio (DPS Pessoal)
+
+<CardGrid cols={2}>
+  <Card title="Time de Vaporização">
+    - **Durin (Modo Sombrio)**
+    - **Aplicador Hydro (Xingqiu, Mona, Furina)**
+    - **Buffer (Bennett, Sucrose)**
+    - **Flex (Xiangling, Arlecchino)**
+    - *Explicação*: Maximiza o dano de Vaporização pessoal do Durin com aplicação Hydro e buffs.
+  </Card>
+  <Card title="Time de Fusão">
+    - **Durin (Modo Sombrio)**
+    - **Aplicador Cryo (Rosaria, Layla, Kaeya)**
+    - **Buffer (Bennett, Sucrose)**
+    - **Flex (Xiangling, Ganyu)**
+    - *Explicação*: Foca no dano de Fusão pessoal de Durin com aplicação Cryo consistente.
+  </Card>
+  <Card title="DPS On-Field (Bennett C6)">
+    - **Durin (Modo Sombrio)**
+    - **Bennett C6**
+    - **Aplicador Hydro/Electro (Xingqiu, Fischl, Mona)**
+    - **Curandeiro/Escudeiro (Furina, Zhongli)**
+    - *Explicação*: Bennett C6 infunde os Ataques Normais de Durin com Pyro, permitindo que ele guie reações em campo enquanto se beneficia do bônus de Vaporização/Fusão do Modo Sombrio.
+  </Card>
+</CardGrid>
+
+<Callout type="warning">
+Embora Durin possa funcionar sem um segundo membro Hexerei, seu potencial total, especialmente sua redução de RES amplificada e bônus de dano de reação, é desbloqueado quando pareado com outra unidade Hexerei como Fischl ou Albedo.
+</Callout>
+
+### Arquétipos de Equipes Recomendados
+
+| Arquétipo | Personagens Principais | Papel do Durin | Sinergias Chave |
+| :-------- | :-------------- | :----------- | :------------ |
+| **Sobrecarga** | Durin, Fischl, Chevreuse/Bennett, DPS Electro/Pyro | Pyro Off-field, Redução de RES | Ressonância Hexerei, alto dano Electro/Pyro |
+| **Germinação** | Durin (Proficiência), Hydro, Dendro, Flex | Ativador de Germinação, Redução de RES | Geração de Núcleo Dendro em AdE, aplicação Hydro |
+| **Vaporização/Fusão** | Durin (Sombrio), Hydro/Cryo, Buffer, Flex | DPS de reação pessoal | Aura Hydro/Cryo consistente, amplificação de dano de reação |
+| **DPS Anemo** | Durin, Venti/Andarilho/Xiao, Suporte Anemo, Flex | Pyro Off-field, Redução de RES | Reações de Redemoinho, bônus de Dano Elemental |
+| **Mono Pyro** | Durin, Klee/Lyney, Bennett, Sucrose/Fischl | Pyro Off-field, Redução de RES, Hexerei | Ressonância Pyro, dano Pyro bruto |
+
+</Section>
+
+<Section icon={Map} title="Constelações de Durin: Guia de Investimento">
+Durin é um personagem poderoso mesmo em C0, mas suas constelações oferecem aumentos significativos de poder, melhorando tanto suas capacidades de suporte quanto de dano.
+
+### Detalhamento das Constelações
+
+| Constelação | Nome | Efeito | Impacto |
+| :------------ | :--- | :----- | :----- |
+| **C1** | Redenção de Adamah | Buffa o Dano do personagem ativo (Modo Branco) ou Dano do Supremo de Durin (Modo Sombrio) | Aumento significativo no dano da equipe/pessoal, similar às Penas de Shenhe. |
+| **C2** | Visões Não Aterradas | Todos os membros do grupo ganham 50% de Dano Pyro e Dano elemental correspondente por 6s após desencadear reações. | Buff de dano universal e substancial para equipes de reação, ponto de parada altamente recomendado. |
+| **C3** | Revelação do Espelho de Chamas | Aumenta o Nível do Supremo em 3. | Aumento direto nos multiplicadores de dano do Supremo. |
+| **C4** | Fonte de Emanare | Aumenta o Dano do Supremo em 40%; 30% de chance dos acúmulos de C1 não serem consumidos. | Aumenta ainda mais o dano do Supremo e a consistência da C1. |
+| **C5** | Ruptura da Chama Purificadora | Aumenta o Nível da Habilidade Elemental em 3. | Melhora o dano da habilidade e o reembolso de energia. |
+| **C6** | Nascimento Dual | Supremo ignora 30% de DEF; Modo Branco: 30% de redução de DEF para inimigos; Modo Sombrio: 40% adicional de ignorar DEF para Durin. | Aumento massivo de dano para Durin e para a equipe, constelação final fortíssima. |
+
+<Callout type="tip">
+Para a maioria dos jogadores que desejam investir além da C0, a **C2** é um excelente ponto de parada. Ela fornece um bônus universal de 50% de dano elemental para todos os membros do grupo em reações relacionadas a Pyro, oferecendo um valor imenso.
+</Callout>
+
+### Prioridade de Investimento
+
+<Checklist
+  id="durin-constellations"
+  title="Checklist de Investimento em Constelações:"
+  items={[
+    "**C0**: Totalmente funcional e forte suporte/sub-DPS.",
+    "**C1**: Ótimo para aumentar o dano da equipe ou pessoal.",
+    "**C2**: Bônus universal de 50% de Dano Elemental para equipes de reação – altamente recomendado.",
+    "**Arma de Assinatura (R1)**: Uma forte alternativa à C1, especialmente se você não tiver uma boa arma. Oferece dano pessoal e buffs de ATQ para a equipe.",
+    "**C6**: Redução/ignorar DEF significativa para ganhos de dano enormes, mas é um investimento alto."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor conjunto de artefatos para a build de Durin no Genshin?",
+    answer: "O melhor conjunto depende do papel de Durin. Para DPS pessoal no Modo Sombrio, 'Um Dia Esculpido pelos Ventos Ascendentes' ou 'Caçador das Sombras' (com Furina) são excelentes. Para suporte no Modo Branco, 'Antigo Ritual Real' é o ideal se ninguém mais estiver usando. 'Selo da Insolação' é uma boa opção geral para DPS off-field."
+  },
+  {
+    question: "Durin precisa de muita Recarga de Energia?",
+    answer: "Geralmente, Durin não precisa de Recarga de Energia excessiva. Sua Habilidade Elemental fornece um reembolso de energia fixa significativo. Em equipes com boa geração de energia ou outros personagens Pyro, ele pode precisar de 0-110% de ER. Em cenários de Pyro solo, 110-140% de ER pode ser benéfico."
+  },
+  {
+    question: "Vale a pena tentar a arma de assinatura de Durin?",
+    answer: "A arma de assinatura de Durin, Athame Artis, é a melhor para ele, oferecendo buffs significativos de CRIT e ATQ pessoal, além de buffs de ATQ para a equipe (especialmente com ressonância Hexerei). É uma opção forte se você puder pagar, mas existem alternativas competitivas de 5 e 4 estrelas."
+  },
+  {
+    question: "Qual é a principal diferença entre os Modos Branco e Sombrio de Durin?",
+    answer: "O Modo Branco (Confirmação da Pureza) foca na aplicação Pyro em AdE off-field e redução de resistência para reações relacionadas a Pyro (excluindo Vaporização/Fusão). O Modo Sombrio (Negação da Escuridão) enfatiza o dano de alvo único com dano de reação de Vaporização e Fusão amplificado para si mesmo. Sua build de Durin deve estar alinhada com o modo escolhido."
+  }
+]} />
+
+</Section>

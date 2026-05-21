@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de soporte de Durin: Mejores artefactos, armas y configuración de equipo",
+  description: "Domina la build de soporte de Durin con nuestra guía sobre artefactos, armas y sinergias Hexerei para el meta Pyro fuera de campo definitivo de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/e11d48/fff?text=Durin+Support+Build",
+  date: "2026-05-21",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Build de soporte de Durin**: Se enfoca en la **Confirmación de Pureza** (Modo Blanco) para proporcionar aplicación Pyro consistente fuera de campo y reducción de RES.
+- **Mecánica clave**: Usa el combo **Habilidad > Habilidad** para entrar en Modo Blanco, activando una Ráfaga de 20 segundos que reduce las resistencias Pyro y las relacionadas con reacciones.
+- **Mejores artefactos**: **4 piezas de Noblesse Oblige** es el estándar para bufos de ATK para todo el equipo, mientras que **4 piezas de Pergamino de la Ciudad de Ceniza** sobresale en equipos elementales.
+- **Estadística crítica**: Apunta a **2500 ATK total** para maximizar la Pasiva A4, que otorga un multiplicador de daño del 75% a los golpes de Ráfaga.
+- **Mayor sinergia**: Empareja con al menos otro **personaje Hexerei** (como Fischl o Mona) para aumentar la reducción de RES del 20% al 35%.
+</Callout>
+
+<Section icon={Map} title="Mecánicas principales: Dominando el modo blanco">
+
+La base de una exitosa **build de soporte de Durin** radica en comprender su sistema de doble modo. Durin entra al campo de batalla en un estado neutral, pero su Habilidad Elemental, **Forma Binaria: Convergencia y División**, le permite transmutar en la **Confirmación de Pureza** (Modo Blanco) o la **Negación de la Oscuridad** (Modo Oscuro). Para un estilo de juego orientado al soporte, el Modo Blanco es innegociable.
+
+En este estado, la Ráfaga Elemental de Durin manifiesta el **Dragón de la Llama Blanca**. Esta entidad sigue a tu personaje activo durante 20 segundos, infligiendo daño Pyro de área cada segundo. Más importante aún, activa su Pasiva A1, reduciendo la RES Pyro y la RES del elemento involucrado en cualquier reacción Pyro (Sobrecarga, Torbellino, Cristalización o Quemadura) en un 20%. Cuando la resonancia **Hexerei: Rito Secreto** está activa, esta reducción salta a un masivo 35%, haciendo de Durin una alternativa principal a los usuarios de Viridescent Venerer.
+
+**Puntos destacados del video:**
+- Desglose completo de las mecánicas de los modos Blanco vs. Oscuro.
+- Análisis detallado de la **Resonancia Hexerei** y su impacto en la reducción de RES.
+- Comparaciones de artefactos y armas para roles de soporte fuera de campo.
+- Muestra de rotaciones de equipo de Sobrecarga y Quemadura de alto nivel.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="¡GUÍA COMPLETA DE DURIN! Mejor build de Durin [TODOS LOS ESTILOS DE JUEGO]" />
+
+<Callout type="warning" title="Advertencia de activación de modo">
+Para asegurarte de entrar en el Modo Blanco enfocado en el soporte, debes presionar tu **Habilidad Elemental dos veces**. Si realizas un Ataque Normal después del primer lanzamiento de Habilidad, entrarás en Modo Oscuro, que se enfoca en el daño personal por Vaporización y no proporciona **ninguna reducción de RES** para tu equipo.
+</Callout>
+
+| Característica | Confirmación de Pureza (Blanco) | Negación de la Oscuridad (Oscuro) |
+| :--- | :--- | :--- |
+| **Rol principal** | Soporte / Sub-DPS fuera de campo | DPS principal / DPS de Vaporización/Derretimiento |
+| **Objetivo de la Ráfaga** | Daño Pyro de área | Daño Pyro de un solo objetivo |
+| **Efecto pasivo A1** | Reducción de RES del 20-35% (Pyro + Reacción) | Daño personal de Vaporización/Derretimiento del 40-70% |
+| **Tasa de objetivo** | Una vez cada 1.0 segundos | Una vez cada 1.25 segundos |
+| **Mejor utilidad** | Equipos de Sobrecarga, Quemadura, Geo, Anemo | Equipos de Vaporización, Derretimiento frontal |
+
+</Section>
+
+<Section icon={Shield} title="Mejores artefactos para Durin de soporte">
+
+Elegir el conjunto de artefactos adecuado para tu **build de soporte de Durin** depende en gran medida de la composición de tu equipo y de si otro personaje ya está proporcionando bufos específicos. Debido a que Durin no tiene un conjunto "dedicado" a partir de la versión 6.2, sus opciones son muy flexibles.
+
+<CardGrid cols={3}>
+  <Card title="Noblesse Oblige">
+    - **Mejor soporte general**
+    - Aumenta el daño de ráfaga en un 20%
+    - Proporciona un bufo de ATK del 20% al equipo
+    - Elección estándar para la mayoría de los equipos
+  </Card>
+  <Card title="Pergamino de la Ciudad de Ceniza">
+    - **Especialista elemental**
+    - Gran bonificación de DMG para reacciones
+    - Excelente para Sobrecarga/Quemadura
+    - Requiere activaciones consistentes
+  </Card>
+  <Card title="Emblema del Destino Roto">
+    - **Equipos de alta energía**
+    - Resuelve fácilmente los requisitos de ER
+    - Convierte ER en daño de ráfaga
+    - Mejor para rotaciones Pyro en solitario
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="El hito de los 2500 ATK">
+La Pasiva A4 de Durin, **Caos Formado Como la Noche**, aumenta el daño de su Ráfaga en un 3% por cada 100 ATK, con un tope de un aumento del 75%. Para alcanzar este tope, necesitas **2500 ATK efectivo**. Prioriza los sub-stats de ATK% hasta que alcances este umbral antes de enfocarte fuertemente en la Tasa/Daño Crítico.
+</Callout>
+
+| Ranura | Estadística principal recomendada | Subestadísticas prioritarias |
+| :--- | :--- | :--- |
+| **Reloj de Arena** | **ATK%** (o ER% si está por debajo del 140%) | ER% / Tasa Crítica / Daño Crítico |
+| **Cáliz** | **Bono de Daño Pyro** o **ATK%** | Daño Crítico / Tasa Crítica / ATK% |
+| **Tiara** | **Tasa Crítica** o **Daño Crítico** | ATK% / ER% / Tasa Crítica |
+
+</Section>
+
+<Section icon={Swords} title="Mejores opciones de armas para utilidad">
+
+Las mejores armas para una **build de soporte de Durin** mejoran su contribución personal fuera de campo o proporcionan grandes aumentos de estadísticas para ayudar a alcanzar sus requisitos de ATK. Su arma insignia, **Athame Artis**, es el estándar de oro, pero varias alternativas gratuitas y de bajo costo funcionan admirablemente.
+
+| Arma | Nivel | Beneficios clave |
+| :--- | :--- | :--- |
+| **Athame Artis** | **S+** | 33% Tasa Crítica, 28% bufo de ATK al equipo (Hexerei), aumento de DMG de Ráfaga |
+| **Juramento de la Libertad** | **S** | Grandes bufos al equipo para ataques normales/cargados, alta Maestría Elemental para reacciones |
+| **Cortador de Jade Primordial** | **A+** | 44% Tasa Crítica, la conversión de HP a ATK ayuda a alcanzar el tope de 2500 ATK |
+| **Colmillo de Lobo** | **A** | Opción de Pase de Batalla, alta Tasa Crítica y bonificaciones de DMG de Habilidad/Ráfaga |
+| **Final del Abismo** | **B+** | Mejor arma crafteable F2P, proporciona un gran ATK% para alcanzar los límites pasivos |
+| **Amanecer del Tejedor de la Luna** | **B** | Arma de misión gratuita, buenas estadísticas de DMG de Ráfaga y ATK% |
+
+<Callout type="info" title="Sinergia de Armas">
+Mientras que **Athame Artis** proporciona el mayor daño personal y de equipo, **Juramento de la Libertad** es una opción subestimada para Durin de soporte en equipos con DPS en campo como Arlecchino o Navia, ya que el bufo de ataque Normal/Cargado es muy valioso.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sinergias de equipo y Resonancia Hexerei">
+
+El verdadero potencial de Durin se desbloquea a través de la resonancia **Hexerei: Rito Secreto**. Al emparejarlo con al menos otra unidad Hexerei, sus capacidades de soporte se mejoran en un 75%. Este es el núcleo de cualquier **build de soporte de Durin** de alto nivel.
+
+<Steps>
+  <Step num="1" title="Selecciona un compañero Hexerei">
+    Personajes como **Fischl**, **Mona**, **Albedo** o **Venti** son candidatos principales. Fischl es especialmente potente en equipos de Sobrecarga, proporcionando Electro fuera de campo y grandes bufos de ATK a través de su propia pasiva Hexerei.
+  </Step>
+  <Step num="2" title="Identifica al DPS principal">
+    Durin soporta una amplia variedad de DPS. Proporciona reducción de RES Anemo para **Xiao/Wanderer**, reducción de RES Geo para **Navia/Itto**, y reducción de RES Dendro para **Kinich**. Elige un DPS que se beneficie de la reducción del 35%.
+  </Step>
+  <Step num="3" title="Asigna al buffer/sanador">
+    **Chevreuse** es la elección principal para equipos de Sobrecarga, mientras que **Bennett** sigue siendo un pilar para el bufo de ATK puro y la curación. Si usas a Furina, asegúrate de que haya un sanador para todo el equipo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Equipo Meta: El núcleo de Sobrecarga">
+El equipo más popular para Durin en 2026 es **Durin + Fischl + Chevreuse + Flexible (Raiden/Clorinde/Arlecchino)**. Este equipo maximiza la resonancia Hexerei, proporciona reducción de RES de doble elemento y ofrece casi el 100% de tiempo de actividad en todos los bufos.
+</Callout>
+
+| Arquetipo de equipo | Unidad Hexerei | Soporte flexible | DPS principal |
+| :--- | :--- | :--- | :--- |
+| **Sobrecarga** | Fischl | Chevreuse | Raiden Shogun / Arlecchino |
+| **Núcleo Geo** | Albedo | Gorou / Xilonen | Navia / Itto |
+| **DPS Anemo** | Venti / Sucrose | Faruzan (C6) | Wanderer / Xiao |
+| **Quemadura/Dendro** | Durin (Solo) | Emilie / Bennett | Kinich |
+
+</Section>
+
+<Section icon={Sparkles} title="Rotación de soporte óptima">
+
+Para maximizar la eficiencia de una **build de soporte de Durin**, tu rotación debe asegurar que su Ráfaga esté activa antes de que tu DPS principal entre al campo. Debido a que la Ráfaga de Durin no toma instantáneas, puede ser intercambiado sin perder efectividad.
+
+1.  **Habilidad > Habilidad**: Lanza inmediatamente la segunda habilidad para entrar en Modo Blanco y generar 4 partículas Pyro.
+2.  **Ráfaga Elemental**: Despliega el Dragón de la Llama Blanca. La duración de 20 segundos asegura que dure durante toda la configuración de tu equipo.
+3.  **Configuración de soporte**: Cambia a otros soportes (por ejemplo, Habilidad de Chevreuse, Oz de Fischl) para activar reacciones y la reducción de RES.
+4.  **DPS principal**: Cambia a tu DPS y realiza su rotación completa.
+5.  **Habilidad (Opcional)**: Si la Habilidad de Durin está fuera de enfriamiento y necesitas energía, vuelve a cambiar brevemente antes de reiniciar el ciclo.
+
+<Callout type="tip" title="Truco de reembolso de energía">
+La Habilidad de Durin restaura **30-33 de energía plana** al entrar en un modo. Si tu energía ya está llena, puedes lanzar tu **Ráfaga primero**, luego usar el combo **Habilidad > Habilidad** para comenzar inmediatamente a rellenar tu medidor para la próxima rotación.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de la build y lista de verificación">
+
+Seguir tu progreso es esencial para perfeccionar tu **build de soporte de Durin**. Utiliza esta lista de verificación para asegurarte de que has alcanzado las métricas de rendimiento críticas.
+
+<Checklist
+  id="durin-milestones"
+  title="Lista de verificación de la build de soporte de Durin:"
+  items={[
+    "Alcanza el Nivel 90 para obtener el máximo ATK base y HP",
+    "Sube la Ráfaga Elemental al Nivel de Talento 9 o 10",
+    "Alcanza al menos 2500 de ATK total (con o sin bufos)",
+    "Asegura al menos un 130% de Recarga de Energía para un tiempo de actividad consistente",
+    "Empareja con un segundo personaje Hexerei para una reducción de RES del 35%",
+    "Obtén C2 para el bono universal del 50% de Daño Elemental"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Funciona la build de soporte de Durin sin otro personaje Hexerei?",
+    answer: "Sí, funciona, pero es significativamente menos efectiva. Sin la resonancia, su reducción de RES es solo del 20%. Añadir una segunda unidad Hexerei aumenta esto al 35% y a menudo proporciona bufos adicionales para todo el equipo."
+  },
+  {
+    question: "¿Qué conjunto de artefactos es mejor: Noblesse Oblige o Pergamino de la Ciudad de Ceniza?",
+    answer: "Noblesse Oblige es mejor si tu equipo escala mucho con ATK y nadie más lo lleva. Pergamino de la Ciudad de Ceniza es superior en equipos de alta reacción (como Sobrecarga o Quemadura) donde el bono de DMG del 40% supera el 20% de ATK."
+  },
+  {
+    question: "¿Por qué necesito 2500 ATK en una build de soporte?",
+    answer: "La pasiva A4 de Durin escala el daño de su Ráfaga en función de su ATK, con un tope de 2500. Dado que su Ráfaga proporciona una parte significativa del daño del equipo incluso en un rol de soporte, alcanzar este tope es vital para un rendimiento de alto nivel."
+  },
+  {
+    question: "¿Puede Durin reducir la resistencia Hydro o Cryo?",
+    answer: "No. Su pasiva A1 excluye específicamente la Vaporización y el Derretimiento del efecto de reducción de RES. Para equipos Hydro y Cryo, Durin se usa típicamente en Modo Oscuro como un DPS personal en lugar de un reductor de RES."
+  }
+]} />
+
+</Section>

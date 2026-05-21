@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Melhor Build do Durin: Meta Loadouts e Sinergias de Equipe 2026",
+  description: "Domine a melhor build do Durin em Genshin Impact. Guia especializado para os modos Branco e Escuro, conjuntos de artefatos, classificação de armas e composições de equipe Hexerei.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Best+Build",
+  date: "2026-05-21",
+  author: "Equipe Wiki Durin"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Dois Estilos de Jogo**: Durin apresenta dois modos distintos—**Modo Branco** para suporte Pyro/redução de RES em área e **Modo Escuro** para potencial de carry de Vaporizar/Derreter de alvo único.
+- **Limiar de ATQ**: Mire em **2.500 de ATQ efetivo** para maximizar a passiva Fusão Primordial, que concede um aumento de 75% de Dano ao seu Supremo Elemental.
+- **Sinergia Hexerei**: Sempre combine Durin com pelo menos um outro **personagem Hexerei** (como Fischl, Mona ou Albedo) para aumentar suas passivas em 75%.
+- **Prioridade de Artefatos**: **Noblesse Oblige** é a escolha padrão de suporte, enquanto o novo conjunto **Um Dia Esculpido por Ventos Crescentes** (Versão 6.3) é o melhor para dano pessoal.
+- **Gerenciamento de Energia**: No Nível de Talento 10, sua habilidade devolve **33 de Energia**, reduzindo efetivamente seu Supremo de 70 de custo para um gerenciável 37.
+</Callout>
+
+<Section icon={Sparkles} title="Mecânicas do Kit do Durin: Modo Branco vs. Modo Escuro">
+
+Durin é um versátil usuário de Espada Pyro 5 estrelas lançado na Versão 6.2. Sua jogabilidade gira em torno da mecânica de **Forma Binária**. Após usar sua Habilidade Elemental, a próxima entrada determina sua forma pelos próximos 30 segundos. Pressionar a Habilidade novamente entra em **Confirmação de Pureza (Modo Branco)**, enquanto realizar um Ataque Normal entra em **Negação da Escuridão (Modo Escuro)**. 
+
+**Destaques do Vídeo:**
+- **Troca de Modo**: Análise detalhada das mecânicas Habilidade-Habilidade vs. Habilidade-NA.
+- **Restituição de Energia**: Como seu ganho de energia fixa permite um investimento mínimo em Recarga de Energia (ER).
+- **Buffs Hexerei**: Visualização da enorme redução de resistência e aumentos de dano de reação.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="GUIA COMPLETO DO DURIN! Melhor Build do Durin" />
+
+A escolha entre os modos muda fundamentalmente seu Supremo Elemental, **Princípio da Pureza/Escuridão**. No Modo Branco, ele atua como um suporte fora de campo de primeira linha, aplicando Pyro a cada segundo e reduzindo resistências. No Modo Escuro, ele se transforma em um causador de dano de alto impacto com multiplicadores de Vaporizar e Derreter aprimorados.
+
+| Mecânica | Modo Branco (Pureza) | Modo Escuro (Escuridão) |
+| :--- | :--- | :--- |
+| **Ativação** | Habilidade > Habilidade | Habilidade > Ataque Normal |
+| **Tipo de Supremo** | Pyro em Área (21 Tiques) | Alvo Único (16 Tiques) |
+| **Buff Primário** | 20-35% de Redução de RES | 40-70% de Dano de Vaporizar/Derreter |
+| **Melhor Para** | Sobrecarga, Queimadura, Mono-Pyro | Vaporizar, Derreter Carry |
+| **Aplicação** | Intervalo de 1.0s | Intervalo de 1.25s |
+
+<Callout type="warning" title="Prioridade de Rotação">
+O Supremo do Durin **não tira snapshot**. Isso significa que buffs como o Círculo de Bennett ou Noblesse Oblige devem permanecer ativos durante toda a duração de seu Supremo para fornecer seus benefícios. Sempre garanta que os buffs de sua equipe sejam atualizados antes de trocar Durin.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhores Artefatos e Prioridades de Atributos">
+
+Construir a **melhor build do Durin** requer equilibrar seus altos requisitos de ATQ com as estatísticas de Crítico padrão. Sua passiva A4, **Caos Formado Como a Noite**, fornece um bônus de dano que atinge o limite em 2.500 de ATQ. Embora o Crítico ainda seja o rei do dano, atingir esse limiar de ATQ por meio de sub-estatísticas ou buffs de equipe (como Bennett ou Ressonância Pyro) é essencial para maximizar seus primeiros 10 acertos do Supremo.
+
+<CardGrid cols={3}>
+  <Card title="Noblesse Oblige">
+    - **Melhor para Suporte**
+    - Aumenta o Dano do Supremo em 20%
+    - Fornece um buff de ATQ de 20% para toda a equipe
+    - Padrão para o Modo Branco
+  </Card>
+  <Card title="Ventos Crescentes (6.3)">
+    - **Melhor para Dano Pessoal**
+    - Altos buffs de ATQ% e Taxa Crítica
+    - Facilmente ativado fora de campo
+    - Superior para o Modo Escuro
+  </Card>
+  <Card title="Caçador do Marechaussee">
+    - **Melhor para Campo**
+    - Requer sinergia com Furina
+    - Enorme bônus de Taxa Crítica de 36%
+    - Ideal para equipes C6 Bennett
+  </Card>
+</CardGrid>
+
+Para as estatísticas principais, Durin geralmente segue o modelo **ATQ / Pyro / Crítico**. No entanto, sua alta restituição de energia da Habilidade Elemental significa que você pode frequentemente ignorar a Recarga de Energia (ER) completamente se ele for pareado com outra unidade Pyro ou Fischl.
+
+| Peça de Artefato | Atributo Principal Recomendado | Opções Alternativas |
+| :--- | :--- | :--- |
+| **Areias** | **ATQ%** | EM (apenas Vaporizar/Derreter) / ER (Pyro Solo) |
+| **Cálice** | **Bônus de Dano Pyro** | ATQ% (se usando buffs de Dano como Furina) |
+| **Tiara** | **Taxa Crítica / Dano Crítico** | ATQ% (apenas para builds de suporte C1) |
+
+<Callout type="tip" title="Referências de Atributos">
+Mire em uma **Taxa Crítica de 60/120** como linha de base, buscando **70/200** para builds de endgame. Se seu ATQ estiver abaixo de 2.000, priorize sub-estatísticas de ATQ% em vez de pequenas melhorias de Crítico até atingir o limiar de 2.500 com buffs.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Classificação de Armas: Assinatura vs. F2P">
+
+A espada de assinatura do Durin, **Athame Artis**, é sua Melhor em Slot (BiS) indiscutível. Ela fornece Taxa Crítica, Dano do Supremo e um buff de ATQ para toda a equipe que escala significativamente com a **Ressonância Hexerei**. No entanto, Durin é notavelmente flexível com armas, utilizando quase qualquer espada que escala com Crítico ou ATQ no jogo.
+
+| Tier | Arma | Principais Benefícios |
+| :--- | :--- | :--- |
+| **S-Tier** | **Athame Artis** | Crítico Massivo, buff de ATQ da equipe, sinergia Hexerei |
+| **S-Tier** | **Cortador da Neblina Reforjado** | ATQ Base Alto, bônus massivo de Dano Elemental |
+| **A-Tier** | **Cortador de Jade Primordial** | Alta Taxa Crítica, conversão de HP para ATQ |
+| **A-Tier** | **Presa de Lobo (R5)** | Dano de Habilidade/Supremo e Taxa Crítica (Passe de Batalha) |
+| **F2P BiS** | **Final do Abismo** | Grandes buffs de ATQ (Requer um curador) |
+| **F2P Alt** | **Alvorada do Tecelão da Lua** | Alto bônus de Dano do Supremo (Recompensa Nod-Krai) |
+
+<Callout type="info" title="A Escolha da Jura da Liberdade">
+**Jura da Liberdade** é uma opção de suporte subestimada. Embora a EM seja um nicho para o Modo Branco, o buff de Dano de Ataque Normal/Carregado/Imersão para toda a equipe é incrível ao apoiar carries como Arlecchino, Kinich ou Xiao.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Composições de Equipe de Nível Superior">
+
+A versatilidade de Durin permite que ele se encaixe em quase qualquer equipe que exija um sub-DPS Pyro. Sua sinergia mais poderosa é com **personagens Hexerei**, o que ativa o Hexerei: Rito Secreto. Essa ressonância aumenta sua redução de RES no Modo Branco de 20% para 35% e seu bônus de reação no Modo Escuro de 40% para 70%.
+
+<Steps>
+  <Step num="1" title="O Núcleo da Sobrecarga">
+    Combine Durin com **Fischl** (Hexerei) e **Chevreuse**. Adicione um DPS Pyro ou Electro como Arlecchino ou Raiden. Durin fornece aplicação Pyro permanente e 35% de redução de RES Electro/Pyro.
+  </Step>
+  <Step num="2" title="Suporte para Queimadura/Florescência">
+    Use Durin em equipes de **Kinich** ou **Emilie**. Sua duração de Supremo de 20s garante 100% de tempo de atividade na Queimadura, permitindo dano Dendro consistente e redução de RES.
+  </Step>
+  <Step num="3" title="Vaporizar no Modo Escuro">
+    Combine Durin com **Mona** (Hexerei) e **Furina**. Durin atua como um poderoso DPS de Supremo fora de campo, vaporizando seus golpes de alto escalonamento no Modo Escuro para um dano massivo de alvo único.
+  </Step>
+  <Step num="4" title="Carry em Campo">
+    Combine Durin com **C6 Bennett**, **Furina** e **Xianyun**. Isso permite que Durin use ataques imersivos infundidos com Pyro enquanto se beneficia dos buffs de reação do Modo Escuro.
+  </Step>
+</Steps>
+
+<Checklist
+  id="durin-team-check"
+  title="Lista de Verificação para Construção de Equipe:"
+  items={[
+    "Inclua pelo menos outra unidade Hexerei (Fischl, Mona, Albedo, etc.)",
+    "Garanta que um curador esteja presente se estiver usando Final do Abismo",
+    "Verifique se o DPS Principal se beneficia da redução de RES Pyro/Elemental",
+    "Confirme se sua rotação permite que Durin use sua Habilidade antes de seu Supremo"
+  ]}
+/>
+
+<Callout type="success" title="Elenco Hexerei">
+Os personagens Hexerei atuais incluem: **Durin, Fischl, Sucrose, Razor, Albedo, Mona, Varka, Alice e Nicole**. Usar qualquer um desses junto com Durin é altamente recomendado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Constelações e Prioridade de Investimento">
+
+Durin é altamente funcional em C0, mas suas constelações iniciais fornecem alguns dos melhores valores de investimento vertical no jogo. C1 e C2 são particularmente notáveis por seus buffs universais de equipe.
+
+| Constelação | Nome | Resumo do Efeito |
+| :--- | :--- | :--- |
+| **C1** | Redenção de Adamah | Adiciona acúmulos de 'Pena' à equipe (Branco) ou a si mesmo (Escuro) com base no ATQ |
+| **C2** | Visões Subterrâneas | **Bônus de 50% de Dano Elemental** para a equipe após o Supremo |
+| **C4** | Fonte de Emanare | Aumento de 40% de Dano do Supremo e 30% de conservação de acúmulos |
+| **C6** | Nascimento Dual | O Supremo ignora 30-70% da DEF e reduz a DEF do oponente em 30% |
+
+<Callout type="tip" title="Estratégia de Investimento">
+Se você estiver escolhendo entre **C1 e sua Arma de Assinatura**, C1 é geralmente um aumento de dano mais consistente para toda a equipe. No entanto, a Arma de Assinatura é um melhor "stat-stick" para a longevidade da sua conta. **C2** é o ponto de parada ideal para jogadores de baixo a médio gasto.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ do Durin">
+
+<FAQ items={[
+  {
+    question: "Durin precisa de Recarga de Energia?",
+    answer: "Muito pouca. Se você aumentar sua Habilidade Elemental para o nível 10, ele restitui 33 de Energia. Em equipes com Fischl ou outra unidade Pyro, 110-120% de ER geralmente é suficiente."
+  },
+  {
+    question: "Qual modo é melhor para uso geral?",
+    answer: "O Modo Branco é geralmente melhor para a melhor build do Durin na maioria das equipes porque fornece dano em área e uma massiva redução de resistência para toda a equipe."
+  },
+  {
+    question: "Posso jogar com Durin sem outros personagens Hexerei?",
+    answer: "Sim, ele ainda é um forte sub-DPS Pyro. No entanto, você perde o bônus de 75% em suas passivas, o que é uma queda significativa tanto no suporte quanto no dano pessoal."
+  },
+  {
+    question: "Como funciona o limite de 2.500 de ATQ?",
+    answer: "Sua passiva aumenta o dano do Supremo em 3% para cada 100 de ATQ, até 75%. Isso considera todos os buffs ativos, então você não precisa de 2.500 de ATQ na ficha do seu personagem—apenas durante o combate."
+  }
+]} />
+
+</Section>

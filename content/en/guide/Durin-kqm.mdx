@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin kqm: Best Build, Weapons, and 2026 Team Rankings",
+  description: "Master Durin with our KQM-style guide. Learn about Light and Dark modes, best artifact sets, weapon rankings, and top-tier team compositions for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+KQM+Guide",
+  date: "2026-05-21",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Durin kqm core**: He is a 5-star Pyro Sword character featuring a unique **dual-mode mechanic** (Light/Dark).
+- **Mode activation**: Use Skill -> Skill for **Light Mode** (Support); use Skill -> Normal Attack for **Dark Mode** (Carry).
+- **Stat priority**: Aim for **2500 Total ATK** to maximize his Ascension 4 passive damage bonus.
+- **Best artifact**: **Noblesse Oblige** is the gold standard for support, while **A Day Carved From Rising Winds** leads for Dark Mode DPS.
+- **Top weapon**: **Athame Artis** is his signature best-in-slot, but **Wolf-Fang** and **Finale of the Deep** are excellent alternatives.
+</Callout>
+
+<Section icon={Sparkles} title="Durin Mechanics and Mode Duality">
+
+Durin introduces a sophisticated "Binary Form" system that allows him to pivot between an off-field elemental buffer and a high-investment vaporize carry. His elemental skill, **Binary Form: Convergence and Division**, serves as the gateway to these states. Unlike traditional stance-switchers, Durin's mode is determined by the specific combo performed immediately after the initial skill cast.
+
+**Video Highlights:**
+- **Mode Breakdown**: Detailed explanation of the Skill-Skill vs. Skill-N1 combos.
+- **Passive Scaling**: Why 2500 ATK is the magic number for his damage ceiling.
+- **Team Synergies**: How the Hexerei resonance transforms his resistance shred.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="COMPLETE DURIN GUIDE! Best Durin Build" />
+
+The **Light Mode (Confirmation of Purity)** focuses on AoE Pyro application and team-wide utility. In this state, his Burst, **Principle of Purity**, deals consistent AoE damage every second for 20 seconds. More importantly, his A1 passive shreds Pyro resistance and the resistance of the element involved in the reaction (Overload, Swirl, Crystallize, or Burning) by up to 35% when paired with a Hexerei teammate.
+
+Conversely, the **Dark Mode (Denial of Darkness)** turns Durin into a selfish damage dealer. His Burst, **Principle of Darkness**, attacks slower but with significantly higher multipliers and buffs his own Vaporize and Melt damage by 70%. This mode is ideal for players looking to use Durin as a primary or secondary carry in hydro-heavy compositions.
+
+| Mode | Mechanic | Primary Role | Key Benefit |
+| :--- | :--- | :--- | :--- |
+| **Light** | Skill > Skill | Support / Sub-DPS | 35% RES Shred, AoE Pyro |
+| **Dark** | Skill > N1 | Main / Dual Carry | 70% Vape/Melt DMG, High Scaling |
+
+<Callout type="tip" title="Energy Management">
+Durin's skill restores 30-33 energy flat upon entering a state. This massive refund means he can often run **0% Energy Recharge** in double Pyro or Overload teams.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Best Artifacts and Stat Priorities">
+
+Building Durin requires a delicate balance of ATK, Crit, and Elemental Mastery. His A4 passive, **Chaos Formed Like the Night**, provides a base damage multiplier increase of up to 75% based on his total ATK. This buff caps out at 2500 ATK, making it a higher priority than usual for a sword user.
+
+| Set | 2-Piece Bonus | 4-Piece Effect / Usage |
+| :--- | :--- | :--- |
+| **Noblesse Oblige** | Burst DMG +20% | Best for Light Mode support/buffing |
+| **Rising Winds** | ATK +18% | Best for Dark Mode carry (v6.3 set) |
+| **M. Hunter** | NA/CA DMG +15% | Best for on-field DPS with Furina |
+| **Emblem** | ER +20% | Solid generalist for solo Pyro teams |
+
+For main stats, an **ATK% Sands** is almost always preferred over EM or ER due to his passive scaling and energy refund. A **Pyro DMG Bonus Goblet** is standard, though an ATK% Goblet can be competitive if you have high Crit substats but are struggling to hit the 2500 ATK threshold.
+
+**Stat Priority Checklist:**
+- **Total ATK**: 2500 (Hard Cap for Passive)
+- **Crit Rate/DMG**: 1:2 Ratio (e.g., 70/140)
+- **Elemental Mastery**: 100-200 (Dark Mode only)
+- **Energy Recharge**: 100% - 130% (Team dependent)
+
+<Callout type="warning" title="The ATK Trap">
+While 2500 ATK is the goal, do not sacrifice Crit Rate/DMG entirely to reach it. Use external buffs like Bennett's Burst or Noblesse procs to bridge the gap.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapon Rankings and Selection">
+
+Durin has a wide variety of viable sword options, ranging from premium 5-star stat sticks to accessible craftables. His signature weapon, **Athame Artis**, provides a massive 33.1% Crit Rate and further enhances his ATK buffs when the Hexerei resonance is active.
+
+<CardGrid cols={3}>
+  <Card title="Athame Artis (Sig)">
+    - **Best-in-Slot** for all styles
+    - Team-wide ATK buff
+    - Enhanced by Hexerei units
+  </Card>
+  <Card title="Wolf-Fang (R5)">
+    - Top 4-star option
+    - High Skill/Burst DMG
+    - Rivals many 5-star swords
+  </Card>
+  <Card title="Finale of the Deep">
+    - **Best F2P Choice**
+    - High ATK for passive cap
+    - Requires a healer for passive
+  </Card>
+</CardGrid>
+
+For players who already own high-end swords, **Primordial Jade Cutter** and **Mistsplitter Reforged** remain top-tier choices. Jade Cutter's massive Crit Rate makes building artifacts much easier, while Mistsplitter provides valuable Elemental DMG bonus that benefits both of Durin's modes.
+
+| Weapon | Rarity | Tier | Performance Note |
+| :--- | :--- | :--- | :--- |
+| **Athame Artis** | 5-Star | **SSS** | Tailor-made for his kit and team buffs |
+| **Jade Cutter** | 5-Star | **S** | Massive Crit Rate, HP to ATK conversion |
+| **Wolf-Fang** | 4-Star | **A+** | Excellent at R5, requires battlepass |
+| **Lion's Roar** | 4-Star | **A** | Strong in Overload/Burning teams |
+| **Moonweaver** | 4-Star | **B+** | Free from Nod-Krai world quest |
+
+<Callout type="success" title="F2P Recommendation">
+If you are strictly F2P, craft **Finale of the Deep**. It provides the raw ATK necessary to hit his passive cap without requiring lucky gacha pulls.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimal Rotations and Progression">
+
+To maximize Durin's impact, you must master his rotation timing. Because his Burst does not snapshot, it is vital to set up all team buffs (like Bennett's field or Kazuha's swirl) before unleashing his Dragon forms.
+
+<Steps>
+  <Step num="1" title="Initial Setup">
+    Start with your long-duration buffs. Cast Raiden's E or Furina's Skill/Burst.
+  </Step>
+  <Step num="2" title="Mode Selection">
+    Swap to Durin. For Support, press **E > E > Q**. For Carry, press **E > N1 > Q**.
+  </Step>
+  <Step num="3" title="Buff Integration">
+    Swap to your primary on-fielder. Durin's off-field Dragon will now shred RES or vape hits.
+  </Step>
+  <Step num="4" title="Energy Recharge">
+    The flat energy refund from Durin's skill happens instantly upon mode entry, readying him for the next cycle.
+  </Step>
+</Steps>
+
+**Character Milestone Checklist:**
+- **Ascension 4**: Unlocks the critical ATK-to-Damage scaling.
+- **Level 90**: Base ATK is vital for his passive scaling.
+- **Talent 9/9/10**: Priority is Burst > Skill > Normal Attack.
+- **Hexerei Quest**: Complete "Witch's Homework" to unlock the resonance buffs.
+
+<Callout type="info" title="Animation Canceling">
+Durin's Charged Attack has a long recovery. Use a **Jump Cancel** (J) or **Dash Cancel** (D) to speed up his on-field combos if using him as a driver.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Team Archetypes and FAQ">
+
+Durin is "versatility incarnate," fitting into almost any team that requires Pyro application. His strongest synergy lies with the **Hexerei characters** (Fischl, Mona, Albedo, Venti, etc.), who trigger his enhanced passive for 35% RES shred or 70% reaction damage.
+
+| Archetype | Core Units | Durin Mode | Why it Works |
+| :--- | :--- | :--- | :--- |
+| **Overload** | Chevreuse, Fischl | Light | Triple RES shred (Pyro, Electro, +1) |
+| **Vape Carry** | Furina, Mona | Dark | Durin vapes his high-multiplier hits |
+| **Burning** | Kinich, Emilie | Light | 100% shred uptime, enables Kinich |
+| **Quickburn** | Emilie, Sethos | Light | Shreds Electro and Dendro simultaneously |
+
+**Hexerei Synergy Tip:**
+The Hexerei resonance is not mandatory but highly recommended. Adding **Fischl** to an Overload team doesn't just add damage; it increases Durin's Pyro RES shred from 20% to 35%, significantly boosting the entire team's output.
+
+<Callout type="tip" title="Geo Synergy">
+Durin (White Mode) is currently the only non-Geo character capable of shredding **Geo Resistance**, making him a hidden gem for Navia or Itto teams.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Should I pull for C1 or his Signature Weapon?",
+    answer: "Generally, C1 is a larger team DPS increase. It provides a 'quill' mechanic similar to Shenhe, adding flat damage to team hits in Light Mode or massive self-buffs in Dark Mode."
+  },
+  {
+    question: "Does Durin replace Xiangling?",
+    answer: "He is often called a '5-star Xiangling,' but they serve different roles. Xiangling has no ICD on her Pyronado, while Durin offers significant team utility (RES shred) and higher single-target scaling."
+  },
+  {
+    question: "What is the Hexerei resonance exactly?",
+    answer: "When you have 2+ Hexerei units, Durin's A1 passive effects are increased by 75%. This turns his 20% shred into 35% and his 40% reaction bonus into 70%."
+  },
+  {
+    question: "Can Durin play on-field without C6 Bennett?",
+    answer: "It is possible but not recommended. His Normal Attack scaling is low, and he lacks a built-in infusion. He is much more effective as an off-field Burst DPS."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin Support Build: Best Artifacts, Weapons & Team Setup",
+  description: "Master the Durin support build with our guide on artifacts, weapons, and Hexerei synergies for the ultimate 2026 Pyro off-field meta.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/e11d48/fff?text=Durin+Support+Build",
+  date: "2026-05-21",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Durin support build**: Focuses on the **Confirmation of Purity** (White Mode) to provide consistent off-field Pyro application and RES shred.
+- **Key Mechanic**: Use the **Skill > Skill** combo to enter White Mode, triggering a 20s Burst that shreds Pyro and reaction-related resistances.
+- **Best Artifacts**: **4-piece Noblesse Oblige** is the standard for team-wide ATK buffs, while **4-piece Scroll of Cinder City** excels in elemental teams.
+- **Critical Stat**: Aim for **2500 Total ATK** to maximize the A4 Passive, which grants a 75% damage multiplier to Burst hits.
+- **Top Synergy**: Pair with at least one other **Hexerei character** (like Fischl or Mona) to boost RES shred from 20% to 35%.
+</Callout>
+
+<Section icon={Map} title="Core Mechanics: Mastering the White Mode">
+
+The foundation of a successful **Durin support build** lies in understanding his dual-mode system. Durin enters the battlefield in a neutral state, but his Elemental Skill, **Binary Form: Convergence and Division**, allows him to transmute into either the **Confirmation of Purity** (White Mode) or the **Denial of Darkness** (Dark Mode). For a support-oriented playstyle, White Mode is non-negotiable. 
+
+In this state, Durin's Elemental Burst manifests the **Dragon of White Flame**. This entity follows your active character for 20 seconds, dealing AoE Pyro damage every second. More importantly, it triggers his A1 Passive, shredding the Pyro RES and the RES of the element involved in any Pyro reaction (Overload, Swirl, Crystallize, or Burning) by 20%. When the **Hexerei: Secret Rite** resonance is active, this shred jumps to a massive 35%, making Durin a premier alternative to Viridescent Venerer users.
+
+**Video Highlights:**
+- Complete breakdown of White vs. Dark mode mechanics.
+- Detailed analysis of the **Hexerei Resonance** and its impact on RES shred.
+- Artifact and weapon comparisons for off-field support roles.
+- Showcase of high-tier Overload and Burning team rotations.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="COMPLETE DURIN GUIDE! Best Durin Build [ALL Playstyles]" />
+
+<Callout type="warning" title="Mode Trigger Warning">
+To ensure you enter the support-focused White Mode, you must press your **Elemental Skill twice**. If you perform a Normal Attack after the first Skill cast, you will enter Dark Mode, which focuses on personal Vaporize damage and provides **zero RES shred** for your team.
+</Callout>
+
+| Feature | Confirmation of Purity (White) | Denial of Darkness (Dark) |
+| :--- | :--- | :--- |
+| **Primary Role** | Support / Off-field Sub-DPS | Personal Carry / Vape-Melt DPS |
+| **Burst Targeting** | AoE Pyro Damage | Single-target Pyro Damage |
+| **A1 Passive Effect** | 20-35% RES Shred (Pyro + Reaction) | 40-70% Personal Vape/Melt DMG |
+| **Targeting Rate** | Once every 1.0 seconds | Once every 1.25 seconds |
+| **Best Utility** | Overload, Burning, Geo, Anemo teams | Vaporize, Forward Melt teams |
+
+</Section>
+
+<Section icon={Shield} title="Best Artifacts for Support Durin">
+
+Choosing the right artifact set for your **Durin support build** depends heavily on your team composition and whether another character is already providing specific buffs. Because Durin does not have a "dedicated" set as of version 6.2, his options are highly flexible.
+
+<CardGrid cols={3}>
+  <Card title="Noblesse Oblige">
+    - **Best Overall Support**
+    - Increases Burst DMG by 20%
+    - Provides 20% Team ATK buff
+    - Standard choice for most teams
+  </Card>
+  <Card title="Scroll of Cinder City">
+    - **Elemental Specialist**
+    - High DMG bonus for reactions
+    - Great for Overload/Burning
+    - Requires consistent triggers
+  </Card>
+  <Card title="Emblem of Severed Fate">
+    - **High Energy Teams**
+    - Solves ER requirements easily
+    - Converts ER into Burst DMG
+    - Best for solo Pyro rotations
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="The 2500 ATK Milestone">
+Durin's A4 Passive, **Chaos Formed Like the Night**, increases his Burst damage by 3% for every 100 ATK, capping at a 75% increase. To reach this cap, you need **2500 effective ATK**. Prioritize ATK% substats until you hit this threshold before focusing heavily on Crit Rate/DMG.
+</Callout>
+
+| Slot | Recommended Main Stat | Priority Substats |
+| :--- | :--- | :--- |
+| **Sands** | **ATK%** (or ER% if below 140%) | ER% / Crit Rate / Crit DMG |
+| **Goblet** | **Pyro DMG Bonus** or **ATK%** | Crit DMG / Crit Rate / ATK% |
+| **Circlet** | **Crit Rate** or **Crit DMG** | ATK% / ER% / Crit Rate |
+
+</Section>
+
+<Section icon={Swords} title="Top Weapon Picks for Utility">
+
+The best weapons for a **Durin support build** either enhance his personal off-field contribution or provide massive stat sticks to help reach his ATK requirements. His signature weapon, **Athame Artis**, is the gold standard, but several free-to-play and low-cost alternatives perform admirably.
+
+| Weapon | Tier | Key Benefits |
+| :--- | :--- | :--- |
+| **Athame Artis** | **S+** | 33% Crit Rate, 28% Team ATK buff (Hexerei), Burst DMG increase |
+| **Freedom-Sworn** | **S** | Massive team buffs for Normal/Charged attacks, high EM for reactions |
+| **Primordial Jade Cutter** | **A+** | 44% Crit Rate, HP-to-ATK conversion helps reach 2500 ATK cap |
+| **Wolf-Fang** | **A** | Battle Pass option, high Crit Rate and Skill/Burst DMG bonuses |
+| **Finale of the Deep** | **B+** | Best F2P craftable, provides massive ATK% to hit passive caps |
+| **Moonweaver's Dawn** | **B** | Free quest weapon, solid Burst DMG and ATK% stats |
+
+<Callout type="info" title="Weapon Synergy">
+While **Athame Artis** provides the highest personal and team damage, **Freedom-Sworn** is a sleeper pick for support Durin in teams featuring on-field carries like Arlecchino or Navia, as the Normal/Charged attack buff is highly valuable.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Team Synergies and Hexerei Resonance">
+
+Durin's true potential is unlocked through the **Hexerei: Secret Rite** resonance. By pairing him with at least one other Hexerei unit, his support capabilities are enhanced by 75%. This is the core of any high-end **Durin support build**.
+
+<Steps>
+  <Step num="1" title="Select a Hexerei Partner">
+    Characters like **Fischl**, **Mona**, **Albedo**, or **Venti** are prime candidates. Fischl is especially potent in Overload teams, providing off-field Electro and massive ATK buffs via her own Hexerei passive.
+  </Step>
+  <Step num="2" title="Identify the Main Carry">
+    Durin supports a wide variety of carries. He provides Anemo RES shred for **Xiao/Wanderer**, Geo RES shred for **Navia/Itto**, and Dendro RES shred for **Kinich**. Choose a carry that benefits from the 35% shred.
+  </Step>
+  <Step num="3" title="Assign the Buffer/Healer">
+    **Chevreuse** is the premier choice for Overload teams, while **Bennett** remains a staple for raw ATK buffing and healing. If using Furina, ensure a team-wide healer is present.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Meta Team: The Overload Core">
+The most popular team for Durin in 2026 is **Durin + Fischl + Chevreuse + Flex (Raiden/Clorinde/Arlecchino)**. This team maximizes the Hexerei resonance, provides dual-element RES shred, and offers nearly 100% uptime on all buffs.
+</Callout>
+
+| Team Archetype | Hexerei Unit | Flex Support | Main Carry |
+| :--- | :--- | :--- | :--- |
+| **Overload** | Fischl | Chevreuse | Raiden Shogun / Arlecchino |
+| **Geo Core** | Albedo | Gorou / Xilonen | Navia / Itto |
+| **Anemo Carry** | Venti / Sucrose | Faruzan (C6) | Wanderer / Xiao |
+| **Burning/Dendro** | Durin (Solo) | Emilie / Bennett | Kinich |
+
+</Section>
+
+<Section icon={Sparkles} title="Optimal Support Rotation">
+
+To maximize the efficiency of a **Durin support build**, your rotation must ensure that his Burst is active before your main carry takes the field. Because Durin's Burst does not snapshot, he can be swapped in and out without losing effectiveness.
+
+1.  **Skill > Skill**: Immediately cast the second skill to enter White Mode and generate 4 Pyro particles.
+2.  **Elemental Burst**: Deploy the Dragon of White Flame. The 20s duration ensures it lasts through your entire team's setup.
+3.  **Support Setup**: Swap to other supports (e.g., Chevreuse Skill, Fischl Oz) to trigger reactions and activate the RES shred.
+4.  **Main Carry DPS**: Swap to your carry and perform their full rotation.
+5.  **Skill (Optional)**: If Durin's Skill is off cooldown and you need energy, swap back briefly before restarting the cycle.
+
+<Callout type="tip" title="Energy Refund Trick">
+Durin's Skill restores **30-33 flat energy** upon entering a mode. If your energy is already full, you can cast your **Burst first**, then use the **Skill > Skill** combo to immediately start refilling your meter for the next rotation.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Build Milestones and Checklist">
+
+Tracking your progress is essential to perfecting your **Durin support build**. Use this checklist to ensure you've hit the critical performance metrics.
+
+<Checklist
+  id="durin-milestones"
+  title="Durin Support Build Checklist:"
+  items={[
+    "Reach Level 90 for maximum Base ATK and HP",
+    "Level Elemental Burst to Talent Level 9 or 10",
+    "Reach at least 2500 Total ATK (buffed or unbuffed)",
+    "Secure at least 130% Energy Recharge for consistent uptime",
+    "Pair with a second Hexerei character for 35% RES shred",
+    "Obtain C2 for the universal 50% Elemental DMG bonus"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does Durin's support build work without another Hexerei character?",
+    answer: "Yes, it works, but it is significantly less effective. Without the resonance, his RES shred is only 20%. Adding a second Hexerei unit increases this to 35% and often provides additional team-wide buffs."
+  },
+  {
+    question: "Which artifact set is better: Noblesse Oblige or Scroll of Cinder City?",
+    answer: "Noblesse Oblige is better if your team scales heavily with ATK and no one else is wearing it. Scroll of Cinder City is superior in high-reaction teams (like Overload or Burning) where the 40% DMG bonus outweighs the 20% ATK."
+  },
+  {
+    question: "Why do I need 2500 ATK on a support build?",
+    answer: "Durin's A4 passive scales his Burst damage based on his ATK, capping at 2500. Since his Burst provides a significant portion of team damage even in a support role, hitting this cap is vital for high-tier performance."
+  },
+  {
+    question: "Can Durin shred Hydro or Cryo resistance?",
+    answer: "No. His A1 passive specifically excludes Vaporize and Melt from the RES shred effect. For Hydro and Cryo teams, Durin is typically used in Dark Mode as a personal damage dealer rather than a RES shredder."
+  }
+]} />
+
+</Section>

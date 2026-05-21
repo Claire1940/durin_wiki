@@ -1,0 +1,339 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Composition d'équipe de Durin : Meilleures synergies et styles de jeu pour 2026",
+  description: "Découvrez les compositions d'équipe optimales de Durin dans Genshin Impact pour les modes Blanc et Sombre, maximisant son potentiel en tant que Sub-DPS Pyro ou Carry sur le terrain.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Durin+Team+Comp",
+  date: "2026-05-20",
+  author: "Équipe Wiki de Durin"
+}
+
+<Callout type="info" title="Guide rapide">
+- La polyvalence de la **composition d'équipe de Durin** est essentielle, s'adaptant à de nombreux archétypes.
+- Le **Mode Blanc** excelle dans l'application Pyro hors-champ, le support et la réduction de RES pour des réactions comme Surcharge et Brûlure.
+- Le **Mode Sombre** se concentre sur les dégâts personnels de Vaporisation et Fonte, idéal pour un DPS sur le terrain.
+- La **Résonance Hexerei** améliore considérablement les capacités de Durin, rendant les autres personnages Hexerei très précieux.
+- Priorisez le **Déchaînement élémentaire** et la **Compétence élémentaire** pour les niveaux de talent afin de maximiser les dégâts et l'énergie.
+</Callout>
+
+<Section icon={Swords} title="Comprendre les mécanismes fondamentaux de Durin">
+Durin, un personnage Pyro Épée 5 étoiles, offre une polyvalence incroyable dans les compositions d'équipe grâce à son style de jeu unique à double mode. Il peut fonctionner comme un Sub-DPS/Support Pyro hors-champ en Mode Blanc ou comme un DPS Pyro sur le terrain en Mode Sombre. Comprendre comment ces modes affectent votre **composition d'équipe de Durin** est crucial pour maximiser son potentiel.
+
+**Points forts de la vidéo :**
+- Les deux modes de Durin : Blanc (Pureté) et Sombre (Ténèbres).
+- Comment basculer entre les modes en utilisant la Compétence élémentaire et l'Attaque normale.
+- Mode Blanc : Application Pyro AoE hors-champ, réduction de RES pour Surcharge, Brûlure, Tourbillon Pyro, Cristallisation.
+- Mode Sombre : Dégâts Pyro monocibles, augmentation des dégâts personnels de Vaporisation/Fonte.
+- Résonance Hexerei : Buffs significatifs lorsqu'il est associé à un autre personnage Hexerei.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="GUIDE COMPLET DE DURIN ! Meilleure construction de Durin [TOUS les styles de jeu] - Artéfacts, Armes, Équipes | Genshin Impact" />
+
+La Compétence élémentaire de Durin lui permet d'entrer dans l'une des deux formes. En **Mode Blanc**, son Déchaînement élémentaire fournit une application Pyro AoE continue hors-champ et réduit les résistances élémentaires (Pyro, Électro, Dendro, Géo, Anémo) de 20 % (ou 35 % avec la Résonance Hexerei) lors du déclenchement de réactions autres que Vaporisation ou Fonte. Cela en fait un excellent support pour un large éventail de compositions d'équipe. En **Mode Sombre**, son Déchaînement élémentaire inflige des dégâts Pyro monocibles plus élevés et obtient un bonus de dégâts significatif aux réactions de Vaporisation et Fonte (40 % de base, 70 % avec la Résonance Hexerei), le positionnant comme un puissant carry sur le terrain.
+
+<Callout type="tip" title="Avantage de la Résonance Hexerei">
+Associer Durin à un autre personnage Hexerei (par exemple, Fischl, Mona, Albedo) est fortement recommandé. Cela active la Résonance Hexerei, augmentant sa réduction de résistance en Mode Blanc et ses dégâts personnels de Vaporisation/Fonte en Mode Sombre de 75 % supplémentaires de leurs valeurs de base, rendant ses contributions à l'équipe encore plus impactantes.
+</Callout>
+
+### Priorité des talents
+
+Pour tirer le meilleur parti de votre Durin, concentrez-vous sur l'amélioration de ses talents dans l'ordre suivant :
+
+| Priorité | Talent             | Bénéfice                                                                                               |
+| :------- | :----------------- | :---------------------------------------------------------------------------------------------------- |
+| **1er**  | Déchaînement élémentaire    | Maximise sa production de dégâts principale et son application Pyro hors-champ.                                   |
+| **2e**  | Compétence élémentaire    | Augmente les dégâts et rembourse considérablement l'énergie, réduisant ses besoins en Recharge d'énergie.                |
+| **3e**  | Attaque normale      | Pertinent uniquement si Durin est joué en tant que DPS sur le terrain, surtout avec Bennett C6 pour l'infusion Pyro.         |
+
+</Section>
+
+<Section icon={Target} title="Archétypes de composition d'équipe optimaux pour Durin">
+La flexibilité de Durin lui permet de s'intégrer dans de nombreux archétypes d'équipe, chacun exploitant ses capacités uniques. Le choix entre le Mode Blanc et le Mode Sombre dicte souvent la stratégie principale de l'équipe.
+
+### Équipes Mode Blanc (Support/Sub-DPS hors-champ)
+
+Durin en Mode Blanc est fantastique pour les équipes qui bénéficient d'une application Pyro hors-champ constante et d'une réduction de résistance.
+
+<CardGrid cols={2}>
+  <Card title="Équipes Surcharge">
+    - **Noyau**: Durin, Support Électro (Fischl), Buffer Surcharge (Chevreuse/Bennett).
+    - **DPS**: Tout carry Pyro ou Électro (Arlecchino, Klee, Raiden, Cyno).
+    - **Bénéfice**: La réduction de RES de Durin augmente considérablement les dégâts Pyro et Électro.
+  </Card>
+  <Card title="Équipes Brûlure / Dendro">
+    - **Noyau**: Durin, Applicateur Dendro (Nahida, Alhaitham), Flex (Fischl, Yaoyao).
+    - **DPS**: DPS Dendro ou Électro.
+    - **Bénéfice**: Application Pyro constante pour maintenir la Brûlure, améliorant les réactions Dendro.
+  </Card>
+  <Card title="Équipes DPS Anémo">
+    - **Noyau**: Durin, DPS Anémo (Venti, Nomade, Xiao), Support Anémo (Faruzan, Sucrose).
+    - **Bénéfice**: Pyro hors-champ pour les réactions Tourbillon, et réduction de RES pour Anémo.
+  </Card>
+  <Card title="Équipes Double Géo">
+    - **Noyau**: Durin, DPS Géo (Navia, Itto), Support Géo (Albedo, Gorou).
+    - **Bénéfice**: Résonance Pyro, application Pyro hors-champ pour Cristallisation, et réduction de RES.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Synergie de Chevreuse en Surcharge">
+Chevreuse est un partenaire exceptionnel pour Durin en Mode Blanc dans les équipes Surcharge. Son kit fournit des buffs massifs aux personnages Électro et Pyro, et combiné à la réduction de RES de Durin, crée une équipe puissante axée sur les réactions. Même à C0, elle est forte, et à C6, elle devient un support Surcharge de premier ordre.
+</Callout>
+
+### Équipes Mode Sombre (DPS sur le terrain)
+
+Durin en Mode Sombre brille lorsqu'il est le principal infligeur de dégâts, se concentrant sur les réactions de Vaporisation et Fonte amplifiées.
+
+<CardGrid cols={2}>
+  <Card title="Équipes Vaporisation">
+    - **Noyau**: Durin, Applicateur Hydro (Xingqiu, Mona, Furina), Buffer (Bennett, Sucrose).
+    - **Bénéfice**: Les dégâts personnels de Vaporisation de Durin sont considérablement augmentés, permettant des coups massifs.
+    - **Sur le terrain**: Nécessite Bennett C6 pour l'infusion Pyro sur les Attaques normales.
+  </Card>
+  <Card title="Équipes Fonte">
+    - **Noyau**: Durin, Applicateur Cryo (Rosaria, Layla, Kaeya), Buffer (Bennett).
+    - **Bénéfice**: Similaire à la Vaporisation, le Mode Sombre augmente considérablement les dégâts de Fonte de Durin.
+    - **Note**: Assurez une application Cryo constante pour déclencher des Fontes fréquentes.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Réduction Hydro/Cryo en Mode Sombre">
+Bien que Durin en Mode Sombre excelle dans les dégâts personnels de Vaporisation/Fonte, il ne fournit *pas* de réduction de résistance pour Hydro ou Cryo. Cela signifie que vous pourriez avoir besoin d'autres personnages pour couvrir ces débuffs si des dégâts optimaux sont souhaités. Le Mode Blanc est généralement préféré pour la réduction de RES à l'échelle de l'équipe.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personnages clés et synergies pour la composition d'équipe de Durin">
+Construire la **composition d'équipe de Durin** parfaite implique de sélectionner des personnages qui synergie bien avec son kit, en particulier compte tenu de ses deux modes et de la Résonance Hexerei.
+
+### Partenaires Hexerei
+
+La Résonance Hexerei change la donne pour Durin. Des personnages comme Fischl, Mona et Albedo sont non seulement de puissantes unités en elles-mêmes, mais ils débloquent également le plein potentiel de Durin.
+
+| Personnage | Élément   | Rôle             | Synergie avec Durin                                                                 |
+| :-------- | :-------- | :--------------- | :--------------------------------------------------------------------------------- |
+| **Fischl**| Électro   | Sub-DPS          | Excellente application Électro hors-champ, Résonance Hexerei, augmente les dégâts de Surcharge. |
+| **Mona**  | Hydro     | Sub-DPS / Buffer | Application Hydro pour Vaporisation, débuff Omen, Résonance Hexerei, peut être un pilote sur le terrain. |
+| **Albedo**| Géo       | Sub-DPS          | Dégâts Géo hors-champ, Résonance Hexerei, contribue à la résonance Géo.             |
+| **Sucrose**| Anémo     | Support          | Buff EM, contrôle des foules, réduction de RES Anémo, Résonance Hexerei.                        |
+| **Venti** | Anémo     | Sub-DPS / Contrôle des foules | Réduction de RES Anémo, contrôle des foules, Résonance Hexerei pour les équipes Anémo.                 |
+
+### Supports universels
+
+Ces personnages fournissent des buffs et des utilitaires inestimables à presque toutes les équipes de Durin.
+
+| Personnage | Élément   | Rôle             | Bénéfice                                                                             |
+| :-------- | :-------- | :--------------- | :---------------------------------------------------------------------------------- |
+| **Bennett**| Pyro      | Support / Soigneur | Buff d'ATQ massif, soin, Résonance Pyro, C6 permet Durin Pyro sur le terrain.          |
+| **Chevreuse**| Électro   | Support          | Spécialiste de la Surcharge, buff Électro/Pyro, réduit la RES Électro/Pyro.                  |
+| **Xingqiu**| Hydro     | Sub-DPS          | Application Hydro constante, réduction de dégâts, résistance à l'interruption.            |
+| **Nahida**| Dendro    | Sub-DPS / Applicateur| Forte application Dendro, buff EM, cruciale pour les équipes Brûlure/Bourgeonnement.              |
+
+</Section>
+
+<Section icon={Sparkles} title="Exemples de compositions d'équipe de Durin pour la méta de 2026">
+Voici quelques exemples de **compositions d'équipe de Durin** très efficaces, démontrant sa polyvalence à travers différentes réactions élémentaires et styles de jeu.
+
+### 1. Puissance de Surcharge (Mode Blanc)
+
+Cette équipe maximise la réduction de RES de Durin en Mode Blanc et l'application Électro de Fischl pour des dégâts de Surcharge constants.
+
+<CardGrid cols={4}>
+  <Card title="Durin">
+    - Rôle : Sub-DPS Pyro hors-champ, réduction de RES.
+    - Artéfacts : 4p Noblesse Oblige ou 4p Une journée sculptée par les vents ascendants.
+    - Focus : Temps de recharge du Déchaînement, ATQ%, Crit.
+  </Card>
+  <Card title="Fischl">
+    - Rôle : Sub-DPS Électro hors-champ, Résonance Hexerei.
+    - Artéfacts : 2p ATQ + 2p Dégâts Électro / 4p Troupe dorée.
+    - Focus : Dégâts Électro, Crit.
+  </Card>
+  <Card title="Chevreuse">
+    - Rôle : Support Surcharge, Buffer Électro/Pyro.
+    - Artéfacts : 4p Noblesse Oblige (si pas sur Durin) / 4p Ténacité du Millelithe.
+    - Focus : PV%, RE.
+  </Card>
+  <Card title="Arlecchino">
+    - Rôle : DPS principal Pyro sur le terrain.
+    - Artéfacts : 4p Fragment de fantaisie harmonique.
+    - Focus : ATQ%, Crit.
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Pour une équipe Surcharge alternative, remplacez Arlecchino par n'importe quel DPS Électro puissant comme Raiden Shogun ou Cyno. Les buffs de Chevreuse s'appliqueront toujours efficacement, et la réduction de RES de Durin garantit une production de dégâts élevée pour les deux éléments.
+</Callout>
+
+### 2. Vaporisation sur le terrain (Mode Sombre)
+
+Cette configuration se concentre sur Durin en tant que DPS principal, exploitant les dégâts de Vaporisation accrus de son Mode Sombre avec le support Hydro.
+
+<CardGrid cols={4}>
+  <Card title="Durin">
+    - Rôle : DPS principal Pyro sur le terrain.
+    - Artéfacts : 4p Sorcière des flammes ardentes / 4p Chasseur de la Maréchaussée (avec Furina).
+    - Focus : Crit, ME (si déclenche des réactions), ATQ%.
+  </Card>
+  <Card title="Xingqiu">
+    - Rôle : Applicateur Hydro hors-champ, Sub-DPS.
+    - Artéfacts : 4p Emblème du destin brisé.
+    - Focus : RE, Dégâts Hydro, Crit.
+  </Card>
+  <Card title="Bennett (C6)">
+    - Rôle : Buffer d'ATQ, Soigneur, Infusion Pyro.
+    - Artéfacts : 4p Noblesse Oblige.
+    - Focus : RE, PV%.
+  </Card>
+  <Card title="Sucrose">
+    - Rôle : Buffer de ME, Réduction de RES Anémo, Contrôle des foules.
+    - Artéfacts : 4p Ombre verte.
+    - Focus : ME.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Exigence de Bennett C6">
+Pour jouer Durin en tant que DPS Pyro sur le terrain en Mode Sombre, Bennett C6 est fortement recommandé. Son C6 infuse les Attaques normales et chargées de Durin avec du Pyro, permettant des déclenchements de Vaporisation constants et maximisant les dégâts personnels de Durin. Sans Bennett C6, son potentiel de DPS sur le terrain est considérablement réduit.
+</Callout>
+
+### 3. Réaction de Bourgeonnement (Build ME en Mode Blanc)
+
+Une approche unique de Durin, se concentrant sur son application Pyro hors-champ pour déclencher des réactions de Bourgeonnement.
+
+<CardGrid cols={4}>
+  <Card title="Durin">
+    - Rôle : Déclencheur Pyro hors-champ, DPS de Bourgeonnement.
+    - Artéfacts : 4p Rêve doré / 4p Fleur du paradis perdu (ME complète).
+    - Focus : Maîtrise élémentaire, RE.
+  </Card>
+  <Card title="Neuvillette">
+    - Rôle : DPS Hydro sur le terrain, Applicateur Hydro.
+    - Artéfacts : 4p Chasseur de la Maréchaussée.
+    - Focus : Crit, PV%.
+  </Card>
+  <Card title="Nahida">
+    - Rôle : Applicateur Dendro hors-champ, Buffer de ME.
+    - Artéfacts : 4p Souvenir de la forêt.
+    - Focus : ME, Crit.
+  </Card>
+  <Card title="Lauma (Soigneur Dendro)">
+    - Rôle : Applicateur Dendro, Soigneur.
+    - Artéfacts : 4p Souvenir de la forêt (si pas sur Nahida) / 4p Coque des rêves opulents.
+    - Focus : PV%, Bonus de soin.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Build Bourgeonnement ME complète">
+Lorsque vous construisez Durin pour les équipes de Bourgeonnement, priorisez la Maîtrise élémentaire sur toutes les statistiques principales des artéfacts (Sablier, Coupe, Casque). Son Déchaînement élémentaire infligera des dégâts significatifs grâce à la réaction de Bourgeonnement, rendant ses propres dégâts Pyro bruts moins importants.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimiser votre stratégie de composition d'équipe de Durin">
+Construire une **composition d'équipe de Durin** réussie ne se résume pas à la sélection des personnages ; cela implique également de comprendre la rotation, la gestion de l'énergie et les choix d'artéfacts.
+
+### Principes fondamentaux de la rotation
+
+Une rotation appropriée assure une disponibilité maximale des buffs et des réactions élémentaires constantes.
+
+<Steps>
+  <Step num="1" title="Buffs initiaux">
+    Commencez par les buffers de votre équipe (par exemple, le Déchaînement de Bennett, la Compétence de Chevreuse) pour appliquer les buffs et générer des particules.
+  </Step>
+  <Step num="2" title="Compétence et sélection de mode de Durin">
+    Passez à Durin, utilisez sa Compétence élémentaire (deux fois pour le Mode Blanc, Compétence + Attaque normale pour le Mode Sombre). Cela génère de l'énergie et définit sa forme.
+  </Step>
+  <Step num="3" title="Déchaînement de Durin">
+    Utilisez immédiatement le Déchaînement élémentaire de Durin pour appliquer du Pyro hors-champ et activer ses buffs/dégâts spécifiques au mode.
+  </Step>
+  <Step num="4" title="Temps de champ du DPS principal">
+    Passez à votre DPS principal pour bénéficier de tous les buffs actifs et des capacités hors-champ de Durin. Exécutez leur rotation de dégâts principale.
+  </Step>
+  <Step num="5" title="Recharge et répétition">
+    Après la rotation du DPS, utilisez les compétences des autres personnages pour générer de l'énergie et préparer la prochaine rotation. Le remboursement de compétence de Durin aide beaucoup ici.
+  </Step>
+</Steps>
+
+### Exigences de Recharge d'énergie
+
+Le remboursement d'énergie de Durin de sa Compétence élémentaire réduit considérablement ses besoins en RE.
+
+| Type d'équipe                | Exigence de RE (Approx.) | Notes                                                     |
+| :----------------------- | :----------------------- | :-------------------------------------------------------- |
+| **Double Pyro/Surcharge** | 110-120%                 | Très faible en raison de la résonance Pyro et de Chevreuse/Bennett.     |
+| **Pyro Solo (Hors-champ)**| 130-150%                 | Plus nécessaire s'il est la seule unité Pyro générant des particules. |
+| **Bourgeonnement (ME complète)**    | 140-160%                 | Une RE plus élevée assure la disponibilité du Déchaînement pour un Bourgeonnement constant.    |
+
+<Callout type="info" title="Ensembles d'artéfacts pour Durin">
+Le nouvel ensemble d'artéfacts, **Une journée sculptée par les vents ascendants**, est généralement le meilleur en son genre pour Durin, à la fois pour ses rôles de Sub-DPS et sur le terrain, surtout avec des membres Hexerei. Sinon, **Noblesse Oblige** (Sub-DPS) ou **Sorcière des flammes ardentes** (DPS sur le terrain) sont de solides alternatives. Pour le Bourgeonnement, **Rêve doré** ou **Fleur du paradis perdu** sont idéaux.
+</Callout>
+
+### Choix d'armes
+
+Durin a plusieurs options d'armes solides, de sa signature aux alternatives gratuites.
+
+| Nom de l'arme            | Rareté | Statistique principale | Effet clé                                                                       |
+| :--------------------- | :----- | :----------- | :------------------------------------------------------------------------------- |
+| **Athame Artis**       | 5 étoiles | Taux CRIT    | Arme signature, augmente les DÉG CRIT du Déchaînement, buff d'ATQ pour Durin et l'équipe (amélioré par Hexerei). |
+| **Tranche-brume primordial** | 5 étoiles | Taux CRIT    | Taux CRIT élevé, bonus d'ATQ basé sur les PV.                                           |
+| **Serment de la liberté**      | 5 étoiles | ME           | Bonus de DÉG, buff d'ATQ d'équipe et de DÉG des Attaques normales/chargées/plongeantes (dépend des réactions).     |
+| **Croc de loup**          | 4 étoiles | Taux CRIT    | Passe de combat, bonus de DÉG de Compétence/Déchaînement, Taux CRIT.                                   |
+| **Fin du loup** | 4 étoiles | ATQ%         | Fabriqué, ATQ élevée, nécessite un soin pour effacer le Vœu de vie.                     |
+| **Rugissement du lion**        | 4 étoiles | ATQ%         | Augmente les DÉG contre les ennemis affectés par Pyro/Électro, excellent en Surcharge.          |
+
+</Section>
+
+<Section icon={Map} title="Maximiser le potentiel de Durin avec les personnages Hexerei">
+L'introduction des buffs du Rite secret Hexerei en 2026 a considérablement influencé la composition d'équipe de Durin. Ces buffs améliorent ses capacités lorsqu'il est associé à d'autres personnages Hexerei, les rendant presque obligatoires pour ses configurations les plus puissantes.
+
+<Checklist
+  id="hexerei-benefits"
+  title="Avantages de la Résonance Hexerei pour Durin :"
+  items={[
+    "Augmentation de la réduction de RES en Mode Blanc (de 20 % à 35 %)",
+    "Amélioration des DÉG personnels de Vaporisation/Fonte en Mode Sombre (de 40 % à 70 %)",
+    "Le buff d'ATQ d'équipe de l'arme signature est amplifié de 75 %",
+    "Accès à une unité Hexerei gratuite (Fischl, Sucrose ou Razor) via la Quête de la Sorcière"
+  ]}
+/>
+
+Le choix du partenaire Hexerei peut grandement influencer la stratégie globale de l'équipe. Par exemple, Fischl dans une équipe de Surcharge avec Durin crée une puissante synergie Électro-Pyro, bénéficiant à la fois des buffs Hexerei des deux personnages et de la réduction de RES de Durin. De même, Mona peut agir comme pilote sur le terrain dans une équipe de Vaporisation en Mode Sombre, prolongeant la durée de son Omen pendant que Durin libère des dégâts de Vaporisation amplifiés.
+
+### Futures synergies Hexerei
+
+À partir de 2026, de nouvelles unités Hexerei comme Varka, Alice et Nicole devraient être des personnages jouables. Ces unités à venir sont susceptibles d'introduire encore plus de synergies avec Durin, ouvrant potentiellement de nouvelles et puissantes compositions d'équipe. Gardez un œil sur les nouvelles sorties de personnages et leurs affiliations Hexerei pour optimiser davantage vos équipes de Durin.
+
+<Callout type="success" title="Ne manquez pas l'unité Hexerei gratuite !">
+Les joueurs peuvent obtenir une unité Hexerei gratuite (Fischl, Sucrose ou Razor) grâce à une quête spéciale en jeu. C'est une excellente occasion d'acquérir un partenaire précieux pour Durin et d'activer la Résonance Hexerei sans dépendre des tirages de gacha.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Quel mode est le meilleur pour Durin : Blanc ou Sombre ?",
+    answer: "Cela dépend de votre composition d'équipe et du style de jeu souhaité. Le Mode Blanc est généralement meilleur pour le support hors-champ et la réduction de résistance élémentaire à l'échelle de l'équipe, tandis que le Mode Sombre est optimisé pour les dégâts personnels de Vaporisation et Fonte de Durin sur le terrain."
+  },
+  {
+    question: "Durin a-t-il besoin d'un personnage Hexerei dans son équipe ?",
+    answer: "Bien que Durin soit toujours une puissante unité Pyro autonome, l'associer à un autre personnage Hexerei augmente considérablement son efficacité grâce à la Résonance Hexerei, augmentant sa réduction de RES ou ses dégâts de réaction personnels. C'est fortement recommandé pour une performance optimale."
+  },
+  {
+    question: "Quelle est la Recharge d'énergie idéale de Durin pour la plupart des équipes ?",
+    answer: "Grâce au remboursement d'énergie de sa Compétence élémentaire, Durin a souvent besoin de très peu de RE. Dans les équipes avec d'autres personnages Pyro ou dans les équipes de Surcharge, 110-120 % de RE peuvent suffire. Pour les rôles Pyro solo hors-champ, 130-150 % pourraient être nécessaires. Les builds de Bourgeonnement ME complète peuvent nécessiter un peu plus, environ 140-160 %."
+  },
+  {
+    question: "Durin peut-il être un DPS principal ?",
+    answer: "Oui, surtout en Mode Sombre. Avec Bennett C6 fournissant une infusion Pyro pour ses Attaques normales, Durin en Mode Sombre peut être un formidable DPS de Vaporisation ou Fonte sur le terrain, exploitant ses bonus de dégâts de réaction accrus."
+  }
+]} />
+
+</Section>

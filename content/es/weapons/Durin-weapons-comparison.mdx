@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Comparativa de Armas de Durin: Mejores Espadas y Clasificación de Builds",
+  description: "Una comparativa detallada de armas para Durin en Genshin Impact 2026. Compara Athame Artis, Colmillo de Lobo y opciones F2P para los estados de Pureza y Oscuridad.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Weapons+Comparison",
+  date: "2026-05-20",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **comparativa de armas de Durin** se centra en equilibrar las **estadísticas CRIT** con los altos **requisitos de ATQ** necesarios para el multiplicador de su pasiva A4.
+- **Athame Artis** sigue siendo la Mejor en Ranura (BiS) indiscutible para el daño personal, especialmente cuando se combina con otro **personaje Hexerei**.
+- **Colmillo de Lobo (R5)** es la opción de 4 estrellas principal, rivalizando con varias opciones de 5 estrellas en el **estado de Oscuridad (DPS)**.
+- Para **builds de Pureza** orientadas al soporte, armas como **Juramento por la Libertad** o **Espada de Favonius** proporcionan una utilidad de equipo superior.
+- Siempre busca **2500 ATQ** para maximizar el 75% del multiplicador de DMG Base de Explosión de la pasiva **Caos Formado como la Noche**.
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo la Escala de Armas de Durin">
+
+Elegir la espada correcta en una **comparativa de armas de Durin** requiere comprender su mecánica de doble estado. Durin opera en el **Confirmación de Pureza (Forma Blanca)** para buffs de equipo y reducción de RES, o en la **Negación de Oscuridad (Forma Oscura)** para daño personal de Derretido y Vaporización. Debido a que su Habilidad Definitiva constituye la gran mayoría de su producción, las armas que mejoran el DMG de Explosión o proporcionan estadísticas CRIT son muy valoradas.
+
+Su pasiva de Ascensión 4, *Caos Formado como la Noche*, es un factor crítico en la selección de armas. Otorga un aumento del 3% de DMG por cada 100 ATQ, con un tope del 75%. Para alcanzar este tope, Durin necesita 2500 de ATQ total. Las armas con alto ATQ Base o subestadísticas de ATQ% ayudan a alcanzar este umbral sin sacrificar una copa de DMG Pyro por una de ATQ%.
+
+| Factor de Escala | Importancia | Objetivo Óptimo |
+| :--- | :--- | :--- |
+| **ATQ Base** | Muy Alta | 600+ (5 estrellas) o 510+ (4 estrellas) |
+| **Prob. CRIT** | Alta | 70% Mínimo |
+| **Recarga de Energía** | Situacional | 120-150% (Pyro Solo) |
+| **Maestría Elemental** | Moderada | 100-200 (equipos de Vaporización/Derretido) |
+
+<Callout type="info" title="Requisitos de Energía">
+Si Durin es la única unidad Pyro, sus necesidades de RE pueden aumentar hasta el 150%. Sin embargo, en equipos de doble Pyro o con su constelación C5, a menudo puede funcionar con un 100% de RE, lo que permite elegir armas puramente ofensivas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Clasificación de Armas de 5 Estrellas de Nivel Superior">
+
+En cualquier **comparativa de armas de Durin**, la arma distintiva **Athame Artis** establece el estándar de oro. Proporciona una masiva subestadística de Prob. CRIT y una pasiva que aumenta el DMG de Habilidad Definitiva mientras otorga ATQ% al personaje activo. Cuando se juega con otro compañero de equipo Hexerei, la eficiencia de esta arma aumenta significativamente, haciéndola aproximadamente un 10-15% mejor que la siguiente mejor opción de 5 estrellas.
+
+Sin embargo, los jugadores que ya poseen espadas CRIT generalistas pueden encontrar innecesaria la ganancia marginal de obtener el arma distintiva. Armas como el **Cortador de Jade Primordial** proporcionan un enorme impulso de Prob. CRIT que simplifica la obtención de artefactos, mientras que la **Reflejo de la Luna Cortada** ofrece altos bonos de DMG Elemental que escalan excepcionalmente bien en su estado de Oscuridad.
+
+<CardGrid cols={3}>
+  <Card title="Athame Artis">
+    - **Daño BiS**
+    - Alto % de DMG de Habilidad Definitiva
+    - Mejor con equipos Hexerei
+  </Card>
+  <Card title="Cortador de Jade Primordial">
+    - **Más Fácil de Construir**
+    - Masivo 44.1% de Prob. CRIT
+    - Conversión de Vida a ATQ
+  </Card>
+  <Card title="Haran Geppaku Futsu">
+    - **Altas Estadísticas Base**
+    - Prob. CRIT Consistente
+    - Fuerte escalado de ATQ
+  </Card>
+</CardGrid>
+
+| Arma de 5 Estrellas | Subestadística | Beneficio Pasivo | Rendimiento % |
+| :--- | :--- | :--- | :--- |
+| **Athame Artis** | Prob. CRIT | DMG de Habilidad Definitiva + Buff de ATQ | 100% (Referencia) |
+| **Cortador de Jade Primordial** | Prob. CRIT | Escala con Vida + ATQ Plano | 92-95% |
+| **Reflejo de la Luna Cortada** | DMG CRIT | Pila de DMG Elemental | 90-93% |
+| **Haran Geppaku Futsu** | Prob. CRIT | Bono de DMG Elemental | 89-91% |
+| **Absolution** | DMG CRIT | Mecánicas de Vínculo Vital | 85-88% |
+
+<Callout type="success" title="Sinergia Hexerei">
+Emparejar a Durin con personajes como Albedo, Fischl o Venti activa el efecto Hexerei: Rito Secreto. Esto aumenta sus buffs A1 en un 75%, haciendo que las pasivas específicas de Athame Artis sean aún más potentes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores Opciones de Espadas de 4 Estrellas y F2P">
+
+Para muchos jugadores, la **comparativa de armas de Durin** se centra en la accesibilidad de las armas de 4 estrellas. **Colmillo de Lobo** es la opción destacada aquí. En R5, compite directamente con espadas de 5 estrellas de bajo refinamiento. Proporciona Prob. CRIT tanto para la Habilidad Elemental como para la Habilidad Definitiva, lo que se alinea perfectamente con el kit de Durin. Sin embargo, ten en cuenta que sus pilas pasivas no se pueden generar mientras Durin está fuera del campo, lo que requiere que tenga un breve momento en el campo para maximizar el buff.
+
+Los jugadores F2P deberían considerar la **Luna Tejida por la Noche**, obtenida a través de la misión "Ecos de un Pasado Inacabado". Aunque no ofrece el mismo techo que las opciones de gacha, su alta subestadística de ATQ y el bono de DMG de Habilidad Definitiva la convierten en una opción de respaldo fiable.
+
+<Steps>
+  <Step num="1" title="Evalúa tu Presupuesto">
+    Si tienes el Pase de Batalla, prioriza **Colmillo de Lobo**. Es el distribuidor de daño de 4 estrellas más consistente para el estado de Oscuridad de Durin.
+  </Step>
+  <Step num="2" title="Revisa las Composiciones de Equipo">
+    En equipos de Sobrecarga o Quemadura, **Rugido de León (R5)** proporciona un bono de DMG del 36% contra enemigos afectados por Pyro, que casi siempre está activo.
+  </Step>
+  <Step num="3" title="Evalúa las Opciones de Crafteo">
+    Si tienes un sanador dedicado como Bennett o Xilonen, **Final del Abismo** proporciona un enorme impulso de ATQ que ayuda a alcanzar el tope de la pasiva A4.
+  </Step>
+</Steps>
+
+| Arma de 4 Estrellas | Fuente | Mejor Uso |
+| :--- | :--- | :--- |
+| **Colmillo de Lobo** | Pase de Batalla | DPS General / Estado de Oscuridad |
+| **Rugido de León** | Gacha | Equipos de Sobrecarga / Quemadura |
+| **Final del Abismo** | Crafteable | Equipos con curación consistente |
+| **Luna Tejida por la Noche** | Misión | Generalista F2P |
+| **Luz Lunar de Xifos** | Gacha | Equipos con mucha Maestría Elemental / Florecimiento |
+
+<Callout type="warning" title="Limitación de Colmillo de Lobo">
+Las pilas de Prob. CRIT de Colmillo de Lobo solo se activan cuando el portador está en el campo. Si intercambias a Durin inmediatamente después de su Habilidad Definitiva, es posible que no mantenga las pilas máximas para los ataques periódicos del Dragón.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Recomendaciones Específicas de Forma">
+
+La **comparativa de armas de Durin** cambia drásticamente si lo juegas como soporte en el estado de Pureza. En estos equipos, su daño personal es secundario a su capacidad para reducir la RES y buffear a los compañeros de equipo. **Juramento por la Libertad** se convierte en una opción de primer nivel aquí, ya que proporciona un buff de ATQ y DMG de Ataque Normal/Cargado para todo el equipo.
+
+Si el equipo tiene problemas con la Energía, la **Espada de Favonius** es la mejor opción de utilidad. Permite a Durin actuar como batería para compañeros de equipo de alto coste como Xiangling o Beidou, mientras asegura que su propia Habilidad Definitiva permanezca disponible en cada rotación.
+
+| Ruta de Build | Arma Recomendada | Objetivo Principal |
+| :--- | :--- | :--- |
+| **Soporte (Pureza)** | Juramento por la Libertad | Buffs de ATQ y DMG de Equipo |
+| **Utilidad (Pureza)** | Espada de Favonius | Generación de Energía de Equipo |
+| **Vaporización/Derretido (Oscuridad)** | Athame Artis | Maximizar el DPS Personal |
+| **Sobrevaporización (Oscuridad)** | Rugido de León | Bono de Daño por Reacción |
+
+<Callout type="tip" title="Flexibilidad de Doble Carry">
+En equipos de "Doble Carry" con Neuvillette o Mualani, Durin puede lanzar su Habilidad Elemental dos veces por rotación. Esto elimina sus requisitos de RE, permitiéndote usar armas puramente ofensivas como la **Reflejo de la Luna Cortada** incluso sin una batería.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sinergia de Artefactos y Metas de Estadísticas">
+
+La elección del arma influye directamente en la prioridad de las estadísticas de tus artefactos. Si usas un arma con una subestadística de ATQ% como **Final del Abismo**, es probable que necesites un cáliz de Prob. CRIT para mantener una proporción saludable. Por el contrario, un arma como el **Cortador de Jade Primordial** te permite centrarte casi por completo en las subestadísticas de DMG CRIT y ATQ%.
+
+Para los conjuntos de artefactos, **4pc Nobleza de Sangre** es la opción más común para sus builds generalistas. Sin embargo, en equipos de reacción específicos, **4pc Bruja Carmesí en Llamas** o **4pc Sueños Áureos** pueden sobresalir, especialmente cuando se usan armas que proporcionan Maestría Elemental como **Luz Lunar de Xifos**.
+
+<Checklist
+  id="durin-milestones"
+  title="Hitos de Progresión de Build:"
+  items={[
+    "Alcanzar 2500 ATQ Total para el tope de la pasiva A4",
+    "Asegurar una Proporción CRIT 1:2 (ej., 70% Prob. / 140% DMG)",
+    "Cumplir con los requisitos de RE (120-150% dependiendo del equipo)",
+    "Subir el Nivel de Habilidad Definitiva al Nivel de Talento 9 o 10",
+    "Equipar un arma con al menos 510 de ATQ Base"
+  ]}
+/>
+
+| Ranura de Artefacto | Estadística Principal | Subestadísticas Prioritarias |
+| :--- | :--- | :--- |
+| **Reloj** | ATQ% o ME | CRIT > ATQ% > RE |
+| **Cáliz** | DMG Pyro o ATQ% | CRIT > ATQ% > ME |
+| **Corona** | Prob. CRIT/DMG | ATQ% > RE > ATQ Plano |
+
+<Callout type="tip" title="Cáliz de ATQ% vs Cáliz de DMG Pyro">
+Debido a los masivos buffs de DMG% que Durin recibe de sus pasivas y constelaciones, un **Cáliz de ATQ%** a menudo es competitivo con un **Cáliz de DMG Pyro**. Usa el que tenga mejores subestadísticas CRIT.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes sobre la Comparativa de Armas de Durin">
+
+<FAQ items={[
+  {
+    question: "¿Vale la pena tirar por Athame Artis si tengo Reflejo de la Luna Cortada?",
+    answer: "Generalmente, no. Reflejo de la Luna Cortada rinde entre un 7-10% de Athame Artis. A menos que valores mucho la sinergia del equipo Hexerei o necesites la Prob. CRIT extra, tus Protogemas estarán mejor gastadas en las constelaciones C1 o C2 de Durin."
+  },
+  {
+    question: "¿Por qué Colmillo de Lobo se considera mejor que Rugido de León?",
+    answer: "Colmillo de Lobo proporciona Prob. CRIT, lo cual es significativamente más difícil de obtener a través de artefactos que el bono de DMG proporcionado por Rugido de León. Además, Colmillo de Lobo mejora directamente el daño tanto de la Habilidad Elemental como de la Habilidad Definitiva."
+  },
+  {
+    question: "¿Puedo usar la Espada del Alba en Durin?",
+    answer: "Sí, pero es arriesgado. Durin a menudo recibe daño continuo o drenaje de vida en equipos con Furina. Si su vida cae por debajo del 90%, el arma pierde sus masivos buffs CRIT, haciéndola peor que la mayoría de las opciones de 4 estrellas."
+  },
+  {
+    question: "¿Cuál es la mejor arma F2P para un Durin de soporte?",
+    answer: "La Espada de Favonius es la mejor opción de utilidad F2P. Para puro daño sin gastar, la Luna Tejida por la Noche (Arma de Misión) es la opción más fuerte para su estado de Oscuridad."
+  }
+]} />
+
+</Section>

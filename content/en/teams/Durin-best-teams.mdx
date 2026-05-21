@@ -1,0 +1,277 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin Best Teams: Overload, Burgeon & Hexerei Synergies",
+  description: "Discover the best team compositions for Durin in Genshin Impact, focusing on his versatile White and Dark modes, Hexerei synergies, and optimal builds for various reactions.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Durin+Best+Teams",
+  date: "2026-05-20",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Durin** is a versatile Pyro Sub-DPS/Support with two distinct modes: **White Mode** for RES shred and **Dark Mode** for personal Vaporize/Melt damage.
+- **Hexerei Resonance** significantly boosts Durin's effectiveness, especially when paired with characters like **Fischl** or **Albedo**.
+- **Overload Teams** are a top choice, often featuring Durin, an Electro support (Fischl/Chevreuse), and a Pyro/Electro DPS.
+- For **Burgeon teams**, Durin should be in White Mode and built with full Elemental Mastery for optimal reaction damage.
+- **Energy Recharge** needs vary; many teams require little to none due to his skill's energy refund.
+</Callout>
+
+<Section icon={Swords} title="Understanding Durin's Core Mechanics for Team Building">
+Durin, the newest Pyro five-star character in Genshin Impact, offers immense versatility as a Sub-DPS, support, and even a main damage dealer. His kit revolves around two distinct modes: White Mode and Dark Mode, each tailored for different team compositions and playstyles. Mastering these modes is crucial for building his best teams.
+
+**Video Highlights:**
+- Durin's Elemental Skill allows him to switch between White Mode and Dark Mode.
+- White Mode provides continuous off-field Pyro application and resistance shred for various reactions.
+- Dark Mode boosts Durin's personal Vaporize and Melt damage.
+- Hexerei Resonance significantly enhances Durin's passive abilities in both modes.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="COMPLETE DURIN GUIDE! Best Durin Build [ALL Playstyles] - Artifacts, Weapons, Teams | Genshin Impact" />
+
+In White Mode, Durin's Elemental Burst offers consistent off-field AoE Pyro application and shreds resistances (Pyro and other elements involved in reactions like Overload, Burning, Pyro Swirl, Pyro Crystallize). This makes him an excellent support for increasing overall team damage. Conversely, Dark Mode focuses on his personal damage, granting a substantial bonus to his Vaporize and Melt reactions, turning him into a potent on-field or off-field reaction DPS. The Hexerei Resonance, activated by pairing Durin with another Hexerei character, further amplifies these effects, increasing RES shred to 35% in White Mode and personal reaction damage to 70% in Dark Mode.
+
+<Callout type="tip" title="Hexerei Synergy">
+Always consider a second Hexerei character for Durin's teams. This resonance provides significant buffs, enhancing his RES shred in White Mode or his personal Vaporize/Melt damage in Dark Mode, making many of his strongest teams feature this synergy.
+</Callout>
+
+### Durin's Mode Comparison
+
+| Feature           | White Mode (Principle of Purity)           | Dark Mode (Principle of Darkness)          |
+| :---------------- | :----------------------------------------- | :----------------------------------------- |
+| **Primary Role**  | Off-field Support/Sub-DPS                  | On-field/Off-field Reaction DPS            |
+| **Pyro Application** | Continuous AoE, every 2nd hit           | Single-target, higher scaling, slower (1.25s) |
+| **Key Buff**      | RES Shred (Pyro + involved element, 20-35%) | Increased Vaporize/Melt DMG (40-70%)     |
+| **Best Reactions**| Overload, Burning, Pyro Swirl, Crystallize | Vaporize, Melt                             |
+| **Energy Refund** | Skill provides 30-33 Energy              | Skill provides 30-33 Energy              |
+| **Playstyle**     | Skill (twice) then Burst                 | Skill (once), Normal Attack, then Burst  |
+
+</Section>
+
+<Section icon={Target} title="Optimal Team Archetypes for Durin">
+Durin's versatility allows him to shine in a wide array of team compositions. His ability to adapt his role based on his mode makes him a valuable asset for many DPS characters and reaction-focused teams.
+
+### Overload Teams
+
+Overload teams are among Durin's most popular and effective compositions. He provides consistent off-field Pyro application, enabling frequent Overload reactions and benefiting from his White Mode's resistance shred.
+
+<CardGrid cols={2}>
+  <Card title="Core Overload Team">
+    - **Durin (White Mode)**: Off-field Pyro application, RES shred.
+    - **Fischl**: Excellent off-field Electro application, Hexerei synergy.
+    - **Chevreuse**: Premier Overload support, buffs Electro and Pyro DMG.
+    - **Flex DPS**: Any Pyro or Electro ATK-scaling DPS (e.g., Arlecchino, Klee, Raiden Shogun, Keqing).
+  </Card>
+  <Card title="Overload Team (No Chevreuse)">
+    - **Durin (White Mode)**: Off-field Pyro application, RES shred.
+    - **Fischl**: Consistent Electro application, Hexerei synergy.
+    - **Bennett**: ATK buff, healing, Pyro Resonance.
+    - **Flex DPS**: Any Pyro or Electro ATK-scaling DPS (e.g., Yoimiya, Sethos, Cyno).
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Why Overload?">
+Durin's White Mode is perfect for Overload. His continuous Pyro combined with a strong Electro applicator like Fischl ensures high uptime on reactions, while his RES shred amplifies the damage of both Pyro and Electro characters in the team.
+</Callout>
+
+### Burgeon Teams
+
+Durin can be a potent Burgeon trigger, especially in AoE scenarios. For these teams, he should be in White Mode and built with Elemental Mastery to maximize the Burgeon reaction damage.
+
+<Steps>
+  <Step num="1" title="Hydro Application">
+    Pair Durin with a fast Hydro applicator like **Neuvillette** or **Kokomi** to generate Dendro Cores.
+  </Step>
+  <Step num="2" title="Dendro Core Generation">
+    Include a reliable Dendro character such as **Nahida** or **Lauma** to create Dendro Cores.
+  </Step>
+  <Step num="3" title="Durin's Role (White Mode EM)">
+    Build Durin with full Elemental Mastery and activate his White Mode to trigger Burgeon. His AoE Pyro application is ideal for this.
+  </Step>
+  <Step num="4" title="Flex Slot for Damage/Utility">
+    The last slot can be a flexible option like **Fischl** for Hexerei synergy and additional damage, or a shielder/healer if needed.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Burgeon Build Note">
+For optimal Burgeon damage, Durin should be built with **Elemental Mastery on all main artifact stats** (Sands, Goblet, Circlet). This is a specialized build distinct from his typical ATK/CRIT-focused builds.
+</Callout>
+
+### Vaporize & Melt Teams (Dark Mode)
+
+When focusing on Durin's personal damage, his Dark Mode excels in Vaporize and Melt teams. He gains a significant reaction damage bonus, making him a strong on-field or off-field DPS in these compositions.
+
+| Team Type    | Durin's Role          | Recommended Hydro/Cryo Applier | Key Synergy                                 |
+| :----------- | :-------------------- | :----------------------------- | :------------------------------------------ |
+| **Vaporize** | On-field/Off-field DPS | **Xingqiu**, **Yelan**, **Mona** | Consistent Hydro application for frequent Vaporizes. Mona (Hexerei) can extend Omen duration. |
+| **Melt**     | On-field/Off-field DPS | **Kaeya**, **Rosaria**, **Ganyu** | Fast Cryo application to enable multiple Melt reactions.           |
+
+<Callout type="info" title="On-Field Dark Mode Durin">
+For on-field Dark Mode Durin, especially with C6 Bennett, his normal and charged attacks become Pyro-infused, allowing him to continuously trigger Vaporize or Melt reactions. This setup benefits greatly from the **Marechaussee Hunter** artifact set if paired with Furina and a healer.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Durin's Versatile Support Teams">
+Beyond reaction-focused compositions, Durin's White Mode provides valuable utility and damage in a variety of other team archetypes, offering RES shred and consistent off-field Pyro.
+
+### Anemo DPS Teams
+
+Durin's off-field Pyro application and RES shred (in White Mode) can greatly benefit Anemo DPS characters who can Swirl Pyro.
+
+| Anemo DPS  | Durin's Contribution                           | Key Supports                               |
+| :--------- | :--------------------------------------------- | :----------------------------------------- |
+| **Venti**  | Off-field Pyro, Anemo RES Shred (Hexerei)      | Furina, Bennett, Nicole                    |
+| **Xiao**   | Off-field Pyro, RES Shred                      | Faruzan, Bennett, Zhongli                  |
+| **Wanderer**| Off-field Pyro, RES Shred                      | Faruzan, Bennett, Layla                    |
+| **Kaedehara Kazuha** | Off-field Pyro, enhances Swirl damage | Fischl, Furina, Bennett                    |
+
+### Geo DPS Teams
+
+Durin can act as a generic off-field Pyro enabler for Geo teams, especially those that benefit from Pyro resonance or need an elemental application for crystallize shields.
+
+| Geo DPS  | Durin's Contribution                           | Key Geo Supports                         | Flex Support                       |
+| :------- | :--------------------------------------------- | :--------------------------------------- | :--------------------------------- |
+| **Navia**| Off-field Pyro for Crystallize, Pyro Resonance | Albedo, Zhongli, Chiori                  | Bennett (buffer), Fischl (Hexerei) |
+| **Itto** | Off-field Pyro (less critical, but an option)  | Gorou, Albedo, Zhongli                   | Bennett (buffer)                   |
+
+<Callout type="info" title="Hexerei Resonance with Albedo">
+Pairing Durin with Albedo activates Hexerei Resonance, providing mutual buffs and making both characters stronger. This is particularly useful in Geo teams where Albedo is a common pick.
+</Callout>
+
+### Dendro Teams (Burning/Burgeon)
+
+Durin can facilitate Burning reactions or trigger Burgeon in Dendro-focused teams. His White Mode is generally preferred here for the RES shred.
+
+| Team Type | Durin's Role                                  | Dendro Core                               | Electro/Hydro Support                     |
+| :-------- | :-------------------------------------------- | :---------------------------------------- | :---------------------------------------- |
+| **Burning** | Off-field Pyro applier, RES shred           | Nahida, Alhaitham, Yaoyao                 | Fischl (Hexerei, Quicken/Aggravate synergy) |
+| **Burgeon** | Off-field Burgeon trigger (EM build, White Mode) | Nahida, Lauma                             | Neuvillette, Kokomi, Xingqiu              |
+
+<Checklist
+  id="durin-team-checklist"
+  title="Team Building Essentials for Durin:"
+  items={[
+    "Determine Durin's primary role (support/reaction DPS).",
+    "Choose between White Mode (RES shred) or Dark Mode (personal reaction DMG).",
+    "Prioritize Hexerei partners for significant buffs.",
+    "Ensure sufficient Elemental application from other teammates.",
+    "Adjust Energy Recharge based on team composition and particle generation."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Artifacts and Weapons for Durin's Teams">
+While this guide focuses on teams, understanding Durin's optimal gear helps tailor him for specific roles within those teams. His artifact and weapon choices are highly dependent on whether he's a support, Sub-DPS, or on-field DPS, and which mode he primarily uses.
+
+### Recommended Artifact Sets
+
+Durin currently lacks a dedicated artifact set, making several options viable depending on his role. A new Hexerei-specific set might be released in the future.
+
+| Artifact Set                                     | Best For                                           | Notes                                                      |
+| :----------------------------------------------- | :------------------------------------------------- | :--------------------------------------------------------- |
+| **4-pc Noblesse Oblige**                         | General support/Sub-DPS (White Mode)               | Boosts Durin's Burst DMG and provides ATK buff to the team. |
+| **4-pc A Day Carved from Rising Winds** (v6.3)   | General purpose, especially with Hexerei members   | ATK% and CRIT Rate increase from Hexerei synergy.          |
+| **2-pc Noblesse / 2-pc Crimson Witch / 2-pc ATK%** | Mix-and-match for personal damage                  | Good if no other 4-pc set is optimal or for better substats. |
+| **4-pc Emblem of Severed Fate**                  | Sub-DPS with ER needs                              | Provides Burst DMG bonus based on ER.                      |
+| **4-pc Gilded Dreams / 4-pc Flower of Paradise Lost** | Burgeon (full EM build)                            | Maximizes Elemental Mastery and reaction damage.           |
+| **4-pc Marechaussee Hunter**                     | On-field DPS (Dark Mode) with Furina and a healer | Grants significant CRIT Rate for on-field uptime.          |
+
+<Callout type="tip" title="Future-Proofing Artifacts">
+Given the possibility of a dedicated Hexerei artifact set in future updates, it's wise to prioritize strong substats on existing viable sets rather than over-farming for a temporary "best-in-slot."
+</Callout>
+
+### Key Weapon Choices
+
+Durin has several strong weapon options, ranging from his signature to accessible 4-star choices.
+
+| Weapon                                       | Rarity | Best For                                           | Notes                                                      |
+| :------------------------------------------- | :----- | :------------------------------------------------- | :--------------------------------------------------------- |
+| **Athame Artis** (Signature Weapon)          | 5-star | All roles, especially support/Sub-DPS with Hexerei | High Crit Rate, Burst DMG, and team ATK buffs (amplified by Hexerei). |
+| **Freedom-Sworn**                            | 5-star | Supportive roles, reaction teams                   | Elemental Mastery, team ATK and Normal/Charged/Plunge DMG buffs. |
+| **Mistsplitter Reforged / Primordial Jade Cutter** | 5-star | Personal damage, Crit stat stick                 | Provides high Crit stats, generally strong for any DPS.    |
+| **Wolf-Fang** (Battle Pass)                  | 4-star | Sub-DPS, good Crit Rate                            | Skill/Burst DMG bonus, high Crit Rate.                     |
+| **Finale of the Deep** (Fontaine Craftable)  | 4-star | Free-to-play, high ATK                             | Requires a healer to clear Bond of Life, provides significant ATK. |
+| **Lion's Roar**                              | 4-star | Electro/Pyro affected enemies                      | Increases DMG against enemies affected by Pyro or Electro. |
+| **Moonwaver's Dawn** (Nodcry Exploration)    | 4-star | Free-to-play, Burst DMG                            | High Base ATK, Burst DMG bonus.                            |
+| **Xiphos' Moonlight / Iron Sting**           | 4-star | Burgeon (full EM build)                            | Elemental Mastery stat sticks.                             |
+
+<Callout type="warning" title="Energy Recharge Consideration">
+Durin's Elemental Skill provides significant energy refund (30-33 Energy at max level). In many teams, especially with other Pyro characters or in Overload compositions, he may need little to no Energy Recharge. However, as a solo Pyro option in certain teams, 110-140% ER might be necessary to consistently burst.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Durin's Constellations: Impact on Team Performance">
+Durin is already strong at C0, but his constellations offer significant upgrades, enhancing both his personal damage and his supportive capabilities. Understanding these can help you decide on vertical investment.
+
+| Constellation | Effect / Merits                                   | Impact on Teams                                     |
+| :------------ | :------------------------------------------------ | :-------------------------------------------------- |
+| **C1: Adamah's Redemption** | Buffs active character's DMG (White Mode) or Durin's personal Burst DMG (Dark Mode) | Provides 20 instances of ATK-scaled damage buff to on-field DPS or enhances Durin's own Burst. |
+| **C2: Unground Visions**  | All party members gain 50% Pyro DMG and elemental DMG bonus after reactions. | Universal damage buff for all Pyro-related reactions, significantly boosting team DPS. |
+| **C3: Flame Mirror's Revelation** | Increases Elemental Burst Level by 3.              | Direct increase to Durin's primary damage source.   |
+| **C4: Emanare's Source**  | 40% increased Burst DMG; 30% chance to not consume C1 stacks. | Boosts Durin's personal Burst damage and extends the utility of C1. |
+| **C5: Scouring Flame's Sundering** | Increases Elemental Skill Level by 3.              | Minor damage increase for skill, improves energy refund. |
+| **C6: Dual Birth**        | Burst ignores 30% DEF; White Mode: 30% DEF shred for opponents; Dark Mode: additional 40% DEF ignore. | Massive damage increase for Durin and significant team-wide DEF shred in White Mode. |
+
+<Callout type="info" title="C2 as a Strong Stopping Point">
+Durin's C2 is often considered an excellent early stopping point for vertical investment. The 50% elemental damage bonus for all party members across various Pyro reactions is a powerful and universal buff.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Team Rotation and Playstyle Tips">
+Executing Durin's rotations effectively ensures maximum uptime on his buffs and damage. His dual-mode nature means understanding when and how to activate each is key.
+
+### Basic Rotation Principles
+
+<Steps>
+  <Step num="1" title="Choose Mode">
+    Decide whether to enter White Mode (Skill twice) or Dark Mode (Skill then Normal Attack) based on your team's needs before using his Burst.
+  </Step>
+  <Step num="2" title="Apply Buffs Early">
+    As a support, use Durin's Burst (in the chosen mode) early in the rotation to apply Pyro and RES shred (White Mode) or set up for his personal reaction damage (Dark Mode) before your main DPS takes the field.
+  </Step>
+  <Step num="3" title="Manage Energy">
+    Durin's Elemental Skill refunds energy. Ensure you cast his skill at least once, or twice if in White Mode, to recover energy for his next Burst.
+  </Step>
+  <Step num="4" title="On-Field DPS (Dark Mode)">
+    If playing on-field Dark Mode Durin (especially with C6 Bennett), prioritize Normal Attack > Charged Attack combos to maximize Pyro application and trigger reactions. Jump or dash cancel Charged Attacks for faster combos.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Burst Snapshots">
+Durin's Burst **does not snapshot** buffs. This means his damage will dynamically update with active buffs (e.g., from Bennett's field). Plan your rotations to ensure key buffs are active when his Burst hits.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Durin's Team Compositions">
+
+<FAQ items={[
+  {
+    question: "What makes Durin so versatile in team compositions?",
+    answer: "Durin's versatility stems from his two distinct modes: White Mode provides consistent off-field Pyro application and resistance shred, while Dark Mode significantly boosts his personal Vaporize and Melt damage. This allows him to fit into roles as a support, Sub-DPS, or even a main DPS in various reaction teams."
+  },
+  {
+    question: "Is Hexerei Resonance mandatory for Durin's best teams?",
+    answer: "While Durin can function well as a standalone unit, Hexerei Resonance is highly recommended for his strongest teams. It amplifies his passive buffs, increasing RES shred in White Mode to 35% and personal reaction damage in Dark Mode to 70%, making characters like Fischl and Albedo excellent partners."
+  },
+  {
+    question: "Which artifact set is best for Durin if I'm playing him in an Overload team?",
+    answer: "For an Overload team where Durin is primarily a support/Sub-DPS in White Mode, **4-pc Noblesse Oblige** is a standard excellent choice if no other support is using it. Alternatively, the new **4-pc A Day Carved from Rising Winds** (from v6.3) is also very strong, especially with a Hexerei partner, offering ATK% and CRIT Rate."
+  },
+  {
+    question: "Can Durin be an on-field DPS, and what teams support that?",
+    answer: "Yes, Durin can be an on-field DPS, particularly in his Dark Mode. This playstyle is often enabled by **C6 Bennett** to infuse his Normal Attacks with Pyro. Teams like Overvape (Durin, C6 Bennett, Furina, Electro) or specific Vaporize/Melt compositions allow him to maximize his personal reaction damage with sets like **Marechaussee Hunter**."
+  }
+]} />
+
+</Section>

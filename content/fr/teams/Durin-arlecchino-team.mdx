@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Équipe Durin Arlecchino : Guide de configuration pour Surcharge et Vaporisation",
+  description: "Maîtrisez l'équipe Durin Arlecchino avec notre guide 2026. Découvrez les formes Flamme Blanche vs Déclin Sombre, les rotations optimales et les configurations de Surcharge premium.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Durin+Arlecchino+Team+Guide",
+  date: "2026-05-20",
+  author: "Équipe Wiki Durin"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Synergie Fondamentale** : Une **équipe Durin Arlecchino** exploite l'application Pyro à double forme de Durin pour maintenir les phases de Bond de Vie à dégâts élevés d'Arlecchino.
+- **Archétype Principal** : L'équipe **Surcharge Premium** (Durin, Arlecchino, Chevreuse, Fischl) reste le choix méta pour les réussites d'Abysse de haut niveau en 2026.
+- **Sélection de Forme** : Utilisez la **Flamme Blanche** pour les scénarios de Surcharge à forte AoE et le **Déclin Sombre** pour les boss à cible unique Vaporisation ou Fonte.
+- **Seuils de Statistiques** : Durin nécessite **140-180% de Recharge d'Énergie** pour s'assurer que son Dragon reste actif pendant toute la durée de présence d'Arlecchino sur le terrain.
+- **Support Clé** : **Chevreuse** et **Xilonen** sont essentiels pour maximiser la réduction de résistance fournie par le kit unique de Durin.
+</Callout>
+
+<Section icon={Swords} title="Équipe Durin Arlecchino : Mécaniques et Synergies Fondamentales">
+
+La synergie au sein d'une **équipe Durin Arlecchino** est bâtie sur une application Pyro constante et une réduction massive de la résistance. En tant que personnage Pyro Épée 5 étoiles, Durin fonctionne comme un Sub-DPS polyvalent et un support capable d'adapter son style de combat aux besoins d'Arlecchino. Arlecchino, qui compte sur sa mécanique de Bond de Vie pour des dégâts Pyro soutenus, bénéficie immensément de la présence hors-terrain de Durin, en particulier de son "Dragon de Flamme Blanche" qui fournit des déclencheurs Pyro continus.
+
+Dans la méta actuelle de 2026, l'interaction entre les formes de Durin et les réactions élémentaires d'Arlecchino définit le potentiel maximal de l'équipe. Tandis qu'Arlecchino gère l'exécution sur le terrain, Durin fournit les buffs fondamentaux et l'aura élémentaire nécessaires pour maintenir des réactions à dégâts élevés comme Surcharge et Vaporisation.
+
+**Points Forts de la Vidéo :**
+- Démonstration de la vitrine de l'Abysse étage 12 de la version 6.2 avec une configuration Surcharge premium.
+- Analyse visuelle des buffs de personnage "Hexerei" et de leur impact sur le DPS de l'équipe.
+- Synchronisation appropriée de l'Explosion Élémentaire de Durin pour s'aligner avec la fenêtre de DPS d'Arlecchino.
+- Présentation de l'empilement de réduction de résistance entre Durin et Chevreuse.
+
+<YouTubeEmbed videoId="FTDiHSLIBGE" title="Arlecchino Premium Overloaded Team with Durin : 6.2 Abyss Floor 12 Arlecchino Hexerei Showcase" />
+
+<Callout type="tip" title="Stratégie d'Expert">
+Lorsque vous utilisez Arlecchino avec Durin, privilégiez toujours l'Explosion Élémentaire de Durin avant qu'Arlecchino n'entre dans sa séquence d'attaque. Cela garantit que la réduction de résistance de la Flamme Blanche est active au moment où elle commence à consommer son Bond de Vie.
+</Callout>
+
+| Type de Synergie | Bénéfice pour Arlecchino | Pourquoi ça fonctionne |
+| :--- | :--- | :--- |
+| **Flamme Blanche** | 40% DGT Surcharge/Brûlure | Parfait pour les scénarios AoE et le nettoyage de masse |
+| **Déclin Sombre** | 40% DGT Vaporisation/Fonte | Optimisé pour les rencontres de boss à cible unique |
+| **Réduction de RÉS** | Jusqu'à 40% Réduction Pyro | S'empile avec Chevreuse pour des pics de dégâts massifs |
+| **Résonance Pyro** | 25% Bonus d'ATQ | Standard mais essentiel pour la mise à l'échelle d'Arlecchino |
+
+</Section>
+
+<Section icon={Target} title="Compositions d'Équipe de Haut Niveau pour Chaque Scénario">
+
+Construire une **équipe Durin Arlecchino** nécessite d'équilibrer les buffs offensifs avec l'application élémentaire. Selon votre investissement dans votre roster, vous pouvez opter pour une équipe premium axée sur "Hexerei" ou une configuration plus accessible et F2P. L'inclusion de personnages comme Nicole, Xilonen et Chevreuse peut considérablement modifier le style de jeu de l'équipe.
+
+<CardGrid cols={3}>
+  <Card title="La Surcharge Premium">
+    - **Noyau** : Arlecchino, Durin, Chevreuse, Fischl
+    - **Force** : Réduction de RÉS maximale et déclencheurs Électro-chargés constants.
+    - **Idéal pour** : Les boss à PV élevés dans l'Abysse.
+  </Card>
+  <Card title="Le Spécialiste de la Vaporisation">
+    - **Noyau** : Arlecchino, Durin, Xilonen, Xingqiu/Yelan
+    - **Force** : Multiplicateurs élevés à cible unique et capacités de regroupement.
+    - **Idéal pour** : Les boss avec des mouvements prévisibles.
+  </Card>
+  <Card title="Le Noyau Hexerei">
+    - **Noyau** : Arlecchino, Durin, Nicole, Mona
+    - **Force** : Buffs superposés qui s'adaptent aux piles Hexerei spécifiques aux personnages.
+    - **Idéal pour** : Le contenu de speedrun.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Conseil de Construction d'Équipe">
+Si vous n'avez pas Xilonen, Bennett reste une excellente alternative pour l'équipe Vaporisation, offrant à la fois un buff d'ATQ massif et un soin fiable pour gérer les dégâts subis.
+</Callout>
+
+| Catégorie d'Équipe | Rôle : DPS Principal | Rôle : Sub-DPS | Rôle : Support 1 | Rôle : Support 2 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Méta Premium** | Arlecchino | Durin | Chevreuse | Fischl |
+| **Axé Vaporisation** | Arlecchino | Durin | Xilonen | Bennett |
+| **F2P Nationale** | Arlecchino | Durin | Xingqiu | Bennett |
+| **OverBurn** | Arlecchino | Durin | Emilie | Kinich |
+
+</Section>
+
+<Section icon={Sparkles} title="Maîtriser la Rotation : Stratégies de Combat">
+
+L'efficacité d'une **équipe Durin Arlecchino** repose sur la précision de votre rotation. Parce qu'Arlecchino ne peut pas être soignée par des moyens traditionnels en combat, le timing de l'utilité défensive et de la réduction de résistance de Durin est critique pour la survie et la production de dégâts.
+
+**Rotation Standard de Surcharge :**
+
+<Steps>
+  <Step num="1" title="Marquage Initial">
+    Commencez avec la Compétence Élémentaire d'Arlecchino pour appliquer la Directive de Dette de Sang à tous les ennemis proches.
+  </Step>
+  <Step num="2" title="Configuration du Support">
+    Passez à Chevreuse et utilisez sa Compétence/Explosion pour déclencher la première Surcharge et activer son passif de réduction de RÉS de 40%.
+  </Step>
+  <Step num="3" title="Activation de Durin">
+    Utilisez la Compétence Élémentaire de Durin deux fois (E+E) pour entrer dans la forme **Flamme Blanche**, suivie immédiatement de son Explosion Élémentaire pour invoquer le Dragon.
+  </Step>
+  <Step num="4" title="Application Électro">
+    Déployez Oz de Fischl pour assurer une source constante d'Électro pour des réactions de Surcharge continues.
+  </Step>
+  <Step num="5" title="DPS d'Arlecchino">
+    Repassez à Arlecchino, effectuez une Attaque Chargée pour absorber les marques, et déchaînez sa séquence d'Attaques Normales.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Avertissement de Rotation">
+Ne pas déclencher une réaction de Surcharge avec Chevreuse *avant* l'Explosion Élémentaire de Durin entraînera une perte significative du total des dégâts de l'équipe. Assurez-vous toujours que le texte "Surchargé" apparaît avant de vous engager dans les animations de Durin.
+</Callout>
+
+**Stratégie de Vaporisation/Fonte :**
+Pour les joueurs se concentrant sur les dégâts à cible unique, la rotation se décale légèrement pour privilégier la forme **Déclin Sombre** de Durin. Cette forme améliore spécifiquement les dégâts de réaction, ce qui en fait le choix supérieur lorsqu'elle est associée à des applicateurs Hydro ou Cryo comme Yelan ou Rosaria.
+
+</Section>
+
+<Section icon={Shield} title="Optimisation des Statistiques : Artéfacts et Armes">
+
+Pour rendre une **équipe Durin Arlecchino** viable pour le contenu de fin de jeu, vous devez respecter des exigences spécifiques en matière de Recharge d'Énergie (RE) et de Maîtrise Élémentaire (ME). Les besoins en énergie de Durin fluctuent en fonction de la forme qu'il occupe, car la forme Flamme Blanche nécessite une disponibilité plus fréquente de l'Explosion pour une couverture AoE.
+
+| Statistique | Focus Flamme Blanche | Focus Déclin Sombre |
+| :--- | :--- | :--- |
+| **Recharge d'Énergie** | 160% - 180% | 140% - 160% |
+| **Maîtrise Élémentaire** | 200 - 300 | 100 - 200 |
+| **Ratio Critique** | 1:2 (ex : 70/140) | 1:2 (ex : 60/120) |
+| **Set d'Artéfacts** | 4p Fragment de la Fantaisie Harmonique | 4p Rêves Dorés / Sorcière des Flammes Ardentes |
+
+<Callout type="info" title="Priorité des Statistiques">
+Dans une équipe Arlecchino, l'objectif principal de Durin est de maintenir la présence du Dragon sur le terrain. Si vous constatez que votre Explosion n'est pas prête à chaque rotation, sacrifiez un peu de Taux Critique pour plus de Recharge d'Énergie.
+</Callout>
+
+**Armes Recommandées pour Durin :**
+- **Arme Signature** : Fournit l'ATQ de base la plus élevée et un buff unique aux personnages "Hexerei".
+- **Serment de la Liberté** : Excellent pour les buffs d'ATQ et d'Attaque Normale à l'échelle de l'équipe qu'Arlecchino adore.
+- **Épée de Favonius** : La meilleure option F2P pour résoudre les problèmes d'énergie de l'équipe, surtout dans les configurations de Surcharge à coût élevé.
+
+</Section>
+
+<Section icon={Trophy} title="Liste de Contrôle pour la Construction d'Équipe">
+
+Avant de vous lancer dans les Profondeurs Spiralées avec votre **équipe Durin Arlecchino**, assurez-vous d'avoir accompli les étapes suivantes pour maximiser votre efficacité au combat.
+
+<Checklist
+  id="durin-arlecchino-prep"
+  title="Préparation Essentielle de l'Équipe :"
+  items={[
+    "Durin est équipé d'au moins 150% de Recharge d'Énergie.",
+    "Le talent d'Attaque Normale d'Arlecchino est au niveau 9 ou 10.",
+    "Chevreuse ou Xilonen ont leurs passifs de réduction de RÉS entièrement débloqués.",
+    "Durin utilise la bonne forme (Flamme Blanche pour l'AoE, Déclin Sombre pour les Boss).",
+    "Tous les personnages de support ont leurs Explosions prêtes pour la première rotation."
+  ]}
+/>
+
+<Callout type="tip" title="Optimisation Finale">
+Envisagez d'utiliser le set d'artéfacts "Fragment de la Fantaisie Harmonique" sur Arlecchino si vous l'utilisez avec Durin. L'interaction du set avec les mécaniques de Bond de Vie complète parfaitement le long temps de présence sur le terrain que Durin offre.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je utiliser Durin dans une équipe Mono-Pyro avec Arlecchino ?",
+    answer: "Oui, une équipe Mono-Pyro composée d'Arlecchino, Durin, Bennett et Xiangling est très efficace pour des dégâts Pyro bruts constants, bien qu'elle manque de la réduction de résistance d'une équipe Surcharge ou Vaporisation."
+  },
+  {
+    question: "Quelle forme Durin devrait-il utiliser dans une équipe avec Arlecchino et Xingqiu ?",
+    answer: "Vous devriez utiliser la forme Déclin Sombre. Cette forme offre un bonus de 40% aux dégâts de Vaporisation, ce qui améliore directement les réactions déclenchées par Arlecchino et Durin lorsqu'ils sont associés à l'application Hydro de Xingqiu."
+  },
+  {
+    question: "Durin est-il meilleur que Bennett pour une équipe Arlecchino ?",
+    answer: "Ils servent des rôles différents. Bennett fournit un buff d'ATQ plat massif et des soins, tandis que Durin fournit des dégâts hors terrain, une réduction de RÉS et des buffs de réaction. Dans de nombreuses équipes premium de 2026, ils sont en fait utilisés ensemble pour une mise à l'échelle maximale."
+  },
+  {
+    question: "Comment la mécanique 'Hexerei' affecte-t-elle l'équipe Durin Arlecchino ?",
+    answer: "Les personnages Hexerei comme Durin et Nicole fournissent des buffs supplémentaires lorsqu'ils sont associés. Dans une équipe Arlecchino, cela se manifeste généralement par une augmentation des dégâts personnels de Durin et une réduction de RÉS améliorée pour toute l'équipe."
+  }
+]} />
+
+<Callout type="success" title="Maîtrise Acquise">
+Vous êtes maintenant prêt à dominer la méta 2026 avec votre **équipe Durin Arlecchino**. N'oubliez pas d'adapter vos formes et rotations en fonction des ennemis que vous affrontez pour obtenir les meilleurs résultats.
+</Callout>
+
+</Section>

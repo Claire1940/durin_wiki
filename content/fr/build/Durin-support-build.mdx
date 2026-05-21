@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build de support Durin : Meilleurs artéfacts, armes et composition d'équipe",
+  description: "Maîtrisez le build de support Durin grâce à notre guide sur les artéfacts, les armes et les synergies Hexerei pour la méta ultime Pyro off-field de 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/e11d48/fff?text=Durin+Support+Build",
+  date: "2026-05-21",
+  author: "Équipe Wiki de Durin"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Build de support Durin** : Se concentre sur la **Confirmation de Pureté** (Mode Blanc) pour une application Pyro hors-champ constante et une réduction de RES.
+- **Mécanique clé** : Utilisez le combo **Compétence > Compétence** pour entrer en Mode Blanc, déclenchant une Explosion de 20 secondes qui réduit la RES Pyro et les résistances liées aux réactions.
+- **Meilleurs artéfacts** : Le set **4 pièces Noblesse Oblige** est le choix standard pour les buffs d'ATK à l'échelle de l'équipe, tandis que le set **4 pièces Parchemin de la Ville Cendrée** excelle dans les équipes élémentaires.
+- **Statistique critique** : Visez **2500 ATK Total** pour maximiser le Passif A4, qui accorde un multiplicateur de dégâts de 75 % aux coups d'Explosion.
+- **Synergie principale** : Associez-le à au moins un autre **personnage Hexerei** (comme Fischl ou Mona) pour augmenter la réduction de RES de 20 % à 35 %.
+</Callout>
+
+<Section icon={Map} title="Mécaniques principales : Maîtriser le Mode Blanc">
+
+La base d'un **build de support Durin** réussi réside dans la compréhension de son système à double mode. Durin entre sur le champ de bataille dans un état neutre, mais sa compétence élémentaire, **Forme Binaire : Convergence et Division**, lui permet de transmuter en **Confirmation de Pureté** (Mode Blanc) ou en **Déni des Ténèbres** (Mode Sombre). Pour un style de jeu orienté support, le Mode Blanc est non négociable.
+
+Dans cet état, l'Explosion Élémentaire de Durin manifeste le **Dragon de Flamme Blanche**. Cette entité suit votre personnage actif pendant 20 secondes, infligeant des dégâts Pyro de zone chaque seconde. Plus important encore, elle déclenche son Passif A1, réduisant la RES Pyro et la RES de l'élément impliqué dans toute réaction Pyro (Surcharge, Dispersion, Cristallisation ou Brûlure) de 20 %. Lorsque la résonance **Hexerei : Rite Secret** est active, cette réduction passe à un énorme 35 %, faisant de Durin une alternative de premier ordre aux utilisateurs de Verdict du Chasseur Vert.
+
+**Points forts de la vidéo :**
+- Analyse complète des mécaniques des modes Blanc et Sombre.
+- Analyse détaillée de la **Résonance Hexerei** et de son impact sur la réduction de RES.
+- Comparaisons d'artéfacts et d'armes pour les rôles de support hors-champ.
+- Présentation de rotations d'équipe Surcharge et Brûlure de haut niveau.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="GUIDE COMPLET DE DURIN ! Meilleur build de Durin [TOUS les styles de jeu]" />
+
+<Callout type="warning" title="Avertissement de déclenchement de mode">
+Pour vous assurer d'entrer dans le Mode Blanc axé sur le support, vous devez appuyer **deux fois sur votre compétence élémentaire**. Si vous effectuez une attaque normale après le premier lancement de compétence, vous entrerez en Mode Sombre, qui se concentre sur les dégâts de Vaporisation personnels et ne fournit **aucune réduction de RES** à votre équipe.
+</Callout>
+
+| Caractéristique | Confirmation de Pureté (Blanc) | Déni des Ténèbres (Sombre) |
+| :--- | :--- | :--- |
+| **Rôle principal** | Support / Sub-DPS hors-champ | DPS Principal / DPS Vape-Melt |
+| **Ciblage de l'Explosion** | Dégâts Pyro de zone | Dégâts Pyro monocible |
+| **Effet du Passif A1** | Réduction de RES de 20-35 % (Pyro + Réaction) | DMG personnels Vape/Melt de 40-70 % |
+| **Fréquence de ciblage** | Une fois toutes les 1,0 secondes | Une fois toutes les 1,25 secondes |
+| **Meilleure utilité** | Équipes Surcharge, Brûlure, Géo, Anémo | Équipes Vaporisation, Fonte directe |
+
+</Section>
+
+<Section icon={Shield} title="Meilleurs artéfacts pour le support Durin">
+
+Le choix du bon set d'artéfacts pour votre **build de support Durin** dépend fortement de la composition de votre équipe et de la présence d'un autre personnage fournissant déjà des buffs spécifiques. Étant donné que Durin n'a pas de set "dédié" à la version 6.2, ses options sont très flexibles.
+
+<CardGrid cols={3}>
+  <Card title="Noblesse Oblige">
+    - **Meilleur support global**
+    - Augmente les DMG d'Explosion de 20 %
+    - Fournit un buff d'ATK d'équipe de 20 %
+    - Choix standard pour la plupart des équipes
+  </Card>
+  <Card title="Parchemin de la Ville Cendrée">
+    - **Spécialiste élémentaire**
+    - Bonus de DMG élevé pour les réactions
+    - Idéal pour Surcharge/Brûlure
+    - Nécessite des déclenchements constants
+  </Card>
+  <Card title="Emblème du Destin Brisé">
+    - **Équipes à haute énergie**
+    - Résout facilement les besoins en RE
+    - Convertit la RE en DMG d'Explosion
+    - Idéal pour les rotations Pyro solo
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Le jalon de 2500 ATK">
+Le Passif A4 de Durin, **Chaos Formé Comme la Nuit**, augmente les dégâts de son Explosion de 3 % pour chaque 100 ATK, plafonnant à une augmentation de 75 %. Pour atteindre ce plafond, vous avez besoin de **2500 ATK effectifs**. Priorisez les sous-stats ATK% jusqu'à ce que vous atteigniez ce seuil avant de vous concentrer fortement sur le Taux/DMG Crit.
+</Callout>
+
+| Emplacement | Statistique principale recommandée | Sous-stats prioritaires |
+| :--- | :--- | :--- |
+| **Sable** | **ATK%** (ou RE% si < 140 %) | RE% / Taux Crit / DMG Crit |
+| **Coupe** | **Bonus de DMG Pyro** ou **ATK%** | DMG Crit / Taux Crit / ATK% |
+| **Couronne** | **Taux Crit** ou **DMG Crit** | ATK% / RE% / Taux Crit |
+
+</Section>
+
+<Section icon={Swords} title="Meilleures armes pour l'utilité">
+
+Les meilleures armes pour un **build de support Durin** améliorent sa contribution personnelle hors-champ ou fournissent des statistiques massives pour l'aider à atteindre ses exigences d'ATK. Son arme signature, l'**Athame Artis**, est la référence, mais plusieurs alternatives gratuites et peu coûteuses sont performantes.
+
+| Arme | Tier | Avantages clés |
+| :--- | :--- | :--- |
+| **Athame Artis** | **S+** | 33 % Taux Crit, 28 % buff ATK d'équipe (Hexerei), augmentation DMG d'Explosion |
+| **Serment de la Liberté** | **S** | Buffs d'équipe massifs pour les attaques Normales/Chargées, EM élevé pour les réactions |
+| **Coupe-Pierre du Jade Primordial** | **A+** | 44 % Taux Crit, la conversion PV en ATK aide à atteindre le cap de 2500 ATK |
+| **Croc-de-Loup** | **A** | Option du Passe de Bataille, Taux Crit élevé et bonus de DMG de Compétence/Explosion |
+| **Finale du Grand Bleu** | **B+** | Meilleure arme craftable F2P, fournit un ATK% massif pour atteindre les plafonds passifs |
+| **Aube du Tisserand Lunaire** | **B** | Arme de quête gratuite, solides statistiques de DMG d'Explosion et d'ATK% |
+
+<Callout type="info" title="Synergie d'armes">
+Bien que l'**Athame Artis** offre les dégâts personnels et d'équipe les plus élevés, le **Serment de la Liberté** est un choix sous-estimé pour le support Durin dans les équipes avec des DPS sur le terrain comme Arlecchino ou Navia, car le buff d'attaque normale/chargée est très précieux.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Synergies d'équipe et Résonance Hexerei">
+
+Le véritable potentiel de Durin est débloqué grâce à la résonance **Hexerei : Rite Secret**. En l'associant à au moins une autre unité Hexerei, ses capacités de support sont améliorées de 75 %. C'est le cœur de tout **build de support Durin** de haut niveau.
+
+<Steps>
+  <Step num="1" title="Sélectionnez un partenaire Hexerei">
+    Des personnages comme **Fischl**, **Mona**, **Albedo** ou **Venti** sont des candidats de choix. Fischl est particulièrement puissante dans les équipes Surcharge, fournissant de l'Électro hors-champ et des buffs d'ATK massifs via son propre passif Hexerei.
+  </Step>
+  <Step num="2" title="Identifiez le DPS principal">
+    Durin supporte une grande variété de DPS. Il fournit une réduction de RES Anémo pour **Xiao/Voyageur**, une réduction de RES Géo pour **Navia/Itto**, et une réduction de RES Dendro pour **Kinich**. Choisissez un DPS qui bénéficie de la réduction de 35 %.
+  </Step>
+  <Step num="3" title="Assignez le buffer/soigneur">
+    **Chevreuse** est le premier choix pour les équipes Surcharge, tandis que **Bennett** reste un incontournable pour le buff d'ATK brut et les soins. Si vous utilisez Furina, assurez-vous qu'un soigneur d'équipe est présent.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Équipe méta : Le cœur de Surcharge">
+L'équipe la plus populaire pour Durin en 2026 est **Durin + Fischl + Chevreuse + Flex (Raiden/Clorinde/Arlecchino)**. Cette équipe maximise la résonance Hexerei, fournit une réduction de RES bi-élémentaire, et offre une disponibilité quasi-totale de tous les buffs.
+</Callout>
+
+| Archétype d'équipe | Unité Hexerei | Support flexible | DPS principal |
+| :--- | :--- | :--- | :--- |
+| **Surcharge** | Fischl | Chevreuse | Raiden Shogun / Arlecchino |
+| **Noyau Géo** | Albedo | Gorou / Xilonen | Navia / Itto |
+| **DPS Anémo** | Venti / Sucrose | Faruzan (C6) | Voyageur / Xiao |
+| **Brûlure/Dendro** | Durin (Solo) | Emilie / Bennett | Kinich |
+
+</Section>
+
+<Section icon={Sparkles} title="Rotation de support optimale">
+
+Pour maximiser l'efficacité d'un **build de support Durin**, votre rotation doit garantir que son Explosion est active avant que votre DPS principal n'entre sur le terrain. Comme l'Explosion de Durin ne snapshot pas, il peut être échangé sans perdre d'efficacité.
+
+1.  **Compétence > Compétence** : Lancez immédiatement la deuxième compétence pour entrer en Mode Blanc et générer 4 particules Pyro.
+2.  **Explosion Élémentaire** : Déployez le Dragon de Flamme Blanche. La durée de 20 secondes garantit qu'il dure pendant toute la configuration de votre équipe.
+3.  **Configuration du support** : Passez aux autres supports (par exemple, Compétence de Chevreuse, Oz de Fischl) pour déclencher des réactions et activer la réduction de RES.
+4.  **DPS principal** : Passez à votre DPS et effectuez sa rotation complète.
+5.  **Compétence (Optionnel)** : Si la compétence de Durin est hors CD et que vous avez besoin d'énergie, revenez brièvement avant de redémarrer le cycle.
+
+<Callout type="tip" title="Astuce de remboursement d'énergie">
+La compétence de Durin restaure **30-33 énergie plate** en entrant dans un mode. Si votre énergie est déjà pleine, vous pouvez lancer votre **Explosion en premier**, puis utiliser le combo **Compétence > Compétence** pour commencer immédiatement à recharger votre jauge pour la prochaine rotation.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Jalons de build et liste de contrôle">
+
+Suivre vos progrès est essentiel pour perfectionner votre **build de support Durin**. Utilisez cette liste de contrôle pour vous assurer d'avoir atteint les métriques de performance critiques.
+
+<Checklist
+  id="durin-milestones"
+  title="Liste de contrôle du build de support Durin :"
+  items={[
+    "Atteindre le niveau 90 pour un ATK de base et des PV maximums",
+    "Améliorer l'Explosion Élémentaire au niveau de talent 9 ou 10",
+    "Atteindre au moins 2500 ATK Total (buffé ou non)",
+    "Assurer au moins 130 % de Recharge d'énergie pour une disponibilité constante",
+    "Associer avec un deuxième personnage Hexerei pour une réduction de RES de 35 %",
+    "Obtenir la C2 pour le bonus de DMG Élémentaires universel de 50 %"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Le build de support de Durin fonctionne-t-il sans un autre personnage Hexerei ?",
+    answer: "Oui, cela fonctionne, mais c'est significativement moins efficace. Sans la résonance, sa réduction de RES n'est que de 20 %. L'ajout d'une deuxième unité Hexerei augmente cela à 35 % et fournit souvent des buffs supplémentaires à l'échelle de l'équipe."
+  },
+  {
+    question: "Quel set d'artéfacts est meilleur : Noblesse Oblige ou Parchemin de la Ville Cendrée ?",
+    answer: "Noblesse Oblige est meilleur si votre équipe scale fortement avec l'ATK et que personne d'autre ne le porte. Parchemin de la Ville Cendrée est supérieur dans les équipes à fortes réactions (comme Surcharge ou Brûlure) où le bonus de DMG de 40 % l'emporte sur l'ATK de 20 %."
+  },
+  {
+    question: "Pourquoi ai-je besoin de 2500 ATK sur un build de support ?",
+    answer: "Le passif A4 de Durin scale les dégâts de son Explosion en fonction de son ATK, plafonnant à 2500. Puisque son Explosion fournit une part significative des dégâts de l'équipe, même dans un rôle de support, atteindre ce plafond est vital pour une performance de haut niveau."
+  },
+  {
+    question: "Durin peut-il réduire la résistance Hydro ou Cryo ?",
+    answer: "Non. Son passif A1 exclut spécifiquement la Vaporisation et la Fonte de l'effet de réduction de RES. Pour les équipes Hydro et Cryo, Durin est généralement utilisé en Mode Sombre comme DPS personnel plutôt qu'en tant que réducteur de RES."
+  }
+]} />
+
+</Section>

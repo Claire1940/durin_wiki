@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin DPS Build: Best Artifacts, Weapons, & 2026 Meta Teams",
+  description: "Master the Durin DPS build with our comprehensive 2026 guide. Discover top artifacts, weapons, and Hexerei team synergies for both Dark and White forms.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7c3aed/fff?text=Durin+DPS+Build",
+  date: "2026-05-20",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Durin DPS build** excels in two distinct modes: **White Mode** for off-field Pyro support and **Dark Mode** for on-field Vaporize/Melt carry potential.
+- Focus on reaching **2500 effective ATK** to maximize the Primordial Fusion of Forms passive, which significantly boosts Elemental Burst damage.
+- The **Hexerei Resonance** is crucial for 2026 meta teams, providing a 75% buff to Durin's core passive effects when paired with units like Fischl or Albedo.
+- **A Day Carved from Rising Winds** is the current Best-in-Slot artifact set for overall damage, while **Marechaussee Hunter** dominates in Furina-led compositions.
+- Prioritize leveling the **Elemental Burst** first, followed by the **Elemental Skill** to maximize energy refund mechanics.
+</Callout>
+
+<Section icon={Map} title="Core Mechanics: Understanding Binary Forms">
+
+Durin is a versatile 5-star Pyro Sword user whose playstyle shifts dramatically based on his **Binary Form: Convergence and Division**. Unlike traditional characters, Durin's role is determined by the sequence of inputs following his Elemental Skill. Entering the correct form is the foundation of any successful Durin DPS build.
+
+**Video Highlights:**
+- Detailed breakdown of **White Mode** (Support/Sub-DPS) vs. **Dark Mode** (Main Carry).
+- Explanation of the **Primordial Fusion** passive and the 2500 ATK threshold.
+- Analysis of the **Hexerei Resonance** and how it impacts RES shred and reaction damage.
+- Optimal rotation sequences for maximizing Elemental Burst uptime.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="COMPLETE DURIN GUIDE! Best Durin Build [ALL Playstyles]" />
+
+Durin's forms are activated as follows:
+- **White Mode (Confirmation of Purity):** Press Elemental Skill twice. This mode provides massive AoE Pyro application and shreds enemy resistances (20% baseline, 35% with Hexerei).
+- **Dark Mode (Denial of Darkness):** Press Elemental Skill then immediately follow with a Normal Attack. This mode focuses on single-target damage and increases Vaporize/Melt reaction damage (40% baseline, 70% with Hexerei).
+
+| Mechanic | White Mode (Light) | Dark Mode (Dark) |
+| :--- | :--- | :--- |
+| **Trigger** | Skill > Skill | Skill > Normal Attack |
+| **Burst Type** | AoE Pyro Hits (1s intervals) | Single-Target Hits (1.25s intervals) |
+| **Passive Buff** | RES Shred (Pyro + Swirl/Overload) | Increased Vape/Melt Damage |
+| **Role** | Sub-DPS / Resistance Support | On-field or Off-field Carry |
+| **Best Synergy** | Chevreuse, Fischl, Kinich | Mona, Furina, Cryo Enablers |
+
+<Callout type="tip" title="Energy Management Tip">
+Durin's Elemental Skill refunds a flat amount of energy (30 at Level 9, 33 at Level 10). Because his Burst costs 70 Energy, this refund makes him extremely easy to build with low Energy Recharge (ER), often requiring 0% additional ER in double Pyro or Electro-charged teams.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Artifacts for Durin DPS Build">
+
+Choosing the right artifact set depends heavily on your team composition and whether you are utilizing Durin as an off-field Enabler or an on-field Carry. In the 2026 meta, the release of the Luna IV expansion introduced specialized sets that elevate Durin's ceiling.
+
+| Artifact Set | Best For | 4-Piece Bonus Effect |
+| :--- | :--- | :--- |
+| **A Day Carved from Rising Winds** | General BiS | 25% ATK boost; +20% Crit Rate if Hexerei quest is complete |
+| **Noblesse Oblige** | Burst Support | 20% Burst DMG; +20% Party ATK after using Burst |
+| **Marechaussee Hunter** | Furina Teams | Up to 36% Crit Rate when HP fluctuates (On-field only) |
+| **Crimson Witch of Flames** | Vape/Melt | Increases Pyro DMG and reaction multipliers |
+| **Gilded Dreams** | Burgeon / EM | Massive EM boost based on team elemental diversity |
+
+For the **Durin DPS build**, your main stat priority should focus on balancing his high ATK requirements with standard Crit ratios.
+
+**Recommended Main Stats:**
+- **Sands:** ATK% (Standard) or Elemental Mastery (Reaction-heavy Dark Mode)
+- **Goblet:** Pyro DMG Bonus (Standard) or ATK% (If running low-ATK weapons)
+- **Circlet:** Crit Rate or Crit DMG (Maintain a 1:2 ratio)
+
+| Stat | Goal Benchmark | Priority |
+| :--- | :--- | :--- |
+| **Attack** | 2500+ Effective ATK | ★★★★★ |
+| **Crit Rate** | 65% - 75% | ★★★★★ |
+| **Crit DMG** | 180% - 220%+ | ★★★★☆ |
+| **Energy Recharge** | 100% - 130% | ★★☆☆☆ |
+| **Elemental Mastery** | 100 - 200 (Vape only) | ★★★☆☆ |
+
+<Callout type="warning" title="The ATK Threshold">
+Do not ignore ATK in favor of pure Crit. Durin's A4 passive, **Chaos Formed Like the Night**, increases his Burst multipliers by 3% for every 100 ATK, capping at 75%. This is a "motion value" increase, meaning it scales much better than simple DMG bonuses.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapon Tier List: 2026 Rankings">
+
+Durin's weapon choice is flexible, but his signature blade remains the gold standard due to its interaction with the Hexerei system. However, several 4-star and F2P options perform remarkably well, especially with high refinements.
+
+<CardGrid cols={3}>
+  <Card title="Athame Artis (Signature)">
+    - **33.1% Crit Rate**
+    - Boosts Burst Crit DMG by 16%
+    - Provides up to 35% ATK to Durin and 28% to the party
+  </Card>
+  <Card title="Mistsplitter Reforged">
+    - **High Base ATK**
+    - Massive Elemental DMG stacks
+    - Top-tier choice for Dark Mode Carry
+  </Card>
+  <Card title="Freedom-Sworn">
+    - **Supportive DPS choice**
+    - High EM for reactions
+    - Party-wide Normal/Charged attack buffs
+  </Card>
+</CardGrid>
+
+While 5-star weapons provide the highest ceiling, the following 4-star weapons are excellent alternatives for the **Durin DPS build**:
+
+| Weapon | Rarity | Why it Works |
+| :--- | :--- | :--- |
+| **Wolf-Fang** | 4-Star | Battle Pass; increases Skill/Burst DMG and Crit Rate |
+| **Finale of the Deep** | 4-Star | F2P Craftable; massive ATK boost via Bond of Life |
+| **Lion's Roar** | 4-Star | Excellent in Overload or Mono-Pyro teams |
+| **Moonwaver's Dawn** | 4-Star | F2P Exploration; solid Burst DMG and ATK stats |
+| **Harbinger of Dawn** | 3-Star | Great Crit stat stick if HP is kept above 90% |
+
+<Callout type="success" title="F2P Success">
+For players on a budget, an R5 **Finale of the Deep** paired with a consistent healer can rival some R1 5-star weapons. It provides the necessary ATK to hit Durin's 2500 threshold more easily.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Meta Team Compositions">
+
+Durin's true power is unlocked through the **Hexerei Resonance**. This unique mechanic requires completing a specific quest for both Durin and another Hexerei character in your party to activate.
+
+<Steps>
+  <Step num="1" title="The Overload Core">
+    Combine Durin with **Fischl** and **Chevreuse**. Durin provides off-field Pyro in White Mode, while Chevreuse shreds Pyro/Electro RES. Fischl benefits from the Hexerei resonance, granting the team extra ATK.
+  </Step>
+  <Step num="2" title="The Vaporize Engine">
+    Pair Durin with **Mona** or **Furina**. Durin enters Dark Mode to trigger massive Vaporize hits. Mona's Omen duration is extended by Durin's hits, creating a devastating damage window.
+  </Step>
+  <Step num="3" title="The Burning/Burgeon Specialist">
+    Use Durin with **Kinich** or **Nahida**. In White Mode, Durin provides consistent Burning application, allowing Dendro carries to maintain their buffs while Durin shreds Dendro RES.
+  </Step>
+</Steps>
+
+| Team Archetype | Slot 1 (Carry) | Slot 2 (Sub-DPS) | Slot 3 (Support) | Slot 4 (Healer/Flex) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Premium Overload** | Arlecchino | **Durin (White)** | Fischl | Chevreuse |
+| **Mona Vaporize** | Mona | **Durin (Dark)** | Sucrose | Bennett |
+| **Double Geo** | Navia | **Durin (White)** | Albedo | Bennett |
+| **F2P Friendly** | Razor (C6) | **Durin (White)** | Fischl | Bennett |
+
+<Callout type="info" title="Hexerei Unit Selection">
+In the 2026 Luna III update, players can choose a free Hexerei unit (Fischl, Sucrose, or Razor). For most Durin players, **Fischl** is the recommended pick due to her high off-field damage and perfect synergy in Overload teams.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progression and Constellations">
+
+While Durin is powerful at C0, his constellations offer significant vertical investment opportunities. His C1 and C2 are particularly notable for their impact on his supportive and personal damage capabilities.
+
+<Checklist
+  id="durin-materials"
+  title="Level 90 Ascension Checklist:"
+  items={[
+    "168 Frostlamp Flowers (Mondstadt)",
+    "46 Cyclic Military Kuuvahki Cores",
+    "Agnidus Agate Gemstones",
+    "Teachings/Guide/Philosophies of Ballad",
+    "Eroded Sunfire (Weekly Boss Mat)"
+  ]}
+/>
+
+**Constellation Priority:**
+1. **C1 (Adamah's Redemption):** Adds "Quill" stacks that buff party members in White Mode or Durin's own Burst in Dark Mode.
+2. **C2 (Unground Visions):** Provides a massive 50% DMG bonus to Pyro and reacting elements for the entire party. **The best stopping point for spenders.**
+3. **C6 (Dual Birth):** Grants 30% to 70% DEF ignore on Burst hits, turning Durin into a top-tier damage dealer.
+
+<Callout type="tip" title="C1 vs. R1">
+If you are deciding between Durin's signature weapon and his C1, **C1 is generally the better value**. It provides a more consistent damage increase across all team types and playstyles compared to the weapon.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Durin DPS Build FAQ">
+
+<FAQ items={[
+  {
+    question: "Does Durin's Burst snapshot buffs like Bennett's Burst?",
+    answer: "No, Durin's Burst does not snapshot. His damage is calculated in real-time based on his current stats. If you move out of Bennett's circle, Durin's off-field hits will lose the ATK buff immediately."
+  },
+  {
+    question: "Which form should I use for a general Durin DPS build?",
+    answer: "White Mode is generally better for team-wide damage due to the resistance shred and 100% Pyro uptime. Dark Mode is specialized for Vaporize or Melt teams where Durin acts as the primary reaction trigger."
+  },
+  {
+    question: "How much Energy Recharge does Durin actually need?",
+    answer: "If his Elemental Skill is leveled to 9 or 10, he refunds over 30 energy. In a double Pyro team or with Fischl, he often needs 0% extra ER. In solo Pyro teams, aim for 130-140% ER."
+  },
+  {
+    question: "Can I play Durin on-field as a Main DPS?",
+    answer: "Yes, but it typically requires a C6 Bennett to provide Pyro infusion for his Normal Attacks. In this setup, use the Marechaussee Hunter artifact set and pair him with Furina for maximum damage."
+  }
+]} />
+
+</Section>

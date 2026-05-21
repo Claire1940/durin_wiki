@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Équipe Durin : Meilleures compositions et synergies de personnages 2026",
+  description: "Maîtrisez les meilleures compositions d'équipe pour Durin en 2026. Apprenez à optimiser les formes Blanche et Sombre avec les synergies Hexerei pour un DPS Pyro hors-champ maximal.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Team+Guide",
+  date: "2026-05-20",
+  author: "L'équipe du Wiki Durin"
+}
+
+<Callout type="info" title="Guide Rapide">
+- L'optimisation de l'**équipe Durin** repose sur le choix entre la **Forme Blanche** (Soutien/Réduction de RÉS) et la **Forme Sombre** (DPS Évaporation/Fonte).
+- La **Synergie Hexerei** est indispensable pour des performances optimales, nécessitant au moins un autre personnage Hexerei comme **Fischl** ou **Albedo**.
+- La **Méta Surcharge** reste l'archétype le plus puissant pour Durin, particulièrement lorsqu'il est associé à **Chevreuse** et un carry Électro.
+- Les besoins en **Recharge d'Énergie** varient considérablement selon la composition de l'équipe, allant de **100 % à 160 %** selon l'utilisation de la compétence.
+- La meilleure arme (**Best-in-Slot**) est l'**Athame Artis**, qui fournit des bonus d'attaque critiques à toute l'équipe active.
+</Callout>
+
+<Section icon={Map} title="Mécaniques de Durin et sélection de forme">
+
+Durin est un personnage 5 étoiles révolutionnaire maniant l'épée Pyro, dont l'utilité est divisée en deux états distincts : **Confirmation de Pureté** (Forme Blanche) et **Déni des Ténèbres** (Forme Sombre). Choisir la bonne forme pour votre **équipe Durin** détermine s'il fonctionnera comme un réducteur de résistance universel ou comme un carry de réaction à hauts dégâts. Son Déchaînement Élémentaire, le cœur de son kit, adapte son comportement et ses bonus en fonction de l'état activé via sa Compétence Élémentaire.
+
+**Points forts de la vidéo :**
+- Analyse détaillée des mécaniques de transmutation **Blanche vs Sombre**.
+- Explication du passif **Hexerei : Rite Secret** et de son amélioration de bonus de 75 %.
+- Comparaison des taux d'application Pyro entre les deux formes.
+- Présentation de la **Réduction de Résistance de 35 %** dans les configurations Hexerei optimales.
+
+<YouTubeEmbed videoId="bxG6N82s_Lk" title="ULTIMATE Durin Guide! [Artifacts, Weapons, Teams, MORE] Genshin Impact" />
+
+Le tableau ci-dessous résume les différences fondamentales entre ses deux manifestations pour vous aider à décider laquelle déclencher pendant votre rotation.
+
+| Caractéristique | Confirmation de Pureté (Blanche) | Déni des Ténèbres (Sombre) |
+| :--- | :--- | :--- |
+| **Rôle principal** | Soutien / Buffer d'équipe | DPS de réaction personnel |
+| **Type de Déchaînement** | Pyro de zone (toutes les 1.0s) | Pyro monocible (toutes les 1.25s) |
+| **Passif A1** | 20/35% Réduction RÉS (Multi-Élément) | Bonus DGT Évaporation et Fonte 40/70% |
+| **Meilleures équipes** | Géo, Anémo, Dendro, Surcharge | Évaporation, Fonte, Surchargévap |
+| **Ciblage** | Large zone centrée sur l'ennemi | Frappes monocibles périodiques |
+
+<Callout type="success" title="Conseil Stratégique">
+La Forme Blanche est presque toujours préférée dans les équipes comprenant des carrys Géo, Anémo ou Dendro, car Durin est l'un des rares personnages capables de réduire ces résistances élémentaires spécifiques.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Le système de synergie Hexerei">
+
+L'effet **Hexerei : Rite Secret** est la pierre angulaire de toute **équipe Durin** compétitive. Lorsque l'équipe comprend deux personnages Hexerei ou plus, le passif d'Ascension 1 de Durin est amélioré de **75 %**. Cela transforme une réduction de RÉS standard de 20 % en une réduction de 35 %, permettant ainsi à Durin de remplacer une unité Anémo dédiée au set Ombre de la Verte Chasseuse dans de nombreuses compositions.
+
+<CardGrid cols={3}>
+  <Card title="Fischl">
+    - **Partenaire Hexerei**
+    - Fournit une application Électro hors-champ massive
+    - Booste l'ATK et la ME via le passif Hexerei
+  </Card>
+  <Card title="Albedo">
+    - **Partenaire Hexerei**
+    - Apporte des dégâts Géo hors-champ
+    - Fournit 125 ME et des bonus de DGT d'aptitude
+  </Card>
+  <Card title="Mona">
+    - **Partenaire Hexerei**
+    - Permet l'Évaporation pour la Forme Sombre
+    - Bonus de DGT% massifs via l'Omen
+  </Card>
+</CardGrid>
+
+Au-delà des partenaires standards, des personnages comme **Sucrose**, **Venti** et **Razor** comptent également pour l'exigence Hexerei. Cette flexibilité permet à Durin de s'intégrer dans divers archétypes tout en conservant son passif amélioré.
+
+| Personnage Hexerei | Bénéfice principal pour Durin | Meilleur archétype d'équipe |
+| :--- | :--- | :--- |
+| **Fischl** | Haute présence Électro / Bonus ATK | Surcharge / Surchargévap |
+| **Albedo** | Géo hors-champ / Partage de ME | Mono-Géo / Soutien flexible |
+| **Mona** | Application Hydro / Amplification de DGT | Évaporation / Double Carry |
+| **Sucrose** | Partage de ME / Contrôle de foule | Fonte / Évaporation |
+
+<Callout type="info" title="Exigence Hexerei">
+Bien que Durin soit utilisable comme unité Pyro autonome, sa valeur chute considérablement sans un deuxième coéquipier Hexerei. Priorisez toujours l'inclusion d'au moins un partenaire pour débloquer la réduction de RÉS de 35 % ou le bonus de réaction de 70 %.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Meilleures compositions d'équipe pour Durin">
+
+Construire une **équipe Durin** nécessite d'équilibrer sa forme avec les besoins du donneur de dégâts principal. Parce que Durin fournit une application Pyro hors-champ et une réduction de RÉS unique, il excelle dans les équipes que les supports Pyro traditionnels ont du mal à aider, comme les escouades centrées sur le Géo ou l'Anémo.
+
+### 1. Le noyau Surcharge (Méta Chevreuse)
+C'est sans doute l'équipe la plus puissante de Durin. En combinant Durin avec **Fischl** et **Chevreuse**, vous créez un noyau qui fournit d'énormes bonus d'ATK, une réduction de RÉS Pyro/Électro et des dégâts hors-champ constants. Le quatrième emplacement est flexible pour n'importe quel carry Électro ou Pyro.
+
+### 2. Résonance Géo et réduction de résistance
+La capacité de Durin à réduire la RÉS Géo en fait un atout inestimable pour **Navia** ou **Itto**. Il permet des réactions de Cristallisation constantes tout en fournissant la rare réduction de résistance qui manque généralement aux équipes Géo en dehors de Zhongli.
+
+### 3. Brûlure rapide et synergie Dendro
+Dans les équipes avec **Kinich** ou **Émilie**, Durin fournit le Pyro constant nécessaire pour maintenir l'aura de Brûlure. Sa capacité à réduire simultanément la RÉS Dendro en fait un choix supérieur aux options Pyro traditionnelles dans ces scénarios multi-éléments spécifiques.
+
+| Archétype d'équipe | DPS principal | Supports clés | Forme de Durin |
+| :--- | :--- | :--- | :--- |
+| **Surcharge** | Raiden / Clorinde | Chevreuse, Fischl | Forme Blanche |
+| **Évaporation** | Neuvillette / Mualani | Furina, Mona | Forme Sombre |
+| **Brûlure** | Kinich | Émilie, Bennett | Forme Blanche |
+| **Mono-Géo** | Itto / Navia | Albedo, Gorou | Forme Blanche |
+| **Carry Anémo** | Venti / Nomade | Faruzan, Bennett | Forme Blanche |
+
+<Callout type="tip" title="Stratégie Pro">
+Dans les équipes de Neuvillette, Durin peut lancer sa compétence deux fois par rotation grâce au long temps de présence sur le terrain du Juge Suprême. Cela permet à Durin de générer énormément d'énergie et de changer de forme selon les besoins sans aucun investissement en RE.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Équiper votre Durin : Équipement et statistiques">
+
+Pour maximiser une **équipe Durin**, vous devez l'équiper de manière appropriée pour son rôle. Bien que ses dégâts soient significatifs, son utilité prime souvent. Son passif A4 fait varier les dégâts de son Déchaînement en fonction de son ATK, plafonnant à **2500 ATK** pour un multiplicateur de dégâts de 75 %.
+
+<Steps>
+  <Step num="1" title="Équilibrer la Recharge d'Énergie">
+    Visez 120-150 % de RE si vous jouez hors-champ avec une autre unité Pyro. Si vous utilisez sa compétence deux fois par rotation, vous pouvez totalement ignorer la RE.
+  </Step>
+  <Step num="2" title="Atteindre le seuil d'ATK">
+    Priorisez les statistiques secondaires d'ATK% jusqu'à atteindre 2500 ATK pour maximiser le multiplicateur de DGT de 75 % du passif A4 sur les 10 premiers coups.
+  </Step>
+  <Step num="3" title="Optimiser le ratio Critique">
+    Comme Durin gagne du Dégât Critique lors de son ascension, utilisez un diadème Taux Critique pour maintenir un ratio de 1:2 pour un DPS hors-champ constant.
+  </Step>
+</Steps>
+
+| Emplacement | Statistique principale | Substats prioritaires |
+| :--- | :--- | :--- |
+| **Sablier** | ATK% ou RE% | Taux Critique, DGT Crit, ATK%, ME |
+| **Coupe** | DGT Pyro ou ATK% | Taux Critique, DGT Crit, ATK%, RE |
+| **Diadème** | Taux Critique ou DGT | ATK%, Critique, RE, ME |
+
+<Callout type="warning" title="Alerte Artéfact">
+Le set 4 pièces **Ancien rituel royal** (Noblesse Oblige) est généralement son meilleur choix pour l'utilité d'équipe. Cependant, dans les configurations de DPS personnel (Forme Sombre), **Sorcière des flammes ardentes** ou **Rêve doré** peuvent donner des chiffres individuels plus élevés.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de progression">
+
+Utilisez cette liste pour vous assurer que votre Durin est prêt à mener son équipe à la victoire dans la méta 2026.
+
+<Checklist
+  id="durin-milestones"
+  title="Objectifs d'optimisation de Durin :"
+  items={[
+    "Monter Durin au niveau 90 (ou 100 pour les statistiques de base maximales)",
+    "Couronner le Déchaînement Élémentaire pour le multiplicateur maximal",
+    "Monter la Compétence Élémentaire au niveau 9+ pour le remboursement d'énergie fixe",
+    "Atteindre 2500 ATK via les artéfacts et les passifs d'armes",
+    "Débloquer au moins un partenaire Hexerei (Fischl/Albedo recommandés)",
+    "Obtenir le set 4p Ancien rituel royal avec des substats critiques optimales"
+  ]}
+/>
+
+<Callout type="success" title="Verdict Final">
+Durin est l'une des unités les plus flexibles sorties dans le cycle 6.x. Que vous en ayez besoin pour une équipe Géo spécialisée ou une escouade Surcharge survoltée, sa mécanique de double forme garantit qu'il ne restera jamais sur le banc.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ de l'équipe Durin">
+
+<FAQ items={[
+  {
+    question: "Quelle forme dois-je utiliser pour une équipe Durin généraliste ?",
+    answer: "Pour la plupart des joueurs, la Forme Blanche (Confirmation de Pureté) est supérieure en raison de sa réduction de RÉS universelle de 35 % pour Pyro, Électro, Géo, Anémo et Dendro. N'utilisez la Forme Sombre que si vous construisez spécifiquement une équipe Évaporation ou Fonte où Durin est le donneur de dégâts principal."
+  },
+  {
+    question: "Ai-je besoin de son arme signature, Athame Artis ?",
+    answer: "Bien qu'Athame Artis soit sa meilleure option, fournissant un bonus d'ATK de 28 % à l'équipe, les joueurs F2P peuvent obtenir d'excellents résultats avec le Croc de loup ou l'épée forgeable Final de la profondeur. L'Aube du tisseur de lune est également une fantastique option gratuite obtenue via des quêtes."
+  },
+  {
+    question: "Durin peut-il fonctionner sans d'autres personnages Hexerei ?",
+    answer: "Oui, mais ce n'est pas recommandé pour le contenu de haut niveau comme les Profondeurs spiralées. Sans un deuxième personnage Hexerei, sa réduction de RÉS passe de 35 % à 20 %, et son bonus de dégâts de réaction personnel passe de 70 % à 40 %."
+  },
+  {
+    question: "Quel est le meilleur ensemble d'artéfacts pour un soutien hors-champ ?",
+    answer: "Le set 4p Ancien rituel royal est le standard. Cependant, si votre équipe a déjà un utilisateur de ce set, considérez le set 4p Ténacité du Millelithe (si applicable) ou des combinaisons 2p/2p de DGT Pyro et d'ATK%."
+  }
+]} />
+
+</Section>

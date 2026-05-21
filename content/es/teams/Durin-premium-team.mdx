@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Equipo Premium de Durin: Mejores Composiciones del Meta y Clasificación de Builds",
+  description: "Domina el meta definitivo del equipo premium de Durin con nuestra guía de 2026. Descubre las mejores composiciones para estilos de juego de Sobrecarga, Vaporizado y Quemadura con consejos expertos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Premium+Team+Guide",
+  date: "2026-05-20",
+  author: "Equipo de Wiki de Durin",
+  keywords: "Durin, equipo premium, meta 2026, composiciones, guía de build"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las configuraciones del **equipo premium de Durin** dependen en gran medida de la resonancia del **Rito Secreto de Hexerei** para maximizar la reducción de RES y las bonificaciones de daño personal.
+- El **Modo Blanco** es la opción óptima para soporte fuera del campo y reducción de resistencia en composiciones de Sobrecarga, Torbellino y Quemadura.
+- El **Modo Oscuro** transforma a Durin en un carry de alto daño, especializado en reacciones de Vaporizado y Derretido con un escalado masivo.
+- **Athame Artis** sigue siendo el arma indiscutible como Mejor en su Clase (BiS), proporcionando bufos de ataque significativos a todo el equipo cuando hay unidades Hexerei presentes.
+- La **Gestión de Energía** se simplifica mediante la mecánica de reembolso de energía fija de Durin, lo que permite builds con baja Recarga de Energía si su Habilidad Elemental está al máximo.
+</Callout>
+
+<Section icon={Sparkles} title="Resumen del Kit de Durin y Mecánicas Estratégicas">
+
+A partir del meta de 2026, construir un **equipo premium de Durin** se ha convertido en el estándar de oro para las reacciones elementales basadas en Pyro. Lanzado en la Versión 6.2, Durin es un versátil usuario de espada Pyro de cinco estrellas que funciona como Sub-DPS, soporte o incluso como infligidor de daño principal dependiendo de su "Forma Binaria". Comprender la distinción entre sus modos Blanco y Oscuro es el primer paso hacia la optimización.
+
+**Puntos destacados del video:**
+- **Mecánica de Modo Dual:** Cambiar entre Confirmación de la Pureza (Blanco) y Negación de la Oscuridad (Oscuro).
+- **Sinergia Hexerei:** Por qué emparejar a Durin con personajes como Fischl o Albedo es innegociable para un rendimiento premium.
+- **Mecánicas de Energía:** Cómo el reembolso de energía fija de su Habilidad Elemental reduce sus requisitos de RE a casi cero.
+- **Escalado Pasivo:** Maximizar el efecto de Fusión Primordial alcanzando el umbral de 2,500 de Ataque.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="¡GUÍA COMPLETA DE DURIN! Mejor Build de Durin [TODOS los estilos de juego]" />
+
+El kit de Durin gira en torno a su Habilidad Elemental, *Forma Binaria: Convergencia y División*. Al presionar la habilidad dos veces, entra en el **Modo Blanco**, que otorga a su Definitiva aplicación Pyro en el AdE y una reducción de RES del 20% al 35%. Por el contrario, usar un Ataque Normal después del primer lanzamiento de la habilidad activa el **Modo Oscuro**, aumentando su daño personal de Vaporizado y Derretido entre un 40% y un 70%.
+
+| Característica | Modo Blanco (Pureza) | Modo Oscuro (Oscuridad) |
+| :--- | :--- | :--- |
+| **Rol Principal** | Soporte / Sub-DPS fuera del campo | Carry Principal / DPS de Reacciones |
+| **Tipo de Definitiva** | Pyro en AdE (1 golpe/seg) | Objetivo Único (1 golpe/1.25 seg) |
+| **Bufo Clave** | Reducción RES (Pyro/Electro/Geo/Anemo) | Bono Daño Vaporizado/Derretido |
+| **Reacciones Ideales** | Sobrecarga, Quemadura, Torbellino | Vaporizado, Derretido |
+| **Tiempo de Actividad** | Más del 100% (20s de duración) | Daño Alto Consistente |
+
+<Callout type="tip" title="Consejo de Modo Pro">
+Durin entra por defecto en Modo Blanco si usas su Definitiva inmediatamente sin usar su Habilidad primero. Esto ahorra mucho tiempo para limpiar rápidamente pisos del Abismo donde la energía ya está llena.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mejores Arquetipos de Equipo Premium de Durin">
+
+Las composiciones más efectivas del **equipo premium de Durin** aprovechan la resonancia del Rito Secreto de Hexerei. Este efecto mejora las habilidades pasivas de Durin en un 75%, elevando su reducción de RES al 35% y sus bonificaciones de reacción al 70%. A continuación se muestran los equipos con mejor rendimiento en el meta para 2026.
+
+<CardGrid cols={3}>
+  <Card title="Dominio de Sobrecarga">
+    - **Unidades Núcleo:** Durin, Chevreuse, Fischl
+    - **Ideal para:** Daño AdE consistente y alta reducción de RES
+    - **Estilo de juego:** Soporte Pyro fuera del campo
+  </Card>
+  <Card title="Carry de Vaporizado">
+    - **Unidades Núcleo:** Durin, Furina, Mona
+    - **Ideal para:** Números masivos de Definitiva contra un solo objetivo
+    - **Estilo de juego:** DPS en el campo o Quick-swap
+  </Card>
+  <Card title="Resonancia de Quemadura">
+    - **Unidades Núcleo:** Kinich, Durin, Emilie, Bennett
+    - **Ideal para:** Reducción sostenida de Dendro/Pyro
+    - **Estilo de juego:** Encadenamiento de reacciones elementales
+  </Card>
+</CardGrid>
+
+En una configuración de Sobrecarga, Durin y Fischl actúan como el núcleo Hexerei. Esta pareja proporciona bufos masivos de Ataque al personaje activo mientras Chevreuse reduce aún más las resistencias enemigas. Para aquellos que buscan usar a Durin como DPS principal, el equipo "Vape Premium" con Furina y Mona permite a Durin explotar el bono de daño de reacción del 70% de su Modo Oscuro.
+
+| Tipo de Equipo | Espacio 1 | Espacio 2 | Espacio 3 | Espacio 4 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Sobrecarga** | Arlecchino | **Durin** | Fischl | Chevreuse |
+| **Vaporizado** | **Durin** | Furina | Mona | Bennett (C6) |
+| **Quemadura** | Kinich | **Durin** | Emilie | Bennett |
+| **Doble Geo** | Navia | **Durin** | Albedo | Bennett |
+| **Carry Anemo** | Venti | **Durin** | Furina | Bennett |
+
+<Callout type="success" title="Bono de Sinergia">
+La combinación de Durin y Mona es particularmente potente. La duración del Presagio de Mona se extiende mediante los bufos de Hexerei, lo que permite que la Definitiva del Modo Oscuro de Durin aseste múltiples golpes vaporizados dentro de la ventana de daño.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Equipo Optimizado: Armas y Artefactos">
+
+Para alcanzar la cima de un **equipo premium de Durin**, tu equipo debe enfocarse en dos cosas: alcanzar el límite de 2,500 de Ataque para la pasiva *Caos Formado como la Noche* y equilibrar las estadísticas de Crítico. Debido a que Durin gana Daño Crítico al ascender, a menudo es necesario un casco de Probabilidad de Crítico para mantener una proporción de 1:2.
+
+### Clasificación de Armas Premium
+
+| Arma | Rareza | Estadistica Principal | Nota de Rendimiento |
+| :--- | :--- | :--- | :--- |
+| **Athame Artis** | 5 Estrellas | Prob. CRIT | BiS; 35% de bufo de ATQ para el equipo con Hexerei |
+| **Reflejada de las Tinieblas** | 5 Estrellas | Daño CRIT | Excelente para DPS de Modo Oscuro en el campo |
+| **Cortador de Jade** | 5 Estrellas | Prob. CRIT | Alta consistencia; ideal para todos los modos |
+| **Juramento por la Libertad** | 5 Estrellas | ME | Mejor opción de soporte para equipos de Vape/Melt |
+| **Colmillo de Lobo** | 4 Estrellas | Prob. CRIT | Mejor 4 estrellas; alto bono de daño de hab./def. |
+| **Final de las Profundidades** | 4 Estrellas | ATQ% | Fuerte opción F2P si hay un sanador presente |
+
+### Meta de Conjuntos de Artefactos
+
+Seleccionar el conjunto de artefactos adecuado depende de los bufos existentes en tu equipo. Si nadie más lleva **Ritual Antiguo de la Nobleza**, es el mejor conjunto de soporte para Durin. Para daño personal, especialmente en 2026, el conjunto **Un Día Tallado en Vientos Crecientes** se ha convertido en la opción premium para builds centradas en Hexerei.
+
+| Conjunto de Artefactos | Bono de 2 Piezas | Bono de 4 Piezas | Ideal Para |
+| :--- | :--- | :--- | :--- |
+| **Ritual Antiguo de la Nobleza** | Daño Definitiva +20% | ATQ Equipo +20% | Soporte General |
+| **Vientos Crecientes** | ATQ +18% | 20% Prob. CRIT y 25% ATQ | Equipos Hexerei |
+| **Bruja Carmesí** | Daño Pyro +15% | Daño Reacción +15% | Vape Modo Oscuro |
+| **Emblema** | RE +20% | Daño Definitiva vía RE | Solo-Pyro con alta RE |
+
+<Callout type="warning" title="Verificación de Estadísticas">
+No inviertas demasiado en Recarga de Energía. Si la Habilidad Elemental de Durin está al Nivel 10, recibe 33 de energía fija de vuelta. En la mayoría de los equipos premium con Fischl o un segundo Pyro, necesita un 0% de RE adicional de las sub-estadísticas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Rotación Premium y Ejecución">
+
+Ejecutar una rotación de **equipo premium de Durin** de alto nivel requiere precisión en cómo activas su Forma Binaria. Un error en el tiempo de la habilidad puede resultar en la pérdida del 35% de reducción de RES para tu carry principal.
+
+<Steps>
+  <Step num="1" title="Configuración Inicial y Bufos">
+    Comienza con tu buffer principal (por ejemplo, Definitiva de Bennett o Habilidad de Furina). Asegúrate de que todos los bufos para el equipo estén activos antes de que Durin entre al campo.
+  </Step>
+  <Step num="2" title="Entrada Binaria de Durin">
+    - **Para Modo Blanco:** Usa Habilidad -> Habilidad -> Definitiva. Esto asegura Pyro en AdE y reducción de RES.
+    - **Para Modo Oscuro:** Usa Habilidad -> Ataque Normal -> Definitiva. Esto fija el bono de daño de Vaporizado/Derretido.
+  </Step>
+  <Step num="3" title="Canalización de Partículas">
+    Inmediatamente después de la Definitiva de Durin, cambia a tu DPS principal (como Arlecchino o Kinich). El reembolso de energía fija ocurre instantáneamente, pero las partículas generadas por la habilidad pueden ser recogidas por el siguiente personaje.
+  </Step>
+  <Step num="4" title="Ventana de DPS Principal">
+    Ejecuta la rotación de tu atacante principal. La Definitiva fuera del campo de Durin durará 20 segundos, cubriendo incluso las ventanas de DPS más largas (como las de Cyno o Raiden).
+  </Step>
+</Steps>
+
+<Callout type="info" title="Técnica Avanzada">
+Puedes realizar un "Dash Cancel" o "Jump Cancel" en los ataques cargados de Durin si lo juegas en el campo con Bennett C6. Esto aumenta significativamente su eficiencia de fotogramas y la tasa de aplicación de Pyro.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación para el Máximo Rendimiento">
+
+Antes de llevar a tu **equipo premium de Durin** al Abismo o a desafíos de alto nivel, asegúrate de haber cumplido estos hitos críticos.
+
+<Checklist
+  id="durin-optimization"
+  title="Hitos de Poder de Durin:"
+  items={[
+    "Alcanzar 2,500 de Ataque total (con bufos) para maximizar la pasiva A4",
+    "Subir la Habilidad Elemental al Nivel 10 para el reembolso de 33 de energía fija",
+    "Emparejar con al menos otra unidad Hexerei (Fischl, Mona, Albedo)",
+    "Lograr una proporción de 70% de Prob. CRIT / 180% de Daño CRIT",
+    "Desbloquear la C2 para el bono universal de daño elemental del 50%"
+  ]}
+/>
+
+<Callout type="success" title="Prioridad de Constelaciones">
+Si buscas una inversión vertical, la **C2 (Visiones sin Tierra)** es la mejora más impactante. Proporciona un bono masivo del 50% de daño a todos los elementos involucrados en las reacciones de Durin, convirtiéndolo en un bufo "premium" para todo el equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué modo es mejor para un equipo premium de Durin?",
+    answer: "El Modo Blanco es generalmente superior para el daño de todo el equipo debido a la reducción del 35% de RES que proporciona a Pyro, Electro, Geo y Anemo. El Modo Oscuro solo es preferible si Durin es tu infligidor de daño principal en el campo en una configuración de Vaporizado o Derretido."
+  },
+  {
+    question: "¿Realmente necesito 2,500 de Ataque en Durin?",
+    answer: "Sí, 2,500 de Ataque es el límite para su pasiva que aumenta el daño de su Definitiva hasta en un 75%. Aunque no necesitas esto en tu hoja de personaje base, deberías aspirar a ello una vez que los bufos de equipo como Bennett o Nobleza estén activos."
+  },
+  {
+    question: "¿Puede Durin funcionar sin otros personajes Hexerei?",
+    answer: "Sigue siendo una unidad fuerte, pero pierdes el bono del 75% a sus pasivas y los efectos de su arma insignia. Para llamarlo verdaderamente un equipo premium, deberías incluir al menos una de las otras siete unidades Hexerei."
+  },
+  {
+    question: "¿Cuál es la mejor arma F2P para Durin?",
+    answer: "El Final de las Profundidades (forjable de Fontaine) es excelente si tienes un sanador. Alternativamente, Rugido del León es altamente competitivo en equipos de Sobrecarga donde los enemigos están constantemente afectados por Electro o Pyro."
+  }
+]} />
+
+<Callout type="info" title="Veredicto Final">
+El meta del **equipo premium de Durin** en 2026 se define por la flexibilidad. Ya sea que estés reduciendo resistencias para un equipo de Sobrecarga de Arlecchino o siendo el carry con golpes de vaporizado directo en Modo Oscuro, la capacidad de Durin para adaptarse a tu alineación lo convierte en una de las adquisiciones más valiosas de la era 6.x.
+</Callout>
+
+</Section>

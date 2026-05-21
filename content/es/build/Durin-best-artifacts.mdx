@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mejores Artefactos para Durin: Guía de Equipamiento y Comparación de Sets 2026",
+  description: "Descubre los mejores artefactos para Durin para cada estilo de juego. Compara Noblesse Oblige, Emblem y Marechaussee Hunter para roles de Soporte y DPS en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Best+Artifacts",
+  date: "2026-05-21",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mejores artefactos para Durin**: **Noblesse Oblige** es la mejor opción para Soporte/Sub-DPS, mientras que **Emblem of Severed Fate** destaca para el daño de Habilidad Definitiva.
+- **Umbral de estadísticas clave**: Apunta a **2500 ATQ efectivo** para maximizar la bonificación pasiva de Fusión Primordial.
+- **Necesidades de Energía**: Durin tiene una alta devolución de energía (30-33 de energía plana), lo que significa que requiere muy poca **Recarga de Energía** (a menudo 0-120%).
+- **Formas Duales**: Usa el **Modo Blanco** para la reducción de resistencia del equipo y el **Modo Oscuro** para el daño personal de Vaporizar/Derretir.
+- **Sinergia Hexerei**: Siempre empareja a Durin con otro personaje **Hexerei** (como Fischl o Albedo) para aumentar sus efectos pasivos en un 75%.
+</Callout>
+
+<Section icon={Map} title="Mecánicas Centrales y Selección de Forma">
+
+Durin es un personaje de espada Pyro de 5 estrellas altamente versátil, lanzado en la actualización Luna III (6.2). Su kit gira en torno a una mecánica única de doble estado que dicta su rol en un equipo. La selección de los **mejores artefactos para Durin** depende en gran medida de si tienes la intención de utilizar su Modo Blanco de soporte o su Modo Oscuro orientado al daño. A diferencia de muchas unidades Pyro, Durin proporciona una utilidad masiva fuera del campo, con casi el 100% de tiempo de actividad de su Habilidad Definitiva con un enfriamiento de 18 segundos y una duración de 20 segundos.
+
+**Aspectos destacados del video:**
+- Desglose detallado del **Modo Blanco** (Soporte) vs. **Modo Oscuro** (Daño).
+- Explicación de la **Resonancia Hexerei** y su buff del 75% a los pasivos.
+- Clasificaciones de artefactos y armas para estilos de juego fuera y dentro del campo.
+- Requisitos de Recarga de Energía en diferentes composiciones de equipo.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="GUÍA COMPLETA DE DURIN! Mejor Build de Durin [TODOS los Estilos de Juego] - Artefactos, Armas, Equipos | Genshin Impact" />
+
+Después de usar su Habilidad Elemental, Durin puede entrar en uno de dos estados. Volver a lanzar la habilidad activa el **Modo Blanco**, lo que permite que su Habilidad Definitiva reduzca las resistencias Pyro y elementales (hasta un 35% con la resonancia Hexerei). Realizar un Ataque Normal en su lugar activa el **Modo Oscuro**, cambiando su enfoque al daño personal al aumentar el daño de Vaporizar y Derretir hasta en un 70%.
+
+<Callout type="tip" title="Consejo de Energía">
+La Habilidad de Durin restaura 30 de Energía en el Nivel de Talento 9. Debido a que su Habilidad Definitiva cuesta 70, esta devolución reduce efectivamente su costo "real" a 40, lo que hace que las subestadísticas de Recarga de Energía sean una baja prioridad en la mayoría de los equipos de doble Pyro o Sobrecarga.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Artefactos para Durin: Clasificación de los Mejores Sets">
+
+Elegir los **mejores artefactos para Durin** requiere equilibrar su daño personal con los buffs para todo el equipo. Dado que la Habilidad Definitiva de Durin no se "snapshot", sus estadísticas se calculan en tiempo real para cada golpe, lo que hace que los buffs consistentes sean más valiosos que los estallidos de poder de corta duración.
+
+<CardGrid cols={3}>
+  <Card title="Noblesse Oblige">
+    - **Rol**: Soporte / Sub-DPS
+    - **Mejor para**: Equipos con carries que escalan con ATQ
+    - **Beneficio**: 20% de Daño de Habilidad Definitiva y 20% de buff de ATQ para el equipo
+  </Card>
+  <Card title="Emblem of Severed Fate">
+    - **Rol**: DPS de Habilidad Definitiva puro
+    - **Mejor para**: Equipos solo Pyro
+    - **Beneficio**: Alto Daño de Habilidad Definitiva basado en la Recarga de Energía
+  </Card>
+  <Card title="Marechaussee Hunter">
+    - **Rol**: Carry en campo
+    - **Mejor para**: Equipos de Furina
+    - **Beneficio**: Bonificación masiva del 36% de Tasa Crítica
+  </Card>
+</CardGrid>
+
+| Set de Artefactos | Calificación | Caso de Uso Principal | Rol Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Noblesse Oblige** | ★★★★★ | Soporte General y Buffs | Mejor Soporte |
+| **Emblem of Severed Fate** | ★★★★☆ | Altas necesidades de ER o Sub-DPS | Daño fuera del campo |
+| **Crimson Witch** | ★★★★☆ | Vaporizar / Derretir / Sobre-Vaporizar | Carry en Modo Oscuro |
+| **Marechaussee Hunter** | ★★★★☆ | Emparejado con Furina | DPS en campo |
+| **Gilded Dreams** | ★★★☆☆ | Crepitar / Reacciones Intensas | Build de Maestría Elemental |
+
+<Callout type="success" title="Recomendación de Set">
+Si nadie más en tu equipo lleva **Noblesse Oblige**, es casi siempre el mejor set para Durin. Proporciona un impulso significativo a su daño personal de Habilidad Definitiva mientras que simultáneamente buffa el ATQ de tu carry principal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Prioridades y Umbrales de Estadísticas de Artefactos">
+
+Para optimizar los **mejores artefactos para Durin**, debes prestar atención a su pasiva A4: **Fusión Primordial**. Este talento aumenta su daño de Habilidad Definitiva en un 3% por cada 100 de ATQ que posea, con un tope de un 75% de aumento a **2500 ATQ**. Esto hace que las estadísticas de ATQ% sean casi tan valiosas como el Crítico hasta que se alcanza el tope.
+
+| Slot | Estadística Principal | Subestadísticas Prioritarias |
+| :--- | :--- | :--- |
+| **Sands** | ATQ% (o EM para Vaporizar) | Tasa Crítica / Daño Crítico |
+| **Goblet** | Daño Pyro% o ATQ% | ATQ% / Recarga de Energía |
+| **Circlet** | Tasa Crítica / Daño Crítico | Maestría Elemental |
+
+**Requisitos de Recarga de Energía (ER):**
+- **Doble Pyro / Sobrecarga**: 100% - 110% (No se necesita ER).
+- **Solo Pyro (Fuera del campo)**: 130% - 150%.
+- **DPS en campo**: 100% - 120%.
+
+<Callout type="warning" title="Saturación de Estadísticas">
+Aunque el ATQ es vital para Durin, no ignores el Crítico. Una vez que alcanzas 2500 ATQ a través de buffs de equipo (como Bennett o Noblesse), el ATQ adicional proporciona rendimientos decrecientes en comparación con el Daño Crítico.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejores Armas para Cada Estilo de Juego">
+
+La selección de armas de Durin es flexible, pero su espada insignia, **Athame Artis**, proporciona buffs únicos relacionados con Hexerei que la distinguen. Si utilizas opciones F2P, varias espadas crafteables y relacionadas con misiones funcionan excepcionalmente bien.
+
+| Arma | Rareza | Tier | Beneficio Clave |
+| :--- | :--- | :--- | :--- |
+| **Athame Artis** | 5 Estrellas | S+ | Insignia; Buffs masivos de ATQ y Crítico |
+| **Mistsplitter Reforged** | 5 Estrellas | S | Alto ATQ Base y Daño Elemental |
+| **Primordial Jade Cutter** | 5 Estrellas | S | Gran Tasa Crítica y conversión de HP a ATQ |
+| **Wolf-Fang** | 4 Estrellas | A+ | Pase de Batalla; Daño/Crítico de Habilidad y Habilidad Definitiva |
+| **Finale of the Deep** | 4 Estrellas | A | Crafteable F2P; Impulso masivo de ATQ% |
+| **Lion's Roar** | 4 Estrellas | A | Excelente para equipos de Sobrecarga/Quemadura |
+
+<Callout type="info" title="Elección F2P">
+**Finale of the Deep** es una opción F2P increíble. Sin embargo, requiere un sanador para limpiar el Vínculo de Vida y activar el buff completo de ATQ. Si tu equipo carece de un sanador fuerte, **Lion's Roar** es una alternativa más segura para equipos de Sobrecarga.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Construcción de Equipo Paso a Paso">
+
+Construir un equipo alrededor de Durin requiere decidir tu reacción principal. Su pasiva Hexerei lo convierte en un compañero natural para personajes como **Fischl**, **Albedo** y **Sucrose**.
+
+<Steps>
+  <Step num="1" title="Elige tu Modo">
+    Decide entre el **Modo Blanco** (para reducir resistencias para un carry Electro, Anemo o Geo) o el **Modo Oscuro** (para maximizar el propio daño de Vaporizar/Derretir de Durin).
+  </Step>
+  <Step num="2" title="Activa la Resonancia Hexerei">
+    Incluye al menos otro personaje **Hexerei**. Fischl es la opción principal para Sobrecarga, mientras que Albedo funciona perfectamente para equipos Geo o Sub-DPS generales.
+  </Step>
+  <Step num="3" title="Selecciona un Buffer/Sanador">
+    **Bennett** es el mejor amigo de Durin, ayudándole a alcanzar fácilmente el límite de 2500 ATQ. Para equipos de Sobrecarga, **Chevreuse** proporciona una reducción de resistencia esencial y buffs de Daño.
+  </Step>
+  <Step num="4" title="Ocupa el Slot de Carry">
+    En Modo Blanco, usa un carry como **Clorinde**, **Arlecchino** o **Kinich**. En Modo Oscuro, empareja a Durin con aplicadores Hydro/Cryo fuera del campo como **Furina** o **Rosaria**.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Sinergia de Sobrecarga">
+El núcleo Durin-Fischl-Chevreuse es uno de los más fuertes en el meta de 2026. Proporciona una reducción masiva de Pyro/Electro y permite que Durin funcione como una batería de alto daño fuera del campo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión y Preguntas Frecuentes">
+
+<Checklist
+  id="durin-build-goals"
+  title="Hitos de Construcción de Durin:"
+  items={[
+    "Ascender a Durin a Fase 6 para la bonificación de Daño Crítico",
+    "Subir la Habilidad Definitiva a Nivel de Talento 10",
+    "Alcanzar 2500 ATQ Efectivo con buffs de equipo",
+    "Equipar un set de 4 piezas de Noblesse o Emblem",
+    "Completar la Misión de la Bruja para desbloquear el estado Hexerei"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los mejores artefactos para Durin en un rol de soporte?",
+    answer: "Noblesse Oblige es el mejor set definitivo para soporte. Mejora el daño de la Habilidad Definitiva de Durin en un 20% y proporciona un buff de ATQ del 20% a todo el equipo durante 12 segundos después de que usa su Habilidad Definitiva."
+  },
+  {
+    question: "¿Necesita Durin mucha Recarga de Energía?",
+    answer: "No. Gracias a su devolución de energía pasiva de 30-33 de energía, Durin a menudo puede funcionar con 100-110% de ER en equipos con un segundo Pyro o una alta generación de partículas (como Sobrecarga con Fischl)."
+  },
+  {
+    question: "¿Puedo jugar a Durin como DPS principal en campo?",
+    answer: "Sí, pero generalmente requiere C6 Bennett para proporcionar Infusión Pyro para sus Ataques Normales. En este rol, el set Marechaussee Hunter emparejado con Furina es su opción de artefacto más fuerte."
+  },
+  {
+    question: "¿Por qué es importante el umbral de 2500 ATQ para Durin?",
+    answer: "Su pasiva A4, Fusión Primordial, otorga un multiplicador de daño basado en su ATQ. A 2500 ATQ, alcanza el aumento máximo de daño del 75% para 10 golpes de su Habilidad Elemental."
+  }
+]} />
+
+</Section>

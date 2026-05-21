@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Talentos de Durin: Desglose Completo de Habilidades y Guía de Build Meta 2026",
+  description: "Domina las mecánicas de modo dual de Durin. Aprende a optimizar los talentos de Durin, la resonancia de Hexenzirkel y las mejores composiciones de equipo de 2026 para este sub-DPS Pyro.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Talents+Guide",
+  date: "2026-05-21",
+  author: "Equipo de la Wiki de Durin",
+  keywords: "Durin, talentos, build, Genshin Impact, Pyro, Hexenzirkel, meta 2026"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Talentos de Durin**: Prioriza primero la **Habilidad Definitiva**, ya que proporciona un 100% de tiempo de actividad en la aplicación de Pyro fuera del campo.
+- **Forma Binaria**: Usa Habilidad + Habilidad para el **Modo Luz** (Soporte/AoE) o Habilidad + Ataque Normal para el **Modo Oscuro** (Daño Personal/Vaporizado).
+- **Objetivo de Ataque**: Busca alcanzar **2,500 de ATQ efectivo** para maximizar el bono de daño de la pasiva A4.
+- **Sinergia Hexenzirkel**: Emparéjalo con personajes como **Fischl o Albedo** para aumentar la reducción de resistencia al 35% y el daño de reacción al 70%.
+- **Gestión de Energía**: Durin recupera una gran cantidad de energía (hasta 33) al lanzar su habilidad, lo que reduce significativamente sus requisitos de Recarga de Energía (ER).
+</Callout>
+
+<Section icon={Map} title="Mecánicas Principales: Entendiendo la Forma Binaria">
+
+Durin es un revolucionario personaje de Espada Pyro de 5 estrellas introducido en la Versión 6.2 (Luna 3). A diferencia de las unidades sub-DPS tradicionales, su kit gira en torno a la **Transmutación Esencial**, lo que le permite alternar entre dos estilos de combate distintos. Comprender cómo activar estos modos es la base para dominar su jugabilidad.
+
+**Puntos Destacados del Vídeo:**
+- **Selección de Modo**: Desglose detallado de los combos Habilidad + Habilidad vs. Habilidad + Ataque.
+- **Reembolso de Energía**: Cómo afectan sus niveles de talento al tiempo de actividad de su definitiva.
+- **Snapshotting**: Explicación de por qué la definitiva de Durin no mantiene las estadísticas iniciales (no hace snapshot).
+- **Sinergia de Equipo**: Demostración de la resonancia Hexenzirkel en acción.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="¡GUÍA COMPLETA DE DURIN! Mejor Build de Durin [TODOS los Estilos de Juego]" />
+
+La Habilidad Elemental de Durin, **Forma Binaria: Convergencia y División**, sirve como puerta de entrada a su poder. Por sí sola, el lanzamiento inicial no inflige daño, sino que entra en un estado de transmutación. Tu siguiente acción determina su rol durante los próximos 30 segundos.
+
+<CardGrid cols={2}>
+  <Card title="Confirmación de Pureza (Modo Luz)">
+    - **Activación**: Presiona la Habilidad Elemental por segunda vez.
+    - **Efecto**: Inflige Daño Pyro en el área (AoE) y habilita capacidades de soporte.
+    - **Enfoque**: Reducción de resistencia y aplicación constante de Pyro en área.
+  </Card>
+  <Card title="Negación de la Oscuridad (Modo Oscuro)">
+    - **Activación**: Sigue el primer lanzamiento de la Habilidad con un Ataque Normal.
+    - **Efecto**: Realiza un tajo Pyro de 3 golpes y entra en un estado orientado a ser carry.
+    - **Enfoque**: Daño a un solo objetivo y multiplicadores masivos de Vaporizado/Derretido.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Gestión de Energía">
+Si la energía de Durin ya está llena al entrar en una sala, puedes lanzar la Definitiva inmediatamente. Dado que por defecto está en Modo Luz, puedes usar su Habilidad después de la Definitiva para activar el reembolso de energía sin desperdiciar las partículas generadas.
+</Callout>
+
+| Tipo de Acción | Modo Resultante | Beneficio Principal | Estilo de Juego Objetivo |
+| :--- | :--- | :--- | :--- |
+| **Habilidad + Habilidad** | Luz (Pureza) | 20%-35% Reducción de RES | Sobrecarga / Quemadura / Soporte |
+| **Habilidad + Normal** | Oscuro (Oscuridad) | 40%-70% Daño de Reacción | Vaporizado / Derretido / Carry |
+
+</Section>
+
+<Section icon={Target} title="Talentos de Durin: Escala de Habilidad y Definitiva">
+
+Para maximizar el impacto de los **talentos de Durin**, los jugadores deben priorizar su Habilidad Definitiva, **Principio de Pureza: Mientras la Luz Cambia**. Este talento manifiesta un dragón que sigue al personaje activo, asegurando que tu aplicación de Pyro nunca esté atada a una ubicación estática como el círculo de Bennett o el campo de Jean.
+
+### Habilidad Definitiva: Las Formas del Dragón
+La duración de la Definitiva es de **20 segundos** con un tiempo de espera de 18 segundos. Esto proporciona más del 100% de tiempo de actividad potencial, una rareza para unidades sub-DPS de alto impacto.
+
+| Característica | Dragón de Llama Blanca (Luz) | Dragón de Decadencia Oscura (Oscuro) |
+| :--- | :--- | :--- |
+| **Tipo de Daño** | Área de Efecto (AoE) | Objetivo Único |
+| **Frecuencia de Ataque** | Cada 1.0 segundos | Cada 1.25 segundos |
+| **Patrón de ICD** | Pyro cada 2º golpe | ICD Estándar |
+| **Efecto Especial** | Reducción RES (vía A1) | Buff de Reacción Personal (vía A1) |
+
+### Talentos Pasivos: El Umbral de 2,500 de ATQ
+Su pasiva A4, **Caos Formado como la Noche**, proporciona una mecánica de escalado única. Por cada 100 puntos de ATQ que posea Durin, el daño de su definitiva aumenta en un 3% del daño original, llegando a un **aumento total del 75%** cuando alcanza los 2,500 de ATQ.
+
+<Callout type="warning" title="Nota Importante sobre Estadísticas">
+La definitiva de Durin **no hace snapshot**. Esto significa que si sales de un campo de potenciación (como el de Bennett) o si un buff temporal de artefacto expira, el daño de su dragón caerá inmediatamente. Asegúrate siempre de que tus buffs estén activos durante toda su ventana de 20 segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sinergia y Resonancia de Hexenzirkel">
+
+La Versión 6.2 introdujo la **Resonancia de Hexenzirkel**, un sistema que mejora significativamente a los personajes antiguos de Mondstadt y los integra en el meta de 2026. Durin es un miembro principal de este grupo, y sus pasivas están diseñadas específicamente para recompensar los emparejamientos con "Brujas".
+
+**El Efecto del Buff de Hexenzirkel:**
+Cuando Durin se empareja con al menos otro personaje de Hexenzirkel (como Fischl, Albedo, Mona o Sacarosa), su pasiva A1 recibe un **aumento de efectividad del 75%**.
+
+| Tipo de Buff | Efectividad Base | Con Resonancia Hexenzirkel |
+| :--- | :--- | :--- |
+| **Reducción RES Modo Luz** | 20% | **35%** |
+| **Daño Reacción Modo Oscuro** | 40% | **70%** |
+| **ATQ Arma de Firma** | 20% | **35%** |
+
+<Callout type="success" title="Mejor Sinergia F2P">
+Fischl es actualmente la mejor compañera para Durin. No solo activa la resonancia de Hexenzirkel, sino que su aplicación de Electro fuera del campo complementa perfectamente el Modo Luz de Durin para reacciones constantes de Sobrecarga y una reducción de resistencia del 35%.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Fischl">
+    La compañera de Sobrecarga por excelencia. Proporciona una energía masiva y activa la reducción del 35%.
+  </Card>
+  <Card title="Albedo">
+    Recientemente mejorado en la 6.2. Proporciona daño Geo fuera del campo y buffs de Maestría Elemental para equipos de reacciones.
+  </Card>
+  <Card title="Mona">
+    Excelente para equipos de Vaporizado en Modo Oscuro. Sus buffs de C1 y C2 la convierten en una aplicadora Hydro de primer nivel.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Build Óptima: Artefactos y Armas">
+
+Construir a Durin requiere un equilibrio entre Ataque, Crítico y, ocasionalmente, Maestría Elemental. Debido a que su habilidad proporciona un reembolso de energía masivo (30-33 de energía), sus necesidades de **Recarga de Energía (ER)** son sorprendentemente bajas.
+
+### Clasificación de Conjuntos de Artefactos
+1.  **Ritual Real de la Nobleza (4 pzas)**: La elección estándar para soporte/sub-DPS. Dado que su definitiva dura 20s, el buff de ataque de 12s no tendrá un tiempo de actividad del 100%, pero el daño personal de la definitiva es invaluable.
+2.  **Emblema del Destino (4 pzas)**: Viable si tienes piezas de alta calidad, aunque Durin no necesita la ER tanto como otras unidades.
+3.  **Cazador de Sombras (4 pzas)**: El **Mejor en su Clase para Durin en el campo** cuando se empareja con Furina.
+4.  **Mezcla de 2 pzas (Bruja Carmesí / ATQ%)**: Una alternativa muy eficiente si careces de un conjunto completo con buenas sub-estadísticas.
+
+### Estadísticas Recomendadas
+<Checklist
+  id="durin-stats"
+  title="Lista de Prioridad de Estadísticas:"
+  items={[
+    "Probabilidad / Daño Crítico (Relación 1:2)",
+    "% de Ataque (Objetivo: 2,500 en total)",
+    "Maestría Elemental (Solo para Vaporizado/Crocante)",
+    "Recarga de Energía (120% - 140% para Pyro en solitario)"
+  ]}
+/>
+
+### Comparación de Armas
+| Arma | Rareza | Por qué funciona |
+| :--- | :--- | :--- |
+| **Athame Artis** | 5 Estrellas | Firma. Enormes buffs de Crítico y ATQ (potenciados por Brujas). |
+| **Mistsplitter** | 5 Estrellas | Alto ATQ Base y acumulaciones de Daño Elemental. |
+| **Juramento por la Libertad** | 5 Estrellas | La mejor opción de soporte para buffs a todo el equipo. |
+| **Final de las Profundidades**| 4 Estrellas | Rey F2P. Gran estadística de ATQ si llevas un sanador. |
+| **Rugido del León** | 4 Estrellas | Excelente para equipos de Sobrecarga con alta aplicación Pyro/Electro. |
+
+<Callout type="info" title="Nota sobre Estadísticas">
+Un **Cáliz de % de Ataque** es a menudo comparable a un Cáliz de Daño Pyro en Durin debido a su escalado A4 y la prevalencia de bonos de daño en sus constelaciones y buffs de equipo. Usa el que tenga mejores sub-estadísticas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guía de Constelaciones: Hitos de Inversión">
+
+Aunque Durin es excepcionalmente fuerte en C0, sus constelaciones proporcionan un escalado vertical significativo tanto para sus roles de soporte como de carry.
+
+<Steps>
+  <Step num="1" title="C1: Redención de Adamah">
+    Añade una mecánica de "Pluma" similar a la de Shenhe. En modo Luz, potencia los ataques de los miembros del equipo basándose en el ATQ de Durin. En modo Oscuro, potencia masivamente los golpes de su propia definitiva. Este es un punto de parada de alto valor.
+  </Step>
+  <Step num="2" title="C2: Visiones sin Tierra">
+    Un bono universal de Daño Elemental del 50% para todo el equipo para cualquier elemento involucrado en una reacción Pyro. Esto convierte a Durin en uno de los buffers más fuertes del juego.
+  </Step>
+  <Step num="3" title="C6: Nacimiento Dual">
+    El aumento de daño definitivo. Otorga un 30% de ignorar DEF a su definitiva y añade un 30% de reducción de DEF para el equipo en Modo Luz. En Modo Oscuro, su ignorancia personal de DEF aumenta en un 40% adicional.
+  </Step>
+</Steps>
+
+| Hito | Valor | Recomendación |
+| :--- | :--- | :--- |
+| **C0** | Alto | Perfecto para jugadores F2P. |
+| **C1** | Muy Alto | Mejor valor que su Arma de Firma (R1) en la mayoría de los equipos. |
+| **C2** | Élite | El mejor punto para detenerse para inversores "Dolphin". |
+| **C6** | Roto | Competitivo con las unidades DPS más fuertes de 2026. |
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre los Talentos de Durin">
+
+<FAQ items={[
+  {
+    question: "¿Qué modo debo usar para la exploración general?",
+    answer: "El Modo Luz (Habilidad + Habilidad) suele ser mejor para la exploración. Su daño en área elimina grupos de enemigos más rápido, y la reducción de resistencia ayuda a que todo tu equipo inflija más daño sin importar su elemento."
+  },
+  {
+    question: "¿Reemplaza Durin a Xiangling en el meta?",
+    answer: "Durin es una alternativa lateral o una mejora dependiendo del equipo. Mientras que Xiangling tiene una aplicación Pyro más rápida (sin ICD), Durin ofrece un 100% de tiempo de actividad, mejor gestión de energía y reducción de resistencia para todo el equipo."
+  },
+  {
+    question: "¿Cuánta Recarga de Energía necesita realmente Durin?",
+    answer: "En un equipo de doble Pyro o de Sobrecarga con Fischl, Durin puede funcionar con tan solo 100-110% de ER. Si es la única unidad Pyro sin soportes con armas de Favonius, apunta a 140-150% para asegurar que su definitiva esté lista en cada rotación."
+  },
+  {
+    question: "¿Puedo jugar a Durin como un DPS principal en el campo?",
+    answer: "Sí, pero requiere a Bennett C6 para proporcionar infusión Pyro a sus ataques normales. En esta configuración, Cazador de Sombras es su mejor conjunto de artefactos cuando se empareja con Furina."
+  }
+]} />
+
+</Section>

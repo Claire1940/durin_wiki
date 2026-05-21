@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Estadísticas de Artefactos de Durin: Mejores Builds, Prioridad de Substats y Ranking de Sets",
+  description: "Optimiza tu build de Durin con las mejores estadísticas de artefactos, ranking de sets y requisitos de recarga de energía para sus formas Blanca y Oscura en la versión 6.2.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Artifact+Stats+Guide",
+  date: "2026-05-21",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo de Estadística Principal**: Apunta a **2,500 ATK efectivo** para maximizar la pasiva Fusión Primordial (aumento del 75% en el multiplicador de daño).
+- **Prioridad de Artefactos**: **Tasa/Daño CRIT** y **ATK%** son las principales prioridades, seguidas por Maestría Elemental para builds de la forma Oscura.
+- **Recarga de Energía**: Los requisitos son excepcionalmente bajos (**100% - 130%**) si coronas su Habilidad Elemental debido al reembolso de energía fijo.
+- **Mejor Set**: **Un Día Tallado por los Vientos Ascendentes** (6.3+) es el tope, pero **Ritual Antiguo de la Nobleza** sigue siendo la mejor opción de soporte universal.
+- **Mecánica de Forma**: Las elecciones de artefactos varían ligeramente entre la **forma Blanca** (soporte de reducción de RES) y la **forma Oscura** (carry de Vaporizar/Derretir).
+</Callout>
+
+<Section icon={Sparkles} title="Mecánicas de Durin y Visión General de Estadísticas">
+
+Durin es un personaje Pyro de Espada de 5 estrellas altamente versátil, introducido en la versión 6.2 (Luna III). Su kit gira en torno a dos estados binarios distintos: **Confirmación de Pureza (forma Blanca)** y **Negación de la Oscuridad (forma Oscura)**. Elegir las **estadísticas de artefactos de Durin** correctas depende en gran medida de la forma que pretendas utilizar. La forma Blanca sobresale como Sub-DPS y soporte, proporcionando hasta un 35% de reducción de RES para Pyro y elementos asociados. Por el contrario, la forma Oscura transforma a Durin en un potente carry de reacciones, obteniendo una bonificación masiva del 70% de daño a Vaporizar y Derretir cuando se combina con compañeros de equipo Hexerei.
+
+El aspecto más crítico de su build es la **Pasiva de Ascensión 4: Caos Formado como la Noche**. Este talento otorga un aumento del multiplicador de daño del 3% por cada 100 de ATK, con un tope del 75% de aumento una vez que Durin alcanza los 2,500 de ATK. Esto hace que las estadísticas de ATK% sean casi tan valiosas como el CRIT, ya que estás "doble-dipeando" tanto en la escala base como en un multiplicador de valor de movimiento único.
+
+**Aspectos Destacados del Video:**
+- Desglose detallado de las rotaciones en **modo Blanco vs. Oscuro**.
+- Cómo el **límite de 2,500 ATK** afecta la prioridad de los substats de artefactos.
+- Consejos de gestión de energía para equipos de Pyro único vs. Pyro doble.
+- Comparación de los buffs de **Resonancia Hexerei** para la eficiencia de artefactos.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="GUÍA COMPLETA DE DURIN! Mejor Build de Durin [TODOS los Estilos de Juego]" />
+
+<Callout type="tip" title="Nota del Editor">
+Aunque el CRIT es el rey tradicional de las estadísticas, la pasiva A4 única de Durin hace que los substats de ATK% sean altamente competitivos. No descartes tiradas altas de ATK%, especialmente si te ayudan a alcanzar el umbral de 2,500 sin buffs externos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejores Sets de Artefactos para Durin">
+
+La flexibilidad de artefactos de Durin es una de sus mayores fortalezas. Aunque no tiene un set "obligatorio" único, varias opciones proporcionan aumentos de poder significativos según la composición de tu equipo y estilo de juego.
+
+<CardGrid cols={2}>
+  <Card title="Soporte y Sub-DPS (Forma Blanca)">
+    - **Ritual Antiguo de la Nobleza (4 piezas)**: El estándar para buffs de ATK a todo el equipo.
+    - **Pergamino de la Ciudad de Ceniza (4 piezas)**: Excelente para la amplificación de daño elemental.
+    - **Emblema del Destino (4 piezas)**: Alto valor para equipos con altos requisitos de Recarga de Energía.
+  </Card>
+  <Card title="Carry de Reacciones (Forma Oscura)">
+    - **Un Día Tallado por los Vientos Ascendentes (4 piezas)**: El mejor en slot para daño personal.
+    - **Bruja Carmesí en Llamas (4 piezas)**: Óptimo para la consistencia de Vaporizar y Derretir.
+    - **Sueños Áureos (4 piezas)**: Fuerte alternativa centrada en Maestría Elemental para Florecimiento o Vaporizar.
+  </Card>
+</CardGrid>
+
+| Set de Artefactos | Rol Recomendado | Beneficio Clave |
+| :--- | :--- | :--- |
+| **Ritual Antiguo de la Nobleza** | Soporte Universal | 20% DMG de Habilidad Definitiva + 20% buff de ATK de equipo |
+| **Un Día Tallado** | DPS Personal | 25% ATK + 20% Tasa CRIT (requiere Hexerei) |
+| **Emblema del Destino** | Sub-DPS Pyro Solo | Convierte la Recarga de Energía en alto % de DMG de Habilidad Definitiva |
+| **Bruja Carmesí** | Carry de Reacciones | Aumenta significativamente el DMG de Vaporizar/Derretir/Sobrecarga |
+| **Mezcla 2 piezas/2 piezas** | Build Transicional | Fácil de equilibrar estadísticas de CRIT/ATK/Pyro |
+
+<Callout type="warning" title="Advertencia de Sinergia de Set">
+El set de 4 piezas **Un Día Tallado por los Vientos Ascendentes** (lanzado en la versión 6.3) requiere que el personaje complete la "Tarea de la Bruja" para desbloquear la bonificación completa del 20% de Tasa CRIT. Asegúrate de que tu Durin haya progresado completamente en la misión antes de depender de este set para tu ratio CRIT.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimización de Estadísticas Principales y Substats">
+
+Encontrar el equilibrio perfecto de las **estadísticas de artefactos de Durin** requiere observar su ATK efectivo y su ratio CRIT simultáneamente. Debido a que Durin gana Daño CRIT al ascender, un casco de Tasa CRIT es casi siempre necesario para mantener una proporción de 1:2.
+
+| Slot de Artefacto | Estadística Principal (Soporte/Sub-DPS) | Estadística Principal (Carry/Florecimiento) |
+| :--- | :--- | :--- |
+| **Arenas** | ATK% | ATK% o Maestría Elemental |
+| **Cáliz** | Bono de DMG Pyro | Bono de DMG Pyro o ATK% |
+| **Casco** | Tasa CRIT / Daño CRIT | Tasa CRIT / Daño CRIT |
+
+**Lista de Prioridad de Substats:**
+1. **Recarga de Energía**: Hasta que se cumplan los requisitos del equipo (típicamente 110% - 130%).
+2. **Tasa CRIT / Daño CRIT**: Apunta a una proporción de 70/140 o superior.
+3. **ATK%**: Muy valioso hasta alcanzar el límite de 2,500 de ATK efectivo.
+4. **Maestría Elemental**: Alta prioridad para la forma Oscura; menor para la forma Blanca.
+5. **ATK Plano**: Beneficio menor en comparación con las estadísticas basadas en porcentaje.
+
+<Callout type="info" title="Cálculo de ATK Efectivo">
+El "ATK efectivo" incluye todos los buffs como la Habilidad Definitiva de Bennett, Ritual Antiguo de la Nobleza y Tenacidad de la Millelith. Si tu equipo proporciona 800 de ATK en buffs, tu Durin solo necesita 1,700 de ATK en la hoja para maximizar su pasiva.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Requisitos de Recarga de Energía">
+
+Las necesidades de Recarga de Energía (ER) de Durin son notablemente bajas en comparación con otros personajes de Habilidad Definitiva con coste de 70. Esto se debe a su habilidad **Forma Binaria: Convergencia y División**, que devuelve una cantidad fija de energía (30 en el nivel 9, 33 en el nivel 10).
+
+<Steps>
+  <Step num="1" title="Coronar la Habilidad Elemental">
+    Subir la habilidad al nivel 10 reduce el coste efectivo de su Habilidad Definitiva de 70 a 37. Este es el paso más importante para la eficiencia de artefactos.
+  </Step>
+  <Step num="2" title="Identificar la Resonancia del Equipo">
+    En equipos de doble Pyro o Sobrecarga con Fischl, Durin a menudo puede tener **0% de ER de artefactos** y aun así usar su Habilidad Definitiva en cada enfriamiento.
+  </Step>
+  <Step num="3" title="Ajustes para Pyro Solo">
+    Si Durin es la única unidad Pyro en un equipo (por ejemplo, equipos de Neuvillette o Kinich), apunta a **130% - 150% de ER** para asegurar la consistencia.
+  </Step>
+</Steps>
+
+| Arquetipo de Equipo | Requisito Típico de ER | Enfoque de Artefacto Recomendado |
+| :--- | :--- | :--- |
+| **Sobrecarga (con Chevreuse)** | 100% - 110% | Estadísticas Ofensivas Puras |
+| **Doble Pyro (con Bennett)** | 100% - 115% | Estadísticas Ofensivas Puras |
+| **Soporte Pyro Solo** | 130% - 145% | Substats de ER o Arenas de ER |
+| **Carry de Florecimiento** | 120% - 140% | Estadísticas Principales de ME + Substats de ER |
+
+<Callout type="success" title="Consejo de Rotación">
+El reembolso de energía se activa cada vez que Durin entra en un estado. Puedes lanzar Habilidad -> Habilidad Definitiva -> Habilidad (segundo lanzamiento) para recoger partículas y activar el reembolso sin desperdiciar energía si tu medidor ya estaba lleno.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sinergia de Armas y Artefactos">
+
+La elección del arma impacta significativamente en qué **estadísticas de artefactos de Durin** debes enfocarte. Las armas con alto ATK base facilitan alcanzar el límite de 2,500, mientras que las armas con estadísticas CRIT te permiten enfocarte más en los substats de ATK%.
+
+| Arma | Tipo | Sinergia con Artefactos |
+| :--- | :--- | :--- |
+| **Athame Artis** | Firma | Tasa CRIT masiva; permite casco de Daño CRIT. |
+| **Cortador de Jade Primordial** | 5 Estrellas | Alto ATK base; ayuda a alcanzar el límite de ATK fácilmente. |
+| **Colmillo de Lobo** | 4 Estrellas (Pase de Batalla) | Aumenta el CRIT de Habilidad/Habilidad Definitiva; excelente para Sub-DPS. |
+| **Final del Abismo** | Crafteable | Enorme bonificación de ATK%; combina bien con curadores. |
+| **Amanecer del Tejedor Lunar** | Misión F2P | Altas estadísticas base; buen todoterreno. |
+
+<Callout type="warning" title="Advertencia de Arma">
+Si usas **Final del Abismo**, debes llevar un curador dedicado para eliminar el Vínculo de Vida. Si el vínculo no se elimina, pierdes la bonificación masiva de ATK%, lo que dificulta alcanzar el límite de tu pasiva A4.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación para Construir tu Durin">
+
+Sigue esta lista de verificación para asegurarte de que tu Durin alcance su máximo potencial en el meta actual de 2026.
+
+<Checklist
+  id="durin-build-goals"
+  title="Hitos de Progreso:"
+  items={[
+    "Alcanza el Nivel 90 para obtener el máximo ATK Base y escala de Daño CRIT",
+    "Corona la Habilidad Definitiva para la escala de daño principal",
+    "Sube la Habilidad Elemental al menos al nivel 9 para desbloquear el reembolso de 30 de Energía",
+    "Equipa un set de artefactos de 4 piezas (Un Día Tallado o Nobleza)",
+    "Alcanza 2,500 de ATK Efectivo durante la rotación de tu equipo",
+    "Mantén al menos un 65% de Tasa CRIT para ticks consistentes de la Habilidad Definitiva"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Debo usar un cáliz de ATK% o de Bono de DMG Pyro en Durin?",
+    answer: "Ambos son muy similares en rendimiento. Si estás muy por debajo del límite de 2,500 de ATK, un cáliz de ATK% suele ser mejor. Si tienes buffs de ATK significativos (como Bennett y Nobleza), un cáliz de Bono de DMG Pyro producirá un daño mayor."
+  },
+  {
+    question: "¿Vale la pena la Maestría Elemental (ME) para la forma Blanca de Durin?",
+    answer: "Generalmente, no. La forma Blanca se enfoca en la reducción de RES y el daño Pyro puro. La ME solo es una prioridad para las builds de la forma Oscura que se centran en Vaporizar/Derretir o para builds específicas de Florecimiento."
+  },
+  {
+    question: "¿Cuánta ER necesita Durin si no subo de nivel su habilidad?",
+    answer: "Sin el reembolso de energía de su habilidad, sus requisitos de ER aumentan a 180% - 220% en la mayoría de los equipos. Es altamente recomendable subir de nivel su habilidad al menos al 9 para evitar sacrificar estadísticas ofensivas de artefactos por ER."
+  },
+  {
+    question: "¿La Habilidad Definitiva de Durin captura los buffs de los artefactos?",
+    answer: "No, la Habilidad Definitiva de Durin no captura los buffs. Esto significa que si un buff como el círculo de Bennett expira, los ticks restantes de la Habilidad Definitiva de Durin perderán esa bonificación de daño inmediatamente."
+  }
+]} />
+
+</Section>

@@ -10,7 +10,13 @@
       "twitterDescription": "Durin Wiki includes best build routes, team comps, materials, weapons, artifacts, talents, constellations, and banner timing for Genshin Impact."
     }
   },
-  "nav": {},
+  "nav": {
+    "build": "Build",
+    "guide": "Guide",
+    "materials": "Materials",
+    "teams": "Teams",
+    "weapons": "Weapons"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -32,10 +38,22 @@
     "getFreeCodesCTA": "Open Durin Build Guide",
     "playOnSteamCTA": "Play Genshin Impact",
     "stats": {
-      "stat1": { "value": "5-Star", "label": "Rarity" },
-      "stat2": { "value": "Pyro", "label": "Vision" },
-      "stat3": { "value": "Sword", "label": "Weapon" },
-      "stat4": { "value": "Luna III", "label": "Release Version" }
+      "stat1": {
+        "value": "5-Star",
+        "label": "Rarity"
+      },
+      "stat2": {
+        "value": "Pyro",
+        "label": "Vision"
+      },
+      "stat3": {
+        "value": "Sword",
+        "label": "Weapon"
+      },
+      "stat4": {
+        "value": "Luna III",
+        "label": "Release Version"
+      }
     }
   },
   "tools": {
@@ -43,14 +61,38 @@
     "titleHighlight": "Module Navigation",
     "subtitle": "Jump to each Durin module and scroll directly to the matching section",
     "cards": [
-      { "title": "Durin Best Build", "description": "Core role, stat goals, and practical setup" },
-      { "title": "Durin Best Teams", "description": "Reaction-focused teams and partner choices" },
-      { "title": "Durin Materials", "description": "Ascension and talent farm checklist" },
-      { "title": "Durin Weapons", "description": "Top swords for damage and support" },
-      { "title": "Durin Artifacts", "description": "Set comparisons and stat direction" },
-      { "title": "Durin Talents and Kit", "description": "Skill breakdown and leveling order" },
-      { "title": "Durin Constellations", "description": "C0 to C6 value checkpoints" },
-      { "title": "Durin Banner and Release Guide", "description": "Availability, pull timing, and planning" }
+      {
+        "title": "Durin Best Build",
+        "description": "Core role, stat goals, and practical setup"
+      },
+      {
+        "title": "Durin Best Teams",
+        "description": "Reaction-focused teams and partner choices"
+      },
+      {
+        "title": "Durin Materials",
+        "description": "Ascension and talent farm checklist"
+      },
+      {
+        "title": "Durin Weapons",
+        "description": "Top swords for damage and support"
+      },
+      {
+        "title": "Durin Artifacts",
+        "description": "Set comparisons and stat direction"
+      },
+      {
+        "title": "Durin Talents and Kit",
+        "description": "Skill breakdown and leveling order"
+      },
+      {
+        "title": "Durin Constellations",
+        "description": "C0 to C6 value checkpoints"
+      },
+      {
+        "title": "Durin Banner and Release Guide",
+        "description": "Availability, pull timing, and planning"
+      }
     ]
   },
   "modules": {
@@ -58,20 +100,44 @@
       "title": "Durin Best Build",
       "intro": "Durin performs best as an off-field Pyro sub-DPS with stable Energy Recharge and balanced CRIT stats.",
       "items": [
-        { "title": "Quick Build", "description": "ATK sands, Pyro goblet, CRIT circlet, then tune Energy until Burst uptime is stable." },
-        { "title": "Support Form", "description": "Use the utility-focused form when your team needs extra Pyro application and setup control." },
-        { "title": "Burst Form", "description": "Use the damage-focused form when Vaporize or Melt teams can amplify Durin Burst hits." },
-        { "title": "Reaction Build", "description": "Elemental Mastery setups work when Durin triggers Burgeon, Overloaded, or Melt windows often." }
+        {
+          "title": "Quick Build",
+          "description": "ATK sands, Pyro goblet, CRIT circlet, then tune Energy until Burst uptime is stable."
+        },
+        {
+          "title": "Support Form",
+          "description": "Use the utility-focused form when your team needs extra Pyro application and setup control."
+        },
+        {
+          "title": "Burst Form",
+          "description": "Use the damage-focused form when Vaporize or Melt teams can amplify Durin Burst hits."
+        },
+        {
+          "title": "Reaction Build",
+          "description": "Elemental Mastery setups work when Durin triggers Burgeon, Overloaded, or Melt windows often."
+        }
       ]
     },
     "durinBestTeams": {
       "title": "Durin Best Teams",
       "intro": "Durin fits both Pyro-reaction cores and utility-heavy lineups that need consistent off-field pressure.",
       "items": [
-        { "name": "Durin Overload Team", "description": "Pair Durin with Electro supports and a carry that benefits from sustained Pyro uptime." },
-        { "name": "Durin Vaporize Team", "description": "Hydro-driven teams can convert Durin off-field Pyro into strong Vaporize damage windows." },
-        { "name": "Durin Burning Team", "description": "Dendro pairings enable stable Burning pressure while Durin rotates around Burst uptime." },
-        { "name": "Durin Utility Team", "description": "Use Durin with buffers and grouping units when team comfort is more important than peak damage." }
+        {
+          "name": "Durin Overload Team",
+          "description": "Pair Durin with Electro supports and a carry that benefits from sustained Pyro uptime."
+        },
+        {
+          "name": "Durin Vaporize Team",
+          "description": "Hydro-driven teams can convert Durin off-field Pyro into strong Vaporize damage windows."
+        },
+        {
+          "name": "Durin Burning Team",
+          "description": "Dendro pairings enable stable Burning pressure while Durin rotates around Burst uptime."
+        },
+        {
+          "name": "Durin Utility Team",
+          "description": "Use Durin with buffers and grouping units when team comfort is more important than peak damage."
+        }
       ]
     },
     "durinMaterials": {
@@ -88,59 +154,146 @@
       "title": "Durin Weapons",
       "intro": "Durin prefers swords with CRIT value, Burst scaling, or team utility depending on your role target.",
       "items": [
-        { "name": "Athame Artis", "description": "Best-in-slot option for balanced personal damage and team value." },
-        { "name": "Premium CRIT Swords", "description": "High-end alternatives improve Burst consistency when stats are optimized." },
-        { "name": "Strong 4-Star Picks", "description": "Several four-star swords remain efficient when premium options are unavailable." }
+        {
+          "name": "Athame Artis",
+          "description": "Best-in-slot option for balanced personal damage and team value."
+        },
+        {
+          "name": "Premium CRIT Swords",
+          "description": "High-end alternatives improve Burst consistency when stats are optimized."
+        },
+        {
+          "name": "Strong 4-Star Picks",
+          "description": "Several four-star swords remain efficient when premium options are unavailable."
+        }
       ]
     },
     "durinArtifacts": {
       "title": "Durin Artifacts",
       "intro": "Durin artifacts should be chosen by role: Burst-focused damage, team support, or reaction-trigger play. Prioritize enough Energy Recharge first, then scale CRIT, ATK, and Elemental Mastery by team.",
       "items": [
-        { "name": "A Day Carved From Rising Winds (4pc)", "description": "Top personal-damage set for Dark Form and off-field Burst damage, with strong ATK and CRIT scaling in optimized teams." },
-        { "name": "Noblesse Oblige (4pc)", "description": "Best team-buff alternative for White Form support when no other unit already provides Noblesse uptime." },
-        { "name": "Emblem of Severed Fate (4pc)", "description": "Safe general set when Durin needs more Energy Recharge and stable Burst cycles across varied team setups." },
-        { "name": "Mixed 2pc Options", "description": "Reliable temporary setup while farming, combining Burst, Pyro, ATK, EM, or ER bonuses with better sub-stats." },
-        { "name": "Marechaussee Hunter (4pc)", "description": "Niche on-field option in HP-fluctuation teams, mainly when running Durin with Furina-style support patterns." },
-        { "name": "Durin Stat Targets", "description": "Aim for stable ER, balanced CRIT, and enough ATK for passive scaling, with extra EM in Vaporize, Melt, Overloaded, or Burgeon teams." }
+        {
+          "name": "A Day Carved From Rising Winds (4pc)",
+          "description": "Top personal-damage set for Dark Form and off-field Burst damage, with strong ATK and CRIT scaling in optimized teams."
+        },
+        {
+          "name": "Noblesse Oblige (4pc)",
+          "description": "Best team-buff alternative for White Form support when no other unit already provides Noblesse uptime."
+        },
+        {
+          "name": "Emblem of Severed Fate (4pc)",
+          "description": "Safe general set when Durin needs more Energy Recharge and stable Burst cycles across varied team setups."
+        },
+        {
+          "name": "Mixed 2pc Options",
+          "description": "Reliable temporary setup while farming, combining Burst, Pyro, ATK, EM, or ER bonuses with better sub-stats."
+        },
+        {
+          "name": "Marechaussee Hunter (4pc)",
+          "description": "Niche on-field option in HP-fluctuation teams, mainly when running Durin with Furina-style support patterns."
+        },
+        {
+          "name": "Durin Stat Targets",
+          "description": "Aim for stable ER, balanced CRIT, and enough ATK for passive scaling, with extra EM in Vaporize, Melt, Overloaded, or Burgeon teams."
+        }
       ]
     },
     "durinTalentsAndKit": {
       "title": "Durin Talents and Kit",
       "intro": "Durin's kit is built around switching between White Form and Dark Form, then timing Burst windows around your team reaction plan.",
       "items": [
-        { "step": "Step 1 - Normal Attack Baseline", "description": "Durin uses a standard sword string, but Normal Attack is low priority unless you play him on-field." },
-        { "step": "Step 2 - Elemental Skill Form Choice", "description": "Use the Skill sequence to enter White Form for support utility or Dark Form for stronger personal damage." },
-        { "step": "Step 3 - White Form Routing", "description": "White Form enables off-field AoE Pyro pressure and team-oriented utility for Pyro-related reaction lineups." },
-        { "step": "Step 4 - Dark Form Routing", "description": "Dark Form is for Vaporize and Melt damage paths where Durin's own Burst contribution is the focus." },
-        { "step": "Step 5 - Burst Priority", "description": "Durin Burst is the primary talent value point and should be leveled first for most account builds." },
-        { "step": "Step 6 - Passive Value", "description": "Ascension passives improve team resistance pressure in White Form and increase reaction damage value in Dark Form." },
-        { "step": "Step 7 - Rotation Basics", "description": "White route: Skill into White Form, then Burst. Dark route: Skill into Dark Form, then Burst during buff windows." },
-        { "step": "Step 8 - Talent Order", "description": "Standard upgrade order is Burst first, Skill second, and Normal Attack last unless running on-field Durin." }
+        {
+          "step": "Step 1 - Normal Attack Baseline",
+          "description": "Durin uses a standard sword string, but Normal Attack is low priority unless you play him on-field."
+        },
+        {
+          "step": "Step 2 - Elemental Skill Form Choice",
+          "description": "Use the Skill sequence to enter White Form for support utility or Dark Form for stronger personal damage."
+        },
+        {
+          "step": "Step 3 - White Form Routing",
+          "description": "White Form enables off-field AoE Pyro pressure and team-oriented utility for Pyro-related reaction lineups."
+        },
+        {
+          "step": "Step 4 - Dark Form Routing",
+          "description": "Dark Form is for Vaporize and Melt damage paths where Durin's own Burst contribution is the focus."
+        },
+        {
+          "step": "Step 5 - Burst Priority",
+          "description": "Durin Burst is the primary talent value point and should be leveled first for most account builds."
+        },
+        {
+          "step": "Step 6 - Passive Value",
+          "description": "Ascension passives improve team resistance pressure in White Form and increase reaction damage value in Dark Form."
+        },
+        {
+          "step": "Step 7 - Rotation Basics",
+          "description": "White route: Skill into White Form, then Burst. Dark route: Skill into Dark Form, then Burst during buff windows."
+        },
+        {
+          "step": "Step 8 - Talent Order",
+          "description": "Standard upgrade order is Burst first, Skill second, and Normal Attack last unless running on-field Durin."
+        }
       ]
     },
     "durinConstellations": {
       "title": "Durin Constellations",
       "intro": "Durin is fully usable at C0, with C1 and C2 as high-impact upgrades and C6 as the premium ceiling for heavy vertical investment.",
       "items": [
-        { "name": "Durin C0 Baseline", "description": "Strong base version with off-field Pyro damage, form-based utility, and practical fit in multiple reaction archetypes." },
-        { "name": "Durin C1 Upgrade", "description": "Major first constellation that improves stack-based damage value for both support-leaning and personal-damage play." },
-        { "name": "Durin C2 Checkpoint", "description": "Best early stopping point for many accounts, adding strong team elemental value in Pyro-reaction cycles." },
-        { "name": "Durin C3 and C5", "description": "Bridge constellations that raise talent levels and improve scaling but are usually not primary stopping targets." },
-        { "name": "Durin C4 Power Spike", "description": "Meaningful Burst-focused upgrade with stronger stack efficiency when already investing beyond C2." },
-        { "name": "Durin C6 Ceiling", "description": "Maximum-investment endpoint with high defense-ignore value and the strongest personal damage scaling." }
+        {
+          "name": "Durin C0 Baseline",
+          "description": "Strong base version with off-field Pyro damage, form-based utility, and practical fit in multiple reaction archetypes."
+        },
+        {
+          "name": "Durin C1 Upgrade",
+          "description": "Major first constellation that improves stack-based damage value for both support-leaning and personal-damage play."
+        },
+        {
+          "name": "Durin C2 Checkpoint",
+          "description": "Best early stopping point for many accounts, adding strong team elemental value in Pyro-reaction cycles."
+        },
+        {
+          "name": "Durin C3 and C5",
+          "description": "Bridge constellations that raise talent levels and improve scaling but are usually not primary stopping targets."
+        },
+        {
+          "name": "Durin C4 Power Spike",
+          "description": "Meaningful Burst-focused upgrade with stronger stack efficiency when already investing beyond C2."
+        },
+        {
+          "name": "Durin C6 Ceiling",
+          "description": "Maximum-investment endpoint with high defense-ignore value and the strongest personal damage scaling."
+        }
       ]
     },
     "durinBannerReleaseGuide": {
       "title": "Durin Banner and Release Guide",
       "intro": "Track Durin release timing, limited banner availability, and pull breakpoints so you can plan wishes and upgrade resources efficiently.",
       "items": [
-        { "name": "Durin Character Profile", "description": "Durin is a limited 5-star Pyro Sword character mainly used for off-field sub-DPS and flexible support routing." },
-        { "name": "Durin Debut Window", "description": "Durin debuted on December 3, 2025 and first ran through December 23, 2025 during Version Luna III." },
-        { "name": "Durin Current Rerun", "description": "Current rerun window is May 20, 2026 to June 9, 2026, making this the active period to pull Durin directly." },
-        { "name": "Durin Banner Status", "description": "Durin remains a limited character and can only be obtained when his Character Event Wish is available." },
-        { "name": "Durin Pull Value", "description": "High value for players needing a flexible Pyro slot that can pivot between team support and Burst damage roles." },
-        { "name": "Durin Investment Stops", "description": "C0 is functional for broad use, while C2 is the common value stop before considering premium C6 investment." }
+        {
+          "name": "Durin Character Profile",
+          "description": "Durin is a limited 5-star Pyro Sword character mainly used for off-field sub-DPS and flexible support routing."
+        },
+        {
+          "name": "Durin Debut Window",
+          "description": "Durin debuted on December 3, 2025 and first ran through December 23, 2025 during Version Luna III."
+        },
+        {
+          "name": "Durin Current Rerun",
+          "description": "Current rerun window is May 20, 2026 to June 9, 2026, making this the active period to pull Durin directly."
+        },
+        {
+          "name": "Durin Banner Status",
+          "description": "Durin remains a limited character and can only be obtained when his Character Event Wish is available."
+        },
+        {
+          "name": "Durin Pull Value",
+          "description": "High value for players needing a flexible Pyro slot that can pivot between team support and Burst damage roles."
+        },
+        {
+          "name": "Durin Investment Stops",
+          "description": "C0 is functional for broad use, while C2 is the common value stop before considering premium C6 investment."
+        }
       ]
     }
   },
@@ -149,9 +302,18 @@
     "titleHighlight": "FAQ",
     "subtitle": "Quick answers for common Durin planning questions",
     "questions": [
-      { "question": "Is Durin better as support or damage?", "answer": "Durin can do both, but most accounts get the best results by starting with a support-friendly setup and shifting to damage once stats are stable." },
-      { "question": "What should I farm first for Durin?", "answer": "For Durin, farm ascension materials and talent books first, then finalize artifacts once your baseline levels are complete." },
-      { "question": "Do I need high constellations for Durin?", "answer": "Durin is usable at low investment, while higher constellations mainly improve comfort and ceiling rather than baseline playability." }
+      {
+        "question": "Is Durin better as support or damage?",
+        "answer": "Durin can do both, but most accounts get the best results by starting with a support-friendly setup and shifting to damage once stats are stable."
+      },
+      {
+        "question": "What should I farm first for Durin?",
+        "answer": "For Durin, farm ascension materials and talent books first, then finalize artifacts once your baseline levels are complete."
+      },
+      {
+        "question": "Do I need high constellations for Durin?",
+        "answer": "Durin is usable at low investment, while higher constellations mainly improve comfort and ceiling rather than baseline playability."
+      }
     ]
   },
   "cta": {
@@ -175,5 +337,107 @@
     "copyrightNotice": "Copyright Notice",
     "copyright": "© 2026 Durin Wiki",
     "disclaimer": "This is an unofficial fan-made wiki and is not affiliated with HoYoverse."
+  },
+  "pages": {
+    "build": {
+      "title": "durin Build",
+      "description": "Best durin build paths for support and damage roles with clear stat priorities and practical upgrade order.",
+      "metaTitle": "durin Build - Best Artifacts, Stats, and Setup",
+      "metaDescription": "Plan the best durin build with artifact sets, stat targets, and role-based setups for stable team performance.",
+      "categoryLabel": "BUILD",
+      "whatIs": "What is this Build section?",
+      "whatIsDescription": "This section explains how to build durin for consistent value, including role direction, core stats, and setup tradeoffs.",
+      "why": "Why read this build content?",
+      "whySteps": {
+        "step1Title": "Set a clear role first",
+        "step1Description": "Choose support or damage routing so your artifact, weapon, and team choices work toward one plan.",
+        "step2Title": "Avoid wasted farming",
+        "step2Description": "Use focused stat goals and set priorities to reduce resin waste and reach usable checkpoints faster.",
+        "step3Title": "Scale with team context",
+        "step3Description": "Adjust ER, CRIT, ATK, and EM targets based on reaction frequency and buff coverage in your lineup."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Build Articles"
+    },
+    "guide": {
+      "title": "durin Guide",
+      "description": "Core durin guide coverage for kit understanding, talent priority, rotations, and practical release-day usage.",
+      "metaTitle": "durin Guide - Kit, Talents, and Rotation Basics",
+      "metaDescription": "Read a practical durin guide with kit fundamentals, talent order, and rotation patterns for real match use.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is this Guide section?",
+      "whatIsDescription": "This section provides foundational durin knowledge, from ability behavior to decision rules used in normal rotations.",
+      "why": "Why read this guide content?",
+      "whySteps": {
+        "step1Title": "Understand kit flow",
+        "step1Description": "Learn how durin form choices and Burst timing shape his contribution across different team styles.",
+        "step2Title": "Level talents efficiently",
+        "step2Description": "Follow proven talent priority so resources go to the upgrades that add the largest real combat value first.",
+        "step3Title": "Fix rotation mistakes early",
+        "step3Description": "Use step-by-step rotation logic to avoid downtime, missed buffs, and weak reaction windows."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guide Articles"
+    },
+    "materials": {
+      "title": "durin Materials",
+      "description": "Full durin materials planning for ascension, talents, boss drops, and pre-farm priorities before banner windows.",
+      "metaTitle": "durin Materials - Ascension and Talent Farming Plan",
+      "metaDescription": "Track every durin material requirement and build an efficient farming route for ascension and talent upgrades.",
+      "categoryLabel": "MATERIALS",
+      "whatIs": "What is this Materials section?",
+      "whatIsDescription": "This section lists the resources durin needs and explains how to farm them with fewer bottlenecks and less waste.",
+      "why": "Why read this materials content?",
+      "whySteps": {
+        "step1Title": "Prepare before pulls",
+        "step1Description": "Pre-farm key items so durin can be leveled immediately when you obtain him from an active banner.",
+        "step2Title": "Sequence resin correctly",
+        "step2Description": "Prioritize bottleneck drops first, then fill secondary needs to keep progress steady across multiple days.",
+        "step3Title": "Prevent upgrade stalls",
+        "step3Description": "Use checklist-style planning to avoid missing one material that blocks ascension or talent progression."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Materials Articles"
+    },
+    "teams": {
+      "title": "durin Teams",
+      "description": "Best durin team compositions for Vaporize, Overloaded, Burning, and utility-focused variants by account needs.",
+      "metaTitle": "durin Teams - Best Comps and Partner Choices",
+      "metaDescription": "Build better durin teams with role-based comps, reaction priorities, and partner options for different rosters.",
+      "categoryLabel": "TEAMS",
+      "whatIs": "What is this Teams section?",
+      "whatIsDescription": "This section maps durin into practical team archetypes and shows which partners improve consistency and damage.",
+      "why": "Why read this team content?",
+      "whySteps": {
+        "step1Title": "Choose a stable core",
+        "step1Description": "Start from reaction goals and uptime needs, then assign durin to the slot where he creates reliable pressure.",
+        "step2Title": "Match roster reality",
+        "step2Description": "Use alternatives for premium teammates so your lineup still works even when ideal units are unavailable.",
+        "step3Title": "Improve combat rhythm",
+        "step3Description": "Apply tested comp logic to smooth rotations, maintain buffs, and increase practical clear consistency."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Team Articles"
+    },
+    "weapons": {
+      "title": "durin Weapons",
+      "description": "durin weapon comparisons for signature, premium, and F2P options with role-specific stat interpretation.",
+      "metaTitle": "durin Weapons - Signature, Alternatives, and F2P Picks",
+      "metaDescription": "Compare the best durin weapons, understand tradeoffs, and choose the right option for your build route.",
+      "categoryLabel": "WEAPONS",
+      "whatIs": "What is this Weapons section?",
+      "whatIsDescription": "This section compares durin weapon options by real output, stat fit, and how each option supports your target role.",
+      "why": "Why read this weapon content?",
+      "whySteps": {
+        "step1Title": "Pick the right stat profile",
+        "step1Description": "Choose weapon main stats and passives that match your ER requirements and damage conversion plan.",
+        "step2Title": "Compare value tiers",
+        "step2Description": "See where signature, premium alternatives, and four-star picks differ in practical account value.",
+        "step3Title": "Avoid mismatched choices",
+        "step3Description": "Prevent wasted upgrades by selecting weapons that align with your rotation and team-dependent reaction plan."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Weapon Articles"
+    }
   }
 }

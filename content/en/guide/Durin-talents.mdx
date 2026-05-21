@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin Talents: Full Skill Breakdown & 2026 Meta Build Guide",
+  description: "Master Durin's dual-mode mechanics. Learn how to optimize Durin talents, Hexenzirkel resonance, and the best 2026 team compositions for this Pyro sub-DPS.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Talents+Guide",
+  date: "2026-05-21",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Durin Talents**: Focus on the **Elemental Burst** first, as it provides 100% uptime on off-field Pyro application.
+- **Binary Form**: Use Skill + Skill for **Light Mode** (Support/AoE) or Skill + Normal Attack for **Dark Mode** (Personal DMG/Vape).
+- **Attack Target**: Aim for **2,500 effective ATK** to maximize the A4 passive damage bonus.
+- **Hexenzirkel Synergy**: Pair with characters like **Fischl or Albedo** to boost resistance shred to 35% and reaction damage to 70%.
+- **Energy Management**: Durin refunds a massive amount of energy (up to 33) upon skill cast, significantly lowering his ER requirements.
+</Callout>
+
+<Section icon={Map} title="Core Mechanics: Understanding Binary Form">
+
+Durin is a revolutionary 5-star Pyro Sword character introduced in Version 6.2 (Luna 3). Unlike traditional sub-DPS units, his kit revolves around **Essential Transmutation**, allowing him to switch between two distinct combat styles. Understanding how to trigger these modes is the foundation of mastering his gameplay.
+
+**Video Highlights:**
+- **Mode Selection**: Detailed breakdown of the Skill + Skill vs. Skill + Attack combos.
+- **Energy Refund**: How his talent levels affect his burst uptime.
+- **Snapshotting**: Explanation of why Durin's burst does not snapshot stats.
+- **Team Synergy**: Showcasing the Hexenzirkel resonance in action.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="COMPLETE DURIN GUIDE! Best Durin Build [ALL Playstyles]" />
+
+Durin's Elemental Skill, **Binary Form: Convergence and Division**, serves as the gateway to his power. On its own, the initial cast does no damage but enters a state of transmutation. Your next action determines his role for the next 30 seconds.
+
+<CardGrid cols={2}>
+  <Card title="Confirmation of Purity (Light Mode)">
+    - **Trigger**: Press Elemental Skill a second time.
+    - **Effect**: Deals AoE Pyro DMG and enables support capabilities.
+    - **Focus**: Resistance shredding and consistent AoE Pyro application.
+  </Card>
+  <Card title="Denial of Darkness (Dark Mode)">
+    - **Trigger**: Follow the first Skill cast with a Normal Attack.
+    - **Effect**: Performs a 3-hit Pyro slash and enters a carry-oriented state.
+    - **Focus**: Single-target damage and massive Vaporize/Melt multipliers.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Energy Management Tip">
+If Durin's energy is already full when entering a chamber, you can Burst immediately. Since he defaults to Light Mode, you can use his Skill after the Burst to trigger the energy refund without wasting the particles generated.
+</Callout>
+
+| Action Type | Resulting Mode | Primary Benefit | Target Playstyle |
+| :--- | :--- | :--- | :--- |
+| **Skill + Skill** | Light (Purity) | 20%-35% RES Shred | Overload / Burning / Support |
+| **Skill + Normal** | Dark (Darkness) | 40%-70% Reaction DMG | Vaporize / Melt / Carry |
+
+</Section>
+
+<Section icon={Target} title="Durin Talents: Skill and Burst Scaling">
+
+To maximize the impact of **Durin talents**, players must prioritize his Elemental Burst, **Principle of Purity: As the Light Shifts**. This talent manifests a dragon that follows the active character, ensuring that your Pyro application is never tethered to a static location like Bennett's circle or Jean's field.
+
+### Elemental Burst: The Dragon Forms
+The Burst duration lasts for **20 seconds** with an 18-second cooldown. This provides over 100% potential uptime, a rarity for high-impact sub-DPS units.
+
+| Feature | Dragon of White Flame (Light) | Dragon of Dark Decay (Dark) |
+| :--- | :--- | :--- |
+| **DMG Type** | Area of Effect (AoE) | Single-Target |
+| **Attack Rate** | Every 1.0 seconds | Every 1.25 seconds |
+| **ICD Pattern** | Pyro every 2nd hit | Standard ICD |
+| **Special Effect** | Res Shred (via A1) | Personal Reaction Buff (via A1) |
+
+### Passive Talents: The 2,500 ATK Threshold
+His A4 passive, **Chaos Formed Like the Night**, provides a unique scaling mechanic. For every 100 ATK Durin possesses, his burst damage increases by 3% of the original damage, capping at a **75% total increase** when he reaches 2,500 ATK.
+
+<Callout type="warning" title="Important Stat Note">
+Durin's burst **does not snapshot**. This means if you step out of a buffing field (like Bennett's) or a temporary artifact buff expires, his dragon's damage will drop immediately. Always ensure your buffs are active throughout his 20-second window.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Hexenzirkel Synergy and Resonance">
+
+Version 6.2 introduced the **Hexenzirkel Resonance**, a system that significantly buffs older Mondstadt characters and integrates them into the 2026 meta. Durin is a core member of this group, and his passives are specifically designed to reward "Witch" pairings.
+
+**The Hexenzirkel Buff Effect:**
+When Durin is paired with at least one other Hexenzirkel character (such as Fischl, Albedo, Mona, or Sucrose), his A1 passive receives a **75% effectiveness increase**.
+
+| Buff Type | Base Effectiveness | With Hexenzirkel Resonance |
+| :--- | :--- | :--- |
+| **Light Mode RES Shred** | 20% | **35%** |
+| **Dark Mode Reaction DMG** | 40% | **70%** |
+| **Signature Weapon ATK** | 20% | **35%** |
+
+<Callout type="success" title="Best F2P Synergy">
+Fischl is currently the best partner for Durin. Not only does she trigger the Hexenzirkel resonance, but her off-field Electro application perfectly complements Durin's Light Mode for constant Overload reactions and 35% Resistance shred.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Fischl">
+    The premier Overload partner. Provides massive energy and triggers the 35% shred.
+  </Card>
+  <Card title="Albedo">
+    Newly buffed in 6.2. Provides off-field Geo damage and EM buffs for reaction teams.
+  </Card>
+  <Card title="Mona">
+    Excellent for Dark Mode Vaporize teams. Her C1 and C2 buffs make her a top-tier hydro enabler.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Optimal Build: Artifacts and Weapons">
+
+Building Durin requires a balance of Attack, Crit, and occasionally Elemental Mastery. Because his skill provides a massive energy refund (30-33 energy), his **Energy Recharge (ER)** needs are surprisingly low.
+
+### Artifact Set Rankings
+1.  **Noblesse Oblige (4pc)**: The standard support/sub-DPS choice. Since his burst lasts 20s, the 12s attack buff won't have 100% uptime, but the personal burst damage is invaluable.
+2.  **Emblem of Severed Fate (4pc)**: Viable if you have high-quality pieces, though Durin doesn't need the ER as much as other units.
+3.  **Maréchaussée Hunter (4pc)**: The **Best-in-Slot for On-Field Durin** when paired with Furina.
+4.  **2pc Mix (Crimson Witch / ATK%)**: A highly efficient alternative if you lack a full set with good substats.
+
+### Recommended Stats
+<Checklist
+  id="durin-stats"
+  title="Stat Priority Checklist:"
+  items={[
+    "Critical Rate / Damage (1:2 Ratio)",
+    "Attack % (Target 2,500 total)",
+    "Elemental Mastery (For Vape/Burgeon only)",
+    "Energy Recharge (120% - 140% for solo Pyro)"
+  ]}
+/>
+
+### Weapon Comparison
+| Weapon | Rarity | Why it works |
+| :--- | :--- | :--- |
+| **Athame Artis** | 5-Star | Signature. Massive Crit and ATK buffs (boosted by Witches). |
+| **Mistsplitter** | 5-Star | High Base ATK and Elemental DMG stacks. |
+| **Freedom-Sworn** | 5-Star | Best supportive option for team-wide buffs. |
+| **Finale of the Deep**| 4-Star | F2P King. Huge ATK stat stick if you run a healer. |
+| **Lion's Roar** | 4-Star | Excellent for Overload teams with high Pyro/Electro uptime. |
+
+<Callout type="info" title="Stat Note">
+An **Attack % Goblet** is often comparable to a Pyro Damage Goblet on Durin because of his A4 scaling and the prevalence of damage bonuses in his constellations and team buffs. Use whichever has better substats.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Constellation Guide: Investment Milestones">
+
+While Durin is exceptionally strong at C0, his constellations provide significant vertical scaling for both his support and carry roles.
+
+<Steps>
+  <Step num="1" title="C1: Adamah's Redemption">
+    Adds a "Quill" mechanic similar to Shenhe. In Light mode, it buffs party members' attacks based on Durin's ATK. In Dark mode, it massively buffs his own burst hits. This is a high-value stopping point.
+  </Step>
+  <Step num="2" title="C2: Unground Visions">
+    A universal 50% Elemental Damage bonus to the entire party for any element involved in a Pyro reaction. This makes Durin one of the strongest buffers in the game.
+  </Step>
+  <Step num="3" title="C6: Dual Birth">
+    The ultimate damage boost. Grants 30% DEF ignore to his burst and adds a 30% DEF shred for the team in Light Mode. In Dark Mode, his personal DEF ignore increases by an additional 40%.
+  </Step>
+</Steps>
+
+| Milestone | Value | Recommendation |
+| :--- | :--- | :--- |
+| **C0** | High | Perfect for F2P players. |
+| **C1** | Very High | Better value than his Signature Weapon (R1) in most teams. |
+| **C2** | Elite | The best stopping point for "Dolphin" investors. |
+| **C6** | Broken | Competitive with the strongest DPS units in 2026. |
+
+</Section>
+
+<Section icon={Swords} title="Durin Talents FAQ">
+
+<FAQ items={[
+  {
+    question: "Which mode should I use for general exploration?",
+    answer: "Light Mode (Skill + Skill) is generally better for exploration. Its AoE damage clears mobs faster, and the resistance shred helps your entire party deal more damage regardless of their element."
+  },
+  {
+    question: "Does Durin replace Xiangling in the meta?",
+    answer: "Durin is a sidegrade or upgrade depending on the team. While Xiangling has faster Pyro application (no ICD), Durin offers 100% uptime, better energy management, and team-wide resistance shredding."
+  },
+  {
+    question: "How much Energy Recharge does Durin actually need?",
+    answer: "In a double Pyro or Overload team with Fischl, Durin can run as low as 100-110% ER. If he is the solo Pyro unit without Favonius supports, aim for 140-150% to ensure his burst is ready every rotation."
+  },
+  {
+    question: "Can I play Durin as a main on-field DPS?",
+    answer: "Yes, but it requires C6 Bennett to provide Pyro infusion for his normal attacks. In this setup, Maréchaussée Hunter is his best artifact set when paired with Furina."
+  }
+]} />
+
+</Section>

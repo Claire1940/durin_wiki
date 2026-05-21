@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Comparaison des Armes de Durin : Meilleurs Épées et Classements de Build",
+  description: "Une comparaison détaillée des armes de Durin pour Genshin Impact 2026. Comparez Athame Artis, Croc-Loup et les options F2P pour les états de Pureté et d'Obscurité.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Weapons+Comparison",
+  date: "2026-05-20",
+  author: "Équipe Wiki de Durin"
+}
+
+<Callout type="info" title="Guide Rapide">
+- La **comparaison des armes de Durin** se concentre sur l'équilibre entre les **stats CRIT** et les **exigences élevées en ATQ** nécessaires pour le multiplicateur passif de son A4.
+- **Athame Artis** reste le meilleur en slot (BiS) incontesté pour les dégâts personnels, surtout lorsqu'il est associé à un autre **personnage Hexerei**.
+- Le **Croc-Loup (R5)** est le choix 4 étoiles par excellence, rivalisant avec plusieurs options 5 étoiles dans l'**état d'Obscurité (DPS)**.
+- Pour les **builds Pureté** orientés support, des armes comme la **Lame de la Vengeance** ou l'**Épée de Favonius** offrent une utilité d'équipe supérieure.
+- Visez toujours **2500 ATQ** pour maximiser le multiplicateur de DMG de base de 75% du Déchaînement Élémentaire issu du passif **Chaos Formé Comme la Nuit**.
+</Callout>
+
+<Section icon={Swords} title="Comprendre la Scaling des Armes de Durin">
+
+Choisir la bonne lame dans une **comparaison des armes de Durin** nécessite de comprendre ses mécaniques à double état. Durin opère soit en **Confirmation de Pureté (Forme Blanche)** pour les buffs d'équipe et la réduction de RÉS, soit en **Déni des Ténèbres (Forme Sombre)** pour les dégâts personnels de Fonte et de Vaporisation. Étant donné que son Déchaînement Élémentaire constitue la grande majorité de ses dégâts, les armes qui boostent les DMG du Déchaînement ou fournissent des stats CRIT sont très prisées.
+
+Son passif d'Ascension 4, *Chaos Formé Comme la Nuit*, est un facteur critique dans la sélection des armes. Il accorde une augmentation de 3% des DMG pour chaque 100 ATQ, plafonnée à 75%. Pour atteindre ce plafond, Durin a besoin de 2500 ATQ totales. Les armes avec une ATQ de base élevée ou des secondaires ATQ% aident à atteindre ce seuil sans sacrifier une coupe DMG Pyro pour une coupe ATQ%.
+
+| Facteur de Scaling | Importance | Cible Optimale |
+| :--- | :--- | :--- |
+| **ATQ de Base** | Très Élevée | 600+ (5 étoiles) ou 510+ (4 étoiles) |
+| **Taux CRIT** | Élevée | 70% Minimum |
+| **Recharge d'Énergie** | Situationnelle | 120-150% (Pyro Solo) |
+| **Maîtrise Élémentaire** | Modérée | 100-200 (équipes Vaporisation/Fonte) |
+
+<Callout type="info" title="Exigences en Énergie">
+Si Durin est la seule unité Pyro, ses besoins en RE peuvent monter à 150%. Cependant, dans les équipes double Pyro ou avec sa constellation C5, il peut souvent se contenter de 100% de RE, ce qui permet des choix d'armes purement offensifs.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Classement des Armes 5 Étoiles de Premier Ordre">
+
+Dans toute **comparaison des armes de Durin**, l'arme signature **Athame Artis** établit la norme d'excellence. Elle fournit une secondaire de Taux CRIT massive et un passif qui augmente les DMG du Déchaînement tout en accordant un bonus d'ATQ% au personnage actif. Jouée avec un autre coéquipier Hexerei, l'efficacité de cette arme augmente considérablement, la rendant environ 10 à 15% meilleure que la meilleure option 5 étoiles suivante.
+
+Cependant, les joueurs qui possèdent déjà des épées CRIT généralistes pourraient trouver le gain marginal d'obtenir l'arme signature inutile. Des armes comme la **Trancheuse de Jade Primordiale** offrent un énorme boost de Taux CRIT qui simplifie la culture d'artéfacts, tandis que la **Lame Kageuchi** offre des bonus de DMG Élémentaires élevés qui scalent exceptionnellement bien dans son état d'Obscurité.
+
+<CardGrid cols={3}>
+  <Card title="Athame Artis">
+    - **Meilleurs Dégâts BiS**
+    - % DMG du Déchaînement Élevé
+    - Idéal avec les équipes Hexerei
+  </Card>
+  <Card title="Trancheuse de Jade Primordiale">
+    - **La Plus Facile à Construire**
+    - Taux CRIT massif de 44,1%
+    - Conversion PV en ATQ
+  </Card>
+  <Card title="Haran Geppaku Futsu">
+    - **Stats Brutes Élevées**
+    - Taux CRIT Constant
+    - Forte Scaling ATQ
+  </Card>
+</CardGrid>
+
+| Arme 5 Étoiles | Sous-stat | Bénéfice Passif | Performance % |
+| :--- | :--- | :--- | :--- |
+| **Athame Artis** | Taux CRIT | DMG du Déchaînement + Buff ATQ | 100% (Référence) |
+| **Trancheuse de Jade Primordiale** | Taux CRIT | Scaling PV + ATQ Plate | 92-95% |
+| **Lame Kageuchi** | DMG CRIT | Stacks de DMG Élémentaires | 90-93% |
+| **Haran Geppaku Futsu** | Taux CRIT | Bonus de DMG Élémentaires | 89-91% |
+| **Absolution** | DMG CRIT | Mécaniques de Lien de Vie | 85-88% |
+
+<Callout type="success" title="Synergie Hexerei">
+Associer Durin à des personnages comme Albedo, Fischl ou Venti active l'effet Hexerei : Rite Secret. Cela augmente ses buffs A1 de 75%, rendant les passifs spécifiques d'Athame Artis encore plus puissants.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Meilleures Options d'Épées 4 Étoiles et F2P">
+
+Pour de nombreux joueurs, la **comparaison des armes de Durin** se concentre sur l'accessibilité des armes 4 étoiles. Le **Croc-Loup** est le plus performant ici. Au R5, il rivalise directement avec les épées 5 étoiles à faible raffinement. Il fournit un Taux CRIT pour la compétence élémentaire et le déchaînement, ce qui s'aligne parfaitement avec le kit de Durin. Cependant, notez que ses stacks passifs ne peuvent pas être générés lorsque Durin est hors du terrain, ce qui l'oblige à passer un bref moment sur le terrain pour maximiser le buff.
+
+Les joueurs F2P devraient se tourner vers l'**Aube du Tisserand de Lune**, obtenue grâce à la quête "Échos d'un Passé Inachevé". Bien qu'elle n'offre pas le même plafond que les options de gacha, sa sous-stat d'ATQ élevée et son bonus de DMG du Déchaînement en font une option de repli fiable.
+
+<Steps>
+  <Step num="1" title="Évaluez Votre Budget">
+    Si vous avez le Pass de Bataille, privilégiez le **Croc-Loup**. C'est le dealer de dégâts 4 étoiles le plus constant pour l'état d'Obscurité de Durin.
+  </Step>
+  <Step num="2" title="Vérifiez les Compositions d'Équipe">
+    Dans les équipes Surcharge ou Brûlure, la **Rugissement du Lion (R5)** offre un bonus de 36% de DMG contre les ennemis affectés par le Pyro, ce qui est presque toujours actif.
+  </Step>
+  <Step num="3" title="Évaluez les Options de Fabrication">
+    Si vous avez un soigneur dédié comme Bennett ou Xilonen, la **Finale de l'Abysse** fournit un boost d'ATQ massif qui aide à atteindre le plafond du passif A4.
+  </Step>
+</Steps>
+
+| Arme 4 Étoiles | Source | Meilleure Utilisation |
+| :--- | :--- | :--- |
+| **Croc-Loup** | Passe de Bataille | DPS Général / État d'Obscurité |
+| **Rugissement du Lion** | Gacha | Équipes Surcharge / Brûlure |
+| **Finale de l'Abysse** | Fabriquable | Équipes avec guérison constante |
+| **Aube du Tisserand de Lune** | Quête | Généraliste F2P |
+| **Clair de Lune de Xiphos** | Gacha | Équipes riches en ME / Bourgeonnement |
+
+<Callout type="warning" title="Limitation du Croc-Loup">
+Les stacks de Taux CRIT du Croc-Loup ne se déclenchent que lorsque le porteur est sur le terrain. Si vous échangez Durin immédiatement après son Déchaînement, il pourrait ne pas maintenir les stacks maximum pour les attaques périodiques du Dragon.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Recommandations Spécifiques à la Forme">
+
+La **comparaison des armes de Durin** change radicalement si vous le jouez en support dans l'état de Pureté. Dans ces équipes, ses dégâts personnels sont secondaires à sa capacité à réduire la RÉS et à buff les coéquipiers. La **Lame de la Vengeance** devient un choix de premier ordre ici, car elle fournit un buff d'ATQ et de DMG d'Attaque Normale/Chargée à toute l'équipe.
+
+Si l'équipe a des problèmes d'énergie, l'**Épée de Favonius** est le meilleur choix utilitaire. Elle permet à Durin d'agir comme batterie pour les coéquipiers à coût élevé comme Xiangling ou Beidou tout en assurant que son propre Déchaînement reste disponible à chaque rotation.
+
+| Voie de Build | Arme Recommandée | Objectif Principal |
+| :--- | :--- | :--- |
+| **Support (Pureté)** | Lame de la Vengeance | Buffs d'ATQ et de DMG d'équipe |
+| **Utilitaire (Pureté)** | Épée de Favonius | Génération d'énergie d'équipe |
+| **Vaporisation/Fonte (Sombre)** | Athame Artis | Maximiser le DPS personnel |
+| **Surcharge/Vaporisation (Sombre)** | Rugissement du Lion | Bonus de dégâts de réaction |
+
+<Callout type="tip" title="Flexibilité du Double-Carry">
+Dans les équipes "Dual-Carry" avec Neuvillette ou Mualani, Durin peut lancer sa compétence deux fois par rotation. Cela élimine ses exigences en RE, vous permettant d'utiliser des armes purement offensives comme la **Lame Kageuchi** même sans batterie.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Synergie des Artéfacts et Objectifs de Stats">
+
+Le choix de l'arme influence directement la priorité de vos statistiques d'artéfacts. Si vous utilisez une arme avec une sous-stat ATQ% comme la **Finale de l'Abysse**, vous aurez probablement besoin d'un casque Taux CRIT pour maintenir un ratio sain. Inversement, une arme comme la **Trancheuse de Jade Primordiale** vous permet de vous concentrer presque entièrement sur les sous-stats DMG CRIT et ATQ%.
+
+Pour les ensembles d'artéfacts, le **4pc Noblesse Oblige** est le choix le plus courant pour ses builds généralistes. Cependant, dans des équipes de réaction spécifiques, le **4pc Sorcière des Flammes Ardentes** ou le **4pc Rêves Dorés** peuvent prendre le dessus, surtout lorsque des armes qui fournissent de la Maîtrise Élémentaire comme le **Clair de Lune de Xiphos** sont utilisées.
+
+<Checklist
+  id="durin-milestones"
+  title="Jalons de Progression du Build :"
+  items={[
+    "Atteindre 2500 ATQ Totale pour le plafond du Passif A4",
+    "Assurer un Ratio CRIT 1:2 (ex: 70% Taux / 140% DMG)",
+    "Satisfaire les exigences de RE (120-150% selon l'équipe)",
+    "Monter le niveau du Déchaînement Élémentaire au niveau de talent 9 ou 10",
+    "Équiper une arme avec au moins 510 ATQ de Base"
+  ]}
+/>
+
+| Emplacement d'Artéfact | Stat Principale | Sous-stats Prioritaires |
+| :--- | :--- | :--- |
+| **Sablier** | ATQ% ou ME | CRIT > ATQ% > RE |
+| **Coupe** | DMG Pyro ou ATQ% | CRIT > ATQ% > ME |
+| **Casque** | Taux CRIT/DMG | ATQ% > RE > ATQ Plate |
+
+<Callout type="tip" title="ATQ% vs Coupe Pyro">
+En raison des énormes buffs de DMG% que Durin reçoit de ses passifs et de ses constellations, une **Coupe ATQ%** est souvent compétitive avec une **Coupe DMG Pyro**. Utilisez celle qui a les meilleures sous-stats CRIT.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ sur la Comparaison des Armes de Durin">
+
+<FAQ items={[
+  {
+    question: "Vaut-il la peine d'obtenir Athame Artis si je possède la Lame Kageuchi ?",
+    answer: "Généralement, non. La Lame Kageuchi est performante à 7-10% près d'Athame Artis. À moins que vous n'appréciiez grandement la synergie de l'équipe Hexerei ou que vous ayez besoin du Taux CRIT supplémentaire, vos Primo-gemmes seront mieux dépensées pour les constellations C1 ou C2 de Durin."
+  },
+  {
+    question: "Pourquoi le Croc-Loup est-il considéré comme meilleur que le Rugissement du Lion ?",
+    answer: "Le Croc-Loup fournit du Taux CRIT, qui est beaucoup plus difficile à obtenir via les artéfacts que le bonus de DMG fourni par le Rugissement du Lion. De plus, le Croc-Loup améliore directement les dégâts de la compétence et du déchaînement."
+  },
+  {
+    question: "Puis-je utiliser l'Aube de l'Épée sur Durin ?",
+    answer: "Oui, mais c'est risqué. Durin subit souvent des dégâts continus ou une perte de PV dans les équipes Furina. Si ses PV tombent en dessous de 90%, l'arme perd ses énormes buffs CRIT, la rendant moins bonne que la plupart des options 4 étoiles."
+  },
+  {
+    question: "Quelle est la meilleure arme F2P pour un Durin support ?",
+    answer: "L'Épée de Favonius est la meilleure option utilitaire F2P. Pour des dégâts purs sans dépenser, l'Aube du Tisserand de Lune (arme de quête) est le choix le plus puissant pour son état d'Obscurité."
+  }
+]} />
+
+</Section>

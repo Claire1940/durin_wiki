@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin kqm: Mejor Build, Armas y Ranking de Equipos 2026",
+  description: "Domina a Durin con nuestra guía estilo KQM. Aprende sobre los modos Claro y Oscuro, los mejores conjuntos de artefactos, el ranking de armas y las composiciones de equipo de primer nivel para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+KQM+Guide",
+  date: "2026-05-21",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Núcleo de Durin kqm**: Es un personaje Pyro de Espada de 5 estrellas con una mecánica única de **doble modo** (Claro/Oscuro).
+- **Activación de modo**: Usa Habilidad -> Habilidad para el **Modo Claro** (Apoyo); usa Habilidad -> Ataque Normal para el **Modo Oscuro** (Carry).
+- **Prioridad de estadísticas**: Apunta a **2500 ATQ Total** para maximizar el bono de daño de su pasiva de Ascensión 4.
+- **Mejor artefacto**: **Nobleza Obliga** es el estándar de oro para el apoyo, mientras que **Un Día Tallado por Vientos Ascendentes** es el líder para el DPS en Modo Oscuro.
+- **Mejor arma**: **Athame Artis** es su arma insignia, pero **Colmillo de Lobo** y **Final del Abismo** son excelentes alternativas.
+</Callout>
+
+<Section icon={Sparkles} title="Mecánicas de Durin y Dualidad de Modos">
+
+Durin introduce un sofisticado sistema de "Forma Binaria" que le permite alternar entre un buffer elemental fuera del campo y un carry de vaporización de alta inversión. Su habilidad elemental, **Forma Binaria: Convergencia y División**, sirve como puerta de entrada a estos estados. A diferencia de los cambiadores de postura tradicionales, el modo de Durin se determina por el combo específico realizado inmediatamente después del lanzamiento inicial de la habilidad.
+
+**Puntos destacados del video:**
+- **Análisis de modos**: Explicación detallada de los combos Habilidad-Habilidad vs. Habilidad-N1.
+- **Escalado pasivo**: Por qué 2500 ATQ es el número mágico para su techo de daño.
+- **Sinergias de equipo**: Cómo la resonancia Hexerei transforma su reducción de resistencia.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="¡GUÍA COMPLETA DE DURIN! La Mejor Build de Durin" />
+
+El **Modo Claro (Confirmación de Pureza)** se centra en la aplicación de Pyro en área y la utilidad para todo el equipo. En este estado, su Habilidad Definitiva, **Principio de Pureza**, inflige daño AoE consistente cada segundo durante 20 segundos. Más importante aún, su pasiva A1 reduce la resistencia Pyro y la resistencia del elemento involucrado en la reacción (Sobrecarga, Torbellino, Cristalización o Quemadura) hasta en un 35% cuando se combina con un compañero de equipo Hexerei.
+
+Por el contrario, el **Modo Oscuro (Negación de la Oscuridad)** convierte a Durin en un distribuidor de daño egoísta. Su Habilidad Definitiva, **Principio de la Oscuridad**, ataca más lento pero con multiplicadores significativamente más altos y potencia su propio daño de Vaporización y Derretido en un 70%. Este modo es ideal para jugadores que buscan usar a Durin como carry principal o secundario en composiciones con mucha presencia de Hydro.
+
+| Modo | Mecánica | Rol Principal | Beneficio Clave |
+| :--- | :--- | :--- | :--- |
+| **Claro** | Habilidad > Habilidad | Apoyo / Sub-DPS | 35% Reducción RES, Pyro AoE |
+| **Oscuro** | Habilidad > N1 | Carry Principal / Dual | 70% Daño Vape/Melt, Alto Escalado |
+
+<Callout type="tip" title="Gestión de Energía">
+La habilidad de Durin restaura 30-33 de energía fija al entrar en un estado. Esta masiva devolución significa que a menudo puede funcionar con **0% de Recarga de Energía** en equipos de doble Pyro o Sobrecarga.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores Artefactos y Prioridades de Estadísticas">
+
+Construir a Durin requiere un delicado equilibrio entre ATQ, Crítico y Maestría Elemental. Su pasiva A4, **Caos Formado Como la Noche**, proporciona un aumento del multiplicador de daño base de hasta el 75% basado en su ATQ total. Este buff alcanza su máximo en 2500 ATQ, lo que lo convierte en una prioridad más alta de lo habitual para un usuario de espada.
+
+| Set | Bono de 2 Piezas | Efecto de 4 Piezas / Uso |
+| :--- | :--- | :--- |
+| **Nobleza Obliga** | Daño de Habilidad Definitiva +20% | Mejor para apoyo/buffeo en Modo Claro |
+| **Vientos Ascendentes** | ATQ +18% | Mejor para carry en Modo Oscuro (set v6.3) |
+| **Cazador Fantasmal** | Daño NA/CA +15% | Mejor para DPS en campo con Furina |
+| **Emblema** | RE +20% | Buen todoterreno para equipos solo Pyro |
+
+Para las estadísticas principales, un **Arena de ATQ%** casi siempre es preferido sobre Maestría Elemental o Recarga de Energía debido a su escalado pasivo y devolución de energía. Un **Cáliz de Bono de Daño Pyro** es estándar, aunque un Cáliz de ATQ% puede ser competitivo si tienes substats de Crítico altos pero te cuesta alcanzar el umbral de 2500 ATQ.
+
+**Lista de verificación de prioridad de estadísticas:**
+- **ATQ Total**: 2500 (Límite máximo para la pasiva)
+- **Tasa/Daño Crítico**: Proporción 1:2 (ej. 70/140)
+- **Maestría Elemental**: 100-200 (solo Modo Oscuro)
+- **Recarga de Energía**: 100% - 130% (depende del equipo)
+
+<Callout type="warning" title="La Trampa del ATQ">
+Aunque 2500 ATQ es el objetivo, no sacrifiques completamente la Tasa/Daño Crítico para alcanzarlo. Usa buffs externos como la Habilidad Definitiva de Bennett o los procs de Nobleza para cubrir la diferencia.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ranking y Selección de Armas">
+
+Durin tiene una amplia variedad de opciones de espada viables, que van desde armas premium de 5 estrellas hasta armas crafteables accesibles. Su arma insignia, **Athame Artis**, proporciona una masiva 33.1% de Tasa Crítica y mejora aún más sus buffs de ATQ cuando la resonancia Hexerei está activa.
+
+<CardGrid cols={3}>
+  <Card title="Athame Artis (Sig)">
+    - **Mejor en Slot** para todos los estilos
+    - Buff de ATQ para todo el equipo
+    - Mejorado por unidades Hexerei
+  </Card>
+  <Card title="Colmillo de Lobo (R5)">
+    - Opción top de 4 estrellas
+    - Alto Daño de Habilidad/Definitiva
+    - Compite con muchas espadas de 5 estrellas
+  </Card>
+  <Card title="Final del Abismo">
+    - **Mejor Opción F2P**
+    - Alto ATQ para el límite pasivo
+    - Requiere un curador para la pasiva
+  </Card>
+</CardGrid>
+
+Para los jugadores que ya poseen espadas de alta gama, **Cortador de Jade Primordial** y **Reflejo de la Luna Creciente** siguen siendo opciones de primer nivel. La masiva Tasa Crítica de Cortador de Jade facilita mucho la construcción de artefactos, mientras que Reflejo de la Luna Creciente proporciona un valioso bono de Daño Elemental que beneficia a ambos modos de Durin.
+
+| Arma | Rareza | Nivel | Nota de Rendimiento |
+| :--- | :--- | :--- | :--- |
+| **Athame Artis** | 5 Estrellas | **SSS** | Hecha a medida para su kit y buffs de equipo |
+| **Cortador de Jade** | 5 Estrellas | **S** | Masiva Tasa Crítica, conversión de HP a ATQ |
+| **Colmillo de Lobo** | 4 Estrellas | **A+** | Excelente en R5, requiere pase de batalla |
+| **Rugido del León** | 4 Estrellas | **A** | Fuerte en equipos de Sobrecarga/Quemadura |
+| **Tejedora Lunar** | 4 Estrellas | **B+** | Gratis de la misión mundial Nod-Krai |
+
+<Callout type="success" title="Recomendación F2P">
+Si eres estrictamente F2P, craftea **Final del Abismo**. Proporciona el ATQ bruto necesario para alcanzar su límite pasivo sin requerir tiradas de gacha afortunadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rotaciones Óptimas y Progresión">
+
+Para maximizar el impacto de Durin, debes dominar su tiempo de rotación. Debido a que su Habilidad Definitiva no toma instantáneas (snapshot), es vital configurar todos los buffs del equipo (como el campo de Bennett o el torbellino de Kazuha) antes de desatar sus formas de Dragón.
+
+<Steps>
+  <Step num="1" title="Configuración Inicial">
+    Comienza con tus buffs de larga duración. Lanza la E de Raiden o la Habilidad/Definitiva de Furina.
+  </Step>
+  <Step num="2" title="Selección de Modo">
+    Cambia a Durin. Para Apoyo, presiona **E > E > Q**. Para Carry, presiona **E > N1 > Q**.
+  </Step>
+  <Step num="3" title="Integración de Buffs">
+    Cambia a tu personaje principal en campo. El Dragón fuera del campo de Durin ahora reducirá RES o aplicará golpes de vaporización.
+  </Step>
+  <Step num="4" title="Recarga de Energía">
+    La devolución de energía fija de la habilidad de Durin ocurre instantáneamente al entrar en modo, preparándolo para el siguiente ciclo.
+  </Step>
+</Steps>
+
+**Lista de verificación de hitos del personaje:**
+- **Ascensión 4**: Desbloquea el escalado crítico de ATQ a Daño.
+- **Nivel 90**: El ATQ base es vital para su escalado pasivo.
+- **Talento 9/9/10**: La prioridad es Habilidad Definitiva > Habilidad Elemental > Ataque Normal.
+- **Misión Hexerei**: Completa "La Tarea de la Bruja" para desbloquear los buffs de resonancia.
+
+<Callout type="info" title="Cancelación de Animación">
+El Ataque Cargado de Durin tiene una recuperación larga. Usa un **Salto Cancelado** (J) o un **Dash Cancelado** (D) para acelerar sus combos en campo si lo usas como driver.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Arquetipos de Equipo y Preguntas Frecuentes">
+
+Durin es la "versatilidad encarnada", encajando en casi cualquier equipo que requiera aplicación de Pyro. Su sinergia más fuerte reside en los **personajes Hexerei** (Fischl, Mona, Albedo, Venti, etc.), quienes activan su pasiva mejorada para una reducción de RES del 35% o un 70% de daño de reacción.
+
+| Arquetipo | Unidades Centrales | Modo de Durin | Por qué funciona |
+| :--- | :--- | :--- | :--- |
+| **Sobrecarga** | Chevreuse, Fischl | Claro | Reducción de RES triple (Pyro, Electro, +1) |
+| **Vaporización Carry** | Furina, Mona | Oscuro | Durin vaporiza sus golpes de alto multiplicador |
+| **Quemadura** | Kinich, Emilie | Claro | 100% de tiempo de actividad de reducción, habilita a Kinich |
+| **Quemadura Rápida** | Emilie, Sethos | Claro | Reduce Electro y Dendro simultáneamente |
+
+**Consejo de Sinergia Hexerei:**
+La resonancia Hexerei no es obligatoria pero sí muy recomendable. Añadir a **Fischl** a un equipo de Sobrecarga no solo añade daño; aumenta la reducción de RES Pyro de Durin del 20% al 35%, potenciando significativamente el rendimiento de todo el equipo.
+
+<Callout type="tip" title="Sinergia Geo">
+Durin (Modo Blanco) es actualmente el único personaje no Geo capaz de reducir la **Resistencia Geo**, lo que lo convierte en una joya oculta para los equipos de Navia o Itto.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Debería tirar por C1 o por su Arma Insignia?",
+    answer: "Generalmente, C1 es un mayor aumento del DPS del equipo. Proporciona una mecánica de 'pluma' similar a Shenhe, añadiendo daño plano a los golpes del equipo en Modo Claro o buffs masivos propios en Modo Oscuro."
+  },
+  {
+    question: "¿Durin reemplaza a Xiangling?",
+    answer: "A menudo se le llama una 'Xiangling de 5 estrellas', pero desempeñan roles diferentes. Xiangling no tiene ICD en su Pyronado, mientras que Durin ofrece una utilidad significativa para el equipo (reducción de RES) y un escalado de un solo objetivo más alto."
+  },
+  {
+    question: "¿Qué es exactamente la resonancia Hexerei?",
+    answer: "Cuando tienes 2 o más unidades Hexerei, los efectos pasivos A1 de Durin aumentan en un 75%. Esto convierte su reducción del 20% en un 35% y su bono de reacción del 40% en un 70%."
+  },
+  {
+    question: "¿Puede Durin jugar en campo sin C6 Bennett?",
+    answer: "Es posible pero no recomendable. Su escalado de Ataque Normal es bajo y carece de infusión incorporada. Es mucho más efectivo como DPS de Habilidad Definitiva fuera del campo."
+  }
+]} />
+
+</Section>

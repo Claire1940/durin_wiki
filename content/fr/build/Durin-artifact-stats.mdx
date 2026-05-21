@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Statistiques d'Artéfacts pour Durin : Meilleurs Builds, Priorités et Classements",
+  description: "Optimisez votre build de Durin avec les meilleures statistiques d'artéfacts, les classements d'ensembles et les besoins en recharge d'énergie pour les formes Blanche et Sombre en version 6.2.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Artifact+Stats+Guide",
+  date: "2026-05-21",
+  author: "Équipe Wiki de Durin",
+  keywords: "Durin, artéfacts, statistiques, build, Pyro, Genshin Impact, guide"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif de Statistique Principale** : Visez **2 500 d'ATQ effective** pour maximiser le passif Fusion Primordiale (augmentation de 75 % du multiplicateur de DGT).
+- **Priorité des Artéfacts** : Le **Taux CRIT/DGT CRIT** et l'**ATQ %** sont les priorités absolues, suivis de la Maîtrise Élémentaire pour les builds en forme Sombre.
+- **Recharge d'Énergie** : Les besoins sont exceptionnellement bas (**100 % - 130 %**) si vous couronnez sa Compétence Élémentaire grâce au remboursement d'énergie fixe.
+- **Meilleur Ensemble** : **Un jour sculpté par les vents levants** (6.3+) est le summum, mais l'**Ancien rituel de la noblesse** reste la meilleure option de soutien universelle.
+- **Mécanique de Forme** : Les choix d'artéfacts varient légèrement entre la **forme Blanche** (soutien baisse de RÉS) et la **forme Sombre** (carry Évaporation/Fonte).
+</Callout>
+
+<Section icon={Sparkles} title="Mécaniques de Durin et Aperçu des Statistiques">
+
+Durin est un personnage Épée Pyro 5 étoiles très polyvalent introduit en version 6.2 (Luna III). Son kit s'articule autour de deux états binaires distincts : **Confirmation de la Pureté (forme Blanche)** et **Déni des Ténèbres (forme Sombre)**. Choisir les bonnes **statistiques d'artéfacts pour Durin** dépend fortement de la forme que vous comptez utiliser. La forme Blanche excelle en tant que Sub-DPS et soutien, offrant jusqu'à 35 % de baisse de RÉS pour le Pyro et les éléments associés. À l'inverse, la forme Sombre transforme Durin en un puissant carry de réaction, gagnant un bonus de dégâts massif de 70 % pour l'Évaporation et la Fonte lorsqu'il est associé à des coéquipiers Hexerei.
+
+L'aspect le plus critique de son build est le **Passif d'Ascension 4 : Chaos façonné comme la nuit**. Ce talent accorde une augmentation du multiplicateur de dégâts de 3 % pour chaque tranche de 100 points d'ATQ, plafonnée à une augmentation de 75 % une fois que Durin atteint 2 500 d'ATQ. Cela rend les statistiques d'ATQ % presque aussi précieuses que le CRIT, car vous profitez doublement du scaling de base et d'un multiplicateur de valeur de mouvement unique.
+
+**Points Forts de la Vidéo :**
+- Analyse détaillée des rotations en **mode Blanc vs Sombre**.
+- Comment le **plafond de 2 500 ATQ** affecte la priorité des sous-statistiques d'artéfacts.
+- Conseils de gestion de l'énergie pour les équipes solo-Pyro vs double-Pyro.
+- Comparaison des buffs de **Résonance Hexerei** pour l'efficacité des artéfacts.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="GUIDE COMPLET DURIN ! Meilleur Build de Durin [TOUS les styles de jeu]" />
+
+<Callout type="tip" title="Note de l'Éditeur">
+Bien que le CRIT soit traditionnellement la statistique reine, le passif A4 unique de Durin rend les sous-statistiques d'ATQ % extrêmement compétitives. Ne jetez pas les pièces avec des rolls d'ATQ % élevés, surtout si elles vous aident à atteindre le seuil de 2 500 sans buffs externes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Meilleurs Ensembles d'Artéfacts pour Durin">
+
+La flexibilité des artéfacts de Durin est l'une de ses plus grandes forces. Bien qu'il n'ait pas d'ensemble unique « obligatoire », plusieurs options offrent des pics de puissance significatifs selon la composition de votre équipe et votre style de jeu.
+
+<CardGrid cols={2}>
+  <Card title="Soutien & Sub-DPS (Forme Blanche)">
+    - **Ancien rituel de la noblesse (4 pces)** : Le standard pour les buffs d'ATQ de toute l'équipe.
+    - **Parchemin de la Cité des cendres (4 pces)** : Excellent pour l'amplification des dégâts élémentaires.
+    - **Emblème du destin brisé (4 pces)** : Grande valeur pour les équipes avec des besoins élevés en RE.
+  </Card>
+  <Card title="Carry de Réaction (Forme Sombre)">
+    - **Un jour sculpté par les vents levants (4 pces)** : Le meilleur choix pour les dégâts personnels.
+    - **Sorcière des flammes ardentes (4 pces)** : Optimal pour la régularité de l'Évaporation et de la Fonte.
+    - **Rêve doré (4 pces)** : Alternative solide axée sur la ME pour le Bourgeonnement ou l'Évaporation.
+  </Card>
+</CardGrid>
+
+| Ensemble d'Artéfacts | Rôle Recommandé | Avantage Clé |
+| :--- | :--- | :--- |
+| **Ancien rituel de la noblesse** | Soutien Universel | +20% DGT Déchaînement + Buff ATQ équipe 20% |
+| **Un jour sculpté** | DPS Personnel | +25% ATQ + 20% Taux CRIT (req. Hexerei) |
+| **Emblème du destin brisé** | Sub-DPS Solo Pyro | Convertit la RE en bonus de DGT de Déchaînement élevé |
+| **Sorcière des flammes** | Carry de Réaction | Boost considérablement les DGT Évap/Fonte/Surcharge |
+| **Mixte 2p/2p** | Build de Transition | Facile pour équilibrer les stats CRIT/ATQ/Pyro |
+
+<Callout type="warning" title="Avertissement de Synergie d'Ensemble">
+L'ensemble de 4 pièces **Un jour sculpté par les vents levants** (sorti en 6.3) nécessite que le personnage termine les « Devoirs de la sorcière » pour débloquer le bonus complet de 20 % de Taux CRIT. Assurez-vous que votre Durin a bien progressé dans ses quêtes avant de compter sur cet ensemble pour votre ratio CRIT.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimisation des Statistiques Principales et Secondaires">
+
+Trouver l'équilibre parfait pour les **statistiques d'artéfacts de Durin** nécessite de surveiller simultanément son ATQ effective et son ratio CRIT. Comme Durin gagne des DGT CRIT lors de son ascension, un diadème Taux CRIT est presque toujours nécessaire pour maintenir un ratio 1:2.
+
+| Emplacement d'Artéfact | Stat. Principale (Soutien/Sub-DPS) | Stat. Principale (Carry/Bourgeonnement) |
+| :--- | :--- | :--- |
+| **Sablier** | ATQ % | ATQ % ou Maîtrise Élémentaire |
+| **Coupe** | Bonus de DGT Pyro | Bonus de DGT Pyro ou ATQ % |
+| **Diadème** | Taux CRIT / DGT CRIT | Taux CRIT / DGT CRIT |
+
+**Liste de Priorité des Sous-statistiques :**
+1. **Recharge d'Énergie** : Jusqu'à ce que les besoins de l'équipe soient satisfaits (généralement 110 % - 130 %).
+2. **Taux CRIT / DGT CRIT** : Visez un ratio de 70/140 ou plus.
+3. **ATQ %** : Très précieux jusqu'à atteindre le plafond de 2 500 ATQ effective.
+4. **Maîtrise Élémentaire** : Priorité élevée pour la forme Sombre ; plus basse pour la forme Blanche.
+5. **ATQ fixe** : Bénéfice mineur par rapport aux statistiques basées sur un pourcentage.
+
+<Callout type="info" title="Calcul de l'ATQ Effective">
+L'« ATQ effective » inclut tous les buffs comme le Déchaînement de Bennett, l'Ancien rituel de la noblesse et la Ténacité du Millelithe. Si votre équipe fournit 800 d'ATQ en buffs, votre Durin n'a besoin que de 1 700 d'ATQ sur sa fiche pour maximiser son passif.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Besoins en Recharge d'Énergie">
+
+Les besoins en Recharge d'Énergie (RE) de Durin sont remarquablement bas par rapport à d'autres personnages ayant un Déchaînement à 70 points. Cela est dû à sa compétence **Forme binaire : Convergence et division**, qui rembourse un montant fixe d'énergie (30 au niveau 9, 33 au niveau 10).
+
+<Steps>
+  <Step num="1" title="Couronnez la Compétence Élémentaire">
+    Monter la compétence au niveau 10 réduit le coût effectif de son Déchaînement de 70 à 37. C'est l'étape la plus importante pour l'efficacité des artéfacts.
+  </Step>
+  <Step num="2" title="Identifiez la Résonance d'Équipe">
+    Dans les équipes double-Pyro ou Surcharge avec Fischl, Durin peut souvent fonctionner avec **0 % de RE via les artéfacts** et toujours lancer son déchaînement dès la fin du temps de recharge.
+  </Step>
+  <Step num="3" title="Ajustements pour Solo Pyro">
+    Si Durin est la seule unité Pyro de l'équipe (ex. équipes Neuvillette ou Kinich), visez **130 % - 150 % de RE** pour assurer la régularité.
+  </Step>
+</Steps>
+
+| Archétype d'Équipe | Besoin Typique en RE | Focus d'Artéfact Recommandé |
+| :--- | :--- | :--- |
+| **Surcharge (avec Chevreuse)** | 100% - 110% | Stats Purement Offensives |
+| **Double Pyro (avec Bennett)** | 100% - 115% | Stats Purement Offensives |
+| **Soutien Solo Pyro** | 130% - 145% | Sous-stats RE ou Sablier RE |
+| **Carry Bourgeonnement** | 120% - 140% | Stats ME + Sous-stats RE |
+
+<Callout type="success" title="Conseil de Rotation">
+Le remboursement d'énergie se déclenche chaque fois que Durin entre dans un état. Vous pouvez lancer Compétence -> Déchaînement -> Compétence (deuxième charge) pour récupérer les particules et déclencher le remboursement sans gaspiller d'énergie si votre jauge était déjà pleine.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Synergie entre Armes et Artéfacts">
+
+Le choix de l'arme impacte considérablement les **statistiques d'artéfacts de Durin** sur lesquelles vous devez vous concentrer. Les armes avec une ATQ de base élevée facilitent l'atteinte du plafond de 2 500, tandis que les armes à statistiques CRIT vous permettent de vous concentrer davantage sur les sous-statistiques d'ATQ %.
+
+| Arme | Type | Synergie avec les Artéfacts |
+| :--- | :--- | :--- |
+| **Athamé d'Artis** | Signature | Taux CRIT massif ; permet un diadème DGT CRIT. |
+| **Reflet de la tranche-brume** | 5 Étoiles | ATQ de base élevée ; aide à atteindre le plafond d'ATQ facilement. |
+| **Croc de loup** | 4 Étoiles (BP) | Boost le CRIT de la Compétence/Déchaînement ; idéal pour Sub-DPS. |
+| **Final des profondeurs** | Forgeable | Énorme bonus d'ATQ % ; se marie bien avec les soigneurs. |
+| **L'aube du tisseur de lune** | Quête F2P | Stats de base élevées ; solide et polyvalent. |
+
+<Callout type="warning" title="Avertissement sur l'Arme">
+Si vous utilisez le **Final des profondeurs**, vous devez inclure un soigneur dédié pour dissiper l'Engagement de vie. Si l'engagement n'est pas levé, vous perdez le bonus massif d'ATQ %, ce qui rend plus difficile le plafonnement de votre passif A4.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Liste de Vérification pour votre Durin">
+
+Suivez cette liste pour vous assurer que votre Durin atteint son potentiel maximum dans la méta actuelle de 2026.
+
+<Checklist
+  id="durin-build-goals"
+  title="Étapes de Progression :"
+  items={[
+    "Atteindre le niveau 90 pour maximiser l'ATQ de base et le scaling des DGT CRIT",
+    "Couronner le Déchaînement Élémentaire pour le scaling des dégâts principaux",
+    "Monter la Compétence Élémentaire au moins au niveau 9 pour débloquer le remboursement de 30 d'Énergie",
+    "Équiper un ensemble de 4 pièces d'artéfacts (Un jour sculpté ou Noblesse)",
+    "Atteindre 2 500 d'ATQ effective pendant la rotation de votre équipe",
+    "Maintenir au moins 65 % de Taux CRIT pour des ticks de Déchaînement constants"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Dois-je utiliser une coupe ATQ % ou Bonus de DGT Pyro sur Durin ?",
+    answer: "Les deux ont des performances très proches. Si vous êtes loin du plafond de 2 500 ATQ, une coupe ATQ % est souvent préférable. Si vous bénéficiez de buffs d'ATQ importants (comme Bennett et la Noblesse), une coupe de DGT Pyro produira des dégâts plus élevés."
+  },
+  {
+    question: "La Maîtrise Élémentaire (ME) en vaut-elle la peine pour Durin en forme Blanche ?",
+    answer: "Généralement, non. La forme Blanche se concentre sur la baisse de RÉS et les dégâts Pyro bruts. La ME n'est une priorité que pour les builds en forme Sombre axés sur l'Évaporation/Fonte ou pour des builds spécifiques de Bourgeonnement."
+  },
+  {
+    question: "De combien de RE Durin a-t-il besoin si je ne monte pas sa compétence ?",
+    answer: "Sans le remboursement d'énergie de sa compétence, ses besoins en RE grimpent à 180 % - 220 % dans la plupart des équipes. Il est fortement recommandé de monter sa compétence au moins au niveau 9 pour éviter de sacrifier des statistiques offensives d'artéfacts pour de la RE."
+  },
+  {
+    question: "Le Déchaînement de Durin « snapshot »-t-il les buffs d'artéfacts ?",
+    answer: "Non, le Déchaînement de Durin ne snapshot pas. Cela signifie que si un buff comme le cercle de Bennett expire, les ticks restants du Déchaînement de Durin perdront immédiatement ce bonus de dégâts."
+  }
+]} />
+
+</Section>

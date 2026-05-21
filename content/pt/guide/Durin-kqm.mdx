@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin kqm: Melhor Build, Armas e Rankings de Times para 2026",
+  description: "Domine Durin com nosso guia estilo KQM. Aprenda sobre os modos Luz e Trevas, melhores conjuntos de artefatos, rankings de armas e composições de times de alto nível para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+KQM+Guide",
+  date: "2026-05-21",
+  author: "Equipe Durin Wiki",
+  keywords: "Durin, build, kqm, guia, armas, artefatos, times"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Núcleo do Durin kqm**: Ele é um personagem Pyro de Espada de 5 estrelas que apresenta uma mecânica única de **modo duplo** (Luz/Trevas).
+- **Ativação de modo**: Use Habilidade -> Habilidade para o **Modo Luz** (Suporte); use Habilidade -> Ataque Normal para o **Modo Trevas** (Carry).
+- **Prioridade de atributos**: Foque em **2500 de ATQ Total** para maximizar o bônus de dano da sua passiva de Ascensão 4.
+- **Melhor artefato**: **Antigo Ritual Real** é o padrão ouro para suporte, enquanto **Um Dia Esculpido pelos Ventos Ascendentes** lidera para DPS no Modo Trevas.
+- **Melhor arma**: **Athame Artis** é sua assinatura e melhor opção, mas **Presa de Lobo** e **Final das Profundezas** são excelentes alternativas.
+</Callout>
+
+<Section icon={Sparkles} title="Mecânicas de Durin e Dualidade de Modos">
+
+Durin introduz um sofisticado sistema de "Forma Binária" que o permite alternar entre um buffer elemental fora de campo e um carry de vaporização de alto investimento. Sua habilidade elemental, **Forma Binária: Convergência e Divisão**, serve como a porta de entrada para esses estados. Ao contrário dos personagens tradicionais que trocam de postura, o modo de Durin é determinado pelo combo específico realizado imediatamente após a conjuração inicial da habilidade.
+
+**Destaques do Vídeo:**
+- **Divisão de Modos**: Explicação detalhada dos combos Habilidade-Habilidade vs. Habilidade-N1.
+- **Escalonamento Passivo**: Por que 2500 de ATQ é o número mágico para o seu teto de dano.
+- **Sinergias de Time**: Como a ressonância Hexerei transforma sua redução de resistência.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="GUIA COMPLETO DO DURIN! Melhor Build para Durin" />
+
+O **Modo Luz (Confirmação da Pureza)** foca na aplicação Pyro em AdE e utilidade para toda a equipe. Neste estado, seu Supremo, **Princípio da Pureza**, causa dano Pyro em AdE consistente a cada segundo por 20 segundos. Mais importante ainda, sua passiva A1 reduz a resistência Pyro e a resistência do elemento envolvido na reação (Sobrecarga, Redemoinho, Cristalização ou Queimadura) em até 35% quando acompanhado por um colega de equipe Hexerei.
+
+Inversamente, o **Modo Trevas (Negação das Trevas)** transforma Durin em um causador de dano egoísta. Seu Supremo, **Princípio das Trevas**, ataca mais devagar, mas com multiplicadores significativamente maiores e aumenta seu próprio dano de Vaporização e Fusão em 70%. Este modo é ideal para jogadores que buscam usar Durin como carry primário ou secundário em composições focadas em Hydro.
+
+| Modo | Mecânica | Função Primária | Benefício Chave |
+| :--- | :--- | :--- | :--- |
+| **Luz** | Habilidade > Habilidade | Suporte / Sub-DPS | 35% Redução de RES, Pyro em AdE |
+| **Trevas** | Habilidade > N1 | Main / Dual Carry | 70% Dano de Vap/Melt, Alto Escalonamento |
+
+<Callout type="tip" title="Gerenciamento de Energia">
+A habilidade de Durin restaura 30-33 de energia fixa ao entrar em um estado. Este enorme reembolso significa que ele pode frequentemente rodar com **0% de Recarga de Energia** em times de Pyro duplo ou Sobrecarga.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhores Artefatos e Prioridades de Atributos">
+
+Construir o Durin requer um equilíbrio delicado de ATQ, Crítico e Proficiência Elemental. Sua passiva A4, **Caos Formado Como a Noite**, fornece um aumento no multiplicador de dano base de até 75% com base em seu ATQ total. Este bônus atinge o limite em 2500 de ATQ, tornando este atributo uma prioridade maior do que o normal para um usuário de espada.
+
+| Conjunto | Bônus de 2 Peças | Efeito de 4 Peças / Uso |
+| :--- | :--- | :--- |
+| **Antigo Ritual Real** | Dano de Supremo +20% | Melhor para suporte/buff no Modo Luz |
+| **Ventos Ascendentes** | ATQ +18% | Melhor para carry no Modo Trevas (conjunto v6.3) |
+| **Caçador das Sombras** | Dano de NA/CA +15% | Melhor para DPS em campo com Furina |
+| **Selo da Insulação** | RE +20% | Sólido generalista para times de Pyro solo |
+
+Para os atributos principais, uma **Areia de ATQ%** é quase sempre preferida em vez de Proficiência ou Recarga, devido ao escalonamento de sua passiva e ao reembolso de energia. Um **Cálice de Bônus de Dano Pyro** é o padrão, embora um Cálice de ATQ% possa ser competitivo se você tiver sub-atributos de Crítico altos, mas estiver com dificuldades para atingir o limite de 2500 de ATQ.
+
+**Checklist de Prioridade de Atributos:**
+- **ATQ Total**: 2500 (Limite para a Passiva)
+- **Taxa/Dano Crítico**: Proporção 1:2 (ex: 70/140)
+- **Proficiência Elemental**: 100-200 (Apenas Modo Trevas)
+- **Recarga de Energia**: 100% - 130% (Dependente do time)
+
+<Callout type="warning" title="A Armadilha do ATQ">
+Embora 2500 de ATQ seja o objetivo, não sacrifique totalmente a Taxa/Dano Crítico para alcançá-lo. Use buffs externos como o Supremo do Bennett ou efeitos do Ritual Real para preencher a lacuna.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Rankings de Armas e Seleção">
+
+Durin possui uma grande variedade de opções de espadas viáveis, variando de armas premium de 5 estrelas a itens forjáveis acessíveis. Sua arma assinatura, **Athame Artis**, fornece massivos 33.1% de Taxa Crítica e aprimora ainda mais seus buffs de ATQ quando a ressonância Hexerei está ativa.
+
+<CardGrid cols={3}>
+  <Card title="Athame Artis (Assinatura)">
+    - **Melhor em cada categoria** para todos os estilos
+    - Buff de ATQ para toda a equipe
+    - Aprimorada por unidades Hexerei
+  </Card>
+  <Card title="Presa de Lobo (R5)">
+    - Melhor opção de 4 estrelas
+    - Alto dano de Habilidade/Supremo
+    - Rivaliza com muitas espadas de 5 estrelas
+  </Card>
+  <Card title="Final das Profundezas">
+    - **Melhor Escolha F2P**
+    - Alto ATQ para o limite da passiva
+    - Requer um curador para a passiva
+  </Card>
+</CardGrid>
+
+Para jogadores que já possuem espadas de alto nível, **Cortadora de Jade Primordial** e **Cortadora da Neblina Reforjada** continuam sendo escolhas de primeira linha. A enorme Taxa Crítica da Jade Primordial facilita muito a construção de artefatos, enquanto a Neblina fornece um valioso bônus de Dano Elemental que beneficia ambos os modos de Durin.
+
+| Arma | Raridade | Tier | Nota de Desempenho |
+| :--- | :--- | :--- | :--- |
+| **Athame Artis** | 5 Estrelas | **SSS** | Feita sob medida para seu kit e buffs de time |
+| **Cortadora de Jade** | 5 Estrelas | **S** | Taxa Crítica massiva, conversão de Vida em ATQ |
+| **Presa de Lobo** | 4 Estrelas | **A+** | Excelente no R5, requer Passe de Batalha |
+| **Rugido do Leão** | 4 Estrelas | **A** | Forte em times de Sobrecarga/Queimadura |
+| **Tecelão da Lua** | 4 Estrelas | **B+** | Grátis na missão de mundo Nod-Krai |
+
+<Callout type="success" title="Recomendação F2P">
+Se você é estritamente F2P, forje a **Final das Profundezas**. Ela fornece o ATQ bruto necessário para atingir o limite de sua passiva sem exigir sorte no gacha.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rotações Ideais e Progressão">
+
+Para maximizar o impacto de Durin, você deve dominar o tempo de sua rotação. Como seu Supremo não retém os atributos do momento da conjuração (não faz snapshot), é vital configurar todos os buffs da equipe (como o campo do Bennett ou o redemoinho do Kazuha) antes de liberar suas formas de Dragão.
+
+<Steps>
+  <Step num="1" title="Configuração Inicial">
+    Comece com seus buffs de longa duração. Use o E da Raiden ou a Habilidade/Supremo da Furina.
+  </Step>
+  <Step num="2" title="Seleção de Modo">
+    Troque para Durin. Para Suporte, pressione **E > E > Q**. Para Carry, pressione **E > N1 > Q**.
+  </Step>
+  <Step num="3" title="Integração de Buffs">
+    Troque para o seu atacante principal em campo. O Dragão fora de campo do Durin agora reduzirá RES ou vaporizará golpes.
+  </Step>
+  <Step num="4" title="Recarga de Energia">
+    O reembolso fixo de energia da habilidade do Durin acontece instantaneamente ao entrar no modo, preparando-o para o próximo ciclo.
+  </Step>
+</Steps>
+
+**Checklist de Marcos do Personagem:**
+- **Ascensão 4**: Desbloqueia o escalonamento crítico de ATQ para Dano.
+- **Nível 90**: O ATQ base é vital para o escalonamento de sua passiva.
+- **Talentos 9/9/10**: A prioridade é Supremo > Habilidade > Ataque Normal.
+- **Missão Hexerei**: Complete "Lição de Casa da Bruxa" para desbloquear os buffs de ressonância.
+
+<Callout type="info" title="Cancelamento de Animação">
+O Ataque Carregado do Durin tem uma recuperação longa. Use um **Cancelamento com Pulo** (J) ou **Cancelamento com Arrancada** (D) para acelerar seus combos em campo se estiver usando-o como driver.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Arquétipos de Time e FAQ">
+
+Durin é a "versatilidade encarnada", encaixando-se em quase qualquer time que exija aplicação Pyro. Sua sinergia mais forte reside nos **personagens Hexerei** (Fischl, Mona, Albedo, Venti, etc.), que ativam sua passiva aprimorada para 35% de redução de RES ou 70% de dano de reação.
+
+| Arquétipo | Unidades Núcleo | Modo do Durin | Por que Funciona |
+| :--- | :--- | :--- | :--- |
+| **Sobrecarga** | Chevreuse, Fischl | Luz | Tripla redução de RES (Pyro, Electro, +1) |
+| **Vape Carry** | Furina, Mona | Trevas | Durin vaporiza seus golpes de alto multiplicador |
+| **Queimadura** | Kinich, Emilie | Luz | 100% de tempo de redução, viabiliza Kinich |
+| **Queimadura Rápida** | Emilie, Sethos | Luz | Reduz Electro e Dendro simultaneamente |
+
+**Dica de Sinergia Hexerei:**
+A ressonância Hexerei não é obrigatória, mas altamente recomendada. Adicionar **Fischl** a um time de Sobrecarga não apenas adiciona dano; aumenta a redução de RES Pyro do Durin de 20% para 35%, impulsionando significativamente o desempenho de toda a equipe.
+
+<Callout type="tip" title="Sinergia Geo">
+Durin (Modo Branco) é atualmente o único personagem não-Geo capaz de reduzir a **Resistência Geo**, tornando-o uma joia escondida para times da Navia ou Itto.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Devo tentar a C1 ou sua Arma Assinatura?",
+    answer: "Geralmente, a C1 é um aumento maior no DPS da equipe. Ela fornece uma mecânica de 'pena' similar à da Shenhe, adicionando dano fixo aos golpes da equipe no Modo Luz ou bônus massivos para si mesmo no Modo Trevas."
+  },
+  {
+    question: "O Durin substitui a Xiangling?",
+    answer: "Ele é frequentemente chamado de 'Xiangling 5 estrelas', mas eles servem a propósitos diferentes. Xiangling não tem ICD em seu Pyronado, enquanto Durin oferece utilidade significativa para a equipe (redução de RES) e maior escalonamento contra alvos únicos."
+  },
+  {
+    question: "O que é exatamente a ressonância Hexerei?",
+    answer: "Quando você tem 2 ou mais unidades Hexerei, os efeitos da passiva A1 de Durin aumentam em 75%. Isso transforma sua redução de 20% em 35% e seu bônus de reação de 40% em 70%."
+  },
+  {
+    question: "Durin pode jogar em campo sem o Bennett C6?",
+    answer: "É possível, mas não recomendado. O escalonamento de seu Ataque Normal é baixo e ele carece de uma infusão nativa. Ele é muito mais eficaz como um DPS de Supremo fora de campo."
+  }
+]} />
+
+</Section>

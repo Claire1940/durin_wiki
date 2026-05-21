@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Kit de Durin : Meilleures builds, synergies d'équipe et styles de jeu méta",
+  description: "Maîtrisez le kit de Durin avec notre guide sur les modes Blanc et Sombre, les meilleurs artéfacts, armes et équipes méta 2026 pour ce Sub-DPS Pyro 5 étoiles.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Durin+Kit+Guide",
+  date: "2026-05-21",
+  author: "Équipe Wiki de Durin"
+}
+
+<Callout type="info" title="Points Clés">
+- **Style de jeu Principal** : Durin est un personnage Épée Pyro 5 étoiles polyvalent utilisant une mécanique de **Forme Binaire** pour basculer entre Support (Mode Blanc) et Carry (Mode Sombre).
+- **Mot-clé Principal** : Maîtriser le **kit de Durin** nécessite d'équilibrer les statistiques d'ATQ pour atteindre le plafond de 2500 afin d'obtenir les multiplicateurs de dégâts d'Explosion maximum.
+- **Sélection de Mode** : Utilisez **Compétence puis Compétence** pour le Mode Blanc (réduction de RÉS) ou **Compétence puis Attaque Normale** pour le Mode Sombre (dégâts Vape/Melt).
+- **Synergie Hexerei** : Associer Durin à un autre **personnage Hexerei** (comme Fischl ou Albedo) augmente ses buffs passifs de 75 %.
+- **Meilleur en slot** : L'arme signature **Athame Artis** et l'ensemble d'artéfacts **Un Jour Sculpté par les Vents Montants** sont ses choix de premier ordre pour 2026.
+</Callout>
+
+<Section icon={Target} title="Kit de Durin : Mécaniques de Forme Binaire et Sélection de Mode">
+
+Le **kit de Durin** se définit par son extrême flexibilité, s'articulant autour de la compétence élémentaire "Forme Binaire : Convergence et Division". Contrairement aux personnages traditionnels, Durin n'a pas un rôle fixe. Au lieu de cela, ses performances varient en fonction de l'état de "Transmutation Essentielle" dans lequel il entre avant de déclencher son Déchaînement Élémentaire. Cela lui permet de s'adapter à presque toutes les compositions d'équipe, du support Surcharge à un carry Vaporisation dédié.
+
+**Points forts de la vidéo :**
+- Analyse détaillée des mécaniques du **Mode Blanc** vs. **Mode Sombre**.
+- Séquences de rotation optimales pour les styles de jeu hors-champ et sur-champ.
+- Démonstration de l'impact de la **Résonance Hexerei** sur le DPS total de l'équipe.
+- Comparaison de l'arme signature vs. les alternatives d'épées gratuites.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="GUIDE COMPLET DE DURIN ! Meilleure build de Durin [TOUS les styles de jeu]" />
+
+### Comprendre la Transmutation Essentielle
+
+Pour maîtriser Durin, vous devez comprendre les deux états primaires déclenchés par sa Compétence Élémentaire. L'état que vous choisissez détermine le comportement du "Dragon" manifesté pendant son Déchaînement.
+
+| État | Combo d'Activation | Comportement du Déchaînement | Rôle Principal |
+| --- | --- | --- | --- |
+| **Confirmation de Pureté** | Compétence > Compétence | Dégâts Pyro de zone toutes les 1s (durée 20s) | Support / Sub-DPS |
+| **Déni des Ténèbres** | Compétence > Attaque Normale | Dégâts monocible à fort scaling toutes les 1.25s | Carry de Réaction |
+
+<Callout type="info" title="Astuce de Rotation">
+Si vous entrez en combat avec l'énergie pleine, Durin passe par défaut en **Mode Blanc**. Si vous avez besoin du Mode Sombre immédiatement, vous devez effectuer le combo Compétence > NA avant de déclencher le Déchaînement. Notez que son remboursement d'énergie (30-33 énergie plate) se déclenche lors de l'entrée dans l'un ou l'autre état, réduisant efficacement son Déchaînement de 70 d'énergie à un coût gérable de 37-40.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Talents Passifs et Seuils de Scaling">
+
+Les dégâts et l'utilité de Durin sont fortement concentrés dans ses Passifs d'Ascension. Ces passifs sont ce qui en fait un "incontournable" pour des équipes de niche spécifiques, telles que les compos Mono-Géo ou Anémo Carry, grâce à sa capacité rare à réduire les résistances non standard.
+
+### Passif A1 : Manifestation Lumineuse du Calcul Divin
+Ce passif offre différents buffs en fonction de son mode actif. En **Mode Blanc**, déclencher des réactions liées au Pyro (Surcharge, Dispersion, Cristallisation, Brûlure) réduit la RÉS Pyro de la cible et la RÉS de l'élément correspondant de 20 %. En **Mode Sombre**, Durin gagne personnellement 40 % de dégâts de Vaporisation et de Fonte.
+
+### Passif A4 : Chaos Formé Comme la Nuit
+C'est le facteur de scaling le plus critique du **kit de Durin**. Après avoir déclenché son Déchaînement, Durin gagne 10 stacks de **Fusion Primordiale**. Chaque stack augmente les dégâts de son Déchaînement de 3 % pour chaque 100 d'ATQ qu'il possède. Pour maximiser cela, les joueurs devraient viser un objectif d'"ATQ effective" spécifique.
+
+<CardGrid cols={2}>
+  <Card title="Le Plafond d'ATQ de 2500">
+    Pour atteindre l'augmentation de dégâts maximale de **75%**, Durin a besoin d'un total de 2500 ATQ. Cela inclut les buffs de Bennett, Noblesse Oblige et les armes.
+  </Card>
+  <Card title="Rituel Secret Hexerei">
+    Lorsqu'il est associé à une autre unité Hexerei, ses buffs A1 augmentent de 75 %. La réduction passe de **20 % à 35 %**, et les dégâts de réaction passent de **40 % à 70 %**.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Stratégie Méta">
+En 2026, la Résonance Hexerei est considérée comme le meilleur duo pour Durin. Des personnages comme **Fischl** (Électro), **Albedo** (Géo) ou **Varka** (Cryo) sont des partenaires idéaux. Même si Durin est joué en Pyro solo, la réduction de RÉS de 35 % en Mode Blanc est suffisamment puissante pour remplacer une unité Anémo en Ombre Verte Chasseuse dans de nombreuses équipes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sélection d'artéfacts et Priorités de Statistiques">
+
+Construire Durin nécessite un équilibre entre son scaling d'ATQ et ses statistiques Critiques typiques. Parce qu'il gagne une énorme quantité d'énergie plate de sa compétence, ses besoins en Recharge d'Énergie (RE) sont étonnamment faibles par rapport aux autres unités à Déchaînement de 70 d'énergie.
+
+### Meilleurs Ensembles d'Artéfacts
+
+| Nom de l'Ensemble | Recommandation | Meilleur Style de Jeu |
+| --- | --- | --- |
+| **Un Jour Sculpté par les Vents Montants** | Meilleur en slot (BiS) | Général / Équipes Hexerei |
+| **Noblesse Oblige** | Excellent | Support / Sub-DPS |
+| **Sorcière des Flammes Ardentes** | Fort | Mode Sombre (Vape/Melt) |
+| **Chasseur de la Maréchaussée** | Situationnel | Sur le terrain avec Furina |
+| **Emblème du Destin Brisé** | Décent | Uniquement pour des besoins élevés en RE |
+
+### Statistiques Principales Recommandées
+
+- **Sable** : ATQ% (Standard) ou Maîtrise Élémentaire (Mode Sombre axé sur les réactions)
+- **Coupe** : Bonus de Dégâts Pyro ou ATQ% (Choisissez celui avec les meilleures sous-statistiques)
+- **Couronne** : Taux Critique ou Dégâts Critiques (Maintenez un ratio 1:2)
+
+<Callout type="warning" title="Note sur la Recharge d'Énergie">
+Si la Compétence Élémentaire de Durin est **Couronnée (Niveau 10)**, ses besoins en RE tombent à presque zéro dans les équipes double-Pyro ou Surcharge. Dans les équipes Pyro solo, visez **130 % - 150 % de RE** pour assurer une disponibilité à 100 % du Déchaînement.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Classement des Meilleures Armes pour 2026">
+
+Le **kit de Durin** bénéficie grandement d'une ATQ de base élevée et de statistiques Critiques. Bien que son arme signature soit le vainqueur incontestable, plusieurs options 4 étoiles fonctionnent remarquablement bien grâce à son scaling unique.
+
+<CardGrid cols={3}>
+  <Card title="Athame Artis (5★)">
+    **Arme Signature**. Fournit 33,1 % de Taux Critique et d'énormes buffs d'ATQ à toute l'équipe. Les buffs sont encore améliorés par la Résonance Hexerei.
+  </Card>
+  <Card title="Trancheur de jade primordial (5★)">
+    **Meilleure Stat Stick**. L'énorme Taux Critique et la conversion PV en ATQ rendent cette arme incroyablement constante pour les deux modes.
+  </Card>
+  <Card title="Croc-de-loup (4★)">
+    **Choix du Passe de Bataille**. Augmente les dégâts/Taux Critique de la Compétence et du Déchaînement. À R5, elle rivalise avec certaines épées 5 étoiles non raffinées.
+  </Card>
+</CardGrid>
+
+### Options Gratuites
+Pour les joueurs recherchant des options accessibles, la **Finale de l'Abysse** (Artisanat de Fontaine) offre un énorme boost d'ATQ si vous avez un soigneur pour dissiper le Lien de Vie. Alternativement, l'**Aube du Tisserand de Lune** est une récompense de la quête "Échos d'un Passé Inachevé" et sert d'excellente épée généraliste.
+
+<Callout type="tip" title="Astuce de Pro">
+Si vous utilisez Durin dans une équipe Surcharge avec Fischl, la **Rugissement du Lion** est un excellent prétendant 4 étoiles. L'augmentation des dégâts de 20 à 36 % contre les ennemis affectés par le Pyro ou l'Électro a une disponibilité quasi-permanente dans ces compositions.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Compositions d'Équipe Méta">
+
+La capacité de Durin à changer de rôle en fait un "joker" dans la construction d'équipe. Voici les archétypes les plus réussis pour la méta actuelle de 2026.
+
+<Steps>
+  <Step num="1" title="Le Noyau Surcharge">
+    **Équipe** : Durin + Fischl + Chevreuse + Flex (Raiden/Arlecchino). Cette équipe utilise le buff Hexerei de Fischl et la réduction massive de RÉS de Durin et Chevreuse. Durin devrait être en **Mode Blanc**.
+  </Step>
+  <Step num="2" title="Hypercarry Anémo/Géo">
+    **Équipe** : Durin + Venti/Navia + Albedo + Bennett. Durin agit comme le réducteur de RÉS unique pour l'Anémo ou le Géo, des éléments qui manquent généralement d'options de réduction hors-champ.
+  </Step>
+  <Step num="3" title="Dual-Carry Vaporisation">
+    **Équipe** : Durin + Neuvillette + Furina + Xilonen. Durin entre en **Mode Sombre** pour déclencher d'énormes coups de Vaporisation pendant le temps de terrain de Neuvillette, agissant comme un puissant DPS hors-champ.
+  </Step>
+</Steps>
+
+<Checklist
+  id="durin-progression"
+  title="Étapes Clés de la Build de Durin :"
+  items={[
+    "Monter le Déchaînement Élémentaire au niveau 9 ou 10 en premier",
+    "Atteindre 2500 ATQ Effective avec les buffs d'équipe",
+    "Atteindre un Ratio Critique minimum de 70/140",
+    "Terminer la quête « Les Devoirs de la Sorcière » pour le statut Hexerei",
+    "Maîtriser le combo Compétence-NA-Déchaînement pour le Mode Sombre"
+  ]}
+/>
+
+<Callout type="success" title="Pleins feux sur la Synergie">
+**Mona Hexerei** a connu une résurgence massive aux côtés de Durin. Sa durée d'Omen améliorée et ses buffs de Vaporisation complètent parfaitement le Mode Sombre de Durin, les transformant en un duo "Frontload" dévastateur pour les rencontres de boss.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Questions Fréquemment Posées">
+
+<FAQ items={[
+  {
+    question: "L'arme signature de Durin est-elle obligatoire ?",
+    answer: "Non. Bien qu'Athame Artis soit sa meilleure option, des épées comme le Trancheur de jade primordial ou un Croc-de-loup R5 ne sont que 10-15 % derrière. Sa C1 est souvent une augmentation de DPS d'équipe plus importante que sa R1."
+  },
+  {
+    question: "Le Déchaînement de Durin capture-t-il les buffs comme le cercle de Bennett ?",
+    answer: "Non, le Déchaînement de Durin ne capture pas les buffs. Cela signifie que ses dégâts fluctueront en temps réel s'il sort d'une zone de buff ou si un buff expire au milieu du Déchaînement."
+  },
+  {
+    question: "Quel mode est le meilleur pour une utilisation générale ?",
+    answer: "Le Mode Blanc (Confirmation de Pureté) est généralement meilleur pour l'utilité d'équipe grâce à la réduction de RÉS de 20-35 %. Le Mode Sombre est spécialisé lorsque vous voulez que Durin soit celui qui déclenche de grandes réactions de Vaporisation ou de Fonte."
+  },
+  {
+    question: "De combien d'ATQ Durin a-t-il réellement besoin ?",
+    answer: "Le kit de Durin plafonne son passif à 2500 ATQ. Vous n'avez pas besoin de 2500 sur votre fiche de personnage ; vous avez juste besoin d'atteindre ce nombre après avoir ajouté les buffs de Bennett, Noblesse, ou Ténacité du Millelithe."
+  }
+]} />
+
+<Callout type="info" title="Verdict Final">
+Durin est un ajout transformateur à la liste des personnages Pyro. Que vous ayez besoin d'un réducteur de résistance pour vos carries Géo/Anémo ou d'un vaporisateur à dégâts élevés hors-champ, son kit binaire offre une solution pour presque toutes les rencontres en 2026.
+</Callout>
+
+</Section>

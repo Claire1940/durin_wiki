@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Comparativo de Armas de Durin: Melhores Espadas e Classificações de Builds",
+  description: "Um comparativo detalhado das armas de Durin para Genshin Impact 2026. Compare Athame Artis, Wolf-Fang e opções F2P para os estados de Pureza e Escuridão.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Weapons+Comparison",
+  date: "2026-05-20",
+  author: "Equipe Durin Wiki"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **comparativo de armas de Durin** foca no equilíbrio das **estatísticas CRÍT** com os altos **requisitos de ATQ** necessários para o multiplicador passivo A4.
+- **Athame Artis** continua sendo a melhor opção (BiS) para dano pessoal, especialmente quando pareado com outro **personagem Hexerei**.
+- **Wolf-Fang (R5)** é a principal escolha de 4 estrelas, rivalizando com várias opções de 5 estrelas no **estado de Escuridão (DPS)**.
+- Para **builds de Pureza** orientadas para suporte, armas como **Freedom-Sworn** ou **Espada de Favonius** fornecem utilidade superior para a equipe.
+- Sempre almeje **2550 ATQ** para maximizar o Multiplicador de Dano Base do Burst de 75% da passiva **Caos Formado Como a Noite**.
+</Callout>
+
+<Section icon={Swords} title="Entendendo o Escalonamento de Armas de Durin">
+
+Escolher a lâmina certa em um **comparativo de armas de Durin** exige a compreensão de suas mecânicas de estado duplo. Durin opera tanto na **Confirmação da Pureza (Forma Branca)** para buffs de equipe e redução de RES quanto na **Negação da Escuridão (Forma Escura)** para dano pessoal de Derretimento e Vaporização. Como seu Burst Elemental constitui a vasta maioria de sua produção, armas que aumentam o Dano de Burst ou fornecem estatísticas CRÍT são altamente valorizadas.
+
+Sua passiva de Ascensão 4, *Caos Formado Como a Noite*, é um fator crítico na seleção de armas. Ela concede um aumento de 3% de Dano para cada 100 de ATQ, com um limite de 75%. Para atingir esse limite, Durin precisa de 2500 de ATQ total. Armas com alto ATQ Base ou secundários de ATQ% ajudam a atingir esse limite sem sacrificar um Cálice de Dano Pyro por um de ATQ%.
+
+| Fator de Escalonamento | Importância | Alvo Ideal |
+| :--- | :--- | :--- |
+| **ATQ Base** | Muito Alta | 600+ (5 estrelas) ou 510+ (4 estrelas) |
+| **Taxa CRÍT** | Alta | 70% Mínimo |
+| **Recarga de Energia** | Situacional | 120-150% (Pyro Solo) |
+| **Proficiência Elemental** | Moderada | 100-200 (Equipes de Vaporizar/Derreter) |
+
+<Callout type="info" title="Requisitos de Energia">
+Se Durin for a única unidade Pyro, suas necessidades de RE podem saltar para 150%. No entanto, em equipes de Pyro duplo ou com sua constelação C5, ele pode frequentemente operar com 100% de RE, permitindo escolhas de armas puramente ofensivas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Classificação das Armas 5 Estrelas de Nível Superior">
+
+Em qualquer **comparativo de armas de Durin**, a arma assinatura **Athame Artis** estabelece o padrão ouro. Ela oferece um substat massivo de Taxa CRÍT e uma passiva que aumenta o Dano de Burst enquanto concede ATQ% ao personagem ativo. Quando jogado com outro companheiro de equipe Hexerei, a eficiência desta arma aumenta significativamente, tornando-a aproximadamente 10-15% melhor do que a próxima melhor opção de 5 estrelas.
+
+No entanto, jogadores que já possuem espadas CRÍT generalistas podem achar o ganho marginal de puxar pela arma assinatura desnecessário. Armas como **Cortador de Jade Primordial** fornecem um enorme impulso de Taxa CRÍT que simplifica a obtenção de artefatos, enquanto **Reforjada da Neblina Cortante** oferece altos bônus de Dano Elemental que escalam excepcionalmente bem em seu estado de Escuridão.
+
+<CardGrid cols={3}>
+  <Card title="Athame Artis">
+    - **Dano BiS**
+    - Alto Dano de Burst%
+    - Melhor com equipes Hexerei
+  </Card>
+  <Card title="Cortador de Jade Primordial">
+    - **Mais Fácil de Construir**
+    - Massiva Taxa CRÍT de 44.1%
+    - Conversão de HP para ATQ
+  </Card>
+  <Card title="Haran Geppaku Futsu">
+    - **Altas Estatísticas Base**
+    - Taxa CRÍT Consistente
+    - Forte escalonamento de ATQ
+  </Card>
+</CardGrid>
+
+| Arma 5 Estrelas | Substat | Benefício Passivo | Desempenho % |
+| :--- | :--- | :--- | :--- |
+| **Athame Artis** | Taxa CRÍT | Dano de Burst + Buff de ATQ | 100% (Linha de Base) |
+| **Cortador de Jade Primordial** | Taxa CRÍT | Escalonamento de HP + ATQ Fixo | 92-95% |
+| **Reforjada da Neblina Cortante** | Dano CRÍT | Acúmulos de Dano Elemental | 90-93% |
+| **Haran Geppaku Futsu** | Taxa CRÍT | Bônus de Dano Elemental | 89-91% |
+| **Absolvição** | Dano CRÍT | Mecânicas de Laço da Vida | 85-88% |
+
+<Callout type="success" title="Sinergia Hexerei">
+Emparelhar Durin com personagens como Albedo, Fischl ou Venti ativa o efeito Hexerei: Rito Secreto. Isso aumenta seus buffs A1 em 75%, tornando as passivas específicas de Athame Artis ainda mais potentes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhores Opções de Espadas 4 Estrelas e F2P">
+
+Para muitos jogadores, o **comparativo de armas de Durin** foca na acessibilidade de armas 4 estrelas. **Wolf-Fang** é a melhor opção aqui. Em R5, ela compete diretamente com espadas 5 estrelas de baixo refinamento. Ela fornece Taxa CRÍT tanto para a Habilidade Elemental quanto para o Burst, o que se alinha perfeitamente com o kit de Durin. No entanto, note que seus acúmulos passivos não podem ser gerados enquanto Durin está fora de campo, exigindo que ele passe um breve momento em campo para maximizar o buff.
+
+Jogadores F2P devem procurar por **Moonweaver's Dawn**, obtida através da missão "Ecos de um Passado Inacabado". Embora não ofereça o mesmo teto que as opções de gacha, seu alto substat de ATQ e bônus de Dano de Burst a tornam uma alternativa confiável.
+
+<Steps>
+  <Step num="1" title="Avalie Seu Orçamento">
+    Se você tem o Passe de Batalha, priorize **Wolf-Fang**. É a distribuidora de dano 4 estrelas mais consistente para o estado de Escuridão de Durin.
+  </Step>
+  <Step num="2" title="Verifique as Composições de Equipe">
+    Em equipes de Sobrecarga ou Queimadura, **Rugido do Leão (R5)** fornece um bônus de Dano de 36% contra inimigos afetados por Pyro, que está quase sempre ativo.
+  </Step>
+  <Step num="3" title="Avalie as Opções de Forja">
+    Se você tem um curador dedicado como Bennett ou Xilonen, **Finale of the Deep** fornece um impulso massivo de ATQ que ajuda a atingir o limite passivo A4.
+  </Step>
+</Steps>
+
+| Arma 4 Estrelas | Fonte | Melhor Uso |
+| :--- | :--- | :--- |
+| **Wolf-Fang** | Passe de Batalha | DPS Geral / Estado de Escuridão |
+| **Rugido do Leão** | Gacha | Equipes de Sobrecarga / Queimadura |
+| **Finale of the Deep** | Forjável | Equipes com cura consistente |
+| **Moonweaver's Dawn** | Missão | Generalista F2P |
+| **Luar de Xiphos** | Gacha | Equipes com alta EM / Florescimento |
+
+<Callout type="warning" title="Limitação de Wolf-Fang">
+Os acúmulos de Taxa CRÍT de Wolf-Fang só são ativados quando o portador está em campo. Se você trocar Durin imediatamente após seu Burst, ele pode não manter os acúmulos máximos para os ataques periódicos do Dragão.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Recomendações Específicas de Forma">
+
+O **comparativo de armas de Durin** muda drasticamente se você o joga como suporte no estado de Pureza. Nessas equipes, seu dano pessoal é secundário à sua capacidade de reduzir RES e buffar companheiros de equipe. **Freedom-Sworn** torna-se uma escolha de alto nível aqui, pois fornece um buff de ATQ e Dano de Ataque Normal/Carregado para toda a equipe.
+
+Se a equipe tem dificuldades com Energia, a **Espada de Favonius** é a melhor escolha de utilidade. Ela permite que Durin atue como uma bateria para companheiros de equipe de alto custo como Xiangling ou Beidou, enquanto garante que seu próprio Burst permaneça disponível em cada rotação.
+
+| Caminho de Build | Arma Recomendada | Objetivo Principal |
+| :--- | :--- | :--- |
+| **Suporte (Pureza)** | Freedom-Sworn | Buffs de ATQ e Dano da Equipe |
+| **Utilidade (Pureza)** | Espada de Favonius | Geração de Energia da Equipe |
+| **Vaporizar/Derreter (Escuridão)** | Athame Artis | Maximizar DPS Pessoal |
+| **Sobre-vaporizar (Escuridão)** | Rugido do Leão | Bônus de Dano de Reação |
+
+<Callout type="tip" title="Flexibilidade de Carregadores Duplos">
+Em equipes de "Carregador Duplo" com Neuvillette ou Mualani, Durin pode usar sua Habilidade duas vezes por rotação. Isso elimina seus requisitos de RE, permitindo que você use armas puramente ofensivas como **Reforjada da Neblina Cortante** mesmo sem uma bateria.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sinergia de Artefatos e Metas de Atributos">
+
+A escolha da arma influencia diretamente a prioridade dos atributos de seus artefatos. Se estiver usando uma arma com um substat de ATQ% como **Finale of the Deep**, você provavelmente precisará de um chapéu de Taxa CRÍT para manter uma proporção saudável. Inversamente, uma arma como **Cortador de Jade Primordial** permite que você se concentre quase inteiramente em Dano CRÍT e substats de ATQ%.
+
+Para conjuntos de artefatos, **4p Selo da Insulação** é a escolha mais comum para suas builds generalistas. No entanto, em equipes de reação específicas, **4p Bruxa Carmesim das Chamas** ou **4p Sonhos Dourados** podem se destacar, especialmente ao usar armas que fornecem Proficiência Elemental como **Luar de Xiphos**.
+
+<Checklist
+  id="durin-milestones"
+  title="Marcos de Progressão da Build:"
+  items={[
+    "Atingir 2500 ATQ Total para o limite da Passiva A4",
+    "Garantir uma Proporção CRÍT de 1:2 (ex: 70% Taxa / 140% Dano)",
+    "Atender aos requisitos de RE (120-150% dependendo da equipe)",
+    "Elevar o Burst Elemental para o Nível de Talento 9 ou 10",
+    "Equipar uma arma com pelo menos 510 ATQ Base"
+  ]}
+/>
+
+| Slot de Artefato | Atributo Principal | Substats Prioritários |
+| :--- | :--- | :--- |
+| **Areias** | ATQ% ou EM | CRÍT > ATQ% > RE |
+| **Cálice** | Dano Pyro ou ATQ% | CRÍT > ATQ% > EM |
+| **Tiara** | Taxa CRÍT/Dano | ATQ% > RE > ATQ Fixo |
+
+<Callout type="tip" title="Cálice de ATQ% vs. Pyro">
+Devido aos massivos buffs de Dano% que Durin recebe de suas passivas e constelações, um **Cálice de ATQ%** é frequentemente competitivo com um **Cálice de Dano Pyro**. Use o que tiver melhores substats CRÍT.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ de Comparativo de Armas de Durin">
+
+<FAQ items={[
+  {
+    question: "Vale a pena puxar Athame Artis se eu já tenho Reforjada da Neblina Cortante?",
+    answer: "Geralmente, não. Reforjada da Neblina Cortante tem um desempenho entre 7-10% do Athame Artis. A menos que você valorize muito a sinergia da equipe Hexerei ou precise da Taxa CRÍT extra, seus Primogemas são melhor gastos nas constelações C1 ou C2 de Durin."
+  },
+  {
+    question: "Por que Wolf-Fang é considerada melhor que Rugido do Leão?",
+    answer: "Wolf-Fang fornece Taxa CRÍT, que é significativamente mais difícil de obter através de artefatos do que o bônus de Dano fornecido por Rugido do Leão. Além disso, Wolf-Fang buffa diretamente o dano da Habilidade e do Burst."
+  },
+  {
+    question: "Posso usar Prenúncio do Alvorecer em Durin?",
+    answer: "Sim, mas é arriscado. Durin frequentemente sofre dano passivo ou drenagem de vida em equipes com Furina. Se sua HP cair abaixo de 90%, a arma perde seus massivos buffs CRÍT, tornando-a pior do que a maioria das opções de 4 estrelas."
+  },
+  {
+    question: "Qual é a melhor arma F2P para um Durin de suporte?",
+    answer: "Espada de Favonius é a melhor opção de utilidade F2P. Para dano puro sem gastar, Moonweaver's Dawn (Arma de Missão) é a escolha mais forte para seu estado de Escuridão."
+  }
+]} />
+
+</Section>

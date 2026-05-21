@@ -1,0 +1,277 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Los Mejores Equipos de Durin: Sinergias de Sobrecarga, Florecimiento y Hexerei",
+  description: "Descubre las mejores composiciones de equipo para Durin en Genshin Impact, centrándote en sus versátiles modos Blanco y Oscuro, sinergias de Hexerei y builds óptimas para varias reacciones.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Durin+Best+Teams",
+  date: "2026-05-20",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Durin** es un versátil Sub-DPS/Soporte Pyro con dos modos distintos: **Modo Blanco** para la reducción de RES y **Modo Oscuro** para el daño personal de Vaporizar/Derretir.
+- La **Resonancia Hexerei** mejora significativamente la efectividad de Durin, especialmente cuando se combina con personajes como **Fischl** o **Albedo**.
+- Los **Equipos de Sobrecarga** son una opción principal, a menudo con Durin, un soporte Electro (Fischl/Chevreuse) y un DPS Pyro/Electro.
+- Para los **equipos de Florecimiento**, Durin debe estar en Modo Blanco y construido con Maestría Elemental completa para un daño de reacción óptimo.
+- Las necesidades de **Recarga de Energía** varían; muchos equipos requieren poca o ninguna debido a la devolución de energía de su habilidad.
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo la Mecánica Central de Durin para la Construcción de Equipos">
+Durin, el personaje Pyro de cinco estrellas más reciente en Genshin Impact, ofrece una inmensa versatilidad como Sub-DPS, soporte e incluso como principal fuente de daño. Su kit gira en torno a dos modos distintos: Modo Blanco y Modo Oscuro, cada uno adaptado a diferentes composiciones de equipo y estilos de juego. Dominar estos modos es crucial para construir sus mejores equipos.
+
+**Aspectos Destacados del Video:**
+- La Habilidad Elemental de Durin le permite cambiar entre el Modo Blanco y el Modo Oscuro.
+- El Modo Blanco proporciona una aplicación continua de Pyro fuera del campo y reducción de resistencia para varias reacciones.
+- El Modo Oscuro aumenta el daño personal de Vaporizar y Derretir de Durin.
+- La Resonancia Hexerei mejora significativamente las habilidades pasivas de Durin en ambos modos.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="¡GUÍA COMPLETA DE DURIN! Mejor Build de Durin [TODOS los Estilos de Juego] - Artefactos, Armas, Equipos | Genshin Impact" />
+
+En el Modo Blanco, la Habilidad Definitiva de Durin ofrece una aplicación consistente de Pyro en AoE fuera del campo y reduce las resistencias (Pyro y otros elementos involucrados en reacciones como Sobrecarga, Quemadura, Torbellino Pyro, Cristalización Pyro). Esto lo convierte en un excelente soporte para aumentar el daño general del equipo. Por el contrario, el Modo Oscuro se centra en su daño personal, otorgando una bonificación sustancial a sus reacciones de Vaporizar y Derretir, convirtiéndolo en un potente DPS de reacción dentro o fuera del campo. La Resonancia Hexerei, activada al emparejar a Durin con otro personaje Hexerei, amplifica aún más estos efectos, aumentando la reducción de RES al 35% en Modo Blanco y el daño de reacción personal al 70% en Modo Oscuro.
+
+<Callout type="tip" title="Sinergia Hexerei">
+Considera siempre un segundo personaje Hexerei para los equipos de Durin. Esta resonancia proporciona mejoras significativas, aumentando su reducción de RES en Modo Blanco o su daño personal de Vaporizar/Derretir en Modo Oscuro, haciendo que muchos de sus equipos más fuertes presenten esta sinergia.
+</Callout>
+
+### Comparación de Modos de Durin
+
+| Característica        | Modo Blanco (Principio de Pureza)          | Modo Oscuro (Principio de Oscuridad)       |
+| :-------------------- | :----------------------------------------- | :----------------------------------------- |
+| **Rol Principal**     | Soporte/Sub-DPS fuera del campo            | DPS de Reacción dentro/fuera del campo     |
+| **Aplicación de Pyro** | Continua en AoE, cada 2º golpe           | Un solo objetivo, mayor escalado, más lento (1.25s) |
+| **Mejora Clave**      | Reducción de RES (Pyro + elemento involucrado, 20-35%) | Aumento de DMG de Vaporizar/Derretir (40-70%) |
+| **Mejores Reacciones**| Sobrecarga, Quemadura, Torbellino Pyro, Cristalización | Vaporizar, Derretir                        |
+| **Devolución de Energía** | La habilidad proporciona 30-33 de Energía | La habilidad proporciona 30-33 de Energía |
+| **Estilo de Juego**   | Habilidad (dos veces) y luego Habilidad Definitiva | Habilidad (una vez), Ataque Normal, y luego Habilidad Definitiva |
+
+</Section>
+
+<Section icon={Target} title="Arquetipos de Equipo Óptimos para Durin">
+La versatilidad de Durin le permite brillar en una amplia gama de composiciones de equipo. Su capacidad para adaptar su rol en función de su modo lo convierte en un activo valioso para muchos personajes DPS y equipos centrados en reacciones.
+
+### Equipos de Sobrecarga
+
+Los equipos de Sobrecarga se encuentran entre las composiciones más populares y efectivas de Durin. Proporciona una aplicación consistente de Pyro fuera del campo, lo que permite reacciones de Sobrecarga frecuentes y se beneficia de la reducción de resistencia de su Modo Blanco.
+
+<CardGrid cols={2}>
+  <Card title="Equipo de Sobrecarga Principal">
+    - **Durin (Modo Blanco)**: Aplicación de Pyro fuera del campo, reducción de RES.
+    - **Fischl**: Excelente aplicación de Electro fuera del campo, sinergia Hexerei.
+    - **Chevreuse**: Soporte principal de Sobrecarga, mejora el DMG Electro y Pyro.
+    - **DPS Flexible**: Cualquier DPS Pyro o Electro que escale con ATK (ej. Arlecchino, Klee, Raiden Shogun, Keqing).
+  </Card>
+  <Card title="Equipo de Sobrecarga (Sin Chevreuse)">
+    - **Durin (Modo Blanco)**: Aplicación de Pyro fuera del campo, reducción de RES.
+    - **Fischl**: Aplicación consistente de Electro, sinergia Hexerei.
+    - **Bennett**: Mejora de ATK, curación, Resonancia Pyro.
+    - **DPS Flexible**: Cualquier DPS Pyro o Electro que escale con ATK (ej. Yoimiya, Sethos, Cyno).
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="¿Por qué Sobrecarga?">
+El Modo Blanco de Durin es perfecto para Sobrecarga. Su Pyro continuo combinado con un fuerte aplicador de Electro como Fischl asegura un alto tiempo de actividad en las reacciones, mientras que su reducción de RES amplifica el daño de los personajes Pyro y Electro en el equipo.
+</Callout>
+
+### Equipos de Florecimiento
+
+Durin puede ser un potente desencadenante de Florecimiento, especialmente en escenarios de AoE. Para estos equipos, debe estar en Modo Blanco y construido con Maestría Elemental para maximizar el daño de la reacción de Florecimiento.
+
+<Steps>
+  <Step num="1" title="Aplicación de Hydro">
+    Empareja a Durin con un aplicador rápido de Hydro como **Neuvillette** o **Kokomi** para generar Núcleos Dendro.
+  </Step>
+  <Step num="2" title="Generación de Núcleos Dendro">
+    Incluye un personaje Dendro fiable como **Nahida** o **Lauma** para crear Núcleos Dendro.
+  </Step>
+  <Step num="3" title="Rol de Durin (Modo Blanco EM)">
+    Construye a Durin con Maestría Elemental completa y activa su Modo Blanco para desencadenar Florecimiento. Su aplicación de Pyro en AoE es ideal para esto.
+  </Step>
+  <Step num="4" title="Espacio Flexible para Daño/Utilidad">
+    El último espacio puede ser una opción flexible como **Fischl** para la sinergia Hexerei y daño adicional, o un escudo/sanador si es necesario.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Nota de Construcción de Florecimiento">
+Para un daño óptimo de Florecimiento, Durin debe construirse con **Maestría Elemental en todas las estadísticas principales de artefactos** (Reloj, Cáliz, Corona). Esta es una construcción especializada distinta de sus construcciones típicas centradas en ATK/CRIT.
+</Callout>
+
+### Equipos de Vaporizar y Derretir (Modo Oscuro)
+
+Cuando se enfoca en el daño personal de Durin, su Modo Oscuro sobresale en equipos de Vaporizar y Derretir. Obtiene una bonificación significativa de daño de reacción, convirtiéndolo en un fuerte DPS dentro o fuera del campo en estas composiciones.
+
+| Tipo de Equipo | Rol de Durin          | Aplicador de Hydro/Cryo Recomendado | Sinergia Clave                                 |
+| :------------- | :-------------------- | :---------------------------------- | :--------------------------------------------- |
+| **Vaporizar**  | DPS dentro/fuera del campo | **Xingqiu**, **Yelan**, **Mona**    | Aplicación consistente de Hydro para Vaporizados frecuentes. Mona (Hexerei) puede extender la duración del Presagio. |
+| **Derretir**   | DPS dentro/fuera del campo | **Kaeya**, **Rosaria**, **Ganyu**   | Aplicación rápida de Cryo para permitir múltiples reacciones de Derretir. |
+
+<Callout type="info" title="Durin en Modo Oscuro en Campo">
+Para Durin en Modo Oscuro en campo, especialmente con Bennett C6, sus ataques normales y cargados se infunden con Pyro, lo que le permite desencadenar continuamente reacciones de Vaporizar o Derretir. Esta configuración se beneficia enormemente del conjunto de artefactos **Cazador Fantasma** si se combina con Furina y un sanador.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipos de Soporte Versátiles de Durin">
+Más allá de las composiciones centradas en reacciones, el Modo Blanco de Durin proporciona utilidad y daño valiosos en una variedad de otros arquetipos de equipo, ofreciendo reducción de RES y Pyro consistente fuera del campo.
+
+### Equipos DPS Anemo
+
+La aplicación de Pyro fuera del campo de Durin y la reducción de RES (en Modo Blanco) pueden beneficiar enormemente a los personajes DPS Anemo que pueden hacer Torbellino Pyro.
+
+| DPS Anemo  | Contribución de Durin                         | Soportes Clave                             |
+| :--------- | :-------------------------------------------- | :----------------------------------------- |
+| **Venti**  | Pyro fuera del campo, Reducción de RES Anemo (Hexerei) | Furina, Bennett, Nicole                    |
+| **Xiao**   | Pyro fuera del campo, Reducción de RES        | Faruzan, Bennett, Zhongli                  |
+| **Wanderer**| Pyro fuera del campo, Reducción de RES        | Faruzan, Bennett, Layla                    |
+| **Kaedehara Kazuha** | Pyro fuera del campo, mejora el daño de Torbellino | Fischl, Furina, Bennett                    |
+
+### Equipos DPS Geo
+
+Durin puede actuar como un habilitador genérico de Pyro fuera del campo para equipos Geo, especialmente aquellos que se benefician de la resonancia Pyro o necesitan una aplicación elemental para escudos de cristalización.
+
+| DPS Geo  | Contribución de Durin                         | Soportes Geo Clave                       | Soporte Flexible                   |
+| :------- | :-------------------------------------------- | :--------------------------------------- | :--------------------------------- |
+| **Navia**| Pyro fuera del campo para Cristalización, Resonancia Pyro | Albedo, Zhongli, Chiori                  | Bennett (buffer), Fischl (Hexerei) |
+| **Itto** | Pyro fuera del campo (menos crítico, pero una opción) | Gorou, Albedo, Zhongli                   | Bennett (buffer)                   |
+
+<Callout type="info" title="Resonancia Hexerei con Albedo">
+Emparejar a Durin con Albedo activa la Resonancia Hexerei, proporcionando mejoras mutuas y haciendo que ambos personajes sean más fuertes. Esto es particularmente útil en equipos Geo donde Albedo es una elección común.
+</Callout>
+
+### Equipos Dendro (Quemadura/Florecimiento)
+
+Durin puede facilitar las reacciones de Quemadura o desencadenar Florecimiento en equipos centrados en Dendro. Su Modo Blanco es generalmente preferido aquí para la reducción de RES.
+
+| Tipo de Equipo | Rol de Durin                                  | Núcleo Dendro                             | Soporte Electro/Hydro                     |
+| :------------- | :-------------------------------------------- | :---------------------------------------- | :---------------------------------------- |
+| **Quemadura**  | Aplicador de Pyro fuera del campo, reducción de RES | Nahida, Alhaitham, Yaoyao                 | Fischl (Hexerei, sinergia de Acelerar/Agravar) |
+| **Florecimiento** | Desencadenante de Florecimiento fuera del campo (build EM, Modo Blanco) | Nahida, Lauma                             | Neuvillette, Kokomi, Xingqiu              |
+
+<Checklist
+  id="durin-team-checklist"
+  title="Esenciales para la Construcción de Equipos de Durin:"
+  items={[
+    "Determinar el rol principal de Durin (soporte/DPS de reacción).",
+    "Elegir entre Modo Blanco (reducción de RES) o Modo Oscuro (DMG de reacción personal).",
+    "Priorizar compañeros Hexerei para mejoras significativas.",
+    "Asegurar una aplicación Elemental suficiente de otros compañeros de equipo.",
+    "Ajustar la Recarga de Energía según la composición del equipo y la generación de partículas."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Artefactos y Armas para los Equipos de Durin">
+Aunque esta guía se centra en los equipos, comprender el equipo óptimo de Durin ayuda a adaptarlo a roles específicos dentro de esos equipos. Sus elecciones de artefactos y armas dependen en gran medida de si es un soporte, Sub-DPS o DPS en campo, y de qué modo utiliza principalmente.
+
+### Conjuntos de Artefactos Recomendados
+
+Durin actualmente carece de un conjunto de artefactos dedicado, lo que hace que varias opciones sean viables según su rol. Un nuevo conjunto específico de Hexerei podría lanzarse en el futuro.
+
+| Conjunto de Artefactos                               | Mejor para                                         | Notas                                                      |
+| :--------------------------------------------------- | :------------------------------------------------- | :--------------------------------------------------------- |
+| **4-pc Nobleza Obligada**                            | Soporte/Sub-DPS general (Modo Blanco)              | Aumenta el DMG de la Habilidad Definitiva de Durin y proporciona una mejora de ATK al equipo. |
+| **4-pc Un Día Tallado por los Vientos Ascendentes** (v6.3) | Propósito general, especialmente con miembros Hexerei | Aumento de ATK% y Tasa CRIT por sinergia Hexerei.          |
+| **2-pc Nobleza / 2-pc Bruja Carmesí / 2-pc ATK%**    | Mezcla y combina para daño personal                | Bueno si ningún otro conjunto de 4 piezas es óptimo o para mejores subestadísticas. |
+| **4-pc Emblema del Destino Separado**                | Sub-DPS con necesidades de ER                      | Proporciona una bonificación de DMG de la Habilidad Definitiva basada en ER. |
+| **4-pc Sueños Áureos / 4-pc Flor del Paraíso Perdido** | Florecimiento (build completa de EM)               | Maximiza la Maestría Elemental y el daño de reacción.     |
+| **4-pc Cazador Fantasma**                            | DPS en campo (Modo Oscuro) con Furina y un sanador | Otorga una Tasa CRIT significativa para el tiempo de actividad en campo. |
+
+<Callout type="tip" title="Artefactos a Prueba de Futuro">
+Dada la posibilidad de un conjunto de artefactos Hexerei dedicado en futuras actualizaciones, es aconsejable priorizar subestadísticas fuertes en los conjuntos viables existentes en lugar de farmear en exceso para un "mejor en slot" temporal.
+</Callout>
+
+### Elecciones Clave de Armas
+
+Durin tiene varias opciones de armas fuertes, que van desde su arma distintiva hasta opciones accesibles de 4 estrellas.
+
+| Arma                                         | Rareza | Mejor para                                         | Notas                                                      |
+| :------------------------------------------- | :----- | :------------------------------------------------- | :--------------------------------------------------------- |
+| **Athame Artis** (Arma Distintiva)           | 5 estrellas | Todos los roles, especialmente soporte/Sub-DPS con Hexerei | Alta Tasa CRIT, DMG de Habilidad Definitiva y mejoras de ATK del equipo (amplificadas por Hexerei). |
+| **Juramento por la Libertad**                | 5 estrellas | Roles de soporte, equipos de reacción                | Maestría Elemental, mejoras de ATK del equipo y DMG de Ataques Normales/Cargados/Descendentes. |
+| **Reflejo de la Luna Creciente / Cortador de Jade Primordial** | 5 estrellas | Daño personal, vara de estadísticas CRIT            | Proporciona altas estadísticas CRIT, generalmente fuerte para cualquier DPS. |
+| **Colmillo de Lobo** (Pase de Batalla)       | 4 estrellas | Sub-DPS, buena Tasa CRIT                           | Bonificación de DMG de Habilidad/Habilidad Definitiva, alta Tasa CRIT. |
+| **Final del Abismo** (Crafteable de Fontaine) | 4 estrellas | Free-to-play, ATK alto                             | Requiere un sanador para eliminar el Vínculo Vital, proporciona un ATK significativo. |
+| **Rugido del León**                          | 4 estrellas | Enemigos afectados por Electro/Pyro                | Aumenta el DMG contra enemigos afectados por Pyro o Electro. |
+| **Amanecer de la Luna Ondulante** (Exploración de Nodcry) | 4 estrellas | Free-to-play, DMG de Habilidad Definitiva          | ATK Base alto, bonificación de DMG de Habilidad Definitiva. |
+| **Luz Lunar de Xiphos / Hoja de Hierro Negro** | 4 estrellas | Florecimiento (build completa de EM)               | Varitas de estadísticas de Maestría Elemental.             |
+
+<Callout type="warning" title="Consideración de Recarga de Energía">
+La Habilidad Elemental de Durin proporciona una devolución de energía significativa (30-33 de Energía al nivel máximo). En muchos equipos, especialmente con otros personajes Pyro o en composiciones de Sobrecarga, puede necesitar poca o ninguna Recarga de Energía. Sin embargo, como opción Pyro en solitario en ciertos equipos, podría ser necesario un 110-140% de ER para usar la Habilidad Definitiva consistentemente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Constelaciones de Durin: Impacto en el Rendimiento del Equipo">
+Durin ya es fuerte en C0, pero sus constelaciones ofrecen mejoras significativas, aumentando tanto su daño personal como sus capacidades de soporte. Comprender esto puede ayudarte a decidir sobre la inversión vertical.
+
+| Constelación | Efecto / Méritos                                   | Impacto en los Equipos                                     |
+| :----------- | :------------------------------------------------ | :--------------------------------------------------------- |
+| **C1: Redención de Adamah** | Mejora el DMG del personaje activo (Modo Blanco) o el DMG de la Habilidad Definitiva personal de Durin (Modo Oscuro) | Proporciona 20 instancias de mejora de daño escalado con ATK al DPS en campo o mejora la propia Habilidad Definitiva de Durin. |
+| **C2: Visiones Subterráneas** | Todos los miembros del equipo obtienen un 50% de DMG Pyro y bonificación de DMG elemental después de las reacciones. | Mejora de daño universal para todas las reacciones relacionadas con Pyro, aumentando significativamente el DPS del equipo. |
+| **C3: Revelación del Espejo Flamígero** | Aumenta el Nivel de la Habilidad Definitiva en 3. | Aumento directo de la fuente principal de daño de Durin.   |
+| **C4: Fuente de Emanación** | 40% de aumento de DMG de la Habilidad Definitiva; 30% de probabilidad de no consumir las cargas de C1. | Aumenta el daño de la Habilidad Definitiva personal de Durin y extiende la utilidad de C1. |
+| **C5: Fragmentación de la Llama Purificadora** | Aumenta el Nivel de la Habilidad Elemental en 3. | Aumento menor de daño para la habilidad, mejora la devolución de energía. |
+| **C6: Nacimiento Dual** | La Habilidad Definitiva ignora el 30% de DEF; Modo Blanco: 30% de reducción de DEF para los oponentes; Modo Oscuro: 40% adicional de ignorancia de DEF. | Aumento masivo de daño para Durin y una significativa reducción de DEF para todo el equipo en Modo Blanco. |
+
+<Callout type="info" title="C2 como un Fuerte Punto de Parada">
+La C2 de Durin a menudo se considera un excelente punto de parada temprano para la inversión vertical. La bonificación del 50% de daño elemental para todos los miembros del equipo en varias reacciones Pyro es una mejora poderosa y universal.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rotación de Equipo y Consejos de Estilo de Juego">
+Ejecutar las rotaciones de Durin de manera efectiva asegura el máximo tiempo de actividad de sus mejoras y daño. Su naturaleza de doble modo significa que es clave entender cuándo y cómo activar cada uno.
+
+### Principios Básicos de Rotación
+
+<Steps>
+  <Step num="1" title="Elegir Modo">
+    Decide si entrar en Modo Blanco (Habilidad dos veces) o Modo Oscuro (Habilidad y luego Ataque Normal) según las necesidades de tu equipo antes de usar su Habilidad Definitiva.
+  </Step>
+  <Step num="2" title="Aplicar Mejoras Temprano">
+    Como soporte, usa la Habilidad Definitiva de Durin (en el modo elegido) al principio de la rotación para aplicar Pyro y reducción de RES (Modo Blanco) o para preparar su daño de reacción personal (Modo Oscuro) antes de que tu DPS principal entre en campo.
+  </Step>
+  <Step num="3" title="Gestionar Energía">
+    La Habilidad Elemental de Durin devuelve energía. Asegúrate de usar su habilidad al menos una vez, o dos veces si está en Modo Blanco, para recuperar energía para su próxima Habilidad Definitiva.
+  </Step>
+  <Step num="4" title="DPS en Campo (Modo Oscuro)">
+    Si juegas con Durin en Modo Oscuro en campo (especialmente con Bennett C6), prioriza los combos de Ataque Normal > Ataque Cargado para maximizar la aplicación de Pyro y desencadenar reacciones. Salta o cancela el dash de los Ataques Cargados para combos más rápidos.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Instantáneas de la Habilidad Definitiva">
+La Habilidad Definitiva de Durin **no captura** las mejoras. Esto significa que su daño se actualizará dinámicamente con las mejoras activas (ej. del campo de Bennett). Planifica tus rotaciones para asegurar que las mejoras clave estén activas cuando su Habilidad Definitiva golpee.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes: Composiciones de Equipo de Durin">
+
+<FAQ items={[
+  {
+    question: "¿Qué hace a Durin tan versátil en las composiciones de equipo?",
+    answer: "La versatilidad de Durin proviene de sus dos modos distintos: el Modo Blanco proporciona una aplicación consistente de Pyro fuera del campo y reducción de resistencia, mientras que el Modo Oscuro aumenta significativamente su daño personal de Vaporizar y Derretir. Esto le permite encajar en roles como soporte, Sub-DPS o incluso como DPS principal en varios equipos de reacción."
+  },
+  {
+    question: "¿Es la Resonancia Hexerei obligatoria para los mejores equipos de Durin?",
+    answer: "Aunque Durin puede funcionar bien como unidad independiente, la Resonancia Hexerei es muy recomendable para sus equipos más fuertes. Amplifica sus mejoras pasivas, aumentando la reducción de RES en Modo Blanco al 35% y el daño de reacción personal en Modo Oscuro al 70%, haciendo que personajes como Fischl y Albedo sean excelentes compañeros."
+  },
+  {
+    question: "¿Qué conjunto de artefactos es mejor para Durin si lo uso en un equipo de Sobrecarga?",
+    answer: "Para un equipo de Sobrecarga donde Durin es principalmente un soporte/Sub-DPS en Modo Blanco, el **4-pc Nobleza Obligada** es una excelente opción estándar si ningún otro soporte lo está usando. Alternativamente, el nuevo **4-pc Un Día Tallado por los Vientos Ascendentes** (de la v6.3) también es muy fuerte, especialmente con un compañero Hexerei, ofreciendo ATK% y Tasa CRIT."
+  },
+  {
+    question: "¿Puede Durin ser un DPS en campo, y qué equipos lo apoyan?",
+    answer: "Sí, Durin puede ser un DPS en campo, particularmente en su Modo Oscuro. Este estilo de juego a menudo se habilita con **Bennett C6** para infundir sus Ataques Normales con Pyro. Equipos como Sobrecarga-Vaporizar (Durin, Bennett C6, Furina, Electro) o composiciones específicas de Vaporizar/Derretir le permiten maximizar su daño de reacción personal con conjuntos como **Cazador Fantasma**."
+  }
+]} />
+
+</Section>
