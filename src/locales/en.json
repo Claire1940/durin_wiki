@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Genshin Impact 5-Star Pyro Sword Character",
+    "title": "Durin Wiki",
+    "description": "Durin is a 5-star Pyro Sword character in Genshin Impact, with dual combat states, off-field Pyro pressure, reaction support, and strong team flexibility.",
+    "getFreeCodesCTA": "Get Durin Builds",
+    "playOnSteamCTA": "Play Genshin Impact",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "5-Star",
+        "label": "Rarity"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "Pyro",
+        "label": "Vision"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "Sword",
+        "label": "Weapon"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Luna III",
+        "label": "Release Version"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Build Your Durin Team?",
+    "description": "Use our Durin Wiki resources, then join the Genshin community and official game channels for updates and showcases.",
+    "joinCommunity": "Join Discord Community",
+    "joinGame": "Play Genshin Impact"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Durin Wiki",
+    "description": "Your complete Durin resource hub for builds, teams, weapons, materials, talents, banner tracking, and lore.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamCommunity": "Reddit Community",
+    "steamStore": "Official Website",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Durin Wiki. Unofficial fan-made resource for Genshin Impact.",
+    "disclaimer": "Durin Wiki is not affiliated with HoYoverse. All game content belongs to its respective owners."
   },
   "pages": {
     "guides": {
