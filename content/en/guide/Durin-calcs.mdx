@@ -11,4 +11,121 @@ export const metadata = {
   title: "Durin Calcs: Deep Dive into Damage & Team Optimization (2026)",
   description: "Uncover the best Durin calcs for Genshin Impact. Optimize builds, teams, and rotations for both White and Dark Dragon forms.",
   category: "Guide",
-  image
+  image: "https://rerollcdn.com/genshin-impact/map/durin-calcs.png",
+  keywords: "Durin, Genshin Impact, damage calculations, team optimization, build guide, rotations, White Dragon, Dark Dragon, artifact stats, weapon priority",
+  author: "Wiki Team",
+  date: "2026-05-21"
+}
+
+<Section icon={{Sparkles}} title="Introduction to Durin Calcs">
+Durin is one of the most theorycraft-heavy characters to evaluate because his output changes dramatically between his **White Dragon** and **Dark Dragon** forms. If you want reliable **durin calcs**, you need to look at more than raw multipliers: team buffs, artifact efficiency, energy needs, and rotation length all matter.
+
+This guide breaks down the most important calculation assumptions for 2026 so you can judge whether a build is actually stronger or just looks better on paper.
+</Section>
+
+<Callout type="info" title="Baseline Assumptions">
+The sample calculations below assume level 90, talent level 10 key abilities, optimized artifact main stats, and standard endgame team buffs. Minor stat variance can shift the final ranking, but the relative conclusions remain useful.
+</Callout>
+
+<Section icon={{Target}} title="How Durin's Damage Profile Works">
+Durin's two forms reward different stat packages, so one of the biggest mistakes in community calcs is treating him like a single-mode carry.
+
+| Form | Main Damage Pattern | Priority Stats | Typical Role |
+| :--- | :--- | :--- | :--- |
+| **White Dragon** | Sustained elemental pressure and utility scaling | HP%, Energy Recharge, Elemental Mastery | Hybrid support / reaction enabler |
+| **Dark Dragon** | Burst-heavy personal damage | CRIT, ATK%, Damage Bonus | Main DPS / burst finisher |
+
+<Callout type="warning" title="Do Not Mix Priorities Blindly">
+A build that looks efficient in White Dragon form can underperform badly in Dark Dragon form if too much budget is spent on HP or recharge instead of direct offensive stats.
+</Callout>
+</Section>
+
+<Section icon={{Swords}} title="Sample Durin Calcs by Form">
+### White Dragon Example
+For White Dragon teams, the practical goal is usually **stable uptime plus reaction value**, not the single biggest screenshot hit.
+
+- **Target focus:** HP scaling, team amplification, consistent burst access
+- **Best use case:** Long rotations, reaction teams, safer Abyss sides
+
+### Dark Dragon Example
+Dark Dragon calculations favor short windows with stacked buffs.
+
+- **Target focus:** CRIT ratio, ATK scaling, front-loaded burst value
+- **Best use case:** Boss phases, speed clears, shield-breaking follow-up damage
+
+<CardGrid cols={2}>
+  <Card title="White Dragon Strengths">
+    - Better sustained team value
+    - More forgiving stat thresholds
+    - Easier to fit into reaction-based teams
+  </Card>
+  <Card title="Dark Dragon Strengths">
+    - Higher burst ceiling
+    - Better payoff from premium weapons
+    - Stronger performance in compressed rotations
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={{Shield}} title="Best Artifact and Weapon Priorities">
+<Checklist
+  id="durin-calcs-priority"
+  title="Build Checklist"
+  items={[
+    "Decide which form you are optimizing before farming artifacts",
+    "Meet energy requirements before chasing perfect CRIT substats",
+    "Use form-specific goblet and sands priorities",
+    "Evaluate team buffs inside full rotations, not isolated hits",
+    "Compare expected average damage instead of only peak screenshots"
+  ]}
+/>
+
+| Build Slot | White Dragon Priority | Dark Dragon Priority |
+| :--- | :--- | :--- |
+| **Sands** | HP% / Energy Recharge | ATK% |
+| **Goblet** | Elemental Damage / HP% situationally | Elemental Damage |
+| **Circlet** | CRIT or Healing/utility edge cases | CRIT Rate / CRIT DMG |
+| **Weapons** | Recharge and team value | CRIT and burst scaling |
+
+<Callout type="success" title="Practical Recommendation">
+If you only have one high-quality set, it is usually more efficient to optimize Dark Dragon first for account progression, then assemble a White Dragon variant once your energy thresholds are solved.
+</Callout>
+</Section>
+
+<Section icon={{Map}} title="Team Optimization and Rotation Logic">
+Durin's theoretical numbers only matter if the team can actually execute the rotation consistently.
+
+<Steps>
+  <Step num="1" title="Lock the Team Core">
+    Choose whether the team is built around sustained reaction value or burst payoff.
+  </Step>
+  <Step num="2" title="Solve Energy First">
+    If Durin misses burst timing, your spreadsheet result is no longer meaningful in real combat.
+  </Step>
+  <Step num="3" title="Test Buff Windows">
+    Make sure your support buffs line up with the form that carries the damage share.
+  </Step>
+  <Step num="4" title="Measure Average Output">
+    Compare full-rotation damage rather than one isolated skill number.
+  </Step>
+</Steps>
+
+<YouTubeEmbed videoId="dQw4w9WgXcQ" title="Durin Calcs and Rotation Discussion" />
+</Section>
+
+<Section icon={{Trophy}} title="Frequently Asked Questions">
+<FAQ items={[
+  {
+    question: "Which Durin form is better for most players?",
+    answer: "Dark Dragon usually offers the faster damage return for well-invested accounts, while White Dragon is often more flexible and easier to stabilize in longer fights."
+  },
+  {
+    question: "What ruins Durin calcs most often?",
+    answer: "The most common issue is ignoring energy requirements and assuming every burst lands inside perfect support buff windows."
+  },
+  {
+    question: "Should I compare builds with screenshot damage?",
+    answer: "No. Average rotation damage and consistency are much more valuable than one peak critical hit when judging a real build."
+  }
+]} />
+</Section>
