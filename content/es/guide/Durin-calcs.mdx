@@ -1,0 +1,303 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cálculos de Durin: Inmersión Profunda en Daño y Optimización de Equipos (2026)",
+  description: "Descubre los mejores cálculos de Durin para Genshin Impact. Optimiza builds, equipos y rotaciones para las formas de Dragón Blanco y Oscuro.",
+  category: "Guía",
+  image: "https://rerollcdn.com/genshin-impact/map/durin-calcs.png",
+  keywords: "Durin, Genshin Impact, cálculos de daño, optimización de equipos, build, rotación, Dragón Blanco, Dragón Oscuro, Abyss, Spiral Abyss, artefactos, armas, personajes"
+}
+
+<Section icon={{Sparkles}} title="Introducción a los Cálculos de Durin">
+
+¡Bienvenido a la guía definitiva de cálculos de Durin para Genshin Impact! Ya seas un jugador experimentado buscando optimizar cada punto de daño o un recién llegado intentando entender las complejidades de los buffs de Durin, esta guía te tiene cubierto. Nos sumergiremos en los detalles de cómo maximizar tu potencial de daño con Durin, considerando sus dos formas distintas: **Dragón Blanco** y **Dragón Oscuro**.
+
+Durin es un personaje formidable que, cuando se usa correctamente, puede diezmar incluso a los enemigos más duros del Espiral del Abismo. Comprender las sinergias de su equipo, las mejores rotaciones y las estadísticas óptimas de artefactos y armas es crucial para desatar su verdadero poder.
+
+</Section>
+
+<Section icon={{Target}} title="Comprensión de las Habilidades de Durin">
+
+Durin posee un conjunto de habilidades único que difiere significativamente entre sus formas de Dragón Blanco y Dragón Oscuro. Cada forma ofrece ventajas distintas y requiere diferentes estrategias de construcción y composición de equipo.
+
+<Callout type="info" title="Habilidades del Dragón Blanco">
+La forma de Dragón Blanco de Durin se centra en el **daño elemental sostenido** y la aplicación de elementos. Su Habilidad Elemental y su Habilidad Definitiva sobresalen en la creación de reacciones elementales y en el daño de área de efecto (AoE).
+</Callout>
+
+<Callout type="warning" title="Habilidades del Dragón Oscuro">
+La forma de Dragón Oscuro de Durin se especializa en el **daño ráfaga de un solo objetivo** y la perforación de la defensa. Sus habilidades tienen multiplicadores más altos y a menudo ignoran una porción de la defensa del enemigo, haciéndolo devastador contra jefes.
+</Callout>
+
+### Diagrama de Habilidades de Durin
+
+Aquí tienes un resumen de las habilidades principales de Durin:
+
+| Habilidad           | Forma de Dragón Blanco               | Forma de Dragón Oscuro                 |
+| :------------------ | :----------------------------------- | :------------------------------------- |
+| **Ataque Normal**   | Daño Físico                          | Daño Físico                            |
+| **Habilidad Elemental** | Ráfaga de Viento Gélido (Cryo AoE) | Mordisco Sombrío (Daño Anemo de un solo objetivo) |
+| **Habilidad Definitiva** | Tormenta Invernal (Cryo AoE Sostenido) | Devorador de Almas (Daño Anemo de ráfaga masivo) |
+| **Talento Pasivo 1** | Resistencia al Frío (RES Cryo)       | Piel de Dragón (RES Física)            |
+| **Talento Pasivo 2** | Maestría Elemental Aumentada         | Ignora un 20% de la DEF del enemigo    |
+
+</Section>
+
+<Section icon={{Swords}} title="Cálculos de Daño de Durin">
+
+Calcular el daño de Durin implica varios factores, incluyendo multiplicadores de habilidad, estadísticas de personaje, estadísticas de artefactos, buffs de armas y buffs de equipo. Usaremos una fórmula simplificada aquí, pero profundizaremos en cada componente.
+
+### Fórmula Básica de Daño
+
+`Daño Total = (ATK * Multiplicador de Habilidad + Daño Plano) * (1 + Bono de Daño) * (1 + Tasa CRIT * Daño CRIT) * (Resistencia del Enemigo) * (Defensa del Enemigo)`
+
+<Checklist
+  num={5}
+  items={[
+    "**ATK:** Ataque total del personaje (ATK Base + ATK de Arma + ATK de Artefactos + Buffs).",
+    "**Multiplicador de Habilidad:** Porcentaje de la habilidad (ej., 200% de ATK).",
+    "**Daño Plano:** Fuentes de daño adicionales que se añaden directamente (ej., reaccionar al daño).",
+    "**Bono de Daño:** Bono Elemental, Bono de Daño de Habilidad Definitiva, Bono de Daño Normal/Cargado.",
+    "**Tasa CRIT / Daño CRIT:** La probabilidad y la fuerza de los golpes críticos.",
+    "**Resistencia del Enemigo:** La resistencia del enemigo al tipo de daño de Durin (reducida por Shred de RES).",
+    "**Defensa del Enemigo:** La defensa del enemigo (reducida por Shred de DEF)."
+  ]}
+/>
+
+### Cálculos Específicos de la Forma
+
+#### Dragón Blanco: Daño Elemental Sostenido
+
+Para la forma de Dragón Blanco, el enfoque está en maximizar la **Maestría Elemental** y el **Bono de Daño Cryo**.
+
+**Ejemplo de Cálculo (Dragón Blanco):**
+
+*   **ATK de Durin:** 2000
+*   **Multiplicador de Habilidad Elemental:** 250%
+*   **Bono de Daño Cryo:** 60%
+*   **Tasa CRIT:** 70%
+*   **Daño CRIT:** 140%
+*   **Maestría Elemental:** 300 (para Reacciones de Congelado/Derretido)
+*   **Resistencia Cryo del Enemigo:** 10% (reducida a 0% con Shred)
+*   **Defensa del Enemigo:** Estándar
+
+`Daño = (2000 * 2.5) * (1 + 0.6) * (1 + 0.7 * 1.4) * (1 - 0) * (Defensa) = 5000 * 1.6 * 1.98 * Defensa = 15840 * Defensa`
+
+Este cálculo ignora las reacciones por simplicidad, pero una reacción de Derretido con 300 de Maestría Elemental podría aumentar este daño significativamente.
+
+#### Dragón Oscuro: Daño Ráfaga de un Solo Objetivo
+
+Para la forma de Dragón Oscuro, la prioridad son el **ATK**, el **Bono de Daño Anemo** y el **Daño CRIT**, aprovechando su ignorancia de DEF.
+
+**Ejemplo de Cálculo (Dragón Oscuro):**
+
+*   **ATK de Durin:** 2200
+*   **Multiplicador de Habilidad Definitiva:** 800%
+*   **Bono de Daño Anemo:** 70%
+*   **Tasa CRIT:** 80%
+*   **Daño CRIT:** 180%
+*   **Ignorancia de DEF:** 20% (Talento Pasivo)
+*   **Resistencia Anemo del Enemigo:** 10% (reducida a 0% con Shred)
+
+`Daño = (2200 * 8.0) * (1 + 0.7) * (1 + 0.8 * 1.8) * (1 - 0) * (Defensa Ignorada) = 17600 * 1.7 * 2.44 * Defensa Ignorada = 73000 * Defensa Ignorada`
+
+La ignorancia de DEF del Dragón Oscuro es un multiplicador de daño directo contra la reducción de DEF del enemigo, lo que lo hace extremadamente potente.
+
+</Section>
+
+<Section icon={{Shield}} title="Builds Óptimas de Durin">
+
+Las mejores builds de Durin dependen en gran medida de la forma en la que lo utilices. Aquí se desglosan las recomendaciones para artefactos, armas y estadísticas.
+
+### Artefactos
+
+#### Dragón Blanco (Daño Cryo Sostenido)
+
+*   **Set:**
+    *   **4 piezas de Nómada del Invierno:** El mejor en la mayoría de los casos para el daño Cryo, especialmente con equipos de Congelado.
+    *   **2 piezas de Nómada del Invierno + 2 piezas de Emblema del Destino:** Buena opción si necesitas Recarga de Energía y aún quieres un bono Cryo.
+*   **Estadísticas Principales:**
+    *   **Reloj:** Recarga de Energía o ATK%
+    *   **Cáliz:** Bono de Daño Cryo%
+    *   **Corona:** Tasa CRIT% o Daño CRIT%
+*   **Sub-estadísticas:** Tasa CRIT > Daño CRIT > ATK% > Recarga de Energía > Maestría Elemental
+
+#### Dragón Oscuro (Daño Anemo Ráfaga)
+
+*   **Set:**
+    *   **4 piezas de Sombra Verde Esmeralda:** Esencial para el soporte de Anemo y la reducción de RES.
+    *   **2 piezas de Sombra Verde Esmeralda + 2 piezas de Gladiador/Shimenawa:** Para un Durin DPS puro que no necesita el set de 4 piezas de Sombra Verde Esmeralda para el equipo.
+*   **Estadísticas Principales:**
+    *   **Reloj:** ATK%
+    *   **Cáliz:** Bono de Daño Anemo%
+    *   **Corona:** Tasa CRIT% o Daño CRIT%
+*   **Sub-estadísticas:** Daño CRIT > Tasa CRIT > ATK% > Recarga de Energía
+
+</Section>
+
+<Section icon={{Swords}} title="Armas">
+
+La elección del arma es crucial para Durin. Aquí están las mejores opciones para cada forma.
+
+#### Dragón Blanco
+
+<CardGrid cols={2}>
+<Card title="Favoritas de 5 Estrellas" icon={{Swords}}>
+- **Corte de Jade Primordial:** Gran Tasa CRIT, alto ATK base.
+- **Luz Segadora:** Gran Tasa CRIT, alto ATK base.
+- **Alas Celestiales:** Tasa CRIT y Daño CRIT.
+</Card>
+<Card title="Favoritas de 4 Estrellas" icon={{Swords}}>
+- **Arco de Favonius:** Para Recarga de Energía si es necesario.
+- **Estrella Polar:** Tasa CRIT y aumenta el daño de Habilidad Elemental y Definitiva.
+- **Arco de Cazador Esmeralda:** Tasa CRIT y control de masas.
+</Card>
+</CardGrid>
+
+#### Dragón Oscuro
+
+<CardGrid cols={2}>
+<Card title="Favoritas de 5 Estrellas" icon={{Swords}}>
+- **Aqua Simulacra:** Gran Daño CRIT y aumenta el HP.
+- **Estrella Polar:** Tasa CRIT y aumenta el daño de Habilidad Elemental y Definitiva.
+- **Arco de Amos:** Para daño de Ataque Cargado.
+</Card>
+<Card title="Favoritas de 4 Estrellas" icon={{Swords}}>
+- **Arco de Guerra de la Cazadora:** Daño CRIT y Bono de Daño Elemental.
+- **La Cacería Esmeralda:** Tasa CRIT y control de masas.
+- **Arco del Sacrificio:** Para reinicios de Habilidad Elemental.
+</Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={{Map}} title="Composiciones de Equipo y Rotaciones">
+
+Las composiciones de equipo y las rotaciones son donde Durin realmente brilla. Sinergias adecuadas pueden amplificar su daño exponencialmente.
+
+### Equipos del Dragón Blanco (Congelado/Derretido)
+
+Los equipos de Dragón Blanco prosperan con personajes que proporcionan aplicación de Hydro o Pyro, buffs de ATK o reducción de RES Cryo.
+
+<CardGrid cols={2}>
+<Card title="Equipo de Congelado (Permafreeze)" icon={{Shield}}>
+**Durin (DPS) + Hydro (Aplicador) + Anemo (Shred/CC) + Cryo (Batería/Resonancia)**
+- **Hydro:** Kokomi, Mona, Xingqiu, Yelan
+- **Anemo:** Kazuha, Venti, Sacarosa
+- **Cryo:** Shenhe, Diona, Rosaria, Layla
+</Card>
+<Card title="Equipo de Derretido (Reverse Melt)" icon={{Shield}}>
+**Durin (DPS) + Pyro (Aplicador) + Anemo (Shred/CC) + Flex (Batería/Escudo)**
+- **Pyro:** Xiangling, Bennett, Klee
+- **Anemo:** Kazuha, Sacarosa
+- **Flex:** Diona, Zhongli, Rosaria
+</Card>
+</CardGrid>
+
+#### Rotación de Equipo de Congelado (Ejemplo: Durin/Kokomi/Kazuha/Shenhe)
+
+<Steps>
+<Step title="Paso 1: Kokomi E">
+Aplica Hydro con la Habilidad Elemental de Kokomi.
+</Step>
+<Step title="Paso 2: Shenhe E + Q">
+Usa la Habilidad Elemental y la Habilidad Definitiva de Shenhe para buffs Cryo y reducción de RES.
+</Step>
+<Step title="Paso 3: Kazuha E + Q">
+Usa la Habilidad Elemental y la Habilidad Definitiva de Kazuha para Agrupar, Shred de RES y buffs de daño elemental.
+</Step>
+<Step title="Paso 4: Durin Q + E + Ataques Normales/Cargados">
+Desata la Habilidad Definitiva de Durin, luego la Habilidad Elemental y sigue con Ataques Normales/Cargados mientras aplicas Cryo y Congelas a los enemigos.
+</Step>
+</Steps>
+
+### Equipos del Dragón Oscuro (Ráfaga Anemo)
+
+Los equipos de Dragón Oscuro se benefician de buffs de ATK, reducción de RES Anemo y personajes que pueden mejorar su daño ráfaga.
+
+<CardGrid cols={2}>
+<Card title="Equipo de Ráfaga Anemo" icon={{Shield}}>
+**Durin (DPS) + Anemo (Shred/Batería) + Pyro (Buffs de ATK) + Flex (Escudo/Sub-DPS)**
+- **Anemo:** Faruzan (especialmente para Anemo DPS), Jean, Sacarosa
+- **Pyro:** Bennett (Buff de ATK masivo)
+- **Flex:** Zhongli (Escudo/Shred), Yelan (Sub-DPS), Fischl (Sub-DPS)
+</Card>
+<Card title="Equipo de Mono Anemo" icon={{Shield}}>
+**Durin (DPS) + Anemo (Sub-DPS) + Anemo (Batería/Shred) + Anemo (Curador/CC)**
+- **Anemo:** Xiao, Wanderer, Heizou (Sub-DPS)
+- **Anemo:** Faruzan, Jean, Sucrose (Batería/Shred)
+- **Anemo:** Jean, Sayu (Curador/CC)
+</Card>
+</CardGrid>
+
+#### Rotación de Equipo de Ráfaga Anemo (Ejemplo: Durin/Faruzan/Bennett/Zhongli)
+
+<Steps>
+<Step title="Paso 1: Zhongli E (Mantener)">
+Crea el escudo de Zhongli y reduce la RES de los enemigos.
+</Step>
+<Step title="Paso 2: Bennett Q">
+Usa la Habilidad Definitiva de Bennett para un enorme buff de ATK.
+</Step>
+<Step title="Paso 3: Faruzan E + Q">
+Usa la Habilidad Elemental y la Habilidad Definitiva de Faruzan para buffs de daño Anemo y Shred de RES Anemo.
+</Step>
+<Step title="Paso 4: Durin Q + E + Ataques Normales/Cargados">
+Desata la Habilidad Definitiva de Durin para un daño ráfaga masivo, luego la Habilidad Elemental y Ataques Normales/Cargados.
+</Step>
+</Steps>
+
+</Section>
+
+<Section icon={{Trophy}} title="Consejos Avanzados y Optimización">
+
+Para exprimir cada gota de daño de Durin, considera estos consejos avanzados.
+
+<Checklist
+  num={4}
+  items={[
+    "**Sincronización de Buffs:** Asegúrate de que todos los buffs (Bennett Q, Kazuha Q, Shenhe Q) estén activos antes de que Durin use sus habilidades de alto daño.",
+    "**Gestión de Energía:** Prioriza la Recarga de Energía en las sub-estadísticas o usa armas/personajes de batería si Durin tiene problemas para recargar su Habilidad Definitiva.",
+    "**Reacciones Elementales:** Para el Dragón Blanco, domina las reacciones de Derretido y Congelado. Un Derretido bien sincronizado puede duplicar o triplicar tu daño.",
+    "**Ignorancia de DEF vs. Shred de DEF:** La ignorancia de DEF del Dragón Oscuro es una estadística única. Combínala con la reducción de DEF del equipo (ej., Zhongli) para maximizar el daño."
+  ]}
+/>
+
+### Preguntas Frecuentes (FAQ) sobre Durin
+
+<FAQ
+  items={[
+    {
+      question: "¿Qué forma de Durin es mejor para el Abismo Espiral?",
+      answer: "Ambas formas son viables, pero la forma de **Dragón Oscuro** a menudo sobresale en escenarios de un solo objetivo/jefes debido a su alto daño ráfaga e ignorancia de DEF. La forma de **Dragón Blanco** es excelente para escenarios AoE y de control de masas."
+    },
+    {
+      question: "¿Necesito Constelaciones para que Durin sea fuerte?",
+      answer: "Durin es fuerte en C0, pero sus constelaciones desbloquean aumentos de daño significativos, especialmente C2 y C6. Prioriza C2 para la forma de Dragón Oscuro y C4 para la forma de Dragón Blanco si es posible."
+    },
+    {
+      question: "¿Cuál es el mejor conjunto de artefactos para el Dragón Oscuro si no tengo Faruzan?",
+      answer: "Si no tienes Faruzan, **2 piezas de Sombra Verde Esmeralda + 2 piezas de un set de ATK% (Gladiador/Shimenawa)** es una opción sólida. También puedes considerar 4 piezas de Reminiscencia de Shimenawa si puedes gestionar la Recarga de Energía."
+    },
+    {
+      question: "¿Cómo consigo una alta Recarga de Energía para Durin?",
+      answer: "Busca sub-estadísticas de Recarga de Energía en artefactos, usa armas como Arco de Favonius o Arco del Sacrificio, o empareja a Durin con una batería como Diona o Faruzan."
+    }
+  ]}
+/>
+
+</Section>
+
+<Section icon={{Sparkles}} title="Conclusión">
+
+Dominar a Durin requiere una profunda comprensión de sus habilidades, builds y sinergias de equipo. Ya sea que te decantes por el daño elemental sostenido del Dragón Blanco o el daño ráfaga de un solo objetivo del Dragón Oscuro, la optimización es clave.
+
+Con esta guía, ahora tienes las herramientas para calcular el daño de Durin, elegir las mejores armas y artefactos, y construir composiciones de equipo sinérgicas para conquistar cualquier desafío en Teyvat. ¡Felices cálculos y que tus golpes críticos sean abundantes!
+
+</Section>
