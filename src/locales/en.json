@@ -95,42 +95,52 @@
     },
     "durinArtifacts": {
       "title": "Durin Artifacts",
-      "intro": "Artifact choice should match whether Durin is supporting reactions or carrying Burst damage.",
+      "intro": "Durin artifacts should be chosen by role: Burst-focused damage, team support, or reaction-trigger play. Prioritize enough Energy Recharge first, then scale CRIT, ATK, and Elemental Mastery by team.",
       "items": [
-        { "name": "Burst Priority Sets", "description": "Use offensive sets when Durin contributes a larger share of team DPS." },
-        { "name": "Support Priority Sets", "description": "Use utility sets when Durin mostly enables reaction and rotation flow." },
-        { "name": "Reaction Priority Sets", "description": "Elemental Mastery-focused sets shine in Burgeon and Overloaded setups." },
-        { "name": "Stat Tuning", "description": "Balance ER first, then tune CRIT ratio and ATK according to your weapon choice." }
+        { "name": "A Day Carved From Rising Winds (4pc)", "description": "Top personal-damage set for Dark Form and off-field Burst damage, with strong ATK and CRIT scaling in optimized teams." },
+        { "name": "Noblesse Oblige (4pc)", "description": "Best team-buff alternative for White Form support when no other unit already provides Noblesse uptime." },
+        { "name": "Emblem of Severed Fate (4pc)", "description": "Safe general set when Durin needs more Energy Recharge and stable Burst cycles across varied team setups." },
+        { "name": "Mixed 2pc Options", "description": "Reliable temporary setup while farming, combining Burst, Pyro, ATK, EM, or ER bonuses with better sub-stats." },
+        { "name": "Marechaussee Hunter (4pc)", "description": "Niche on-field option in HP-fluctuation teams, mainly when running Durin with Furina-style support patterns." },
+        { "name": "Durin Stat Targets", "description": "Aim for stable ER, balanced CRIT, and enough ATK for passive scaling, with extra EM in Vaporize, Melt, Overloaded, or Burgeon teams." }
       ]
     },
     "durinTalentsAndKit": {
       "title": "Durin Talents and Kit",
-      "intro": "Durin's value comes from form switching and Burst timing, so skill order matters for efficiency.",
+      "intro": "Durin's kit is built around switching between White Form and Dark Form, then timing Burst windows around your team reaction plan.",
       "items": [
-        { "step": "Step 1 - Understand Forms", "description": "Choose support form for utility and application, or damage form for stronger Burst outcomes." },
-        { "step": "Step 2 - Talent Priority", "description": "Level Burst first, then Skill, and leave Normal Attack for last in most builds." },
-        { "step": "Step 3 - Rotation Entry", "description": "Activate form, cast Burst, and swap to your primary driver during Durin uptime." },
-        { "step": "Step 4 - Cooldown Sync", "description": "Align Durin with team buffs and reaction enablers for reliable cycle timing." }
+        { "step": "Step 1 - Normal Attack Baseline", "description": "Durin uses a standard sword string, but Normal Attack is low priority unless you play him on-field." },
+        { "step": "Step 2 - Elemental Skill Form Choice", "description": "Use the Skill sequence to enter White Form for support utility or Dark Form for stronger personal damage." },
+        { "step": "Step 3 - White Form Routing", "description": "White Form enables off-field AoE Pyro pressure and team-oriented utility for Pyro-related reaction lineups." },
+        { "step": "Step 4 - Dark Form Routing", "description": "Dark Form is for Vaporize and Melt damage paths where Durin's own Burst contribution is the focus." },
+        { "step": "Step 5 - Burst Priority", "description": "Durin Burst is the primary talent value point and should be leveled first for most account builds." },
+        { "step": "Step 6 - Passive Value", "description": "Ascension passives improve team resistance pressure in White Form and increase reaction damage value in Dark Form." },
+        { "step": "Step 7 - Rotation Basics", "description": "White route: Skill into White Form, then Burst. Dark route: Skill into Dark Form, then Burst during buff windows." },
+        { "step": "Step 8 - Talent Order", "description": "Standard upgrade order is Burst first, Skill second, and Normal Attack last unless running on-field Durin." }
       ]
     },
     "durinConstellations": {
       "title": "Durin Constellations",
-      "intro": "Durin constellations scale differently by team type, so pull value depends on your account goals.",
+      "intro": "Durin is fully usable at C0, with C1 and C2 as high-impact upgrades and C6 as the premium ceiling for heavy vertical investment.",
       "items": [
-        { "name": "Durin C1", "description": "Early quality-of-life increase that improves practical rotation comfort." },
-        { "name": "Durin C2", "description": "Common stopping point for players prioritizing stronger uptime and smoother setups." },
-        { "name": "Durin C4", "description": "Higher investment option for teams built around sustained reaction output." },
-        { "name": "Durin C6", "description": "Full investment target for maximizing Durin ceiling and burst-oriented team plans." }
+        { "name": "Durin C0 Baseline", "description": "Strong base version with off-field Pyro damage, form-based utility, and practical fit in multiple reaction archetypes." },
+        { "name": "Durin C1 Upgrade", "description": "Major first constellation that improves stack-based damage value for both support-leaning and personal-damage play." },
+        { "name": "Durin C2 Checkpoint", "description": "Best early stopping point for many accounts, adding strong team elemental value in Pyro-reaction cycles." },
+        { "name": "Durin C3 and C5", "description": "Bridge constellations that raise talent levels and improve scaling but are usually not primary stopping targets." },
+        { "name": "Durin C4 Power Spike", "description": "Meaningful Burst-focused upgrade with stronger stack efficiency when already investing beyond C2." },
+        { "name": "Durin C6 Ceiling", "description": "Maximum-investment endpoint with high defense-ignore value and the strongest personal damage scaling." }
       ]
     },
     "durinBannerReleaseGuide": {
       "title": "Durin Banner and Release Guide",
-      "intro": "Use this module to plan pull timing, expected reruns, and account resource pacing around Durin banners.",
+      "intro": "Track Durin release timing, limited banner availability, and pull breakpoints so you can plan wishes and upgrade resources efficiently.",
       "items": [
-        { "name": "Release Window", "description": "Track patch cadence and official announcements to prepare pull resources." },
-        { "name": "Banner Strategy", "description": "Plan around weapon and character banner overlap before committing wishes." },
-        { "name": "Rerun Planning", "description": "If skipping now, map future rerun opportunities to your target constellation level." },
-        { "name": "Account Readiness", "description": "Secure materials, books, and Mora in advance so Durin is usable immediately." }
+        { "name": "Durin Character Profile", "description": "Durin is a limited 5-star Pyro Sword character mainly used for off-field sub-DPS and flexible support routing." },
+        { "name": "Durin Debut Window", "description": "Durin debuted on December 3, 2025 and first ran through December 23, 2025 during Version Luna III." },
+        { "name": "Durin Current Rerun", "description": "Current rerun window is May 20, 2026 to June 9, 2026, making this the active period to pull Durin directly." },
+        { "name": "Durin Banner Status", "description": "Durin remains a limited character and can only be obtained when his Character Event Wish is available." },
+        { "name": "Durin Pull Value", "description": "High value for players needing a flexible Pyro slot that can pivot between team support and Burst damage roles." },
+        { "name": "Durin Investment Stops", "description": "C0 is functional for broad use, while C2 is the common value stop before considering premium C6 investment." }
       ]
     }
   },

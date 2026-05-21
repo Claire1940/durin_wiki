@@ -38,19 +38,6 @@ interface HomePageClientProps {
   locale: string;
 }
 
-const sectionIds = [
-  "best-build",
-  "best-teams",
-  "materials",
-  "weapons",
-  "artifacts",
-  "talents-kit",
-  "constellations",
-  "banner-release-guide",
-] as const;
-
-const sectionIcons = [BookOpen, Users, Package, Swords, Gem, WandSparkles, Stars, CalendarClock];
-
 export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
   const t = useMessages() as any;
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://durin.wiki";
@@ -121,22 +108,30 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
             <p className="text-base md:text-lg text-muted-foreground">{t.tools.subtitle}</p>
           </div>
           <div className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
-            {t.tools.cards.map((card: any, index: number) => {
-              const Icon = sectionIcons[index];
-              return (
-                <button
-                  key={sectionIds[index]}
-                  onClick={() => scrollToSection(sectionIds[index])}
-                  className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
-                >
-                  <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
-                    <Icon className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" />
-                  </div>
-                  <h3 className="mb-1.5 text-sm md:text-base font-semibold">{card.title}</h3>
-                  <p className="text-sm text-muted-foreground">{card.description}</p>
-                </button>
-              );
-            })}
+            <a href="#best-build" onClick={(event) => { event.preventDefault(); scrollToSection("best-build"); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"><BookOpen className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" /></div><h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[0].title}</h3><p className="text-sm text-muted-foreground">{t.tools.cards[0].description}</p>
+            </a>
+            <a href="#best-teams" onClick={(event) => { event.preventDefault(); scrollToSection("best-teams"); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"><Users className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" /></div><h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[1].title}</h3><p className="text-sm text-muted-foreground">{t.tools.cards[1].description}</p>
+            </a>
+            <a href="#materials" onClick={(event) => { event.preventDefault(); scrollToSection("materials"); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"><Package className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" /></div><h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[2].title}</h3><p className="text-sm text-muted-foreground">{t.tools.cards[2].description}</p>
+            </a>
+            <a href="#weapons" onClick={(event) => { event.preventDefault(); scrollToSection("weapons"); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"><Swords className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" /></div><h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[3].title}</h3><p className="text-sm text-muted-foreground">{t.tools.cards[3].description}</p>
+            </a>
+            <a href="#artifacts" onClick={(event) => { event.preventDefault(); scrollToSection("artifacts"); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"><Gem className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" /></div><h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[4].title}</h3><p className="text-sm text-muted-foreground">{t.tools.cards[4].description}</p>
+            </a>
+            <a href="#talents-kit" onClick={(event) => { event.preventDefault(); scrollToSection("talents-kit"); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"><WandSparkles className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" /></div><h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[5].title}</h3><p className="text-sm text-muted-foreground">{t.tools.cards[5].description}</p>
+            </a>
+            <a href="#constellations" onClick={(event) => { event.preventDefault(); scrollToSection("constellations"); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"><Stars className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" /></div><h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[6].title}</h3><p className="text-sm text-muted-foreground">{t.tools.cards[6].description}</p>
+            </a>
+            <a href="#banner-release-guide" onClick={(event) => { event.preventDefault(); scrollToSection("banner-release-guide"); }} className="scroll-reveal group rounded-xl border border-border p-4 md:p-6 bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 cursor-pointer text-left hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]">
+              <div className="mb-3 h-10 w-10 rounded-lg md:mb-4 md:h-12 md:w-12 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors"><CalendarClock className="h-5 w-5 md:h-6 md:w-6 text-[hsl(var(--nav-theme-light))]" /></div><h3 className="mb-1.5 text-sm md:text-base font-semibold">{t.tools.cards[7].title}</h3><p className="text-sm text-muted-foreground">{t.tools.cards[7].description}</p>
+            </a>
           </div>
         </div>
       </section>
