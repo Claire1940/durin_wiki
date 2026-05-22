@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pasiva de Durin: Guía 2026 de Modos A1 y Escalado A4",
+  description: "Domina la mecánica pasiva de Durin en Genshin Impact. Aprende a optimizar los modos A1 Pureza/Oscuridad y a alcanzar el tope de escalado de ATK A4 para un DPS máximo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Durin+Passive+Mechanics+Guide",
+  date: "2026-05-22",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="tip" title="Guía Rápida">
+- La **pasiva A1 de Durin** determina su rol: el **Modo Pureza** proporciona un 20-35% de reducción de RES, mientras que el **Modo Oscuridad** otorga un 40-70% de DMG de reacción personal.
+- La **Fusión Primordial A4** recompensa una alta inversión en ATK, proporcionando un aumento masivo del **75% de DMG** una vez que alcanzas el umbral de 2500 ATK.
+- la **Resonancia Hexenzirkel** es innegociable para equipos meta, ya que aumenta la efectividad de la pasiva A1 en un asombroso **75%**.
+- El **tiempo de rotación** es crítico; debes seleccionar tu modo a través de la Habilidad Elemental *antes* de lanzar la Habilidad Definitiva para evitar que se active por defecto el Modo Pureza.
+</Callout>
+
+<Section icon={Sparkles} title="Forma Binaria: Entendiendo la Pasiva A1">
+
+El núcleo de cualquier build reside en dominar la **pasiva de Durin** conocida como *Forma Binaria: Convergencia y División* (A1). Esta pasiva fuerza una elección entre la utilidad del equipo y el poder personal bruto. A diferencia de las unidades Pyro tradicionales, Durin no tiene un rol estático; su pasiva se adapta en función de la entrada utilizada inmediatamente después de su Habilidad Elemental.
+
+**Puntos Destacados del Video:**
+- Desglose detallado de las animaciones de la Habilidad Definitiva en **Pureza vs. Oscuridad**.
+- Cómo la **Resonancia Hexenzirkel** interactúa con la pasiva A1.
+- Guía visual del umbral de 2500 ATK para la pasiva A4.
+- Rotaciones de equipo recomendadas para asegurar el 100% de tiempo de actividad de la pasiva.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="¡GUÍA COMPLETA DE DURIN! Mejor Build de Durin [TODOS los Estilos de Juego]" />
+
+La pasiva A1 funciona como un interruptor. Si activas una reacción relacionada con Pyro (Sobrecarga, Torbellino, Quemadura o Cristalización) mientras estás en Modo Pureza, los enemigos pierden un 20% de RES tanto a Pyro como al elemento que reacciona. En Modo Oscuridad, Durin se convierte en un carry egoísta, aumentando su propio daño de Vaporización y Derretido en un 40%.
+
+<Callout type="info" title="Análisis de Expertos">
+La reducción de RES en Modo Pureza **no** se aplica a Vaporización o Derretido. Si estás usando un soporte Hydro o Cryo, debes utilizar el Modo Oscuridad para ver algún beneficio de su pasiva A1.
+</Callout>
+
+| Modo | Acción de Activación | Beneficio Principal | Mejor Arquetipo de Equipo |
+| :--- | :--- | :--- | :--- |
+| **Pureza** | Habilidad > Habilidad | **20% Reducción de RES** (Pyro + Elemento) | Sobrecarga, Quemadura, Mono-Pyro |
+| **Oscuridad** | Habilidad > Ataque Normal | **40% DMG de Vaporización/Derretido** | Vaporización, Derretido Adelantado |
+| **Por Defecto** | Habilidad Definitiva (sin habilidad) | **Modo Pureza** (Naranja) | Soporte de Intercambio Rápido |
+
+</Section>
+
+<Section icon={Target} title="Fusión Primordial: El Límite de Escalado de ATK A4">
+
+Mientras que la pasiva A1 define su rol, la **pasiva de Durin** desbloqueada en Ascensión 4, *Caos Formado Como la Noche*, define sus requisitos de equipamiento. Esta pasiva otorga a Durin 10 acumulaciones de "Fusión Primordial" al lanzar su Habilidad Definitiva. Cada acumulación aumenta el daño de un golpe de la Habilidad Definitiva en un 3% por cada 100 ATK que posea Durin.
+
+Para maximizar este efecto, los jugadores buscan un "punto óptimo" específico en las estadísticas. Debido a que el aumento máximo de daño está limitado al 75%, cualquier ATK más allá de cierto punto produce rendimientos decrecientes en comparación con las estadísticas de Crítico.
+
+| ATK Total | Aumento de DMG por Golpe | Porcentaje de Buff Máximo |
+| :--- | :--- | :--- |
+| **1000 ATK** | 30% | 40% |
+| **1500 ATK** | 45% | 60% |
+| **2000 ATK** | 60% | 80% |
+| **2500 ATK** | **75% (MÁX)** | **100%** |
+
+<Callout type="warning" title="Equilibrio de Estadísticas">
+No sacrifiques una Tiara de Daño Crítico solo para alcanzar 2500 ATK. La pasiva A4 aumenta tu **multiplicador (valor de movimiento)**, lo que significa que las estadísticas de Crítico siguen actuando como un multiplicador final además de este buff. Usa a Bennett o el set de Nobleza Obligada para compensar la diferencia de ATK.
+</Callout>
+
+Las acumulaciones A4 se consumen una por una a medida que el "Dragón de la Llama Blanca" o el "Dragón de la Decadencia Oscura" atacan. Si un solo ataque golpea a varios enemigos, solo consume una acumulación, lo que hace que Durin sea excepcionalmente potente en escenarios de AoE donde su Modo Pureza brilla.
+
+</Section>
+
+<Section icon={Shield} title="Sinergia Hexenzirkel: Potenciando la Pasiva">
+
+Uno de los aspectos más únicos del sistema de **pasivas de Durin** es la resonancia **Hexerei: Rito Secreto**. Si Durin se empareja con al menos otro miembro de Hexenzirkel (como Albedo, Alice o Nicole), su pasiva A1 recibe un aumento masivo del **75% de efectividad**. 
+
+Esta resonancia transforma a Durin de un "buen" sub-DPS a un híbrido "roto" de soporte/carry. La matemática detrás de esta interacción es esencial para superar los pisos del Abismo de alto nivel.
+
+<CardGrid cols={2}>
+  <Card title="Mejora de Pureza (Soporte)">
+    - Reducción de RES base: 20%
+    - **Con Resonancia: 35%**
+    - Reemplaza efectivamente a una unidad Anemo de Sombra Verde Esmeralda en equipos de Sobrecarga.
+  </Card>
+  <Card title="Mejora de Oscuridad (Carry)">
+    - Bono de Reacción base: 40%
+    - **Con Resonancia: 70%**
+    - Proporciona más escalado de Vaporización que un reloj de Maestría Elemental dedicado.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Resonancia">
+Actualmente, **Fischl** es el miembro de Hexenzirkel más accesible para jugadores F2P. Emparejarla con Durin en una composición de Sobrecarga permite una reducción de RES Electro y Pyro del 35% simultáneamente sin necesidad de una configuración de Torbellino.
+</Callout>
+
+| Personaje | Estado de Hexerei | Sinergia con Durin |
+| :--- | :--- | :--- |
+| **Albedo** | Confirmado | Proporciona Maestría Elemental y activa mejoras de escalado A4 |
+| **Mona** | Confirmado | Mejor para nukes de Vaporización en Modo Oscuridad |
+| **Fischl** | Confirmado | Compañera principal de Sobrecarga para el Modo Pureza |
+| **Nicole** | Nuevo (6.6) | Mejor soporte para acumulación de reducción de DEF |
+
+</Section>
+
+<Section icon={Swords} title="Guía Operativa: Activando la Pasiva Correcta">
+
+Activar la **pasiva de Durin** específica que necesitas requiere memoria muscular. Debido a que su Habilidad Definitiva se activa por defecto en Modo Pureza si se lanza sin una Habilidad previa, muchos jugadores pierden accidentalmente los buffs del Modo Oscuridad en equipos de Vaporización.
+
+<Steps>
+  <Step num="1" title="Lanzamiento Inicial de Habilidad">
+    Pulsa E (Habilidad Elemental). Durin realizará una rápida embestida y entrará en un estado transicional durante 5 segundos.
+  </Step>
+  <Step num="2" title="Selección de Modo">
+    - Para **Pureza**: Pulsa E de nuevo.
+    - Para **Oscuridad**: Realiza un Ataque Normal.
+  </Step>
+  <Step num="3" title="Ejecución de Habilidad Definitiva">
+    Lanza Q (Habilidad Definitiva). La animación será **Naranja** para Pureza o **Rojo Oscuro** para Oscuridad.
+  </Step>
+  <Step num="4" title="Mantenimiento de la Pasiva">
+    El modo elegido dura 30 segundos. Puedes cambiar a Durin fuera del campo, y el Dragón seguirá beneficiándose de la pasiva seleccionada.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Rotación Pro">
+En una rotación estándar, usa la Habilidad de Durin dos veces (Pureza) para generar partículas primero, luego cambia a tu DPS principal. La reducción de RES del 35% (con resonancia) persistirá incluso si Durin está fuera del campo, aumentando significativamente el rendimiento total de tu equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimizando el Rendimiento de la Pasiva">
+
+Para asegurar que tu **pasiva de Durin** esté funcionando con máxima eficiencia, sigue esta lista de verificación de optimización. Alcanzar estos hitos separará una build casual de una que define el meta.
+
+<Checklist
+  id="durin-optimization"
+  title="Hitos de Perfección Pasiva:"
+  items={[
+    "Alcanza 2500 ATK total (incluyendo buffs) para llegar al tope de escalado A4.",
+    "Mantén al menos otro miembro de Hexenzirkel en el equipo.",
+    "Sube el nivel de la Habilidad Definitiva a 10 para maximizar la mecánica de reembolso de energía.",
+    "Asegura el 100% de tiempo de actividad de la reducción de RES de Pureza refrescando cada 18 segundos.",
+    "Equipa Athame Artis o Juramento por la Libertad para acumular pasivas adicionales para todo el equipo."
+  ]}
+/>
+
+<Callout type="tip" title="Sinergia de Artefactos">
+El set de 4 piezas de **Nobleza Obligada** es altamente recomendado para Durin en Modo Pureza. El buff de ATK del 20% le ayuda a alcanzar el tope de 2500 ATK para su propia pasiva A4 mientras que simultáneamente buffa a sus compañeros de equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿La pasiva de Durin captura las estadísticas?",
+    answer: "No. La Habilidad Definitiva de Durin es dinámica. Si el campo de Bennett expira o un buff de ATK termina, el daño de la pasiva A4 disminuirá inmediatamente para los golpes restantes."
+  },
+  {
+    question: "¿Puedo activar ambas pasivas, Pureza y Oscuridad, a la vez?",
+    answer: "No, son mutuamente excluyentes. Entrar en un modo cancela el otro. Debes elegir entre la reducción de RES del equipo o el daño de reacción personal."
+  },
+  {
+    question: "¿El límite de 2500 ATK para la pasiva A4 se basa en el ATK Base?",
+    answer: "No, se basa en tu ATK efectivo total durante el combate, que incluye las estadísticas del arma, los porcentajes de artefactos y los buffs planos de los compañeros de equipo."
+  },
+  {
+    question: "¿Por qué mi Modo Pureza no reduce la resistencia Hydro?",
+    answer: "La pasiva A1 de Pureza excluye específicamente la Vaporización y el Derretido de su activación de reducción de RES. Solo funciona con Sobrecarga, Torbellino, Quemadura y Cristalización."
+  }
+]} />
+
+</Section>

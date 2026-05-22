@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Constelaciones de Durin: Clasificaciones de Poder y Guía de Prioridad de Invocación 2026",
+  description: "Maximiza el potencial de Durin con nuestra guía detallada de constelaciones. Aprende sobre la prioridad de invocación, el valor de C1 vs R1, y cómo sus estados cambian con la inversión vertical.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Constellations+Guide",
+  date: "2026-05-22",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Las **constelaciones de Durin** proporcionan una escalada masiva tanto para roles de apoyo como de carry.
+- **Alto valor temprano**: **C1** y **C2** son los puntos de parada más rentables para la mayoría de los jugadores.
+- **Ignorar DEF**: **C6** es un pico transformador, ofreciendo hasta un **70% de ignorar DEF** en modos específicos.
+- **Prioridad de invocación**: Generalmente, **C1** es un mayor aumento de DPS para el equipo que obtener su arma distintiva, **Athame Artis**.
+- **Impacto del estado dual**: La inversión vertical mejora tanto el estado de **Dragón de Llama Blanca** (apoyo) como el de **Dragón de Decadencia Oscura** (DPS).
+</Callout>
+
+<Section icon={Map} title="Mecánicas de Durin y Resumen de Estados">
+
+Durin es un usuario único de Espada Pyro lanzado en la **Versión 6.2**, diseñado con un kit de doble estado que alterna entre roles de apoyo fuera de campo y carry en campo. Sus constelaciones están específicamente diseñadas para mejorar cualquier forma que elijas jugar. En su **Modo Blanco**, se centra en la reducción de resistencia y los buffs de equipo, mientras que su **Modo Oscuro** amplifica su daño personal de reacción de Vaporizar y Derretir. Comprender cómo interactúan estos estados con sus **constelaciones de Durin** es clave para dominar su jugabilidad de alto nivel.
+
+**Puntos destacados del video:**
+- Desglose detallado del **Modo Blanco** (Soporte) versus **Modo Oscuro** (Carry).
+- Análisis de la **Resonancia Hexerei** y su impacto en los talentos pasivos.
+- Pruebas de constelaciones tempranas que muestran el salto de C0 a C2.
+- Clasificaciones de armas, incluyendo la distintiva **Athame Artis**.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="¡GUÍA COMPLETA DE DURIN! Mejor Build de Durin" />
+
+La mecánica de **Fusión Primordial** recompensa aún más las estadísticas de ATK altas, limitando su bonificación a 2,500 de ATK efectivo. A medida que desbloqueas constelaciones, esta sinergia se vuelve más pronunciada, especialmente con las bonificaciones de daño plano añadidas de los niveles iniciales.
+
+<Callout type="tip" title="Consejo Profesional">
+Asegúrate siempre de que tu rotación coincida con el estado deseado. Usa **Habilidad > Habilidad** para el Modo Blanco o **Habilidad > Ataque Normal** para el Modo Oscuro antes de desatar su Habilidad Definitiva.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desglose Detallado de las Constelaciones">
+
+Cada una de las seis constelaciones de Durin cumple un propósito específico, que va desde buffs de daño aditivos hasta una penetración de defensa masiva. A diferencia de algunos personajes que tienen constelaciones "muertas", el kit de Durin escala consistentemente de C1 a C6.
+
+| Nivel | Nombre | Resumen del Efecto | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **C1** | Redención de Adamah | Añade 20 acumulaciones de daño de Ciclo de Iluminación | **Alta** |
+| **C2** | Visiones Subterráneas | 50% de Bonificación de Daño a Pyro y elementos de reacción | **Esencial** |
+| **C3** | Revelación del Espejo de Llama | Aumenta el nivel de la Habilidad Definitiva en 3 | Media |
+| **C4** | Fuente de Emanare | 40% de Daño de Habilidad Definitiva + 30% de probabilidad de guardar acumulaciones | Media |
+| **C5** | Fragmentación de la Llama Purificadora | Aumenta el nivel de la Habilidad Elemental en 3 | Baja |
+| **C6** | Nacimiento Dual | 30% de Ignorar DEF + 30% de Reducción o 40% de Ignorar extra | **Masiva** |
+
+**C1: Redención de Adamah**
+Esta es una mecánica estilo "Pluma". En Modo Blanco, potencia los ataques de tu personaje activo en un 60% del ATK de Durin durante 20 golpes. En Modo Oscuro, potencia los golpes de la Habilidad Definitiva de Durin en un asombroso 150% de su ATK durante 10 golpes. Es un aumento significativo del piso de DPS del equipo.
+
+**C2: Visiones Subterráneas**
+Podría decirse que es su constelación temprana más poderosa. Proporciona una **bonificación de daño del 50%** a Pyro y al elemento secundario en cualquier reacción activada (Hydro, Cryo, Electro, etc.) para todo el equipo. Esto lo convierte en un buffer universal comparable a los soportes Anemo de primer nivel, pero sin la necesidad de un estricto remolino de Viridescent Venerer.
+
+<Callout type="warning" title="Nota Importante">
+El buff de C2 dura 20 segundos, coincidiendo con la duración de su Habilidad Definitiva. Esto asegura casi un **100% de tiempo de actividad** en la bonificación de daño del 50% en rotaciones estándar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Prioridad de Invocación: C1 vs R1 Athame Artis">
+
+Una pregunta común entre los jugadores es si priorizar su primera constelación o su arma distintiva. Según los datos de frames y los cálculos de daño de **Mayo de 2026**, el consenso favorece la constelación por el valor general de la cuenta.
+
+<CardGrid cols={2}>
+  <Card title="C1: Redención de Adamah">
+    - **Escalado para todo el equipo**: Mejora a cada miembro del grupo en modo de apoyo.
+    - **Daño aditivo**: Funciona excepcionalmente bien con carries de alto crítico.
+    - **Consistencia**: No depende del equilibrio de estadísticas del arma.
+  </Card>
+  <Card title="R1: Athame Artis">
+    - **Altas estadísticas de Crítico**: 33% de Tasa Crítica y bonificaciones de Daño de Habilidad Definitiva.
+    - **Buff de ATK para el equipo**: Buff de ATK del 16% al 28% para el personaje activo.
+    - **Palo de estadísticas**: Gran valor si careces de alternativas de espadas de 5 estrellas.
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="Evalúa tus Armas">
+    Si tienes **Reflejo de la Luna Cortada** o **Cortador de Jade Primordial**, el salto a R1 es mínimo (~10%).
+  </Step>
+  <Step num="2" title="Revisa la Composición de tu Equipo">
+    Si juegas a Durin como apoyo para **Kinich** o **Mualani**, las acumulaciones aditivas de C1 proporcionan más utilidad que las estadísticas personales de R1.
+  </Step>
+  <Step num="3" title="Prioriza C2">
+    Si puedes permitírtelo, buscar **C2** es una mejora mayor que C0R1. La bonificación de daño universal del 50% es inigualable.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Opinión de Expertos">
+C1 proporciona aproximadamente un **aumento de DPS del equipo del 15-20%**, mientras que R1 ofrece un **aumento de DPS personal del 12-15%** sobre las opciones de 4 estrellas de alto refinamiento como **Colmillo de Lobo**.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Sinergia de Equipo e Impacto de las Constelaciones">
+
+Las constelaciones de Durin cambian drásticamente sus roles de equipo "mejor en su clase". En C0, es un sólido aplicador de Pyro; en C6, se convierte en la pieza central de algunas de las composiciones "AFK" de mayor daño del juego.
+
+| Arquetipo de Equipo | Compañeros Clave | Impacto de las Constelaciones |
+| :--- | :--- | :--- |
+| **Sobrecarga** | Fischl, Chevreuse | C2 proporciona buffs masivos de Electro/Pyro |
+| **Vaporizar** | Furina, Neuvillette | C6 Modo Oscuro ignora el 70% de la DEF enemiga |
+| **Mono Geo** | Noelle, Albedo | C1/C2 reduce y potencia el daño Geo |
+| **Quemadura** | Emilie, Kinich | C2 potencia el daño Dendro y Pyro |
+
+La **Pasiva Hexerei** impulsa aún más estos efectos en un **75%** cuando se combina con otra unidad Hexerei como **Fischl** o **Albedo**. Esto significa que un Durin C2 en un equipo Hexerei es significativamente más potente que en un equipo estándar.
+
+<Checklist
+  id="durin-milestones"
+  title="Objetivos de Progresión de Constelaciones:"
+  items={[
+    "Desbloquear C1 para la acumulación de daño aditivo en roles de apoyo",
+    "Alcanzar C2 para la bonificación de daño elemental universal del 50%",
+    "Apuntar a C4 si se usa a Durin como DPS de Habilidad Definitiva principal fuera de campo",
+    "Adquirir C6 para el potencial definitivo de carry con 70% de ignorar DEF"
+  ]}
+/>
+
+<Callout type="success" title="Caso de Éxito">
+Los jugadores que usan el núcleo **Durin-Fischl-Chevreuse** informan que C2 les permite limpiar el Abismo Espiral significativamente más rápido debido a los buffs superpuestos tanto al daño Electro como al Pyro.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes y Resumen">
+
+Invertir en las **constelaciones de Durin** es una cuestión de decidir entre su papel como apoyo versátil o como hipercarga. Para los jugadores F2P y de bajo gasto, detenerse en **C0** es perfectamente viable, pero **C2** representa el pico de su valor de apoyo.
+
+<FAQ items={[
+  {
+    question: "¿Vale la pena el C1 de Durin para una build de apoyo?",
+    answer: "Sí. C1 actúa como una versión Pyro de las plumas de Shenhe, añadiendo daño plano a los ataques de tu personaje activo basado en el ATK de Durin. Aumenta significativamente el daño de personajes como Noelle o Kinich."
+  },
+  {
+    question: "¿Cuánto aumenta el daño el C6 de Durin?",
+    answer: "C6 es un pico masivo. En Modo Oscuro, su Habilidad Definitiva ignora el 70% de la DEF enemiga. En Modo Blanco, reduce el 30% de la DEF enemiga para todo el equipo. Es uno de los niveles C6 más fuertes del juego."
+  },
+  {
+    question: "¿Necesita Durin su arma distintiva más que las constelaciones?",
+    answer: "No. Las armas de 4 estrellas de alto refinamiento como Colmillo de Lobo o Final del Abismo son muy competitivas. Las constelaciones, particularmente C2, ofrecen una utilidad mucho más única y potente para todo el equipo."
+  },
+  {
+    question: "¿Puede Durin C2 reemplazar a Kazuha en equipos Pyro?",
+    answer: "En muchos casos, sí. Aunque carece de agrupación, su C2 proporciona una bonificación de daño del 50% y su A1 proporciona un 35% de Reducción de Resistencia (con la pasiva Hexerei), lo cual es comparable a 4pc VV."
+  }
+]} />
+
+<Callout type="tip" title="Veredicto Final">
+Si te encanta la versatilidad de Durin, apunta a **C2**. Si quieres que sea tu principal distribuidor de daño, ahorra para **C6**. Sus constelaciones intermedias (C3-C5) son estrictamente aumentos de daño bruto y son menos transformadoras.
+</Callout>
+
+</Section>

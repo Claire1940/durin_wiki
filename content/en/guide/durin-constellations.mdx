@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin Constellations: 2026 Power Rankings & Pull Priority Guide",
+  description: "Maximize Durin's potential with our detailed constellation guide. Learn about pull priority, C1 vs R1 value, and how his states change with vertical investment.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/b91c1c/fff?text=Durin+Constellations+Guide",
+  date: "2026-05-22",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Keyword**: **Durin constellations** provide massive scaling for both support and carry roles.
+- **High Value Early**: **C1** and **C2** are the most cost-effective stopping points for most players.
+- **DEF Ignore**: **C6** is a transformative spike, offering up to **70% DEF Ignore** in specific modes.
+- **Pull Priority**: Generally, **C1** is a higher team DPS increase than obtaining his signature weapon, **Athame Artis**.
+- **Dual State Impact**: Vertical investment enhances both the **Dragon of White Flame** (support) and **Dragon of Dark Decay** (DPS) states.
+</Callout>
+
+<Section icon={Map} title="Durin Mechanics and State Overview">
+
+Durin is a unique Pyro Sword user released in **Version 6.2**, designed with a dual-state kit that shifts between off-field support and on-field carry roles. His constellations are specifically crafted to enhance whichever form you choose to play. In his **White Mode**, he focuses on resistance shredding and team buffs, while his **Dark Mode** amplifies his personal Vaporize and Melt reaction damage. Understanding how these states interact with his **durin constellations** is the key to mastering his high-ceiling gameplay.
+
+**Video Highlights:**
+- Detailed breakdown of the **White Mode** (Support) versus **Dark Mode** (Carry).
+- Analysis of the **Hexerei Resonance** and its impact on passive talents.
+- Early constellation testing showcasing the jump from C0 to C2.
+- Weapon rankings including the signature **Athame Artis**.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="COMPLETE DURIN GUIDE! Best Durin Build" />
+
+The **Primordial Fusion** mechanic further rewards high ATK stats, capping its bonus at 2,500 effective ATK. As you unlock constellations, this synergy becomes more pronounced, especially with the added flat damage bonuses from early tiers.
+
+<Callout type="tip" title="Pro Tip">
+Always ensure your rotation matches your desired state. Use **Skill > Skill** for White Mode or **Skill > Normal Attack** for Dark Mode before unleashing his Burst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Detailed Constellation Breakdown">
+
+Each of Durin's six constellations serves a specific purpose, ranging from additive damage buffs to massive defense penetration. Unlike some characters who have "dead" constellations, Durin's kit scales consistently from C1 through C6.
+
+| Level | Name | Effect Summary | Priority |
+| :--- | :--- | :--- | :--- |
+| **C1** | Adamah's Redemption | Adds 20 stacks of Cycle of Enlightenment damage | **High** |
+| **C2** | Unground Visions | 50% DMG Bonus to Pyro and reaction elements | **Essential** |
+| **C3** | Flame Mirror's Revelation | Increases Elemental Burst level by 3 | Medium |
+| **C4** | Emanare's Source | 40% Burst DMG + 30% chance to save stacks | Medium |
+| **C5** | Scouring Flame's Sundering | Increases Elemental Skill level by 3 | Low |
+| **C6** | Dual Birth | 30% DEF Ignore + 30% Shred or 40% extra Ignore | **Massive** |
+
+**C1: Adamah's Redemption**
+This is a "Quill" style mechanic. In White Mode, it buffs your active character's attacks by 60% of Durin's ATK for 20 hits. In Dark Mode, it buffs Durin's own Burst hits by a staggering 150% of his ATK for 10 hits. It is a significant floor raiser for team DPS.
+
+**C2: Unground Visions**
+Arguably his most powerful early constellation. Providing a **50% damage bonus** to Pyro and the secondary element in any triggered reaction (Hydro, Cryo, Electro, etc.) for the entire team. This makes him a universal buffer comparable to top-tier Anemo supports but without the need for strict VV swirling.
+
+<Callout type="warning" title="Important Note">
+C2's buff lasts for 20 seconds, matching the uptime of his Burst. This ensures nearly **100% uptime** on the 50% damage bonus in standard rotations.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pull Priority: C1 vs R1 Athame Artis">
+
+A common question among players is whether to prioritize his first constellation or his signature weapon. Based on frame-data and damage calculations from **May 2026**, the consensus favors the constellation for overall account value.
+
+<CardGrid cols={2}>
+  <Card title="C1: Adamah's Redemption">
+    - **Team-wide Scaling**: Buffs every party member in support mode.
+    - **Additive Damage**: Works exceptionally well with high-crit carries.
+    - **Consistency**: Not dependent on weapon stat balancing.
+  </Card>
+  <Card title="R1: Athame Artis">
+    - **High Crit Stats**: 33% Crit Rate and Burst DMG bonuses.
+    - **Team ATK Buff**: 16% to 28% ATK buff for the active character.
+    - **Stat Stick**: High value if you lack 5-star sword alternatives.
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="Evaluate Your Weapons">
+    If you have **Mistsplitter Reforged** or **Primordial Jade Cutter**, the jump to R1 is minimal (~10%).
+  </Step>
+  <Step num="2" title="Check Your Team Composition">
+    If playing Durin as a support for **Kinich** or **Mualani**, C1's additive stacks provide more utility than R1's personal stats.
+  </Step>
+  <Step num="3" title="Prioritize C2">
+    If you can afford it, pushing for **C2** is a larger upgrade than C0R1. The 50% universal damage bonus is unrivaled.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Expert Opinion">
+C1 provides roughly a **15-20% team DPS increase**, while R1 offers a **12-15% personal DPS increase** over high-refinement 4-star options like **Wolf-Fang**.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Team Synergy & Constellation Impact">
+
+Durin's constellations drastically change his "best-in-slot" team roles. At C0, he is a solid Pyro applicator; at C6, he becomes the centerpiece of some of the game's highest-damaging "AFK" compositions.
+
+| Team Archetype | Key Teammates | Impact of Constellations |
+| :--- | :--- | :--- |
+| **Overload** | Fischl, Chevreuse | C2 provides massive Electro/Pyro buffs |
+| **Vaporize** | Furina, Neuvillette | C6 Dark Mode ignores 70% of enemy DEF |
+| **Mono Geo** | Noelle, Albedo | C1/C2 shreds and buffs Geo damage |
+| **Burning** | Emilie, Kinich | C2 buffs Dendro and Pyro damage |
+
+The **Hexerei Passive** further boosts these effects by **75%** when paired with another Hexerei unit like **Fischl** or **Albedo**. This means a C2 Durin in a Hexerei team is significantly more potent than in a standard team.
+
+<Checklist
+  id="durin-milestones"
+  title="Constellation Progression Goals:"
+  items={[
+    "Unlock C1 for additive damage stacking in support roles",
+    "Reach C2 for the 50% universal elemental damage bonus",
+    "Target C4 if using Durin as a primary off-field Burst DPS",
+    "Acquire C6 for the ultimate 70% DEF Ignore carry potential"
+  ]}
+/>
+
+<Callout type="success" title="Success Story">
+Players using the **Durin-Fischl-Chevreuse** core report that C2 allows them to clear the Spiral Abyss significantly faster due to the overlapping buffs to both Electro and Pyro damage.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ & Summary">
+
+Investing in **durin constellations** is a matter of deciding between his role as a versatile support or a hyper-carry. For F2P and low-spenders, stopping at **C0** is perfectly viable, but **C2** represents the peak of his supportive value.
+
+<FAQ items={[
+  {
+    question: "Is Durin's C1 worth it for a support build?",
+    answer: "Yes. C1 acts like a Pyro version of Shenhe's quills, adding flat damage to your active character's attacks based on Durin's ATK. It significantly boosts the damage of characters like Noelle or Kinich."
+  },
+  {
+    question: "How much of a damage jump is Durin's C6?",
+    answer: "C6 is a massive spike. In Dark Mode, his Burst ignores 70% of enemy DEF. In White Mode, he shreds 30% of enemy DEF for the whole team. It is one of the strongest C6 tiers in the game."
+  },
+  {
+    question: "Does Durin need his signature weapon more than constellations?",
+    answer: "No. High-refinement 4-star weapons like Wolf-Fang or Finale of the Deep are very competitive. Constellations, particularly C2, offer much more unique and powerful team-wide utility."
+  },
+  {
+    question: "Can C2 Durin replace a Kazuha in Pyro teams?",
+    answer: "In many cases, yes. While he lacks grouping, his C2 provides a 50% damage bonus and his A1 provides 35% Resistance Shred (with Hexerei passive), which is comparable to 4pc VV."
+  }
+]} />
+
+<Callout type="tip" title="Final Verdict">
+If you love Durin's versatility, aim for **C2**. If you want him to be your primary damage dealer, save for **C6**. His middle constellations (C3-C5) are strictly raw damage increases and are less transformative.
+</Callout>
+
+</Section>

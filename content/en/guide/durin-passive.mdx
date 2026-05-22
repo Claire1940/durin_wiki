@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin Passive: 2026 Guide to A1 Modes & A4 Scaling",
+  description: "Master the Durin passive mechanics in Genshin Impact. Learn how to optimize A1 Purity/Darkness modes and reach the A4 ATK scaling cap for maximum DPS.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Durin+Passive+Mechanics+Guide",
+  date: "2026-05-22",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="tip" title="Quick Guide">
+- **Durin passive** A1 determines his role: **Purity Mode** provides 20-35% RES shred, while **Darkness Mode** grants 40-70% personal reaction DMG.
+- **A4 Primordial Fusion** rewards high ATK investment, providing a massive **75% DMG increase** once you hit the 2500 ATK threshold.
+- **Hexenzirkel Resonance** is non-negotiable for meta teams, as it increases A1 passive effectiveness by a staggering **75%**.
+- **Rotation timing** is critical; you must select your mode via Elemental Skill *before* casting the Burst to avoid defaulting to Purity.
+</Callout>
+
+<Section icon={Sparkles} title="Binary Form: Understanding the A1 Passive">
+
+The core of any build relies on mastering the **durin passive** known as *Binary Form: Convergence and Division* (A1). This passive forces a choice between team utility and raw personal power. Unlike traditional Pyro units, Durin does not have a static role; his passive adapts based on the input used immediately following his Elemental Skill.
+
+**Video Highlights:**
+- Detailed breakdown of **Purity vs. Darkness** burst animations.
+- How the **Hexenzirkel Resonance** interacts with the A1 passive.
+- Visual guide to the 2500 ATK threshold for the A4 passive.
+- Recommended team rotations to ensure 100% passive uptime.
+
+<YouTubeEmbed videoId="xHJHKPpwBes" title="COMPLETE DURIN GUIDE! Best Durin Build [ALL Playstyles]" />
+
+The A1 passive functions as a toggle. If you trigger a Pyro-related reaction (Overload, Swirl, Burning, or Crystallize) while in Purity Mode, enemies lose 20% RES to both Pyro and the reacting element. In Darkness Mode, Durin pivots to a selfish carry, boosting his own Vaporize and Melt damage by 40%.
+
+<Callout type="info" title="Expert Insight">
+The RES shred in Purity Mode does **not** apply to Vaporize or Melt. If you are running a Hydro or Cryo support, you must utilize Darkness Mode to see any benefit from his A1 passive.
+</Callout>
+
+| Mode | Trigger Action | Primary Benefit | Best Team Archetype |
+| :--- | :--- | :--- | :--- |
+| **Purity** | Skill > Skill | **20% RES Shred** (Pyro + Element) | Overload, Burning, Mono-Pyro |
+| **Darkness** | Skill > Normal Attack | **40% Vape/Melt DMG** | Vaporize, Forward Melt |
+| **Default** | Burst (no skill) | **Purity Mode** (Orange) | Quick-swap Support |
+
+</Section>
+
+<Section icon={Target} title="Primordial Fusion: The A4 ATK Scaling Cap">
+
+While the A1 passive defines his role, the **durin passive** unlocked at Ascension 4, *Chaos Formed Like the Night*, defines his gear requirements. This passive grants Durin 10 stacks of "Primordial Fusion" upon casting his Burst. Each stack increases the damage of a Burst hit by 3% for every 100 ATK Durin possesses.
+
+To maximize this effect, players aim for a specific "sweet spot" in stats. Because the maximum damage increase is capped at 75%, any ATK beyond a certain point yields diminishing returns compared to Crit stats.
+
+| Total ATK | DMG Increase per Hit | Percentage of Max Buff |
+| :--- | :--- | :--- |
+| **1000 ATK** | 30% | 40% |
+| **1500 ATK** | 45% | 60% |
+| **2000 ATK** | 60% | 80% |
+| **2500 ATK** | **75% (MAX)** | **100%** |
+
+<Callout type="warning" title="Stat Balancing">
+Do not sacrifice a Crit DMG circlet just to hit 2500 ATK. The A4 passive increases your **multiplier (motion value)**, meaning Crit stats still act as a final multiplier on top of this buff. Use Bennett or Noblesse Oblige to bridge the ATK gap.
+</Callout>
+
+The A4 stacks are consumed one by one as the "Dragon of White Flame" or "Dragon of Dark Decay" strikes. If a single attack hits multiple enemies, it still only consumes one stack, making Durin exceptionally potent in AoE scenarios where his Purity Mode shines.
+
+</Section>
+
+<Section icon={Shield} title="Hexenzirkel Synergy: Boosting Passive Potency">
+
+One of the most unique aspects of the **durin passive** system is the **Hexerei: Secret Rite** resonance. If Durin is paired with at least one other Hexenzirkel member (such as Albedo, Alice, or Nicole), his A1 passive receives a massive **75% effectiveness boost**. 
+
+This resonance transforms Durin from a "good" sub-DPS into a "broken" support/carry hybrid. The math behind this interaction is essential for high-end Abyss floor clearing.
+
+<CardGrid cols={2}>
+  <Card title="Purity Boost (Support)">
+    - Base RES Shred: 20%
+    - **With Resonance: 35%**
+    - Effectively replaces a Viridescent Venerer Anemo unit in Overload teams.
+  </Card>
+  <Card title="Darkness Boost (Carry)">
+    - Base Reaction Bonus: 40%
+    - **With Resonance: 70%**
+    - Provides more Vaporize scaling than a dedicated Elemental Mastery sands.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Resonance Tip">
+Currently, **Fischl** is the most accessible Hexenzirkel member for F2P players. Pairing her with Durin in an Overload shell allows for 35% Electro and Pyro RES shred simultaneously without needing a Swirl setup.
+</Callout>
+
+| Character | Hexerei Status | Synergy with Durin |
+| :--- | :--- | :--- |
+| **Albedo** | Confirmed | Provides EM and triggers A4 scaling buffs |
+| **Mona** | Confirmed | Best for Darkness Mode Vaporize nukes |
+| **Fischl** | Confirmed | Premier Overload partner for Purity Mode |
+| **Nicole** | New (6.6) | Best-in-slot support for DEF shred stacking |
+
+</Section>
+
+<Section icon={Swords} title="Operational Guide: Activating the Correct Passive">
+
+Activating the specific **durin passive** you need requires muscle memory. Because his Burst defaults to Purity Mode if cast without a prior Skill, many players accidentally lose out on the Darkness Mode buffs in Vaporize teams.
+
+<Steps>
+  <Step num="1" title="Initial Skill Cast">
+    Press E (Elemental Skill). Durin will perform a quick dash and enter a transitional state for 5 seconds.
+  </Step>
+  <Step num="2" title="Mode Selection">
+    - For **Purity**: Press E again.
+    - For **Darkness**: Perform one Normal Attack.
+  </Step>
+  <Step num="3" title="Burst Execution">
+    Cast Q (Elemental Burst). The animation will be **Orange** for Purity or **Dark Red** for Darkness.
+  </Step>
+  <Step num="4" title="Passive Maintenance">
+    The chosen mode lasts for 30 seconds. You can swap Durin off-field, and the Dragon will continue to benefit from the selected passive.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Pro Rotation">
+In a standard rotation, use Durin's Skill twice (Purity) to generate particles first, then swap to your main DPS. The 35% RES shred (with resonance) will persist even if Durin is off-field, significantly boosting your team's total output.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimizing Passive Performance">
+
+To ensure your **durin passive** is working at peak efficiency, follow this optimization checklist. Achieving these milestones will separate a casual build from a meta-defining one.
+
+<Checklist
+  id="durin-optimization"
+  title="Passive Perfection Milestones:"
+  items={[
+    "Reach 2500 total ATK (including buffs) to cap A4 scaling.",
+    "Maintain at least one other Hexenzirkel member in the party.",
+    "Level Elemental Burst to 10 to maximize the energy refund mechanic.",
+    "Ensure 100% uptime on Purity RES shred by refreshing every 18 seconds.",
+    "Equip Athame Artis or Freedom-Sworn to stack additional team-wide passives."
+  ]}
+/>
+
+<Callout type="tip" title="Artifact Synergy">
+The **Noblesse Oblige** 4-piece set is highly recommended for Purity Durin. The 20% ATK buff helps him reach the 2500 ATK cap for his own A4 passive while simultaneously buffing his teammates.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does the Durin passive snapshot stats?",
+    answer: "No. Durin's Burst is dynamic. If Bennett's field expires or an ATK buff ends, the damage from the A4 passive will decrease immediately for the remaining hits."
+  },
+  {
+    question: "Can I trigger both Purity and Darkness passives at once?",
+    answer: "No, they are mutually exclusive. Entering one mode cancels the other. You must choose between team RES shred or personal reaction damage."
+  },
+  {
+    question: "Is the 2500 ATK cap for the A4 passive based on Base ATK?",
+    answer: "No, it is based on your total effective ATK during combat, which includes weapon stats, artifact percentages, and flat buffs from teammates."
+  },
+  {
+    question: "Why is my Purity Mode not shredding Hydro resistance?",
+    answer: "The A1 Purity passive specifically excludes Vaporize and Melt from its RES shred trigger. It only works with Overload, Swirl, Burning, and Crystallize."
+  }
+]} />
+
+</Section>
