@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin Skill Priority: Optimal Talent Leveling & Kit Guide",
+  description: "Master the durin skill priority to maximize your Pyro support and carry potential. Learn about talent scaling, form transmutation, and Hexerei synergies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=Durin+Skill+Priority",
+  date: "2026-05-24",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Durin skill priority** focuses on the **Elemental Burst** first, followed by the **Elemental Skill**, with Normal Attacks being optional.
+- **Form Transmutation** allows Durin to switch between **White Form** (support/shred) and **Dark Form** (vaporize/melt carry).
+- **Energy Mechanics** are vital; leveling the Skill provides a massive **flat energy refund** (up to 33 at level 10).
+- **Hexerei Synergy** enhances his passive buffs by **75%**, increasing RES shred from 20% to 35% in White Form.
+- **ATK Threshold** of **2500** is required to cap the damage bonus from his A4 passive for the first 10 Burst ticks.
+</Callout>
+
+<Section icon={Target} title="Core Talent Breakdown and Durin Skill Priority">
+
+Understanding the **durin skill priority** is the foundation of building a high-performance team. Durin functions as a hybrid character whose value shifts based on his active state. His Elemental Burst serves as the primary source of off-field Pyro application and team utility, while his Elemental Skill manages his energy economy and form selection.
+
+**Video Highlights:**
+- Detailed breakdown of the **White Form** (Support) and **Dark Form** (Carry) mechanics.
+- Explanation of why **Burst leveling** is the highest priority for all playstyles.
+- Showcase of the **energy refund mechanic** that reduces his effective Burst cost.
+- Analysis of the **Hexerei: Secret Rite** resonance and its impact on RES shred.
+
+<YouTubeEmbed videoId="bxG6N82s_Lk" title="ULTIMATE Durin Guide! [Artifacts, Weapons, Teams, MORE] Genshin Impact" />
+
+The following table outlines the specific functions and priority for each of Durin's talents.
+
+| Talent Type | Priority | Core Function | Scaling Focus |
+| :--- | :--- | :--- | :--- |
+| **Elemental Burst** | **High** | Primary Damage/Support | Burst Multipliers |
+| **Elemental Skill** | **Medium** | Energy Refund/Form Swap | Flat Energy/CD |
+| **Normal Attack** | **Low** | On-field DPS (C6 Only) | Attack Speed/Motion |
+
+<Callout type="info" title="Leveling Strategy">
+For most players, the goal should be **1/8/10** initially. If you intend to use Durin as a main carry with C6 Bennett, you should bring his Normal Attacks to level 8 or higher.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Form Transmutation: Purity vs. Darkness">
+
+Durin's gameplay revolves around the **Essential Transmutation** mechanic triggered by his Elemental Skill. Unlike standard characters, his skill has a follow-up action that determines his state for the next 30 seconds. This choice completely alters the behavior of his Elemental Burst and the buffs provided by his Ascension 1 passive.
+
+<Steps>
+  <Step num="1" title="Initial Skill Cast">
+    Cast the Elemental Skill **Binary Form: Convergence and Division** to deal initial AoE Pyro damage and enter the Transmutation state.
+  </Step>
+  <Step num="2" title="Choose Your Path">
+    Press the **Skill Button again** to enter the **Confirmation of Purity (White Form)** or perform a **Normal Attack** to enter the **Denial of Darkness (Dark Form)**.
+  </Step>
+  <Step num="3" title="Energy Refund">
+    Upon entering either state, Durin instantly restores flat energy. This refund occurs once every 6 seconds and scales with talent level.
+  </Step>
+  <Step num="4" title="Unleash the Burst">
+    The Elemental Burst will now take the form of the **Dragon of White Flame** or the **Dragon of Dark Decay** based on the chosen state.
+  </Step>
+</Steps>
+
+<CardGrid cols={2}>
+  <Card title="White Form (Support)">
+    - **AoE Pyro Ticks**: Hits every 1 second.
+    - **RES Shred**: Reduces Pyro and reaction-element RES by 20% (35% with Hexerei).
+    - **Best Teams**: Overload, Burning, Mono-Pyro, Anemo/Geo support.
+  </Card>
+  <Card title="Dark Form (Carry)">
+    - **Single Target Ticks**: Hits every 1.25 seconds with higher scaling.
+    - **Reaction Buff**: Increases personal Vape/Melt damage by 40% (70% with Hexerei).
+    - **Best Teams**: Forward Vape, Reverse Melt, Dual-Carry setups.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Form Duration">
+The Transmutation state lasts for 30 seconds, significantly longer than the Burst cooldown. This allows you to swap forms early in a rotation without losing the desired state.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Talent Scaling and Energy Management">
+
+A critical aspect of the **durin skill priority** is the energy refund provided by his skill. At talent level 10, entering a form restores **33 flat energy**. Since his Burst cost is 70, this effectively reduces the requirement to **37 energy**. This mechanic is why high-investment players often crown the skill alongside the burst.
+
+| Talent Level | Energy Refunded | Effective Burst Cost |
+| :--- | :--- | :--- |
+| Level 1 | 15.0 Energy | 55.0 Energy |
+| Level 6 | 24.0 Energy | 46.0 Energy |
+| Level 9 | 30.0 Energy | 40.0 Energy |
+| **Level 10** | **33.0 Energy** | **37.0 Energy** |
+| Level 13 (C5) | 42.0 Energy | 28.0 Energy |
+
+Durin's A4 passive, **Chaos Formed Like the Night**, provides a significant damage boost based on his total ATK. For every 100 ATK, the damage of the first 10 Burst ticks increases by 3%, capping at 75% at 2500 ATK.
+
+| ATK Stat | Burst DMG Multiplier | Usage Context |
+| :--- | :--- | :--- |
+| 1500 ATK | +45% DMG | Low Investment/Support |
+| 2000 ATK | +60% DMG | Standard Sub-DPS |
+| **2500 ATK** | **+75% DMG** | **Optimal Scaling Cap** |
+
+<Callout type="success" title="Scaling Insight">
+Because Durin scales so heavily with ATK up to the 2500 cap, an **ATK% Goblet** is often competitive with a Pyro DMG Goblet if you are below the threshold and lack external ATK buffs like Bennett or Noblesse Oblige.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best Artifacts and Weapon Synergy">
+
+To complement the **durin skill priority**, your gear must balance CRIT stats with the necessary ATK to hit the A4 passive cap. While his signature weapon is the best-in-slot, several free-to-play options perform exceptionally well due to his high base stats and energy refund.
+
+| Weapon | Tier | Main Benefit | Playstyle |
+| :--- | :--- | :--- | :--- |
+| **Athame Artis** | **S+** | 33% CRIT, Team ATK Buff, Hexerei Buff | Universal BiS |
+| **Jade Cutter** | **S** | Massive CRIT Rate, HP to ATK conversion | Sub-DPS |
+| **Wolf-Fang** | **A+** | Skill/Burst DMG%, High CRIT Rate | Battle Pass |
+| **Finale of the Deep** | **A** | Huge ATK% buffs, Bond of Life synergy | F2P Craftable |
+| **Moonweaver's Dawn** | **A** | Burst DMG%, Free from Quest | F2P Story |
+
+<CardGrid cols={3}>
+  <Card title="Noblesse Oblige">
+    - **2pc**: +20% Burst DMG.
+    - **4pc**: +20% Team ATK.
+    - **Best for**: Standard Support Durin.
+  </Card>
+  <Card title="Emblem of Fate">
+    - **2pc**: +20% ER.
+    - **4pc**: Burst DMG based on ER.
+    - **Best for**: Solo-Pyro or high ER needs.
+  </Card>
+  <Card title="Crimson Witch">
+    - **2pc**: +15% Pyro DMG.
+    - **4pc**: Reaction DMG buffs.
+    - **Best for**: Dark Form Vape/Melt.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Energy Recharge Warning">
+Do not over-invest in Energy Recharge. If you level his skill to 10 and run a second Pyro unit, you often need **0% additional ER** from substats. Aim for 120-130% only if he is the solo Pyro unit in the team.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Team Archetypes and Progression FAQ">
+
+Durin is most effective when paired with at least one other **Hexerei** character. This activates the **Secret Rite** effect, which boosts his passive shred and reaction bonuses by 75%. Common Hexerei teammates include Fischl, Albedo, Sucrose, and Venti.
+
+| Team Type | Core Teammates | Durin's Form |
+| :--- | :--- | :--- |
+| **Overload** | Chevreuse, Fischl, Arlecchino | White Form |
+| **Vaporize Carry** | Furina, Mona, Bennett | Dark Form |
+| **Burning/Kinich** | Kinich, Emilie, Bennett | White Form |
+| **Mono-Pyro** | Lyney, Xiangling, Bennett | White Form |
+
+<Checklist
+  id="durin-milestones"
+  title="Durin Progression Milestones:"
+  items={[
+    "Reach Level 90 for maximum Base ATK scaling",
+    "Level Elemental Burst to Talent Level 10",
+    "Level Elemental Skill to Talent Level 9 or 10",
+    "Reach 2500 total ATK (buffed) for A4 passive cap",
+    "Complete 'Witch's Homework' quest to unlock Hexerei status"
+  ]}
+/>
+
+<Callout type="tip" title="Rotation Tip">
+In White Form, always trigger the reaction **after** casting Durin's Burst to ensure the RES shred is active for your main DPS's entire window.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Why is the durin skill priority focused on the Burst first?",
+    answer: "Durin's Burst provides the majority of his damage and utility. Whether in White Form for RES shred or Dark Form for reaction bonuses, the Burst is his core contribution to any team rotation."
+  },
+  {
+    question: "Do I need to level his Normal Attacks?",
+    answer: "Only if you are playing him as an on-field carry with C6 Bennett. For off-field support or sub-DPS roles, Normal Attacks can be left at level 1."
+  },
+  {
+    question: "How important is the second Hexerei character?",
+    answer: "It is very important for maximizing his potential. The 75% enhancement to his passives is the difference between a 20% RES shred and a 35% RES shred, which significantly impacts team damage."
+  },
+  {
+    question: "What is the best way to hit the 2500 ATK cap?",
+    answer: "Using an ATK% Sands is mandatory. You can also use an ATK% Goblet if your sub-stats are superior, or rely on external buffs like Bennett's Burst and the Noblesse Oblige set bonus."
+  }
+]} />
+
+</Section>

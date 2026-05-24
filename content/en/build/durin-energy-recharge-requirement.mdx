@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin Energy Recharge Requirement: Optimal Builds & Team Synergy",
+  description: "Understand Durin's Energy Recharge requirements in Genshin Impact for various team compositions and optimize his build for maximum Elemental Burst uptime in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Durin+ER+Guide",
+  date: "2026-05-24",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Durin's Energy Recharge requirement** is highly variable, ranging from 0% to over 160% depending on team.
+- His Elemental Skill provides significant flat energy, reducing his **ER needs**.
+- Crowning his Elemental Skill at Level 10 reduces his Burst cost to 37 energy, demanding less **Energy Recharge**.
+- Overload teams with multiple Pyro teammates often require the least **Energy Recharge** for Durin.
+- For solo Pyro setups or low particle generation teams, higher **ER** is necessary to maintain Burst uptime.
+</Callout>
+
+<Section icon={Sparkles} title="Understanding Durin's Energy Recharge Mechanics">
+Durin, a versatile Pyro 5-star character in Genshin Impact, possesses a unique Elemental Skill that significantly impacts his Energy Recharge (ER) requirements. His Elemental Burst, while powerful, typically costs 70 energy. However, his skill's ability to generate flat energy can drastically reduce this effective cost, making his ER needs highly flexible and team-dependent.
+
+**Video Highlights:**
+- Durin's Burst initially costs 70 energy.
+- His Elemental Skill generates 33 flat energy at Talent Level 10 (42 at C5/Talent 13).
+- This flat energy effectively lowers his Burst cost to 37 energy at Talent Level 10.
+- Energy generation is instant and does not require hitting an enemy.
+- The flat energy generation has a 6-second cooldown.
+
+<YouTubeEmbed videoId="bxG6N82s_Lk" title="ULTIMATE Durin Guide! [Artifacts, Weapons, Teams, MORE] Genshin Impact" />
+
+Durin's Elemental Skill generates 4 Pyro particles upon hitting an enemy, in addition to the flat energy refund. This dual energy generation mechanism makes him less reliant on external energy sources in many team compositions.
+
+<Callout type="tip">
+Leveling Durin's Elemental Skill to at least Level 10 is highly recommended. This significantly reduces his effective Elemental Burst cost, allowing for much lower Energy Recharge requirements and freeing up artifact substats for more offensive stats like Crit and ATK%.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Durin's Energy Recharge Requirements by Team Composition">
+The optimal Energy Recharge for Durin is not a fixed number but a dynamic target influenced by various factors within his team. These include the number of other Pyro characters, the presence of energy-generating supports like Fischl or Favonius weapon users, and the overall team rotation.
+
+<CardGrid cols={2}>
+  <Card title="Low ER Scenarios">
+    - **Overload Teams**: With multiple Pyro teammates and strong particle generation (e.g., Fischl, Chevreuse), Durin can require as little as **117% ER** (with crowned skill).
+    - **Double Pyro Teams**: Generally 100-110% ER for off-field, 100% for on-field.
+    - **Two Skill Casts**: If Durin can cast his Elemental Skill twice per rotation, he may need virtually no ER.
+  </Card>
+  <Card title="Higher ER Scenarios">
+    - **Solo Pyro**: As the sole Pyro unit, Durin will need more ER, typically around **130-140%** to ensure consistent Burst uptime.
+    - **Low Particle Generation**: Teams with limited energy support (e.g., Durin, Fischl, Albedo, Mona) can push his ER needs to **160% or higher**.
+    - **Off-field with 0 Pyro Teammates**: 120-150% ER is a good range.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Dynamic Requirements">
+Always remember that Durin's ER requirements are a moving target. The exact amount will vary heavily based on your specific team's energy generation, rotation, and whether you consistently hit enemies with his Elemental Skill.
+</Callout>
+
+### ER Requirement Ranges
+
+| Teammate Configuration | Off-Field Durin ER | On-Field Durin ER | Notes |
+| :------------------- | :----------------- | :---------------- | :----------------------------------------------------------------------------------------------- |
+| 0 Pyro Teammates     | **120-150%**       | N/A               | Assumes one Skill cast at Talent Level 9 (30 Energy refund). |
+| 1 Pyro Teammate      | **100-150%**       | **100-125%**      | Depends on the Pyro teammate's particle generation. |
+| 2 Pyro Teammates     | **100-110%**       | **100%**          | Lowest ER requirements due to strong Pyro resonance and particle generation. |
+| Overload Teams       | **~117%**          | **~117%**         | With crowned Skill and strong Electro/Pyro synergy. |
+| Low Particle Teams   | **~160%**          | N/A               | Teams with poor energy generation or no other Pyro units. |
+
+</Section>
+
+<Section icon={Shield} title="Optimizing Durin's Build for Energy Recharge">
+To effectively manage Durin's Energy Recharge, consider his artifact main stats and substats, as well as weapon choices. The goal is to meet his ER needs without sacrificing too much damage.
+
+### Artifact Main Stats for ER
+
+| Slot   | Priority Main Stat | Alternative | When to Use Alternative |
+| :----- | :----------------- | :---------- | :---------------------- |
+| Sands  | ATK%               | **Energy Recharge** | If ER requirement > 150% or if team has abundant ATK buffs. |
+| Goblet | Pyro DMG Bonus     | ATK%        | If low on ATK buffs or better substats. |
+| Circlet| CRIT Rate/DMG      | N/A         | Standard for maximizing damage. |
+
+<Callout type="info">
+An ATK% Sands is generally preferred for Durin to boost his personal damage, especially with his A4 Passive scaling. However, an ER Sands can be a viable option if your Energy Recharge needs are particularly high and cannot be met through substats or team support.
+</Callout>
+
+### Artifact Substat Priority
+
+When rolling for artifact substats, prioritize them as follows:
+
+<Steps>
+  <Step num="1" title="Energy Recharge (Until Requirement)">
+    Focus on getting enough ER substats to comfortably meet Durin's Burst uptime for your specific team. Once the requirement is met, further ER is less valuable.
+  </Step>
+  <Step num="2" title="CRIT Rate / CRIT DMG">
+    These are crucial for maximizing Durin's personal damage output. Aim for a balanced ratio.
+  </Step>
+  <Step num="3" title="ATK%">
+    Valuable for scaling his overall damage and his A4 Passive, especially up to 2500 effective ATK.
+  </Step>
+  <Step num="4" title="Elemental Mastery (for Reaction Teams)">
+    If Durin is consistently triggering Vaporize or Melt (Dark Form), Elemental Mastery becomes a strong offensive substat.
+  </Step>
+</Steps>
+
+### Recommended Artifact Sets
+
+While Durin is flexible with artifact sets, some options are better for balancing ER with damage.
+
+| Artifact Set                | 2-Piece Bonus   | 4-Piece Bonus                                                 | ER Considerations                                               |
+| :-------------------------- | :-------------- | :------------------------------------------------------------ | :-------------------------------------------------------------- |
+| **Noblesse Oblige (NO)**    | Burst DMG +20%  | All party members' ATK +20% for 12s after Burst               | Good for Burst uptime, but 4pc uptime can be inconsistent.      |
+| **Emblem of Severed Fate (ESF)** | Energy Recharge +20% | Elemental Burst DMG increased by 25% of ER (max 75%)        | Excellent if high ER is needed, as it converts ER to damage.    |
+| **Crimson Witch of Flames (CW)** | Pyro DMG Bonus +15% | Reaction DMG bonus; 2 stacks from Skill/NA                    | Good for reaction teams (Vape/Melt), less direct ER support.    |
+| **2pc Mixed Sets**          | Varies          | N/A                                                           | Allows for fine-tuning stats, often a mix of ER, Pyro DMG, ATK%. |
+
+<Callout type="success" title="Best-in-Slot for High ER">
+The 4-piece Emblem of Severed Fate is an excellent choice if Durin requires significant Energy Recharge, as it directly converts ER into Elemental Burst damage, making it a highly efficient set for him.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Weapon Choices and Their Impact on ER">
+Certain weapons can help alleviate Durin's Energy Recharge needs, allowing him to focus on more damage-oriented stats from artifacts.
+
+### Key Weapons for Energy Management
+
+| Weapon Name            | Rarity | Base ATK | Bonus Stat     | Effect on ER                                                |
+| :--------------------- | :----- | :------- | :------------- | :---------------------------------------------------------- |
+| **Favonius Sword**     | 4-Star | 454      | Energy Recharge | Generates clear elemental particles, significantly reducing team ER needs. Excellent for support. |
+| **Sacrificial Sword**  | 4-Star | 454      | Energy Recharge | Chance to reset Elemental Skill CD, allowing more energy generation (though Durin's flat energy has a separate CD). |
+| **Moonweaver's Dawn**  | 4-Star | 510      | ATK%           | Provides Burst DMG, but Durin's 70 energy cost means he doesn't fully benefit from the second part of its passive. Still good as a stat stick. |
+| **Xiphos' Moonlight**  | 4-Star | 510      | Elemental Mastery | Converts EM to ER for the wielder and team, useful in Burgeon/Overloaded teams. |
+
+<Callout type="tip">
+The Favonius Sword is an invaluable tool for meeting team-wide ER requirements, including Durin's. If your team struggles with energy, equipping a Favonius weapon on a support can drastically improve Burst uptime for the entire party.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Team Compositions and ER Synergy">
+Durin's Energy Recharge needs are most influenced by his team composition and the specific elemental reactions he is designed to trigger.
+
+### ER in Different Team Archetypes
+
+<CardGrid cols={3}>
+  <Card title="Overload Teams (White Mode)">
+    - **Low ER needed**: With Fischl and Chevreuse, consistent Electro and Pyro application generates many particles.
+    - **Example**: Durin (White), Fischl, Chevreuse, Electro/Pyro DPS. ER: ~117% with crowned skill.
+  </Card>
+  <Card title="Vaporize/Melt Teams (Dark Mode)">
+    - **Moderate ER needed**: Depends on Hydro/Cryo application and particle generation.
+    - **Example**: Durin (Dark), Xingqiu, Bennett, Sucrose. ER: ~130-140% for solo Pyro.
+  </Card>
+  <Card title="Burgeon Teams">
+    - **EM focus, moderate ER**: Durin often built with full EM, so ER comes from substats or weapons.
+    - **Example**: Durin (White, EM build), Neuvillette, Albedo, Lauma. ER: Can be low if two skill casts are possible.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Hexerei Resonance Impact">
+Activating the Hexerei: Secret Rite effect with another Hexerei character (like Fischl or Albedo) can provide additional buffs that indirectly reduce ER pressure by increasing overall team damage or generating more particles.
+</Callout>
+
+### Steps to Determine Your Durin's ER Needs
+
+<Steps>
+  <Step num="1" title="Identify Your Team Composition">
+    Note down all characters, their weapons (especially Favonius), and their primary roles in the team.
+  </Step>
+  <Step num="2" title="Consider Durin's Role">
+    Is he a solo Pyro, paired with one Pyro, or part of a double Pyro setup? This heavily influences his base ER.
+  </Step>
+  <Step num="3" title="Assess Particle Generation">
+    How many elemental particles does your team generate? Do you have Favonius weapon users?
+  </Step>
+  <Step num="4" title="Check Talent Levels">
+    Ensure Durin's Elemental Skill is at least Level 9 or 10 for optimal flat energy refund.
+  </Step>
+  <Step num="5" title="Utilize ER Calculators">
+    Use online Genshin Impact Energy Recharge calculators (e.g., KQM's) to get a more precise estimate for your specific setup.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Does Durin's Elemental Skill always generate flat energy?",
+    answer: "Yes, Durin's Elemental Skill generates flat energy (30 at Talent Level 9, 33 at Talent Level 10, 42 at C5/Talent Level 13) when he enters either his White or Dark form in combat. This occurs regardless of whether he hits an enemy."
+  },
+  {
+    question: "Can I use an Energy Recharge Sands on Durin?",
+    answer: "An Energy Recharge Sands can be viable if Durin's Energy Recharge requirement is very high (e.g., >150%) and cannot be met through substats or team support. However, an ATK% Sands is generally preferred for optimal damage if ER needs are manageable."
+  },
+  {
+    question: "How does Hexerei Resonance affect Durin's Energy Recharge requirement?",
+    answer: "While Hexerei Resonance doesn't directly reduce Durin's Energy Recharge requirement, it enhances his A1 Passive buffs (resistance shred or personal reaction damage). This often means teams with Hexerei Resonance tend to be more optimized, potentially allowing for lower ER if overall damage output is higher, or if the Hexerei teammate also provides energy."
+  },
+  {
+    question: "What is the minimum Energy Recharge I need for Durin?",
+    answer: "In highly optimized Overload teams with a crowned Elemental Skill and multiple Pyro/Electro energy sources, Durin's Energy Recharge requirement can be as low as **117%**. However, for solo Pyro setups, it can exceed 160%."
+  }
+]} />
+
+</Section>

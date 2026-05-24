@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Requisito de Recarga de Energía de Durin: Builds Óptimas y Sinergia de Equipo",
+  description: "Comprende los requisitos de Recarga de Energía de Durin en Genshin Impact para varias composiciones de equipo y optimiza su build para la máxima disponibilidad de su Habilidad Definitiva en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B5CF6/fff?text=Durin+ER+Guide",
+  date: "2026-05-24",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **requisito de Recarga de Energía de Durin** es altamente variable, oscilando entre 0% y más del 160% dependiendo del equipo.
+- Su Habilidad Elemental proporciona una cantidad significativa de energía plana, reduciendo sus **necesidades de RE**.
+- Coronar su Habilidad Elemental al Nivel 10 reduce el coste de su Habilidad Definitiva a 37 de energía, exigiendo menos **Recarga de Energía**.
+- Los equipos de Sobrecarga con múltiples compañeros Pyro a menudo requieren la menor **Recarga de Energía** para Durin.
+- Para configuraciones de Pyro solo o equipos de baja generación de partículas, se necesita una **RE** más alta para mantener la disponibilidad de la Habilidad Definitiva.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendiendo la Mecánica de Recarga de Energía de Durin">
+Durin, un versátil personaje Pyro de 5 estrellas en Genshin Impact, posee una Habilidad Elemental única que impacta significativamente sus requisitos de Recarga de Energía (RE). Su Habilidad Definitiva, aunque poderosa, suele costar 70 de energía. Sin embargo, la capacidad de su habilidad para generar energía plana puede reducir drásticamente este coste efectivo, haciendo que sus necesidades de RE sean altamente flexibles y dependientes del equipo.
+
+**Aspectos Destacados del Video:**
+- La Habilidad Definitiva de Durin inicialmente cuesta 70 de energía.
+- Su Habilidad Elemental genera 33 de energía plana en el Nivel de Talento 10 (42 en C5/Talento 13).
+- Esta energía plana reduce efectivamente el coste de su Habilidad Definitiva a 37 de energía en el Nivel de Talento 10.
+- La generación de energía es instantánea y no requiere golpear a un enemigo.
+- La generación de energía plana tiene un tiempo de reutilización de 6 segundos.
+
+<YouTubeEmbed videoId="bxG6N82s_Lk" title="¡Guía DEFINITIVA de Durin! [Artefactos, Armas, Equipos, MÁS] Genshin Impact" />
+
+La Habilidad Elemental de Durin genera 4 partículas Pyro al golpear a un enemigo, además del reembolso de energía plana. Este mecanismo de doble generación de energía lo hace menos dependiente de fuentes de energía externas en muchas composiciones de equipo.
+
+<Callout type="tip">
+Se recomienda encarecidamente subir la Habilidad Elemental de Durin al menos al Nivel 10. Esto reduce significativamente el coste efectivo de su Habilidad Definitiva, permitiendo requisitos de Recarga de Energía mucho más bajos y liberando subestadísticas de artefactos para estadísticas más ofensivas como Prob. CRIT y ATQ%.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Requisitos de Recarga de Energía de Durin por Composición de Equipo">
+La Recarga de Energía óptima para Durin no es un número fijo, sino un objetivo dinámico influenciado por varios factores dentro de su equipo. Estos incluyen el número de otros personajes Pyro, la presencia de soportes generadores de energía como Fischl o usuarios de armas Favonius, y la rotación general del equipo.
+
+<CardGrid cols={2}>
+  <Card title="Escenarios de Baja RE">
+    - **Equipos de Sobrecarga**: Con múltiples compañeros Pyro y una fuerte generación de partículas (por ejemplo, Fischl, Chevreuse), Durin puede requerir tan solo **117% de RE** (con habilidad coronada).
+    - **Equipos de Doble Pyro**: Generalmente 100-110% de RE para fuera del campo, 100% para en campo.
+    - **Dos Lanzamientos de Habilidad**: Si Durin puede lanzar su Habilidad Elemental dos veces por rotación, podría no necesitar prácticamente ninguna RE.
+  </Card>
+  <Card title="Escenarios de Alta RE">
+    - **Pyro Solo**: Como única unidad Pyro, Durin necesitará más RE, típicamente alrededor del **130-140%** para asegurar una disponibilidad constante de la Habilidad Definitiva.
+    - **Baja Generación de Partículas**: Equipos con soporte de energía limitado (por ejemplo, Durin, Fischl, Albedo, Mona) pueden elevar sus necesidades de RE a **160% o más**.
+    - **Fuera del campo con 0 Compañeros Pyro**: 120-150% de RE es un buen rango.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Requisitos Dinámicos">
+Recuerda siempre que los requisitos de RE de Durin son un objetivo móvil. La cantidad exacta variará mucho según la generación de energía de tu equipo específico, la rotación y si golpeas constantemente a los enemigos con su Habilidad Elemental.
+</Callout>
+
+### Rangos de Requisitos de RE
+
+| Configuración de Compañero | RE de Durin Fuera del Campo | RE de Durin en Campo | Notas |
+| :------------------- | :----------------- | :---------------- | :----------------------------------------------------------------------------------------------- |
+| 0 Compañeros Pyro     | **120-150%**       | N/A               | Asume un lanzamiento de Habilidad en el Nivel de Talento 9 (30 de reembolso de energía). |
+| 1 Compañero Pyro      | **100-150%**       | **100-125%**      | Depende de la generación de partículas del compañero Pyro. |
+| 2 Compañeros Pyro     | **100-110%**       | **100%**          | Los requisitos de RE más bajos debido a la fuerte resonancia Pyro y la generación de partículas. |
+| Equipos de Sobrecarga       | **~117%**          | **~117%**         | Con Habilidad coronada y fuerte sinergia Electro/Pyro. |
+| Equipos de Bajas Partículas   | **~160%**          | N/A               | Equipos con poca generación de energía o sin otras unidades Pyro. |
+
+</Section>
+
+<Section icon={Shield} title="Optimizando la Build de Durin para la Recarga de Energía">
+Para gestionar eficazmente la Recarga de Energía de Durin, considera las estadísticas principales y secundarias de sus artefactos, así como las opciones de armas. El objetivo es satisfacer sus necesidades de RE sin sacrificar demasiado daño.
+
+### Estadísticas Principales de Artefactos para RE
+
+| Ranura   | Estadística Principal Prioritaria | Alternativa | Cuándo Usar Alternativa |
+| :----- | :----------------- | :---------- | :---------------------- |
+| Reloj  | ATQ%               | **Recarga de Energía** | Si el requisito de RE > 150% o si el equipo tiene abundantes bufos de ATQ. |
+| Cáliz | Bono de Daño Pyro     | ATQ%        | Si hay pocos bufos de ATQ o mejores subestadísticas. |
+| Casco| Prob. CRIT/Daño CRIT      | N/A         | Estándar para maximizar el daño. |
+
+<Callout type="info">
+Un Reloj de ATQ% es generalmente preferido para Durin para aumentar su daño personal, especialmente con su escalado de Pasiva A4. Sin embargo, un Reloj de RE puede ser una opción viable si tus necesidades de Recarga de Energía son particularmente altas y no pueden satisfacerse a través de subestadísticas o apoyo del equipo.
+</Callout>
+
+### Prioridad de Subestadísticas de Artefactos
+
+Al buscar subestadísticas de artefactos, priorízalas de la siguiente manera:
+
+<Steps>
+  <Step num="1" title="Recarga de Energía (Hasta el Requisito)">
+    Concéntrate en obtener suficientes subestadísticas de RE para cumplir cómodamente con la disponibilidad de la Habilidad Definitiva de Durin para tu equipo específico. Una vez que se cumple el requisito, más RE es menos valiosa.
+  </Step>
+  <Step num="2" title="Prob. CRIT / Daño CRIT">
+    Estos son cruciales para maximizar el daño personal de Durin. Busca una proporción equilibrada.
+  </Step>
+  <Step num="3" title="ATQ%">
+    Valioso para escalar su daño general y su Pasiva A4, especialmente hasta 2500 de ATQ efectivo.
+  </Step>
+  <Step num="4" title="Maestría Elemental (para Equipos de Reacción)">
+    Si Durin activa consistentemente Vaporizar o Derretir (Forma Oscura), la Maestría Elemental se convierte en una fuerte subestadística ofensiva.
+  </Step>
+</Steps>
+
+### Conjuntos de Artefactos Recomendados
+
+Aunque Durin es flexible con los conjuntos de artefactos, algunas opciones son mejores para equilibrar la RE con el daño.
+
+| Conjunto de Artefactos                | Bono de 2 Piezas   | Bono de 4 Piezas                                                 | Consideraciones de RE                                               |
+| :-------------------------- | :-------------- | :------------------------------------------------------------ | :-------------------------------------------------------------- |
+| **Noblesse Oblige (NO)**    | Daño de Habilidad Definitiva +20%  | ATQ de todos los miembros del equipo +20% durante 12s después de la Habilidad Definitiva               | Bueno para la disponibilidad de la Habilidad Definitiva, pero la disponibilidad de 4p puede ser inconsistente.      |
+| **Emblema del Destino (ESF)** | Recarga de Energía +20% | El Daño de Habilidad Definitiva aumenta en un 25% de la RE (máx. 75%)        | Excelente si se necesita mucha RE, ya que convierte la RE en daño.    |
+| **Bruja Carmesí en Llamas (CW)** | Bono de Daño Pyro +15% | Bono de Daño de Reacción; 2 acumulaciones de Habilidad/Ataque Normal                    | Bueno para equipos de reacción (Vaporizar/Derretir), menos soporte directo de RE.    |
+| **Conjuntos Mixtos de 2p**          | Varía          | N/A                                                           | Permite ajustar las estadísticas, a menudo una mezcla de RE, Daño Pyro, ATQ%. |
+
+<Callout type="success" title="Mejor en Slot para Alta RE">
+El conjunto de 4 piezas de Emblema del Destino es una excelente opción si Durin requiere una Recarga de Energía significativa, ya que convierte directamente la RE en daño de Habilidad Definitiva, lo que lo convierte en un conjunto altamente eficiente para él.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Elección de Armas y su Impacto en la RE">
+Ciertas armas pueden ayudar a aliviar las necesidades de Recarga de Energía de Durin, permitiéndole centrarse en estadísticas más orientadas al daño de los artefactos.
+
+### Armas Clave para la Gestión de Energía
+
+| Nombre del Arma            | Rareza | ATQ Base | Estadística de Bonificación     | Efecto en la RE                                                |
+| :--------------------- | :----- | :------- | :------------- | :---------------------------------------------------------- |
+| **Espada de Favonius**     | 4 Estrellas | 454      | Recarga de Energía | Genera partículas elementales claras, reduciendo significativamente las necesidades de RE del equipo. Excelente para soporte. |
+| **Espada del Sacrificio**  | 4 Estrellas | 454      | Recarga de Energía | Posibilidad de restablecer el TdE de la Habilidad Elemental, permitiendo más generación de energía (aunque la energía plana de Durin tiene un TdE separado). |
+| **Amanecer del Tejedor Lunar**  | 4 Estrellas | 510      | ATQ%           | Proporciona Daño de Habilidad Definitiva, pero el coste de 70 de energía de Durin significa que no se beneficia completamente de la segunda parte de su pasiva. Sigue siendo buena como arma de estadísticas. |
+| **Luz de la Luna de Xifos**  | 4 Estrellas | 510      | Maestría Elemental | Convierte ME en RE para el portador y el equipo, útil en equipos de Florecimiento/Sobrecarga. |
+
+<Callout type="tip">
+La Espada de Favonius es una herramienta invaluable para satisfacer los requisitos de RE de todo el equipo, incluidos los de Durin. Si tu equipo tiene problemas de energía, equipar un arma Favonius en un soporte puede mejorar drásticamente la disponibilidad de la Habilidad Definitiva para todo el grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Composiciones de Equipo y Sinergia de RE">
+Las necesidades de Recarga de Energía de Durin están más influenciadas por la composición de su equipo y las reacciones elementales específicas que está diseñado para desencadenar.
+
+### RE en Diferentes Arquetipos de Equipo
+
+<CardGrid cols={3}>
+  <Card title="Equipos de Sobrecarga (Modo Blanco)">
+    - **Poca RE necesaria**: Con Fischl y Chevreuse, la aplicación consistente de Electro y Pyro genera muchas partículas.
+    - **Ejemplo**: Durin (Blanco), Fischl, Chevreuse, DPS Electro/Pyro. RE: ~117% con habilidad coronada.
+  </Card>
+  <Card title="Equipos de Vaporizar/Derretir (Modo Oscuro)">
+    - **RE moderada necesaria**: Depende de la aplicación de Hydro/Cryo y la generación de partículas.
+    - **Ejemplo**: Durin (Oscuro), Xingqiu, Bennett, Sacarosa. RE: ~130-140% para Pyro solo.
+  </Card>
+  <Card title="Equipos de Florecimiento">
+    - **Enfoque en ME, RE moderada**: Durin a menudo se construye con ME completa, por lo que la RE proviene de subestadísticas o armas.
+    - **Ejemplo**: Durin (Blanco, build de ME), Neuvillette, Albedo, Lauma. RE: Puede ser baja si son posibles dos lanzamientos de habilidad.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Impacto de la Resonancia Hexerei">
+Activar el efecto Hexerei: Rito Secreto con otro personaje Hexerei (como Fischl o Albedo) puede proporcionar beneficios adicionales que reducen indirectamente la presión de RE al aumentar el daño general del equipo o generar más partículas.
+</Callout>
+
+### Pasos para Determinar las Necesidades de RE de tu Durin
+
+<Steps>
+  <Step num="1" title="Identifica la Composición de tu Equipo">
+    Anota todos los personajes, sus armas (especialmente Favonius) y sus roles principales en el equipo.
+  </Step>
+  <Step num="2" title="Considera el Rol de Durin">
+    ¿Es un Pyro solo, emparejado con un Pyro o parte de una configuración de doble Pyro? Esto influye mucho en su RE base.
+  </Step>
+  <Step num="3" title="Evalúa la Generación de Partículas">
+    ¿Cuántas partículas elementales genera tu equipo? ¿Tienes usuarios de armas Favonius?
+  </Step>
+  <Step num="4" title="Verifica los Niveles de Talento">
+    Asegúrate de que la Habilidad Elemental de Durin esté al menos en el Nivel 9 o 10 para un reembolso óptimo de energía plana.
+  </Step>
+  <Step num="5" title="Utiliza Calculadoras de RE">
+    Usa calculadoras de Recarga de Energía de Genshin Impact en línea (por ejemplo, las de KQM) para obtener una estimación más precisa para tu configuración específica.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿La Habilidad Elemental de Durin siempre genera energía plana?",
+    answer: "Sí, la Habilidad Elemental de Durin genera energía plana (30 en el Nivel de Talento 9, 33 en el Nivel de Talento 10, 42 en C5/Nivel de Talento 13) cuando entra en su forma Blanca u Oscura en combate. Esto ocurre independientemente de si golpea a un enemigo."
+  },
+  {
+    question: "¿Puedo usar un Reloj de Recarga de Energía en Durin?",
+    answer: "Un Reloj de Recarga de Energía puede ser viable si el requisito de Recarga de Energía de Durin es muy alto (por ejemplo, >150%) y no se puede cumplir a través de subestadísticas o apoyo del equipo. Sin embargo, un Reloj de ATQ% es generalmente preferible para un daño óptimo si las necesidades de RE son manejables."
+  },
+  {
+    question: "¿Cómo afecta la Resonancia Hexerei al requisito de Recarga de Energía de Durin?",
+    answer: "Aunque la Resonancia Hexerei no reduce directamente el requisito de Recarga de Energía de Durin, mejora los beneficios de su Pasiva A1 (reducción de resistencia o daño de reacción personal). Esto a menudo significa que los equipos con Resonancia Hexerei tienden a estar más optimizados, lo que potencialmente permite una RE más baja si la producción de daño general es mayor, o si el compañero Hexerei también proporciona energía."
+  },
+  {
+    question: "¿Cuál es la Recarga de Energía mínima que necesito para Durin?",
+    answer: "En equipos de Sobrecarga altamente optimizados con una Habilidad Elemental coronada y múltiples fuentes de energía Pyro/Electro, el requisito de Recarga de Energía de Durin puede ser tan bajo como **117%**. Sin embargo, para configuraciones de Pyro solo, puede superar el 160%."
+  }
+]} />
+
+</Section>

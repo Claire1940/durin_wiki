@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Prioridad de Habilidades de Durin: Nivelación Óptima de Talentos y Guía de Kit",
+  description: "Domina la prioridad de habilidades de Durin para maximizar su soporte Pyro y potencial de carry. Aprende sobre el escalado de talentos, la transmutación de formas y las sinergias de Hexerei.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8b5cf6/fff?text=Durin+Skill+Priority",
+  date: "2026-05-24",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **prioridad de habilidades de Durin** se centra primero en la **Habilidad Definitiva**, seguida de la **Habilidad Elemental**, siendo los Ataques Normales opcionales.
+- La **Transmutación de Forma** permite a Durin cambiar entre **Forma Blanca** (soporte/reducción de RES) y **Forma Oscura** (carry de vaporizar/derretir).
+- Las **Mecánicas de Energía** son vitales; subir de nivel la Habilidad proporciona un **reembolso de energía plano** masivo (hasta 33 en nivel 10).
+- La **Sinergia Hexerei** mejora sus beneficios pasivos en un **75%**, aumentando la reducción de RES del 20% al 35% en Forma Blanca.
+- Se requiere un **Umbral de ATK** de **2500** para alcanzar el límite del bono de daño de su pasiva A4 para las primeras 10 marcas de la Habilidad Definitiva.
+</Callout>
+
+<Section icon={Target} title="Análisis de Talentos Clave y Prioridad de Habilidades de Durin">
+
+Comprender la **prioridad de habilidades de Durin** es la base para construir un equipo de alto rendimiento. Durin funciona como un personaje híbrido cuyo valor cambia según su estado activo. Su Habilidad Definitiva sirve como la principal fuente de aplicación Pyro fuera del campo y utilidad para el equipo, mientras que su Habilidad Elemental gestiona su economía de energía y la selección de forma.
+
+**Puntos Destacados del Video:**
+- Desglose detallado de las mecánicas de la **Forma Blanca** (Soporte) y la **Forma Oscura** (Carry).
+- Explicación de por qué la **nivelación de la Habilidad Definitiva** es la máxima prioridad para todos los estilos de juego.
+- Demostración de la **mecánica de reembolso de energía** que reduce su coste efectivo de Habilidad Definitiva.
+- Análisis de la resonancia **Hexerei: Rito Secreto** y su impacto en la reducción de RES.
+
+<YouTubeEmbed videoId="bxG6N82s_Lk" title="¡Guía DEFINITIVA de Durin! [Artefactos, Armas, Equipos, MÁS] Genshin Impact" />
+
+La siguiente tabla describe las funciones específicas y la prioridad para cada uno de los talentos de Durin.
+
+| Tipo de Talento | Prioridad | Función Principal | Enfoque de Escalado |
+| :--- | :--- | :--- | :--- |
+| **Habilidad Definitiva** | **Alta** | Daño/Soporte Primario | Multiplicadores de Habilidad Definitiva |
+| **Habilidad Elemental** | **Media** | Reembolso de Energía/Cambio de Forma | Energía Plana/CD |
+| **Ataque Normal** | **Baja** | DPS en Campo (Solo C6) | Velocidad de Ataque/Movimiento |
+
+<Callout type="info" title="Estrategia de Nivelación">
+Para la mayoría de los jugadores, el objetivo inicial debe ser **1/8/10**. Si tienes la intención de usar a Durin como carry principal con C6 Bennett, deberías subir sus Ataques Normales a nivel 8 o superior.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Transmutación de Forma: Pureza vs. Oscuridad">
+
+El estilo de juego de Durin gira en torno a la mecánica de **Transmutación Esencial** activada por su Habilidad Elemental. A diferencia de los personajes estándar, su habilidad tiene una acción de seguimiento que determina su estado durante los próximos 30 segundos. Esta elección altera completamente el comportamiento de su Habilidad Definitiva y los beneficios proporcionados por su pasiva de Ascensión 1.
+
+<Steps>
+  <Step num="1" title="Lanzamiento Inicial de la Habilidad">
+    Lanza la Habilidad Elemental **Forma Binaria: Convergencia y División** para infligir daño Pyro AoE inicial y entrar en el estado de Transmutación.
+  </Step>
+  <Step num="2" title="Elige Tu Camino">
+    Vuelve a presionar el **Botón de Habilidad** para entrar en la **Confirmación de Pureza (Forma Blanca)** o realiza un **Ataque Normal** para entrar en la **Negación de la Oscuridad (Forma Oscura)**.
+  </Step>
+  <Step num="3" title="Reembolso de Energía">
+    Al entrar en cualquiera de los estados, Durin restaura instantáneamente energía plana. Este reembolso ocurre una vez cada 6 segundos y escala con el nivel de talento.
+  </Step>
+  <Step num="4" title="Libera la Habilidad Definitiva">
+    La Habilidad Definitiva ahora tomará la forma del **Dragón de la Llama Blanca** o el **Dragón de la Decadencia Oscura** según el estado elegido.
+  </Step>
+</Steps>
+
+<CardGrid cols={2}>
+  <Card title="Forma Blanca (Soporte)">
+    - **Golpes Pyro AoE**: Golpea cada 1 segundo.
+    - **Reducción de RES**: Reduce la RES Pyro y del elemento de reacción en un 20% (35% con Hexerei).
+    - **Mejores Equipos**: Sobrecarga, Quemadura, Mono-Pyro, soporte Anemo/Geo.
+  </Card>
+  <Card title="Forma Oscura (Carry)">
+    - **Golpes de Objetivo Único**: Golpea cada 1.25 segundos con un escalado más alto.
+    - **Mejora de Reacción**: Aumenta el daño personal de Vaporizar/Derretir en un 40% (70% con Hexerei).
+    - **Mejores Equipos**: Vaporizar Adelantado, Derretir Inverso, configuraciones de doble carry.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Duración de la Forma">
+El estado de Transmutación dura 30 segundos, significativamente más que el tiempo de reutilización de la Habilidad Definitiva. Esto te permite cambiar de forma temprano en una rotación sin perder el estado deseado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Escalado de Talentos y Gestión de Energía">
+
+Un aspecto crítico de la **prioridad de habilidades de Durin** es el reembolso de energía proporcionado por su habilidad. Al nivel de talento 10, entrar en una forma restaura **33 de energía plana**. Dado que el coste de su Habilidad Definitiva es 70, esto reduce efectivamente el requisito a **37 de energía**. Este mecanismo es la razón por la que los jugadores con alta inversión a menudo coronan la habilidad junto con la Habilidad Definitiva.
+
+| Nivel de Talento | Energía Reembolsada | Coste Efectivo de Habilidad Definitiva |
+| :--- | :--- | :--- |
+| Nivel 1 | 15.0 Energía | 55.0 Energía |
+| Nivel 6 | 24.0 Energía | 46.0 Energía |
+| Nivel 9 | 30.0 Energía | 40.0 Energía |
+| **Nivel 10** | **33.0 Energía** | **37.0 Energía** |
+| Nivel 13 (C5) | 42.0 Energía | 28.0 Energía |
+
+La pasiva A4 de Durin, **Caos Formado Como la Noche**, proporciona un impulso de daño significativo basado en su ATK total. Por cada 100 de ATK, el daño de las primeras 10 marcas de la Habilidad Definitiva aumenta en un 3%, con un tope del 75% a 2500 de ATK.
+
+| Estadística de ATK | Multiplicador de Daño de Habilidad Definitiva | Contexto de Uso |
+| :--- | :--- | :--- |
+| 1500 ATK | +45% Daño | Baja Inversión/Soporte |
+| 2000 ATK | +60% Daño | Sub-DPS Estándar |
+| **2500 ATK** | **+75% Daño** | **Límite de Escalado Óptimo** |
+
+<Callout type="success" title="Perspicacia de Escalado">
+Debido a que Durin escala tan fuertemente con el ATK hasta el límite de 2500, un **Cáliz de ATK%** a menudo es competitivo con un Cáliz de Daño Pyro si estás por debajo del umbral y careces de beneficios de ATK externos como Bennett o el conjunto de Nobleza Obligada.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejores Artefactos y Sinergia con Armas">
+
+Para complementar la **prioridad de habilidades de Durin**, tu equipo debe equilibrar las estadísticas CRIT con el ATK necesario para alcanzar el límite de la pasiva A4. Aunque su arma distintiva es la mejor en su categoría, varias opciones gratuitas funcionan excepcionalmente bien debido a sus altas estadísticas base y el reembolso de energía.
+
+| Arma | Nivel | Beneficio Principal | Estilo de Juego |
+| :--- | :--- | :--- | :--- |
+| **Athame Artis** | **S+** | 33% CRIT, Buff de ATK de Equipo, Buff Hexerei | BiS Universal |
+| **Cortador de Jade** | **S** | Tasa CRIT Masiva, Conversión de HP a ATK | Sub-DPS |
+| **Colmillo de Lobo** | **A+** | Daño de Habilidad/Habilidad Definitiva%, Alta Tasa CRIT | Pase de Batalla |
+| **Final del Abismo** | **A** | Grandes Buffs de ATK%, Sinergia de Vínculo Vital | Crafteable F2P |
+| **Amanecer del Tejedor Lunar** | **A** | Daño de Habilidad Definitiva%, Gratis de Misión | Historia F2P |
+
+<CardGrid cols={3}>
+  <Card title="Nobleza Obligada">
+    - **2p**: +20% Daño de Habilidad Definitiva.
+    - **4p**: +20% ATK de Equipo.
+    - **Mejor para**: Durin de Soporte Estándar.
+  </Card>
+  <Card title="Emblema del Destino">
+    - **2p**: +20% Recarga de Energía.
+    - **4p**: Daño de Habilidad Definitiva basado en Recarga de Energía.
+    - **Mejor para**: Solo-Pyro o necesidades de alta Recarga de Energía.
+  </Card>
+  <Card title="Bruja Carmesí">
+    - **2p**: +15% Daño Pyro.
+    - **4p**: Buffs de Daño de Reacción.
+    - **Mejor para**: Vaporizar/Derretir en Forma Oscura.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Recarga de Energía">
+No inviertas demasiado en Recarga de Energía. Si subes su habilidad a nivel 10 y usas una segunda unidad Pyro, a menudo necesitarás **0% de Recarga de Energía adicional** de las subestadísticas. Apunta a 120-130% solo si es la única unidad Pyro en el equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Arquetipos de Equipo y Preguntas Frecuentes sobre la Progresión">
+
+Durin es más efectivo cuando se combina con al menos otro personaje **Hexerei**. Esto activa el efecto **Rito Secreto**, que aumenta sus reducciones pasivas y bonificaciones de reacción en un 75%. Los compañeros de equipo Hexerei comunes incluyen Fischl, Albedo, Sacarosa y Venti.
+
+| Tipo de Equipo | Compañeros de Equipo Clave | Forma de Durin |
+| :--- | :--- | :--- |
+| **Sobrecarga** | Chevreuse, Fischl, Arlecchino | Forma Blanca |
+| **Carry de Vaporizar** | Furina, Mona, Bennett | Forma Oscura |
+| **Quemadura/Kinich** | Kinich, Emilie, Bennett | Forma Blanca |
+| **Mono-Pyro** | Lyney, Xiangling, Bennett | Forma Blanca |
+
+<Checklist
+  id="durin-milestones"
+  title="Hitos de Progresión de Durin:"
+  items={[
+    "Alcanzar el Nivel 90 para el escalado máximo de ATK Base",
+    "Subir la Habilidad Definitiva al Nivel de Talento 10",
+    "Subir la Habilidad Elemental al Nivel de Talento 9 o 10",
+    "Alcanzar 2500 de ATK total (buffed) para el límite de la pasiva A4",
+    "Completar la misión 'Tarea de la Bruja' para desbloquear el estado Hexerei"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de Rotación">
+En Forma Blanca, siempre activa la reacción **después** de lanzar la Habilidad Definitiva de Durin para asegurar que la reducción de RES esté activa durante toda la ventana de tu DPS principal.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Por qué la prioridad de habilidades de Durin se centra primero en la Habilidad Definitiva?",
+    answer: "La Habilidad Definitiva de Durin proporciona la mayor parte de su daño y utilidad. Ya sea en Forma Blanca para reducción de RES o en Forma Oscura para bonificaciones de reacción, la Habilidad Definitiva es su contribución principal a cualquier rotación de equipo."
+  },
+  {
+    question: "¿Necesito subir de nivel sus Ataques Normales?",
+    answer: "Solo si lo estás usando como carry en campo con C6 Bennett. Para roles de soporte fuera del campo o sub-DPS, los Ataques Normales pueden dejarse en nivel 1."
+  },
+  {
+    question: "¿Qué tan importante es el segundo personaje Hexerei?",
+    answer: "Es muy importante para maximizar su potencial. La mejora del 75% de sus pasivas es la diferencia entre una reducción de RES del 20% y una del 35%, lo que impacta significativamente el daño del equipo."
+  },
+  {
+    question: "¿Cuál es la mejor manera de alcanzar el límite de 2500 de ATK?",
+    answer: "Usar un Reloj de ATK% es obligatorio. También puedes usar un Cáliz de ATK% si tus subestadísticas son superiores, o depender de beneficios externos como la Habilidad Definitiva de Bennett y el bono del conjunto de Nobleza Obligada."
+  }
+]} />
+
+</Section>
