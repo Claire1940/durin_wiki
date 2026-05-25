@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Equipo de Durin y Zibai: Sinergias del Meta 2026 y Mejores Composiciones",
+  description: "Domina el meta del equipo de Durin y Zibai. Descubre las mejores configuraciones de Cristalización Lunar, rotaciones Mono Geo y opciones de armas F2P para el Abismo Espiral 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Durin+Zibai+Team+Guide",
+  date: "2026-05-25",
+  author: "Equipo de la Wiki de Durin",
+  keywords: "Durin, Zibai, meta 2026, Cristalización Lunar, Abismo Espiral, guía de equipo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Sinergia Principal**: El **equipo de Durin y Zibai** se basa en la reducción de RES Elemental de Durin para amplificar el daño de Cristalización Lunar de alto escalado de Zibai.
+- **Prioridad de Reacción**: Enfócate en las interacciones Hydro-Geo para activar la Cristalización Lunar, que escala con la DEF y la Maestría Elemental (ME) de Zibai.
+- **Compañeros Clave**: Illuga (en C2+) y Columbina son los soportes principales, aunque Durin es esencial para reducir resistencias en contenido de alto nivel.
+- **Rotación Óptima**: Comienza siempre con escudos y aplicación de Hydro fuera del campo antes de cambiar a Durin para la reducción y finalmente a Zibai para la ráfaga principal.
+- **Accesibilidad F2P**: Zibai rinde excepcionalmente bien con armas de 4 estrellas como la Flauta de Ezpitzal o el Mensajero del Alba cuando está protegida por un escudo.
+</Callout>
+
+<Section icon={Swords} title="Entendiendo la Sinergia del Equipo de Durin y Zibai">
+
+El **equipo de Durin y Zibai** ha surgido como una fuerza dominante en el meta de 2026, específicamente dentro de la versión 6.6 del Abismo Espiral. Esta composición aprovecha una interacción única entre la mecánica de Cristalización Lunar de Zibai y la capacidad de Durin para proporcionar una reducción significativa de RES Elemental. Mientras que Zibai actúa como el DPS principal en el campo, escalando su daño a través de la Defensa (DEF) y la Maestría Elemental (ME), Durin proporciona la utilidad necesaria para atravesar enemigos con alta resistencia.
+
+**Puntos Destacados del Video:**
+- **Viabilidad F2P**: Demostración de Zibai C0 y Durin C0 completando el Piso 12 con armas de 4 estrellas.
+- **Tiempos de Rotación**: Cambio preciso entre la Habilidad de Durin y el consumo de cargas de Radiancia de Zibai.
+- **Gestión de Resonancia**: Cómo mantener la resonancia Geo mientras se maximiza la aplicación de Hydro para las reacciones.
+
+<YouTubeEmbed videoId="sxPbnhdywnA" title="NUEVO ABISMO ESPIRAL 6.6 Todo C0 Durin - C0 Zibai F2P Armas 4 Estrellas" />
+
+<Callout type="tip" title="Nota de Sinergia">
+La reducción de RES de Durin es más efectiva cuando se combina con un segundo personaje Hexerei o un soporte Anemo como Sacarosa para activar las condiciones de reducción necesarias de manera confiable.
+</Callout>
+
+En este equipo, Zibai convierte las reacciones estándar de Cristalización Hydro en fragmentos especializados de Cristalización Lunar. Estos fragmentos no solo proporcionan escudos; infligen un daño masivo basado en las estadísticas de Zibai. El papel de Durin es asegurar que estas reacciones alcancen su máximo potencial al reducir las defensas enemigas.
+
+| Componente | Rol en el Equipo | Prioridad de Estadísticas Clave |
+| :--- | :--- | :--- |
+| **Zibai** | DPS Principal en Campo | DEF%, CRIT, ME |
+| **Durin** | Reducción de RES y Sub-DPS | Recarga de Energía, ATK% |
+| **Illuga** | Buffer de Signo Lunar | ME, Recarga de Energía |
+| **Columbina** | Aplicador de Hydro | HP%, Recarga de Energía |
+
+</Section>
+
+<Section icon={Map} title="Mejores Composiciones de Equipo y Clasificaciones">
+
+Elegir a los compañeros adecuados para un **equipo de Durin y Zibai** depende de tu lista de personajes disponibles y de los desafíos específicos del contenido de nivel alto. Mientras que el equipo Premium de Cristalización Lunar ofrece el techo de daño más alto, las variantes Mono Geo con Durin y Albedo proporcionan una estabilidad y capacidades de reducción de resistencia inigualables.
+
+<CardGrid cols={3}>
+  <Card title="Cristalización Lunar Premium">
+    - **Calificación**: ★★★★★
+    - **Núcleo**: Zibai, Illuga, Columbina, Zhongli
+    - **Ventajas**: Techo de DPS más alto, escudos invencibles.
+  </Card>
+  <Card title="Reducción Mono Geo">
+    - **Calificación**: ★★★★☆
+    - **Núcleo**: Zibai, Durin, Albedo, Illuga
+    - **Ventajas**: Reducción de RES constante, alto daño fuera del campo.
+  </Card>
+  <Card title="Cristalización Lunar F2P">
+    - **Calificación**: ★★★★・
+    - **Núcleo**: Zibai, Illuga, Aino, Gorou
+    - **Ventajas**: Muy accesible, fuertes buffs de DEF.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Requisitos de Personajes">
+Illuga es el mejor compañero de Zibai, pero requiere su Segunda Constelación (C2) para activar de manera confiable el efecto de 4 piezas de Serenata de la Luna de Seda desde fuera del campo. Sin C2, su utilidad disminuye significativamente.
+</Callout>
+
+### Comparación de Opciones de Soporte
+
+| Personaje | Nivel de Sinergia | Mejor Conjunto de Artefactos | Beneficio Principal |
+| :--- | :--- | :--- | :--- |
+| **Durin** | Alto | Ciudad de las Cenizas / Nobleza | Reducción de RES Elemental, Resonancia Geo |
+| **Columbina** | Esencial | Alborada de la Estrella de la Mañana | Aplicación de Hydro, Buff de daño Lunar |
+| **Xilonen** | Alto | Ciudad de las Cenizas | Reducción de RES, Sanación (Requiere 2 Hydro) |
+| **Albedo** | Medio | Compañía Dorada | DPS fuera del campo, buff de ME (vía Ráfaga) |
+| **Zhongli** | Alto | Tenacidad / Instructor | Reducción Universal, Escudo Irrompible |
+
+</Section>
+
+<Section icon={Target} title="Guía de Rotación y Estrategia">
+
+Ejecutar la rotación correcta es vital para el **equipo de Durin y Zibai**. Debido a que el daño de Zibai depende de las cargas de Radiancia y de los buffs activos de sus compañeros, un cambio de personaje a destiempo puede provocar una pérdida significativa de DPS.
+
+<Steps>
+  <Step num="1" title="Configuración Inicial y Escudos">
+    Comienza con tu soporte defensivo. Si usas a Zhongli, mantén pulsada su Habilidad para generar un escudo. Si usas a Xilonen, usa su Habilidad para preparar la reducción de RES.
+  </Step>
+  <Step num="2" title="Aplicación de Hydro">
+    Cambia a Columbina o Aino. Despliega su Habilidad y Ráfaga para asegurar un aura constante de Hydro en los enemigos. Esta es la base para la Cristalización Lunar.
+  </Step>
+  <Step num="3" title="Reducción de RES y Buffs">
+    Cambia a Durin. Usa su Habilidad dos veces seguida de su Ráfaga. Esto activa su reducción de RES y asegura que el enemigo esté preparado para la entrada de Zibai.
+  </Step>
+  <Step num="4" title="Ventana de Ráfaga de Zibai">
+    Cambia a Zibai. Usa su Ráfaga inmediatamente para ganar Radiancia, seguida de su Habilidad para imbuir sus Ataques Normales con Geo.
+  </Step>
+  <Step num="5" title="Consumo de Radiancia">
+    Realiza ataques normales continuamente. Una vez que Zibai tenga las cargas máximas de Radiancia, usa su Habilidad Elemental Especial para un remate de daño masivo antes de reiniciar el ciclo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Optimización">
+Si estás utilizando la variante Mono Geo con Albedo, coloca su flor (Habilidad) al comienzo de la rotación. Su larga duración le permite persistir durante toda la configuración.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejor Equipamiento para Zibai y Durin">
+
+Para maximizar el rendimiento de tu **equipo de Durin y Zibai**, debes equiparlos con artefactos que complementen sus escalados específicos. Zibai es uno de los pocos personajes donde la DEF% suele ser más valiosa que el ATK%.
+
+### Recomendaciones de Construcción para Zibai
+El mejor conjunto de artefactos para Zibai es **Revelación de la Noche Celeste**, que potencia específicamente el daño relacionado con la Cristalización y proporciona DEF.
+
+| Pieza de Equipo | Mejor Opción | Alternativa |
+| :--- | :--- | :--- |
+| **Arma** | Fragmento Lunar Portador de Luz | Flauta de Ezpitzal / Mensajero del Alba |
+| **Reloj** | DEF% | Maestría Elemental |
+| **Cáliz** | DEF% o Daño Geo | DEF% |
+| **Corona** | Prob. CRIT / Daño CRIT | DEF% |
+
+### Equipo para Durin y Soportes
+La construcción de Durin debe enfocarse en su utilidad, asegurando que pueda usar su ráfaga en cada rotación para mantener la reducción de RES.
+
+| Personaje | Arma Recomendada | Artefactos Recomendados |
+| :--- | :--- | :--- |
+| **Durin** | Espada de Favonius | Ciudad de las Cenizas x4 |
+| **Illuga** | Lanza de Favonius | Serenata de la Luna de Seda x4 |
+| **Columbina** | Llamada del Telón Nocturno | Alborada de la Estrella de la Mañana x4 |
+| **Zhongli** | Borla Negra / Favonius | Tenacidad de la Geoarmada x4 |
+
+<Callout type="info" title="Objetivos de Estadísticas">
+Apunta a tener al menos 2,500 de DEF en Zibai y un 180% de Recarga de Energía en Durin para asegurar rotaciones fluidas en el Abismo Espiral.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión del Equipo">
+
+Construir un **equipo de Durin y Zibai** competitivo requiere tiempo y gestión de recursos. Usa esta lista para seguir tu progreso hacia una escuadra lista para el meta.
+
+<Checklist
+  id="zibai-team-progression"
+  title="Objetivos de Preparación para el Juego Tardío:"
+  items={[
+    "Zibai alcanzado el Nivel 90 (Esencial para el escalado de DEF)",
+    "Durin tiene más de 180% de Recarga de Energía para mantener la Ráfaga",
+    "Illuga alcanzó C2 para activar artefactos fuera del campo",
+    "Obtenido un conjunto de 4 piezas de Revelación de la Noche para Zibai",
+    "Desbloqueado el talento pasivo Brillo Ascendente de Zibai",
+    "Subido todos los talentos relevantes (Habilidad/Ráfaga de Zibai, Ráfaga de Durin) al nivel 9+"
+  ]}
+/>
+
+<Callout type="tip" title="Gestión de Recursos">
+Prioriza primero el nivel y el arma de Zibai. Debido a que escala con DEF, las estadísticas base obtenidas del nivel 80 al 90 son más significativas que para los personajes que escalan con ATK.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar el equipo de Durin y Zibai sin un sanador?",
+    answer: "Sí, pero es arriesgado. Si usas a Zhongli, su escudo suele ser suficiente. De lo contrario, puedes equipar a Mona o Aino con un Prototipo Ámbar para proporcionar curación a todo el equipo mientras mantienes la aplicación de Hydro."
+  },
+  {
+    question: "¿Por qué es Durin esencial para Zibai en Mono Geo?",
+    answer: "Zibai inflige un alto daño bruto, pero Geo carece de muchas formas de reducir la resistencia enemiga. Durin proporciona esta utilidad poco común, lo que lo convierte en la mejor opción para aumentar el DPS personal de Zibai en equipos sin Hydro."
+  },
+  {
+    question: "¿Cuál es la mejor arma F2P para Zibai?",
+    answer: "La Flauta de Ezpitzal es una excelente opción forjable. Si puedes mantener un escudo el 100% del tiempo, el arma de 3 estrellas Mensajero del Alba ofrece estadísticas de CRIT masivas que rivalizan con armas de 5 estrellas."
+  },
+  {
+    question: "¿Necesita Zibai Maestría Elemental?",
+    answer: "Sí, el daño de la reacción de Cristalización Lunar de Zibai escala tanto con DEF como con ME. Aunque la DEF es la prioridad para sus golpes Geo personales, la ME potencia significativamente las activaciones de la reacción."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+El **equipo de Durin y Zibai** es una opción de primer nivel para el contenido de 2026. Al equilibrar el agresivo escalado de DEF de Zibai con la reducción defensiva de Durin, puedes superar el contenido más difícil con facilidad.
+</Callout>
+
+</Section>

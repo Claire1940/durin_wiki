@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin Leaderboard: Top Builds & Team Compositions",
+  description: "Explore the Durin leaderboard for Genshin Impact, featuring top-tier builds, optimal weapons, artifacts, and powerful team compositions for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Durin+Leaderboard+Guide",
+  date: "2026-05-25",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Durin leaderboard** showcases top player builds and strategies.
+- **Vaporize/Melt Off-Field DPS** is a highly effective build for Durin.
+- **Athame Artis** and **Absolution** are top-tier weapon choices.
+- **Emblem of Severed Fate** and **Crimson Witch of Flames** are ideal artifact sets.
+- **Team compositions** like Burning and Overload maximize Durin's potential.
+</Callout>
+
+<Section icon={Trophy} title="Understanding the Durin Leaderboard">
+The Durin leaderboard serves as a critical resource for players looking to optimize their Durin builds and team compositions. It provides insights into what top players are currently using, reflecting the meta as of May 2026. Analyzing these rankings can help you refine your own strategy, whether you're aiming for raw damage, elemental reaction efficiency, or overall team synergy.
+
+<Callout type="tip">
+Regularly checking the **Durin leaderboard** can give you an edge, as meta shifts and new optimizations are frequently discovered by the community's top players. Adaptability is key to staying competitive.
+</Callout>
+
+**Video Highlights:**
+- Demonstrates optimal Durin rotations for maximizing damage.
+- Showcases various team compositions in action on the leaderboard.
+- Provides artifact and weapon comparisons based on top player choices.
+
+</Section>
+
+<Section icon={Swords} title="Top Durin Builds: Weapons & Artifacts">
+Durin's effectiveness often hinges on a well-optimized build, focusing on specific stats and set bonuses. The leaderboard commonly features variations of Vaporize/Melt Off-Field DPS and Burst-focused strategies. Here's a breakdown of the most prevalent choices.
+
+<Callout type="warning" title="Build Flexibility">
+While top builds are powerful, remember to consider your own artifact sub-stats and team compositions. A build that works for one player might not be perfectly suited for another due to differing artifact quality or available supports.
+</Callout>
+
+### Recommended Weapons for Durin
+
+| Rank | Weapon Name      | Primary Stat | Passive Benefit                                            | Build Focus        |
+| :--- | :--------------- | :----------- | :--------------------------------------------------------- | :----------------- |
+| **1** | Athame Artis     | CRIT Rate    | Boosts EM, triggers AoE Pyro on Vaporize/Melt.             | Reaction DPS       |
+| **2** | Absolution       | CRIT DMG     | High CRIT DMG, enhances Burst/Skill damage in Denial form. | Burst DPS          |
+| **3** | Azurelight       | CRIT Rate    | Energy refund on Skill, eases ER needs.                    | Burst Uptime       |
+| **4** | Wolf-Fang        | CRIT Rate    | Boosts Skill/Burst damage, easy passive trigger.           | Off-field DPS      |
+| **5** | Moonweaver's Dawn| ATK%         | Imparts EM and team EM buff after reaction.                | Reaction Support   |
+
+### Optimal Artifact Sets for Durin
+
+The choice of artifact set significantly impacts Durin's damage output and utility. The leaderboard often highlights these sets for their synergy with Durin's kit.
+
+| Set Name                     | 2-Piece Bonus     | 4-Piece Bonus                                                                 | Recommended Build             |
+| :--------------------------- | :---------------- | :---------------------------------------------------------------------------- | :---------------------------- |
+| **Emblem of Severed Fate**   | Energy Recharge +20% | Increases Burst DMG by 25%-75% of ER.                                         | Burst-Focused DPS             |
+| **Crimson Witch of Flames**  | Pyro DMG Bonus +15% | Increases Vaporize/Melt DMG by 15%; boosts Burst DMG after Skill.             | Reaction Trigger              |
+| **Gilded Dreams**            | Elemental Mastery +80 | Increases ATK or EM based on team composition.                                | Reaction-Focused Builds       |
+| **Noblesse Oblige**          | Elemental Burst DMG +20% | Increases all party members' ATK by 20% for 12s after using Elemental Burst. | Support/Burst Sub-DPS         |
+
+### Substat and Main Stat Priority
+
+Optimizing artifact substats is crucial for maximizing Durin's performance.
+
+<CardGrid cols={2}>
+  <Card title="Substat Priority">
+    1. **CRIT Rate**
+    2. **CRIT DMG**
+    3. ATK%
+    4. Elemental Mastery
+    5. Energy Recharge
+  </Card>
+  <Card title="Recommended Primary Stats">
+    - **Sands:** ATK%
+    - **Goblet:** Pyro DMG Bonus / ATK%
+    - **Circlet:** CRIT Rate / CRIT DMG
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Key Talent Prioritization & Rotations">
+Understanding which talents to level up and how to execute Durin's abilities in combat is essential for top-tier performance.
+
+<Callout type="success" title="Talent Leveling Order">
+Prioritize **Elemental Burst (Q)** first, followed by **Elemental Skill (E)**, and finally **Normal Attack (NA)**. Durin's primary damage comes from his Burst and Skill.
+</Callout>
+
+### Durin's Core Combat Rotations
+
+| Form       | Activation Sequence          | Burst Frequency | Reaction Capability         |
+| :--------- | :--------------------------- | :-------------- | :-------------------------- |
+| **Denial** | Skill → Normal Attack → Burst | Every 1.25s     | Every other hit (Vaporize/Melt) |
+| **Purity** | Skill → Skill → Burst        | Every 1s        | Every other hit (AoE Pyro)  |
+
+<Steps>
+  <Step num="1" title="Initiate Denial Form">
+    To enter Denial form, use Durin's Elemental Skill, followed by one Normal Attack, and then activate his Elemental Burst. This form is excellent for consistent off-field Pyro application and reaction triggers.
+  </Step>
+  <Step num="2" title="Optimize Purity Form">
+    For Purity form, activate Durin's Elemental Skill twice, then use his Elemental Burst. This form offers a faster Burst strike rate and wider AoE Pyro application, ideal for certain team compositions.
+  </Step>
+  <Step num="3" title="Maximize Reaction Windows">
+    Time your other characters' elemental applications to coincide with Durin's Burst hits, especially for Vaporize and Melt reactions, to maximize damage output.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Dominant Durin Team Compositions">
+The Durin leaderboard showcases several powerful team compositions built around maximizing his Pyro application and damage. These teams leverage elemental reactions and character synergies.
+
+<Callout type="info">
+The best team for Durin often depends on the specific encounter and your available character roster. Experimentation is encouraged to find what works best for your playstyle.
+</Callout>
+
+### Featured Team Compositions
+
+| Team Name             | Core Strategy                                             | Key Characters                                      | Durin's Role                | Synergies                                       |
+| :-------------------- | :-------------------------------------------------------- | :-------------------------------------------------- | :-------------------------- | :---------------------------------------------- |
+| **Durin Anemo Team**  | Group enemies, buff Anemo DMG, reduce Anemo RES.          | Venti (Anemo Main DPS), Faruzan (Anemo Support), Bennett (Healer/ATK Buffer) | Off-field Pyro DMG, RES shred | Swirl reactions, massive ATK buff.              |
+| **Durin Burning Team #1** | Off-field Dendro + Pyro for consistent Burning.         | Kinich (Dendro Main DPS), Emilie (Dendro Sub DPS), Bennett (Healer/ATK Buffer) | Off-field Pyro DMG, RES shred | Enhanced Burning damage, ATK buff.              |
+| **Durin Overload Team #1** | Trigger Overload, activate RES debuff, empower DPS.     | Varesa (Electro Main DPS), Chevreuse (Overload Support), Iansan (ATK Buffer) | Off-field Pyro DMG, RES shred | Overload RES debuff, mobile ATK buff.           |
+| **Durin Geo Team**    | Generate Crystallize shards, empower Navia, Pyro support. | Navia (Geo Main DPS), Albedo (Geo Sub DPS), Bennett (Healer/ATK Buffer) | Off-field Pyro DMG, RES reduction | Crystallize for Navia, ATK buff, EM boost.      |
+
+<Checklist
+  id="team-synergy"
+  title="Team Synergy Checklist:"
+  items={[
+    "Ensure consistent elemental application for reactions.",
+    "Include a strong ATK buffer or damage amplifier.",
+    "Consider energy generation for Durin's Burst uptime.",
+    "Integrate a healer or shielder for survivability.",
+    "Utilize RES shred capabilities for increased damage."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Durin's Ascension and Talent Materials">
+Ascending Durin and leveling his talents requires specific materials. Planning your farming routes based on these requirements will save you considerable time.
+
+<Callout type="tip">
+Focus on collecting materials for Durin's Elemental Burst and Skill first, as these are his primary damage sources.
+</Callout>
+
+### Durin Ascension Materials
+
+| Ascension Phase | Mora      | Agnidus Agate | Cyclic Military Kuuvahki Core | Frostlamp Flower | Warrant Materials (Tattered/Immaculate/Frost-Etched) |
+| :-------------- | :-------- | :------------ | :---------------------------- | :--------------- | :--------------------------------------------------- |
+| Lv. 40          | 20,000    | 1 Sliver      | —                             | 3                | 3 Tattered                                           |
+| Lv. 50          | 40,000    | 3 Fragments   | 2                             | 10               | 15 Tattered                                          |
+| Lv. 60          | 60,000    | 6 Fragments   | 4                             | 20               | 12 Immaculate                                        |
+| Lv. 70          | 80,000    | 3 Chunks      | 8                             | 30               | 18 Immaculate                                        |
+| Lv. 80          | 100,000   | 6 Chunks      | 12                            | 45               | 12 Frost-Etched                                      |
+| Lv. 90          | 120,000   | 6 Gemstones   | 20                            | 60               | 24 Frost-Etched                                      |
+| **Total**       | **420,000** | **1/9/9/6**   | **46**                        | **168**          | **18/30/36**                                         |
+
+### Durin Talent Materials
+
+| Talent Level | Mora        | Teachings of Ballad | Guide to Ballad | Philosophies of Ballad | Warrant Materials (Tattered/Immaculate/Frost-Etched) | Eroded Sunfire | Crown of Insight |
+| :----------- | :---------- | :------------------ | :-------------- | :--------------------- | :--------------------------------------------------- | :------------- | :--------------- |
+| Lv. 1→2      | 12,500      | 3                   | —               | —                      | 6 Tattered                                           | —              | —                |
+| Lv. 2→3      | 17,500      | —                   | 2               | —                      | 3 Immaculate                                         | —              | —                |
+| Lv. 3→4      | 25,000      | —                   | 4               | —                      | 4 Immaculate                                         | —              | —                |
+| Lv. 4→5      | 30,000      | —                   | 6               | —                      | 6 Immaculate                                         | —              | —                |
+| Lv. 5→6      | 37,500      | —                   | 9               | —                      | 9 Immaculate                                         | —              | —                |
+| Lv. 6→7      | 120,000     | —                   | —               | 4                      | 4 Frost-Etched                                       | 1              | —                |
+| Lv. 7→8      | 260,000     | —                   | —               | 6                      | 6 Frost-Etched                                       | 1              | —                |
+| Lv. 8→9      | 450,000     | —                   | —               | 12                     | 9 Frost-Etched                                       | 2              | —                |
+| Lv. 9→10     | 700,000     | —                   | —               | 16                     | 12 Frost-Etched                                      | 2              | 1                |
+| **Total**    | **1,652,500** | **3**               | **21**          | **38**                 | **6/22/31**                                          | **6**          | **1**            |
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions about Durin">
+Here are some common questions regarding Durin's builds and performance on the leaderboard.
+
+<FAQ items={[
+  {
+    question: "How often is the Durin leaderboard updated?",
+    answer: "Leaderboards are typically updated frequently, often daily or weekly, reflecting the latest player builds and meta shifts. Check platforms like Akasha System for the most recent data."
+  },
+  {
+    question: "What is the best artifact set for a reaction-focused Durin build?",
+    answer: "For a reaction-focused build, **Crimson Witch of Flames** is generally considered the best due to its Pyro DMG Bonus and increased Vaporize/Melt damage. Alternatively, Gilded Dreams can also be very effective."
+  },
+  {
+    question: "Is Durin viable as a main DPS?",
+    answer: "While Durin excels as an off-field Pyro DPS and reaction enabler, with specific builds and strong support, he can contribute significantly as a main DPS, especially in his Denial form."
+  },
+  {
+    question: "Which weapon is best for a free-to-play Durin build?",
+    answer: "For free-to-play players, weapons like **Wolf-Fang** (from Battle Pass) or craftable options that provide CRIT Rate or Energy Recharge can be excellent alternatives to signature weapons. Always prioritize substats that complement your chosen artifact set."
+  }
+]} />
+
+</Section>
