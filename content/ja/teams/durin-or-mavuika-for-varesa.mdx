@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "VaresaにはDurinかMavuikaか：2026年比較＆メタ分析",
+  description: "原神Ver.6.2におけるVaresaのためのDurinとMavuikaを比較。オフフィールド炎元素付与役として、どちらがより優れたシナジー、ダメージ、Hexereiバフを提供するのかを明らかにします。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Durin+vs+Mavuika+for+Varesa",
+  date: "2026-05-26",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="クイックガイド">
+- **VaresaのためのDurinかMavuikaか**は、Ver.6.2におけるオフフィールド炎元素付与に焦点を当てた主要な議論です。
+- **Durin**は元素爆発を通じて炎元素付与を提供し、広範囲にわたるAoEを持ちますが、高い元素チャージ効率を必要とします。
+- **Mavuika**は元素スキルを利用して炎元素付与を行い、オープンワールド探索や長いローテーションにおいてより安定しています。
+- **Hexereiバフ**は2026年のゲームプレイにおいて重要な役割を果たし、特定のチーム編成ではDurinの高頻度な付与が非常に有利です。
+- **Varesa**は主要なドライバーとして機能し、高ダメージの反応を継続的に引き起こすために安定した炎元素オーラを必要とします。
+</Callout>
+
+<Section icon={Sparkles} title="2026年炎元素メタ：Durin vs Mavuika">
+
+Ver.6.2のリリースにより、特にVaresaの登場によって、元素反応へのアプローチが大きく変化しました。**VaresaのためのDurinかMavuikaか**を選ぶことは、単なる好みの問題ではなく、チームのエネルギー効率と特定の戦闘環境に基づいた計算された決定です。両キャラクターともに優れたオフフィールド炎元素付与役として機能しますが、その機械的な実行方法は根本的に異なります。
+
+**動画ハイライト：**
+- Varesa中心のチームにおけるDurinの「有無」比較の詳細。
+- 原石が限られているプレイヤーにとってのDurinの入手価値の分析。
+- 「裁きの時」メカニズムとそのVaresaの攻撃ウィンドウとのタイミングの紹介。
+- オフフィールド付与役を切り替える際の戦闘の流動性の内訳。
+
+<YouTubeEmbed videoId="TryjCIfqhxs" title="Is Durin Worth it for Varesa? With vs Without Durin! Genshin Impact" />
+
+Durinのキットは、フィールドを炎元素で覆う高インパクトな元素爆発を中心に構築されていますが、Mavuikaは元素スキルを通じてより「セット・アンド・フォーゲット」なプレイスタイルを提供します。独自の反応倍率を最大化するために常に炎元素オーラを必要とするVaresaにとって、Durinの厳しいエネルギー要件を満たせるかどうかに選択が大きく左右されます。
+
+<Callout type="tip" title="プロのヒント">
+Varesaを二重水元素編成で運用している場合、Durinの高い付与頻度により水元素が炎元素オーラを上書きするのを防ぎ、Varesaが常に反応を引き起こすことを確実にします。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="コアメカニクスと付与比較">
+
+これらの2つのユニット間の技術的な違いを理解することは、Varesaのダメージ下限を最適化するために不可欠です。主な違いは、炎元素付与の源と内部クールダウン（ICD）にあります。
+
+| 特徴 | Durin（元素爆発ベース） | Mavuika（スキルベース） |
+| :--- | :--- | :--- |
+| **付与源** | 元素爆発 | 元素スキル |
+| **継続時間** | 12秒 / 15秒クールダウン | 18秒 / 20秒クールダウン |
+| **エネルギー要求** | 高い（80エネルギーコスト） | 低い（スキル中心） |
+| **AoE範囲** | 広範囲の円形フィールド | 狙われた軌道 |
+| **反応頻度** | 速い（標準ICD） | 中程度（特殊ICD） |
+
+Durinの元素爆発「ミッドナイト・ファンタズミカル」は、継続的な炎元素ダメージを与える局所的な領域を作り出します。これは、敵がグループ化されている深境螺旋のシナリオで特に効果的です。一方、Mavuikaはアクティブなキャラクターを追尾する軌道上の炎元素付与を提供し、移動するボスや敵が散らばっている複数ウェーブの遭遇戦で優れています。
+
+<Callout type="warning" title="元素チャージ効率の警告">
+Durinを使用する場合、彼が単独の炎元素ユニットであるならば、少なくとも220%の元素チャージ効率を目指してください。毎回のローテーションで元素爆発を発動できない場合、VaresaのDPSが40%低下します。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="VaresaとHexereiバフとの相乗効果">
+
+2026年のアップデートで導入された「Hexerei」システムは、**VaresaのためのDurinかMavuikaか**の比較に新たな層を追加しました。Hexereiバフは通常、特定のウィンドウ内で適用された元素インスタンスの数に比例してスケールします。
+
+<CardGrid cols={2}>
+  <Card title="Durinのシナジー">
+    - **高頻度**: Mavuikaより30%速くHexereiスタックをトリガーします。
+    - **爆発バフ**: 絶縁の旗印や旧貴族のしつけセットから恩恵を受けます。
+    - **Varesaとの組み合わせ**: 「裁きの時」ウィンドウに最適です。
+  </Card>
+  <Card title="Mavuikaのシナジー">
+    - **安定性**: エネルギーのストレスなしで炎元素オーラを100%維持します。
+    - **機動性**: Varesaのダッシュを多用する戦闘スタイル中に追従します。
+    - **使いやすさ**: 複雑なローテーションやエネルギー供給は不要です。
+  </Card>
+</CardGrid>
+
+クリエイター体験サーバーからのデータによると、「ゼロエネルギー」環境ではMavuikaがデフォルトで勝利します。しかし、最適化されたエンドゲームビルドでは、Durinの炎元素ダメージを前倒しで与える能力により、Varesaは8秒間の元素付与ウィンドウ中にそのダメージ上限にはるかに速く到達することができます。
+
+| シナリオ | 最適な選択 | 理由 |
+| :--- | :--- | :--- |
+| **深境螺旋12層** | Durin | より高いAoEとスタック生成 |
+| **オープンワールド/探索** | Mavuika | ダメージのために元素爆発に依存しない |
+| **ボス戦（単体）** | Mavuika | 機動性と安定した付与 |
+| **スピードラン** | Durin | 莫大な前倒しダメージポテンシャル |
+
+<Callout type="success" title="メタ評価">
+ほとんどのプレイヤーにとって、Mavuikaは「快適な」選択ですが、Durinは「上限を追求する」選択です。ローテーションのミニマックス化を楽しむなら、DurinがVaresaにとって優れた選択肢となります。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="最適なチームローテーションとセットアップ">
+
+選択した炎元素付与役を最大限に活用するには、厳密なローテーションに従う必要があります。Varesaは炎元素トリガーのタイミングに非常に敏感です。
+
+<Steps>
+  <Step num="1" title="初期設定">
+    サポート/風元素ユニットで耐性を低下させることから始めます。Durinを使用する場合は、戦闘開始前に彼のエネルギーが満タンであることを確認してください。
+  </Step>
+  <Step num="2" title="炎元素付与">
+    Durinの元素爆発またはMavuikaの元素スキルを発動します。これにより、Varesaの反応に必要な炎元素オーラが確立されます。
+  </Step>
+  <Step num="3" title="Varesaの攻撃">
+    Varesaに切り替え、元素スキルを発動して元素付与を開始します。通常攻撃に集中してオフフィールドの炎元素ヒットをトリガーします。
+  </Step>
+  <Step num="4" title="エネルギー供給">
+    Varesaの攻撃ウィンドウが終了したら、バッテリーキャラクター（ベネットや西風武器の使用者など）を使用して、粒子をDurinに戻します。
+  </Step>
+</Steps>
+
+<Callout type="info" title="ローテーションノート">
+Mavuikaは、次のローテーションでその存在を維持するために粒子を回収する必要がないため、ステップ4においてより柔軟な対応が可能です。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="装備とステータス優先度">
+
+どのキャラクターを選択するかにかかわらず、彼らのビルドはVaresaのニーズを補完する必要があります。以下の表は、2026年のエンドゲームコンテンツに推奨されるステータスを示しています。
+
+| キャラクター | 推奨聖遺物セット | 優先ステータス | 武器選択 |
+| :--- | :--- | :--- | :--- |
+| **Durin** | 絶縁の旗印 | 元素チャージ効率% / 炎元素ダメージ% / 会心率/ダメ | 草薙の稲光 / 漁獲 |
+| **Mavuika** | 黄金の劇団 | 攻撃力% / 炎元素ダメージ% / 会心率/ダメ | 餅武器 / 昭心 |
+| **Varesa** | 黒曜石の写本 | 会心率/ダメ / 攻撃力% / 元素熟知 | 餅武器 / 黎明の神剣 |
+
+<Checklist
+  id="varesa-prep"
+  title="Varesaチームチェックリスト:"
+  items={[
+    "最大反応ダメージのためのDurin/Mavuikaレベル90",
+    "チームに少なくとも1つの西風武器（Durin用）",
+    "Varesaの元素スキル天賦レベル10",
+    "クリエイターサーバーモジュールでHexereiバフがアクティブ"
+  ]}
+/>
+
+<Callout type="warning" title="聖遺物ヒント">
+炎元素付与役の元素熟知（EM）を怠らないでください。Varesaがほとんどの反応をトリガーするとしても、DurinやMavuikaからのたまの「逆」ヒットは、基本EM100-150から恩恵を受けます。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "VaresaにはDurinとMavuikaのどちらがF2Pプレイヤーに適していますか？",
+    answer: "Mavuikaは一般的にF2Pプレイヤーにとってより良い選択です。彼女は高レベルの元素チャージ効率聖遺物や特定の星5武器を必要とせず、炎元素付与を維持しやすいため、より簡単にビルドできます。"
+  },
+  {
+    question: "VaresaとDurinとMavuikaの両方を一緒に運用できますか？",
+    answer: "両方を運用することは可能ですが、通常は効率的ではありません。より良いチームは、1人の炎元素付与役、1人の耐性低下役（風元素）、そして多様な反応を可能にする1人の水元素/氷元素ユニットで構成されるでしょう。"
+  },
+  {
+    question: "Hexereiバフはどちらかに有利ですか？",
+    answer: "はい、Ver.6.2のHexereiバフはDurinに有利です。彼の元素爆発はMavuikaのスキルよりも頻繁にヒットするため、チームは最大バフスタックにはるかに速く到達できます。"
+  },
+  {
+    question: "DurinはVaresaのためにどれくらいの元素チャージ効率が必要ですか？",
+    answer: "標準的なVaresaチームでは、Durinは約200-230%の元素チャージ効率が必要です。2人目の炎元素キャラクターを使用したり、複数の西風武器を使用したりすることで、この値は下げることができます。"
+  }
+]} />
+
+</Section>

@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cálculos de Armas para Durin: Clasificaciones 2026 y Comparación de Daño",
+  description: "Cálculos detallados de armas para Durin en sus formas de Pureza y Oscuridad. Compara su arma insignia Athame Artis frente a opciones F2P como Colmillo Wolf-Fang y Amanecer del Tejedor de Luna.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Durin+Weapon+Rankings",
+  date: "2026-05-26",
+  author: "Equipo de la Wiki de Durin",
+  keywords: "Durin, armas, cálculos, Genshin Impact, Athame Artis, F2P"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Arma Principal**: **Athame Artis** es la mejor opción (BiS) indiscutible, proporcionando un **aumento de daño del 36%** sobre las mejores opciones F2P cuando los bufos de Hexerei están activos.
+- **Mejor 4 Estrellas**: **Colmillo Wolf-Fang** en Refinamiento 5 es la opción más fuerte fuera de las de 5 estrellas, rivalizando con varias espadas limitadas de 5 estrellas en DPS personal.
+- **MVP F2P**: **Amanecer del Tejedor de Luna** es la mejor arma de acceso gratuito, obtenible mediante misiones, aunque requiere rotaciones específicas para gestionar la energía.
+- **Sinergia de Formas**: La elección del arma cambia según la forma; **Rugido del León** destaca en Sobrecarga (forma Blanca), mientras que **Espada del Alba** es una opción viable de bajo coste para Vaporizado (forma Oscura).
+- **Consejo de Inversión**: La **Constelación 1** a menudo aporta un mayor valor para todo el equipo que el arma insignia si ya posees una espada de Crítico de 5 estrellas como **Cortador de Jade**.
+</Callout>
+
+<Section icon={Swords} title="Cálculos de Armas para Durin: Insignia vs. Alternativas">
+
+Optimizar a Durin requiere entender cómo interactúan sus estados duales —**Confirmación de la Pureza** (Blanco) y **Negación de la Oscuridad** (Oscuro)— con las pasivas de las armas. Sus **cálculos de armas** muestran una dependencia significativa del efecto **Hexerei: Rito Secreto**, que potencia el rendimiento de su arma insignia en un 75%. Sin un segundo personaje Hexerei en el equipo, la brecha entre su arma insignia y las espadas de 5 estrellas de uso general se reduce significativamente.
+
+**Puntos Destacados del Vídeo:**
+- Desglose de la pasiva de **Athame Artis** y su interacción con personajes Hexerei.
+- Comparación directa de las capacidades de soporte de **Durin Blanco** frente al DPS personal de **Durin Oscuro**.
+- Análisis de los requisitos de recarga de energía (que oscilan entre el 117% y el 160% según los compañeros de equipo).
+- Demostración visual de la mecánica de generación de 33 puntos de energía plana de su Habilidad Elemental.
+
+<YouTubeEmbed videoId="bxG6N82s_Lk" title="¡Guía DEFINITIVA de Durin! [Artefactos, Armas, Equipos y MÁS] Genshin Impact" />
+
+<Callout type="tip" title="Sinergia Hexerei">
+Empareja siempre a Durin con al menos otro personaje Hexerei (como **Venti**, **Sucrose**, **Mona** o **Fischl**) para desbloquear todo el potencial de su arma insignia y los bufos de su Pasiva A1.
+</Callout>
+
+| Nombre del Arma | Estad. Principal | Beneficio Pasivo | Rendimiento (R1) |
+| :--- | :--- | :--- | :--- |
+| **Athame Artis** | Prob. CRIT | Bufo de ATQ + Bono Daño Definitiva | **100% (Base)** |
+| **Cortador de Jade Primordial** | Prob. CRIT | Conversión de Vida a ATQ | **88.4%** |
+| **Reflejo de las Tinieblas** | Daño CRIT | Cargas de Daño Elemental | **85.2%** |
+| **Luna Ondulante de Futsu** | Prob. CRIT | Bono de Daño Elemental | **83.7%** |
+| **Expiación** | Daño CRIT | Sinergia con Pacto Vital | **81.5%** |
+
+</Section>
+
+<Section icon={Target} title="DPS de Durin Oscuro: Clasificación de Vaporizado y Derretido">
+
+En su estado de **Negación de la Oscuridad**, Durin pasa de ser un Sub-DPS orientado al soporte a un repartidor de daño de alto techo. Sus **cálculos de armas** en esta forma priorizan las **estadísticas de Crítico** y la **Maestría Elemental**, ya que gana un enorme bono de daño de Vaporizado y Derretido del 40% (hasta el 70% con Hexerei). Las armas que proporcionan multiplicadores de daño para reacciones ven un salto masivo en su valor aquí.
+
+<CardGrid cols={3}>
+  <Card title="Enfoque en Reacciones">
+    - **Escalado de ME**: Se vuelve valioso en equipos de Vaporizado/Derretido.
+    - **Rugido del León**: Nivel superior para Sobrecarga/Quemadura.
+    - **Juramento por la Libertad**: Excelente para bufos a todo el equipo.
+  </Card>
+  <Card title="Equilibrio de Críticos">
+    - **Estadística de Ascensión**: Durin gana Daño CRIT al ascender.
+    - **Prioridad de Prob. CRIT**: Usa coronas de Probabilidad con armas de Daño.
+    - **Cortador de Jade**: Máxima consistencia para la forma Oscura.
+  </Card>
+  <Card title="Límites de Estadísticas">
+    - **Límite de ATQ**: La Pasiva A4 llega al límite con **2500 de ATQ**.
+    - **Energía**: La habilidad genera 4 partículas; apunta a un 130% de RE.
+    - **Escalado de Bufos**: Los bufos de la insignia aumentan un 75% mediante Hexerei.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Requisitos de Energía">
+Aunque Durin genera energía plana, llevarlo como la única unidad Pyro en su forma Oscura a menudo requiere un **Reloj de Recarga de Energía** si tu arma carece de estadísticas de RE.
+</Callout>
+
+| Arma | Mejor Escenario | Bono de Reacción | Nivel de DPS |
+| :--- | :--- | :--- | :--- |
+| **Colmillo Wolf-Fang (R5)** | DPS General | 32% Daño Habilidad/Definitiva | **Rango S** |
+| **Rugido del León (R5)** | Vaporizado/Quemadura | 36% Daño vs Pyro/Electro | **Rango A** |
+| **Final de las Profundidades** | Equipos con Sanador | Alto ATQ + Bono de Daño | **Rango A** |
+| **Espada del Alba** | Vaporizado Económico | Estadísticas masivas de CRIT | **Rango B** |
+
+</Section>
+
+<Section icon={Trophy} title="Progresión Free-to-Play: Mejores Espadas Económicas">
+
+Para los jugadores que decidan saltarse el banner de armas, Durin sigue siendo altamente efectivo con armas forjables y recompensas de misiones. El factor más importante en estos **cálculos de armas para Durin** es equilibrar sus altos requisitos de ATQ base para la pasiva A4 con sus necesidades de energía.
+
+<Steps>
+  <Step num="1" title="Completa Ecos de un Pasado Inconcluso">
+    Termina esta cadena de misiones de 2026 para obtener **Amanecer del Tejedor de Luna** gratis. Este es tu mejor punto de partida para una build equilibrada de Durin.
+  </Step>
+  <Step num="2" title="Evalúa tu Situación de Sanadores">
+    Si llevas a **Bennett** o **Furina**, forja el **Final de las Profundidades**. La mecánica del Pacto Vital se elimina fácilmente, proporcionando un aumento masivo de ATQ.
+  </Step>
+  <Step num="3" title="Refina el Colmillo Wolf-Fang">
+    Si compras el Pase de Batalla, prioriza el Refinamiento 5 para el **Colmillo Wolf-Fang**. Es la única arma de 4 estrellas que compite consistentemente con las opciones de 5 estrellas.
+  </Step>
+  <Step num="4" title="Verifica los Umbrales de Energía">
+    Si tu definitiva no está lista cada 18 segundos, cambia a la **Espada de Favonius**. Aunque el daño personal disminuye, la energía para todo el equipo suele ser más valiosa.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mejor Opción F2P">
+**Amanecer del Tejedor de Luna** es el "Estándar de Oro" recomendado para jugadores F2P. Proporciona un alto % de ATQ y Daño de Definitiva, aunque el coste de 70 de energía de la definitiva de Durin impide que el arma alcance su máximo teórico.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sinergia de Artefactos y Prioridades de Estadísticas">
+
+La selección de artefactos es tan crítica como la elección del arma en los **cálculos de Durin**. Dado que el daño de Durin se concentra casi por completo en su **Habilidad Definitiva**, se prefieren los conjuntos que potencian el Daño de Definitiva o proporcionan utilidad a todo el equipo.
+
+<Checklist
+  id="durin-stats"
+  title="Prioridad Óptima de Sub-estadísticas:"
+  items={[
+    "Recarga de Energía hasta 130-140% (Depende del equipo)",
+    "Prob. CRIT / Daño CRIT (Mantener ratio 1:2)",
+    "ATK% hasta 2500 en total (Límite de Pasiva A4)",
+    "Maestría Elemental (Solo para Vaporizado/Derretido en forma Oscura)",
+    "ATQ Plano (Baja prioridad pero ayuda)"
+  ]}
+/>
+
+| Conjunto de Artefactos | Ideal Para | Estad. Principales | Eficiencia |
+| :--- | :--- | :--- | :--- |
+| **Ritual Real de la Nobleza** | Soporte de Equipo | ATQ / Pyro / CRIT | **Alta** |
+| **Emblema del Destino** | Builds de Alta RE | ATQ / Pyro / CRIT | **Media** |
+| **Bruja Carmesí en Llamas** | Reacciones Forma Oscura | ATQ / Pyro / CRIT | **Alta (Vape)** |
+| **Sueños Áureos** | Equipos de Crepitar | ME / ME / ME | **Nicho** |
+
+<Callout type="info" title="Equilibrio de Estadísticas">
+Debido a que Durin escala el daño de su Definitiva en un 3% por cada 100 de ATQ (hasta un 75%), usar un **Cáliz de ATQ%** es viable si ya tienes bufos altos de % de Daño de personajes como **Furina** o **Kazuha**.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategia de Inversión: C1 vs. Arma Insignia">
+
+Muchos jugadores se preguntan si tirar por **Athame Artis** o por la primera constelación de Durin. Según los últimos **cálculos de armas**, la **Constelación 1** generalmente proporciona un mayor aumento de DPS para todo el equipo, especialmente en su **forma Blanca**, donde otorga 20 cargas de "Ciclo de la Iluminación" (similares a las plumas de Shenhe) a todo el grupo.
+
+<CardGrid cols={2}>
+  <Card title="Athame Artis (R1)">
+    - **Impulso Personal**: Salto masivo del 36% para Durin.
+    - **Bufo de Equipo**: Proporciona un 28% de ATQ (con Hexerei).
+    - **Riesgo**: Alto coste en el banner de armas.
+  </Card>
+  <Card title="Constelación 1 (C1)">
+    - **Valor de Soporte**: Bufos masivos de daño plano para el equipo.
+    - **Valor de DPS**: Escalado extra del 150% de ATQ en los golpes de la Definitiva.
+    - **Flexibilidad**: Funciona con cualquier arma, incluidas las F2P.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Veredicto Final">
+Si ya posees el **Cortador de Jade Primordial** o el **Reflejo de las Tinieblas**, prioriza la **C1 y C2** antes de ir a por el arma insignia. La C2 añade efectivamente un bufo de daño al nivel de Furina para todo el equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ: Preguntas sobre Armas y Builds de Durin">
+
+<FAQ items={[
+  {
+    question: "¿Por qué mis cálculos de armas para Durin son más bajos de lo esperado?",
+    answer: "Revisa tu ATQ total. Durin necesita 2500 de ATQ para maximizar su pasiva A4. Si estás por debajo de este umbral, el daño de tu Definitiva rendirá significativamente menos en comparación con las clasificaciones teóricas."
+  },
+  {
+    question: "¿Puede Durin usar el Deseo Ponzoñoso?",
+    answer: "Aunque encaja temáticamente, en realidad no es una buena opción. Las necesidades de energía de Durin son lo suficientemente bajas como para que la estadística secundaria de RE suela desperdiciarse, y no se beneficia tanto del bono de Daño de Habilidad como otros personajes."
+  },
+  {
+    question: "¿Es bueno el Rugido del León para equipos de Vaporizado?",
+    answer: "No. El Rugido del León requiere que haya un aura Pyro o Electro presente. En un equipo de Vaporizado, el aura Hydro a menudo elimina el aura Pyro, haciendo que la pasiva del arma sea inconsistente."
+  },
+  {
+    question: "¿Debería usar un Reloj de ME para Durin Oscuro?",
+    answer: "Solo si tienes bufos externos de ATQ masivos (como Bennett + Nobleza + Resonancia Pyro). En la mayoría de los escenarios con un solo buffer, el Reloj de ATQ% sigue siendo superior debido a su escalado A4."
+  }
+]} />
+
+</Section>

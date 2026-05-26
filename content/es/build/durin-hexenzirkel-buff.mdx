@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mejora del Hexenzirkel de Durin: Cambios en el Meta de 2026 y Mecánicas de Facción",
+  description: "Domina el sistema de mejoras del Hexenzirkel de Durin en Genshin Impact 6.2. Guía detallada sobre el Rito Arcano, mejoras específicas de personajes y la nueva resonancia de facción.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Durin+Hexenzirkel+Buff+Guide",
+  date: "2026-05-26",
+  author: "Equipo de Wiki de Durin",
+  keywords: "Durin, Hexenzirkel, Genshin Impact 6.2, Rito Arcano, Albedo, Venti, Meta"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mejora del Hexenzirkel de Durin**: Un nuevo sistema de resonancia basado en facciones llamado "Rito Arcano" o "Rito Secreto" introducido en la Versión 6.2.
+- **Requisito de Activación**: Debes incluir al menos dos **miembros del Hexenzirkel** (Magisters) en tu equipo para activar los efectos grupales.
+- **Principales Beneficiarios**: Se otorgan mejoras importantes a Albedo, Venti, Klee, Mona, Fischl, Sacarosa y al nuevo personaje Durin.
+- **Escalado de Estadísticas**: Muchas mejoras escalan directamente con estadísticas específicas del personaje, como la DEF de Albedo o el ATK de Durin.
+- **Proceso de Desbloqueo**: Los personajes deben completar tareas específicas de "Tareas de la Bruja" para ser reconocidos oficialmente como miembros del Hexenzirkel.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el Sistema del Rito Secreto del Hexenzirkel">
+
+La introducción de la Versión 6.2 Luna III ha cambiado fundamentalmente el meta de Mondstadt al introducir el sistema de **mejoras del Hexenzirkel de Durin**. Conocido oficialmente como el "Rito Arcano" o "Rito Secreto", esta mecánica actúa como una resonancia de facción especializada. A diferencia de la Resonancia Elemental estándar, el Rito Secreto proporciona modificaciones profundas en las habilidades de personajes específicos que son miembros de la misteriosa organización Hexenzirkel.
+
+**Puntos destacados del video:**
+- **Resonancia de Facción**: Requiere dos miembros del Hexenzirkel para activar modificadores de combate únicos.
+- **Rediseño de Albedo**: Cambios masivos en la calidad de vida de su Isótoma Solar y el escalado de DEF a DAÑO.
+- **El papel de Durin**: Durin actúa como el catalizador de estas mejoras, potenciando sus propias pasivas en un 75%.
+- **Reacciones Elementales**: Aumentos significativos en Sobrecarga, Electrocargado y Vaporización para los miembros de la facción.
+
+<YouTubeEmbed videoId="ORV5I8trBXM" title="Durin & Jahoda kit and Hexenzirkel buffs!" />
+
+<Callout type="tip" title="Nota sobre Sinergia">
+Para maximizar la mejora del Hexenzirkel de Durin, empareja siempre a Durin con Albedo o Venti. Los aumentos de porcentaje de daño bruto proporcionados por la nueva "Isótoma de Plata" de Albedo son actualmente inigualables por soportes tradicionales como Furina para esta facción específica.
+</Callout>
+
+| Característica | Resonancia Estándar | Rito Secreto del Hexenzirkel |
+| :--- | :--- | :--- |
+| **Activador** | 2 Personajes del mismo Elemento | 2 Personajes de la Facción Hexenzirkel |
+| **Tipo de Mejora** | Aumento de Estadísticas Planas (ATK/Vida) | Rediseño de Habilidades y Mecánicas Únicas |
+| **Escalado** | Fijo | Dinámico (Escala con DEF/ATK/ME) |
+| **Exclusividad** | Todos los personajes de ese elemento | Solo Magisters reconocidos |
+
+</Section>
+
+<Section icon={Swords} title="Durin: El Catalizador del Rito Arcano">
+
+Durin llega como una potencia que empuña una espada con un ataque base de 330 y ascensión de Daño Crítico. Su conjunto de habilidades gira en torno a la "Segregación de Dualidad", un proceso metalúrgico que le permite alternar entre dos estados distintos: Blanqueamiento y Negación de la Oscuridad. La **mejora del Hexenzirkel de Durin** se dirige específicamente a su talento pasivo, "El Luminar se rige por el Cálculo Divino", aumentando su efectividad en un asombroso 75%.
+
+<CardGrid cols={2}>
+  <Card title="Estado de Blanqueamiento">
+    - **Elemento**: Daño Pyro en el AdE
+    - **Duración**: 30 segundos
+    - **Efecto**: Reduce las resistencias enemigas a través de la manifestación del "Dragón de Habilidad".
+  </Card>
+  <Card title="Negación de la Oscuridad">
+    - **Elemento**: Triple Golpe Pyro
+    - **Duración**: 30 segundos
+    - **Efecto**: Impulso masivo al daño de Vaporización y Derretido para los propios ataques de Durin.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gestión de Energía">
+El estado de Negación de la Oscuridad de Durin restaura 33 de Energía al activarse, pero tiene un tiempo de espera de 12 segundos. Sincronizar esta transformación es crucial para mantener un tiempo de actividad de la definitiva del 100% en contenido de alta dificultad como el Piso 12 del Abismo Spiral.
+</Callout>
+
+| Talento de Durin | Efecto Base | Con Mejora del 75% del Hexenzirkel |
+| :--- | :--- | :--- |
+| **Reducción de Resistencia** | 20% Reducción de RES | 35% Reducción de RES |
+| **Bono de Reacción** | 40% Daño Vape/Melt | 70% Daño Vape/Melt |
+| **Límite de Daño de Definitiva** | 1,000 Bono de Daño | 1,750 Bono de Daño |
+| **Regeneración de Energía** | 6 Energía / 6s | 10.5 Energía / 6s |
+
+</Section>
+
+<Section icon={Sparkles} title="Albedo y Venti: Los Principales Beneficiarios">
+
+El impacto más significativo de la **mejora del Hexenzirkel de Durin** se siente en Albedo y Venti. El conjunto de habilidades de Albedo ha sido modernizado para eliminar la frustración de que su flor sea destruida por los jefes. Su nueva "Isótoma de Plata" (u Oralith) es indestructible y proporciona bonificaciones de daño masivas basadas en su estadística de Defensa.
+
+Venti, por su parte, pasa de ser un soporte de puro control de masas a un conductor viable en el campo. Su Habilidad Definitiva ahora le otorga una Infusión Anemo, y activar reacciones de Torbellino proporciona un bono masivo del 50% de Daño Elemental al elemento correspondiente.
+
+<Steps>
+  <Step num="1" title="Isótoma de Plata de Albedo">
+    Lanza la Habilidad Elemental para generar una Isótoma de Plata. Este campo aumenta el daño de los miembros del Hexenzirkel en un 10% por cada 1,000 de DEF que posea Albedo, con un límite del 30%.
+  </Step>
+  <Step num="2" title="Mejora de la Flor Fugaz">
+    Las Flores Fugaces ahora infligen daño adicional igual al 120% de la DEF de Albedo, escalando hasta el 250% si hay múltiples Isótomas presentes.
+  </Step>
+  <Step num="3" title="Optimización del Ojo de la Tormenta de Venti">
+    La Definitiva de Venti ahora aparece precisamente en el centro del enemigo. Mientras esté activa, cualquier reacción de Torbellino aumenta el daño de la Definitiva de Venti en un 135%.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Cambio en el Meta">
+Con estas mejoras, un Albedo C6 puede proporcionar un bono de daño que supera la mejora de Fanfarria de Furina para los miembros del Hexenzirkel, convirtiéndolo en el soporte absoluto "Best in Slot" para equipos temáticos de Mondstadt.
+</Callout>
+
+| Personaje | Mecánica Principal de Mejora | Valor Escalado (Máx) |
+| :--- | :--- | :--- |
+| **Albedo** | Bono de Daño Total basado en DEF | 42% Total (12% Gen + 30% Hex) |
+| **Venti** | Bono Elemental por Torbellino | 50% Bono de Daño |
+| **Klee** | Cargas de Impulso Explosivo | 150% Daño de Ataque Cargado |
+| **Sacarosa** | Invocación del Espíritu del Viento | 13% Bono de Daño Combinado |
+
+</Section>
+
+<Section icon={Target} title="Mejoras de Soporte y Facciones de 4 Estrellas">
+
+La **mejora del Hexenzirkel de Durin** no solo se aplica a las unidades de 5 estrellas. Fischl, Mona y Razor han recibido actualizaciones personalizadas que los hacen competitivos con los soportes de primer nivel de Fontaine y Natlan. Fischl, en particular, se convierte en una batería y potenciadora de primer nivel para equipos de Sobrecarga y Electrocargado.
+
+<CardGrid cols={3}>
+  <Card title="Fischl: Príncipe de la Noche">
+    - **Sobrecarga**: +22.5% ATK del Equipo
+    - **Electrocargado**: +90 ME del Equipo
+    - **Duración**: 10 segundos
+  </Card>
+  <Card title="Mona: Resplandor Astral">
+    - **Extensión de Presagio**: +2s a +8s
+    - **Bono de Vape**: +10% por carga
+    - **Cargas**: Máximo 3
+  </Card>
+  <Card title="Razor: Golpe de Trueno">
+    - **Daño AdE**: 150% ATK
+    - **Energía**: +7 por segundo
+    - **Condición**: Sigilos Electro al Máximo
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Potencial de Mona como Conductora">
+La capacidad de Mona para extender el estado de Presagio a través de ataques Normales y Cargados le permite mantener el bono de daño del 60% durante casi toda la rotación. Esto la convierte en una conductora increíble para las aplicaciones Pyro fuera del campo de Durin.
+</Callout>
+
+| Personaje | Mejora de Reacción | Efecto Secundario |
+| :--- | :--- | :--- |
+| **Fischl** | Sobrecarga / Lunar | Impulso de ATK y ME del Equipo |
+| **Mona** | Vaporización | Extensión de la Duración de Presagio |
+| **Sacarosa** | Torbellino | Aumento del % de Daño de todos los tipos |
+| **Razor** | Electrocargado | Auto-sustento de Alta Energía |
+
+</Section>
+
+<Section icon={Shield} title="Cómo Desbloquear y Activar los Ritos Secretos">
+
+El acceso a la **mejora del Hexenzirkel de Durin** no es automático al obtener los personajes. Los jugadores deben completar una serie de hitos de progresión para "reconocer" a estas unidades como Magisters oficiales de la facción.
+
+<Checklist
+  id="hexenzirkel-unlock"
+  title="Lista de Verificación de Reconocimiento de Magister:"
+  items={[
+    "Completar la línea de misiones de mundo 'Tareas de la Bruja' en Mondstadt",
+    "Alcanzar el nivel 90 con el personaje del Hexenzirkel objetivo",
+    "Equipar un arma de nivel 90 compatible con su Rito Secreto específico",
+    "Completar el desafío 'Prueba de la Luna' específico del personaje",
+    "Asegurarse de que al menos dos miembros reconocidos estén en el equipo activo"
+  ]}
+/>
+
+<Callout type="warning" title="Límites de Facción">
+Actualmente, solo los personajes que figuran en la lista del Hexenzirkel (Albedo, Klee, Mona, Venti, Fischl, Sacarosa, Razor, Durin, Varka, Nicole y Prune) pueden activar el Rito Secreto. Personajes como Jean o Diluc, a pesar de ser de Mondstadt, no se benefician actualmente de este sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre la Mejora del Hexenzirkel">
+
+<FAQ items={[
+  {
+    question: "¿Se acumula la mejora del Hexenzirkel de Durin con la Resonancia Elemental estándar?",
+    answer: "Sí. Puedes beneficiarte simultáneamente de la Resonancia Pyro (+25% ATK) y de las mejoras del Rito Secreto del Hexenzirkel si la composición de tu equipo cumple con ambos criterios."
+  },
+  {
+    question: "¿Es la nueva Isótoma de Plata de Albedo realmente indestructible?",
+    answer: "Sí, a diferencia de la Isótoma Solar, la Isótoma de Plata generada a través de la mejora del Hexenzirkel no puede ser destruida por los hitboxes de los jefes o el daño ambiental, resolviendo un problema de larga data con su conjunto de habilidades."
+  },
+  {
+    question: "¿Cuánto dura la Infusión Anemo de Venti?",
+    answer: "La Infusión Anemo de Venti dura toda la duración de su Habilidad Definitiva (Ojo de la Tormenta). Esto le permite actuar como conductor para reacciones como Torbellino o la nueva reacción de Carga Lunar."
+  },
+  {
+    question: "¿Qué personaje se beneficia más de la presencia de Durin?",
+    answer: "Albedo es el mayor ganador. Durin proporciona el activador de facción necesario para desbloquear el escalado de DEF a DAÑO de Albedo, que puede alcanzar hasta un 42% de bono de daño total para todo el equipo."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+La mejora del Hexenzirkel de Durin revitaliza con éxito la plantilla de Mondstadt para 2026. Al centrarse en sinergias de facción específicas en lugar de un simple aumento de poder bruto, HoYoverse ha dado a los jugadores veteranos una razón para traer de vuelta unidades clásicas como Klee y Albedo al meta moderno.
+</Callout>
+
+</Section>

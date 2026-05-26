@@ -1,0 +1,227 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin Ult Snapshot: Understanding Burst Mechanics",
+  description: "Learn how Durin's Elemental Burst in Genshin Impact interacts with buffs and the concept of snapshotting for optimal damage.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/9333ea/fff?text=Durin+Ult+Snapshot",
+  date: "2026-05-26",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Durin's Elemental Burst** does **not snapshot** buffs, meaning its damage is calculated in real-time.
+- Buffs applied *after* Durin's Burst activation will **not** affect its damage.
+- Optimize damage by applying all relevant buffs *before* casting Durin's Burst.
+- This non-snapshotting mechanic applies to both his Purity (White) and Darkness (Dark) forms.
+- Understanding **snapshotting** is crucial for maximizing character damage in Genshin Impact.
+</Callout>
+
+<Section icon={Swords} title="Understanding Durin's Elemental Burst">
+Durin, a 5-star Pyro Sword character in Genshin Impact, possesses an Elemental Burst that forms the core of his kit. This Burst allows him to deal significant off-field Pyro damage, either focusing on team buffs in his Purity (White) state or personal damage in his Darkness (Dark) state. A crucial aspect of maximizing Durin's damage output is understanding how his Burst interacts with buffs, specifically whether it "snapshots" or not.
+
+**Snapshotting** refers to a game mechanic where an ability's damage or effects are fixed based on the character's stats at the moment of activation. If an ability snapshots, any buffs gained *after* its cast will not influence its ongoing damage. Conversely, if an ability does *not* snapshot, its damage is dynamically recalculated with current buffs. For Durin, his Elemental Burst falls into the latter category.
+
+**Video Highlights:**
+- Durin's Elemental Burst is central to his damage and support.
+- His Burst has two forms: Purity (White) for buffs and Darkness (Dark) for personal damage.
+- The Burst does not snapshot buffs, requiring real-time buff application.
+- Maximizing Burst damage involves careful team rotation and buff timing.
+- Understanding this mechanic is key to optimizing Durin's performance.
+
+<Callout type="warning" title="Important Snapshotting Note">
+Durin's Elemental Burst, regardless of whether he is in his Purity (White) or Darkness (Dark) state, **does not snapshot buffs**. This means that any buffs applied to Durin *after* he casts his Burst will not affect the damage dealt by the ongoing Burst effect. All buffs must be active *before* his Burst is cast to take effect.
+</Callout>
+
+This non-snapshotting behavior distinguishes Durin's Burst from some other characters' abilities, such as Xiangling's Pyronado, which famously does snapshot buffs. For Durin, this implies a specific rotation strategy to ensure he benefits from all available damage-boosting effects.
+
+</Section>
+
+<Section icon={Target} title="How Snapshotting Works in Genshin Impact">
+Snapshotting is a fundamental concept for optimizing character damage in Genshin Impact. Abilities that snapshot record a character's stats (like ATK, Elemental DMG Bonus, CRIT stats) at the moment of casting and maintain those stats for the entire duration of the ability. Abilities that do not snapshot recalculate damage in real-time as buffs come and go.
+
+<Callout type="tip">
+Generally, if a buff causes a visible change in a character's stat menu (e.g., ATK buffs, Elemental DMG Bonus buffs), it is often snapshottable. Buffs that do not show a visible stat change (e.g., Elemental Burst DMG Bonus, Additive Base DMG Bonus) are typically non-snapshottable and apply in real-time.
+</Callout>
+
+### Snapshotting vs. Non-Snapshotting Abilities
+
+Here’s a comparison of common ability types and their snapshotting behavior:
+
+| Ability Type | Snapshotting Behavior | Examples |
+| :----------- | :-------------------- | :------- |
+| **Summoned Entities** | Often snapshots | Xiangling's Pyronado, Fischl's Oz, Albedo's Solar Isotoma |
+| **Persistent Field Effects** | Varies, often real-time | Bennett's Fantastic Voyage (buffs snapshot, but field itself is real-time), Durin's Burst |
+| **Single-Instance Damage** | Always real-time | Most Elemental Skill/Burst initial hits |
+| **Additive Base DMG Buffs** | Always real-time | Shenhe's Icy Quill, Yun Jin's Burst |
+
+For Durin, his Burst's periodic damage instances are continuously updated. This means a buff like Bennett's ATK buff needs to be active *when each hit lands*, not just when Durin casts his Burst.
+
+</Section>
+
+<Section icon={Map} title="Optimizing Durin's Burst Damage">
+Since Durin's Burst does not snapshot, careful timing of buffs is essential. The goal is to apply all major damage buffs *before* Durin uses his Elemental Burst and maintain them throughout its duration if possible.
+
+### Buff Application Sequence for Durin
+<Steps>
+  <Step num="1" title="Apply Elemental RES Shred">
+    Initiate with characters that reduce enemy Elemental Resistance, such as Anemo characters with 4pc Viridescent Venerer (e.g., Sucrose, Kazuha) or Durin himself in his Purity state.
+  </Step>
+  <Step num="2" title="Activate ATK/DMG Buffs">
+    Cast abilities from support characters that provide ATK% buffs (e.g., Bennett's Elemental Burst) or Elemental DMG% bonuses.
+  </Step>
+  <Step num="3" title="Trigger CRIT Buffs (if applicable)">
+    If your team includes characters that provide CRIT Rate or CRIT DMG buffs, ensure they are active.
+  </Step>
+  <Step num="4" title="Durin's Elemental Burst">
+    Immediately after all buffs are applied, unleash Durin's Elemental Burst. This ensures his initial hits and subsequent periodic damage benefit from the full suite of active buffs.
+  </Step>
+  <Step num="5" title="On-field DPS (if applicable)">
+    If Durin is playing off-field, switch to your on-field DPS to maximize their damage while Durin's Burst is active and buffs are maintained. If Durin is on-field (e.g., with C6 Bennett), continue his attacks within the buff windows.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Maximizing Durin's Potential">
+To get the most out of Durin's Elemental Burst, always ensure that all your team's buffs (ATK, Elemental DMG, RES Shred) are active *before* he casts his Burst. This is especially critical for buffs with shorter durations.
+</Callout>
+
+### Key Buffs for Durin
+Consider these common buffs when building a team around Durin:
+
+| Buff Type | Character | Effect | Duration | Snapshot |
+| :-------- | :-------- | :----- | :------- | :------- |
+| ATK Buff | **Bennett** | Significant ATK increase | 12s | Yes (for unit that snapshots), Real-time (for unit that doesn't snapshot) |
+| Pyro DMG Bonus | **Kazuha/Sucrose** (VV) | Pyro RES Shred | 10s | Real-time |
+| Elemental DMG Bonus | **Furina** | Teamwide DMG% buff | 18s | Real-time |
+| Elemental Mastery | **Sucrose/Albedo** | EM for reactions | Varies | Real-time (for transformative reactions) |
+| DEF Shred | **Durin C6** | 30% DEF ignore (Burst) | 6s | Real-time |
+
+</Section>
+
+<Section icon={Shield} title="Durin's Burst Forms and Hexerei Passive">
+Durin's Elemental Burst has two distinct forms, Purity (White Form) and Darkness (Dark Form), which determine his primary role and the effects of his Ascension 1 Passive. Neither of these forms' Burst damage snapshots.
+
+### Burst Form Characteristics
+<CardGrid cols={2}>
+  <Card title="Principle of Purity: As the Light Shifts (White Form)">
+    - Deals AoE Pyro DMG periodically.
+    - Focuses on team buffs.
+    - A1 Passive: Decreases Pyro RES and corresponding Elemental RES (Anemo, Dendro, Geo) by 20% for 6s.
+    - With Hexerei Passive: 35% RES Shred, effectively replacing a 4pc VV user.
+  </Card>
+  <Card title="Principle of Darkness: As the Stars Smolder (Dark Form)">
+    - Deals single-target Pyro DMG periodically.
+    - Focuses on personal damage.
+    - A1 Passive: Increases Melt and Vaporize DMG by 40%.
+    - With Hexerei Passive: 70% Melt and Vaporize DMG Bonus, significantly boosting personal damage.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+Durin's Hexerei Passive enhances his A1 Passive buffs by 75% when teamed with at least one other Hexerei character. This makes Hexerei teammates highly valuable for maximizing Durin's utility or damage.
+</Callout>
+
+The fact that neither Burst form snapshots means that whether you are using Durin for RES Shred or personal reaction damage, the buffs need to be active during the Burst's uptime. This is particularly important for reaction-based teams (Melt/Vaporize) where Elemental Mastery and DMG bonuses are crucial.
+
+</Section>
+
+<Section icon={Trophy} title="Team Composition and Rotations">
+Building effective teams around Durin requires understanding his non-snapshotting Burst. Your rotation should prioritize setting up buffs before Durin's Burst and maintaining key buffs for its full duration.
+
+### Example Rotation for Overvape (Non-Snapshotting Burst)
+<Steps>
+  <Step num="1" title="Fischl E (First Rotation Only)">
+    Start with Fischl's Elemental Skill to summon Oz for off-field Electro application.
+  </Step>
+  <Step num="2" title="Furina ED Q">
+    Use Furina's Elemental Skill and then Burst to apply Hydro, begin generating Fanfare stacks, and provide her teamwide DMG% buff. This buff applies in real-time to Durin's Burst.
+  </Step>
+  <Step num="3" title="Bennett EQ">
+    Cast Bennett's Elemental Burst to create his healing/ATK buff field. This ATK buff is crucial for Durin's real-time damage calculations.
+  </Step>
+  <Step num="4" title="Fischl Q / E">
+    Refresh Oz's duration with Fischl's Burst or Skill if needed, ensuring continuous Electro application.
+  </Step>
+  <Step num="5" title="Durin E N1 Q combo">
+    Use Durin's Skill (E) then a Normal Attack (N1) to enter his Darkness (Dark) form, then immediately cast his Elemental Burst (Q). His Burst will now benefit from Furina's DMG% buff and Bennett's ATK buff in real-time.
+  </Step>
+  <Step num="6" title="Bennett E (if needed)">
+    If Bennett's Energy Recharge requires it, use his Skill again.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+In teams where Durin can cast his Skill twice per rotation, his Energy Recharge (ER) requirements are significantly reduced. At Talent Level 9, entering either state restores 30 Energy, which immediately activates.
+</Callout>
+
+### ER Requirements Table (Talent Level 9 Skill)
+| Teammates | Off-Field ER | On-Field ER |
+| :-------- | :----------- | :---------- |
+| **0 Pyro** | 120-150% | N/A |
+| **1 Pyro** | 100-150% | 100-125% |
+| **2 Pyro** | 100-110% | 100% |
+
+These values assume one Skill cast. If Durin can cast his Skill twice in a rotation, he may require no ER at all. For precise calculations, use an Energy Recharge Calculator.
+
+</Section>
+
+<Section icon={Sparkles} title="Artifacts and Weapons for Non-Snapshotting Bursts">
+Choosing the right artifacts and weapons for Durin is crucial given his non-snapshotting Burst. Focus on stats that are consistently high or provide real-time bonuses.
+
+### Recommended Artifact Sets
+| Artifact Set | Benefit for Durin | Notes |
+| :----------- | :---------------- | :---- |
+| **4pc Noblesse Oblige (NO)** | Burst DMG + Team ATK Buff | Excellent if no one else holds it, buffs Durin's own Burst. |
+| **4pc Crimson Witch of Flames (CW)** | Pyro DMG & Reaction DMG | Best for Overvape teams, strong for Melt/Vaporize. |
+| **4pc Gilded Dreams (GD)** | EM & ATK | Best for Burgeon teams, good for reaction-focused builds. |
+| **4pc Emblem of Severed Fate (ESF)** | Burst DMG based on ER | Solid generalist, especially with high ER needs. |
+| **4pc Marechaussee Hunter (MH)** | CRIT Rate (on-field) | Strong with Furina if Durin is on-field, avoid overcapping CRIT Rate. |
+| **2pc Mixed Sets** | Burst DMG, Pyro DMG, ATK%, EM, ER | Flexible option while farming for 4pc sets. 2pc NO + 2pc CW is often optimal. |
+
+<Callout type="info">
+An ATK% Goblet and a Pyro DMG Bonus Goblet can perform similarly; the best choice depends on substats and team buffs. Prioritize CRIT Rate/DMG in the Circlet to balance ratios.
+</Callout>
+
+### Top Weapon Choices
+| Weapon | Rarity | Main Benefit | Notes |
+| :----- | :----- | :----------- | :---- |
+| **Athame Artis** | 5★ | CRIT Rate, Burst DMG%, ATK% | Durin's BiS. Maximize with Hexerei teammate. |
+| **Primordial Jade Cutter** | 5★ | CRIT Rate, HP, ATK% | Close runner-up, generally strong. |
+| **Haran Geppaku Futsu** | 5★ | CRIT Rate, Elemental DMG% | Excellent for Elemental DMG. |
+| **Wolf-Fang** | 4★ | CRIT Rate, Skill/Burst DMG% | Generally best 4★, competes with 5★ at R5. Passive doesn't stack off-field. |
+| **Finale of the Deep** | 4★ | ATK%, ATK buff | Competitive craftable with healers, outperforms R1 Wolf-Fang with DMG buffs. |
+| **Lion's Roar** | 4★ | DMG Bonus against Pyro/Electro affected enemies | Viable in Overloaded/Burning teams. |
+| **Freedom-Sworn** | 5★ | EM, Team ATK Buff | Great support option for ATK-scaling DPS. |
+| **Favonius Sword** | 4★ | ER, Team Energy | Good for meeting ER needs if other DPS options aren't available. |
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions about Durin's Burst">
+
+<FAQ items={[
+  {
+    question: "Does Durin's Elemental Burst snapshot buffs?",
+    answer: "No, Durin's Elemental Burst does not snapshot buffs. This means its damage is dynamically calculated based on his current stats, so buffs need to be active throughout its duration to affect its damage."
+  },
+  {
+    question: "What does it mean for an ability to 'snapshot'?",
+    answer: "Snapshotting refers to an ability recording a character's stats (like ATK, Elemental DMG, CRIT) at the moment it's cast, and using those fixed stats for its entire duration, even if buffs expire or change afterwards. Non-snapshotting abilities update their damage in real-time."
+  },
+  {
+    question: "How should I time buffs for Durin's Burst?",
+    answer: "Always apply all relevant buffs (e.g., RES Shred, ATK buffs from Bennett, Elemental DMG bonuses from Furina) *before* casting Durin's Elemental Burst. This ensures his Burst benefits from these active buffs as its damage is dealt in real-time."
+  },
+  {
+    question: "Are there any exceptions to Durin's Burst not snapshotting?",
+    answer: "No, both his Principle of Purity (White Form) and Principle of Darkness (Dark Form) Bursts follow the same rule: they do not snapshot buffs. The effects are always real-time."
+  }
+]} />
+
+</Section>

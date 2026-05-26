@@ -1,0 +1,227 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin Ult Snapshot: Entendiendo la Mecánica de la Habilidad Definitiva",
+  description: "Aprende cómo la Habilidad Definitiva de Durin en Genshin Impact interactúa con los buffs y el concepto de 'snapshotting' para un daño óptimo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/9333ea/fff?text=Durin+Ult+Snapshot",
+  date: "2026-05-26",
+  author: "Equipo Wiki de Durin"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **Habilidad Definitiva de Durin** **no realiza 'snapshot'** de los buffs, lo que significa que su daño se calcula en tiempo real.
+- Los buffs aplicados *después* de la activación de la Habilidad Definitiva de Durin **no** afectarán su daño.
+- Optimiza el daño aplicando todos los buffs relevantes *antes* de lanzar la Habilidad Definitiva de Durin.
+- Esta mecánica de no 'snapshotting' se aplica tanto a sus formas de Pureza (Blanco) como de Oscuridad (Oscuro).
+- Entender el **'snapshotting'** es crucial para maximizar el daño de los personajes en Genshin Impact.
+</Callout>
+
+<Section icon={Swords} title="Entendiendo la Habilidad Definitiva de Durin">
+Durin, un personaje Pyro de espada de 5 estrellas en Genshin Impact, posee una Habilidad Definitiva que forma el núcleo de su kit. Esta Habilidad Definitiva le permite infligir un daño Pyro significativo fuera del campo, ya sea centrándose en buffs de equipo en su estado de Pureza (Blanco) o en daño personal en su estado de Oscuridad (Oscuro). Un aspecto crucial para maximizar la producción de daño de Durin es comprender cómo su Habilidad Definitiva interactúa con los buffs, específicamente si realiza "snapshot" o no.
+
+El **'snapshotting'** se refiere a una mecánica de juego donde el daño o los efectos de una habilidad se fijan en función de las estadísticas del personaje en el momento de la activación. Si una habilidad realiza 'snapshot', cualquier buff obtenido *después* de su lanzamiento no influirá en su daño continuo. Por el contrario, si una habilidad *no* realiza 'snapshot', su daño se recalcula dinámicamente con los buffs actuales. Para Durin, su Habilidad Definitiva se encuentra en esta última categoría.
+
+**Puntos destacados del video:**
+- La Habilidad Definitiva de Durin es central para su daño y soporte.
+- Su Habilidad Definitiva tiene dos formas: Pureza (Blanco) para buffs y Oscuridad (Oscuro) para daño personal.
+- La Habilidad Definitiva no realiza 'snapshot' de los buffs, lo que requiere la aplicación de buffs en tiempo real.
+- Maximizar el daño de la Habilidad Definitiva implica una rotación de equipo cuidadosa y una sincronización de buffs.
+- Entender esta mecánica es clave para optimizar el rendimiento de Durin.
+
+<Callout type="warning" title="Nota Importante sobre el 'Snapshotting'">
+La Habilidad Definitiva de Durin, independientemente de si está en su estado de Pureza (Blanco) o de Oscuridad (Oscuro), **no realiza 'snapshot' de los buffs**. Esto significa que cualquier buff aplicado a Durin *después* de que lance su Habilidad Definitiva no afectará el daño infligido por el efecto continuo de la Habilidad Definitiva. Todos los buffs deben estar activos *antes* de que se lance su Habilidad Definitiva para que surtan efecto.
+</Callout>
+
+Este comportamiento de no 'snapshotting' distingue la Habilidad Definitiva de Durin de las habilidades de otros personajes, como el Pyronado de Xiangling, que es famoso por realizar 'snapshot' de los buffs. Para Durin, esto implica una estrategia de rotación específica para asegurar que se beneficie de todos los efectos de aumento de daño disponibles.
+
+</Section>
+
+<Section icon={Target} title="Cómo Funciona el 'Snapshotting' en Genshin Impact">
+El 'snapshotting' es un concepto fundamental para optimizar el daño de los personajes en Genshin Impact. Las habilidades que realizan 'snapshot' registran las estadísticas de un personaje (como ATQ, Bono de Daño Elemental, estadísticas CRIT) en el momento del lanzamiento y mantienen esas estadísticas durante toda la duración de la habilidad. Las habilidades que no realizan 'snapshot' recalculan el daño en tiempo real a medida que los buffs aparecen y desaparecen.
+
+<Callout type="tip">
+Generalmente, si un buff causa un cambio visible en el menú de estadísticas de un personaje (por ejemplo, buffs de ATQ, buffs de Bono de Daño Elemental), a menudo es susceptible de 'snapshot'. Los buffs que no muestran un cambio de estadística visible (por ejemplo, Bono de Daño de Habilidad Definitiva, Bono de Daño Base Aditivo) suelen no ser susceptibles de 'snapshot' y se aplican en tiempo real.
+</Callout>
+
+### Habilidades con y sin 'Snapshotting'
+
+Aquí tienes una comparación de los tipos de habilidades comunes y su comportamiento de 'snapshotting':
+
+| Tipo de Habilidad | Comportamiento de 'Snapshotting' | Ejemplos |
+| :----------- | :-------------------- | :------- |
+| **Entidades Invocadas** | A menudo realizan 'snapshot' | Pyronado de Xiangling, Oz de Fischl, Isotoma Solar de Albedo |
+| **Efectos de Campo Persistentes** | Varía, a menudo en tiempo real | Viaje Fantástico de Bennett (los buffs realizan 'snapshot', pero el campo en sí es en tiempo real), Habilidad Definitiva de Durin |
+| **Daño de Instancia Única** | Siempre en tiempo real | La mayoría de los golpes iniciales de Habilidades Elementales/Definitivas |
+| **Buffs de Daño Base Aditivo** | Siempre en tiempo real | Pluma Gélida de Shenhe, Habilidad Definitiva de Yun Jin |
+
+Para Durin, las instancias de daño periódico de su Habilidad Definitiva se actualizan continuamente. Esto significa que un buff como el de ATQ de Bennett debe estar activo *cuando cada golpe aterriza*, no solo cuando Durin lanza su Habilidad Definitiva.
+
+</Section>
+
+<Section icon={Map} title="Optimizando el Daño de la Habilidad Definitiva de Durin">
+Dado que la Habilidad Definitiva de Durin no realiza 'snapshot', es esencial una sincronización cuidadosa de los buffs. El objetivo es aplicar todos los buffs de daño principales *antes* de que Durin use su Habilidad Definitiva y mantenerlos durante toda su duración si es posible.
+
+### Secuencia de Aplicación de Buffs para Durin
+<Steps>
+  <Step num="1" title="Aplicar Reducción de RES Elemental">
+    Inicia con personajes que reducen la Resistencia Elemental del enemigo, como personajes Anemo con 4 piezas de Sombra Verde Esmeralda (por ejemplo, Sacarosa, Kazuha) o el propio Durin en su estado de Pureza.
+  </Step>
+  <Step num="2" title="Activar Buffs de ATQ/Daño">
+    Lanza habilidades de personajes de soporte que proporcionen buffs de ATQ% (por ejemplo, la Habilidad Definitiva de Bennett) o bonos de Daño Elemental%.
+  </Step>
+  <Step num="3" title="Activar Buffs CRIT (si aplica)">
+    Si tu equipo incluye personajes que proporcionan buffs de Prob. CRIT o Daño CRIT, asegúrate de que estén activos.
+  </Step>
+  <Step num="4" title="Habilidad Definitiva de Durin">
+    Inmediatamente después de aplicar todos los buffs, desata la Habilidad Definitiva de Durin. Esto asegura que sus golpes iniciales y el daño periódico subsiguiente se beneficien de todo el conjunto de buffs activos.
+  </Step>
+  <Step num="5" title="DPS en campo (si aplica)">
+    Si Durin está jugando fuera del campo, cambia a tu DPS en campo para maximizar su daño mientras la Habilidad Definitiva de Durin está activa y los buffs se mantienen. Si Durin está en campo (por ejemplo, con Bennett C6), continúa sus ataques dentro de las ventanas de buff.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Maximizando el Potencial de Durin">
+Para sacar el máximo provecho de la Habilidad Definitiva de Durin, asegúrate siempre de que todos los buffs de tu equipo (ATQ, Daño Elemental, Reducción de RES) estén activos *antes* de que lance su Habilidad Definitiva. Esto es especialmente crítico para los buffs con duraciones más cortas.
+</Callout>
+
+### Buffs Clave para Durin
+Considera estos buffs comunes al construir un equipo alrededor de Durin:
+
+| Tipo de Buff | Personaje | Efecto | Duración | Snapshot |
+| :-------- | :-------- | :----- | :------- | :------- |
+| Buff de ATQ | **Bennett** | Aumento significativo de ATQ | 12s | Sí (para unidad que realiza 'snapshot'), Tiempo real (para unidad que no realiza 'snapshot') |
+| Bono de Daño Pyro | **Kazuha/Sacarosa** (VV) | Reducción de RES Pyro | 10s | Tiempo real |
+| Bono de Daño Elemental | **Furina** | Buff de Daño% para todo el equipo | 18s | Tiempo real |
+| Maestría Elemental | **Sacarosa/Albedo** | EM para reacciones | Varía | Tiempo real (para reacciones transformadoras) |
+| Reducción de DEF | **Durin C6** | Ignora 30% de DEF (Habilidad Definitiva) | 6s | Tiempo real |
+
+</Section>
+
+<Section icon={Shield} title="Formas de la Habilidad Definitiva de Durin y Pasiva de Hexerei">
+La Habilidad Definitiva de Durin tiene dos formas distintas, Pureza (Forma Blanca) y Oscuridad (Forma Oscura), que determinan su rol principal y los efectos de su Pasiva de Ascensión 1. El daño de la Habilidad Definitiva de ninguna de estas formas realiza 'snapshot'.
+
+### Características de la Forma de la Habilidad Definitiva
+<CardGrid cols={2}>
+  <Card title="Principio de Pureza: A medida que la Luz Cambia (Forma Blanca)">
+    - Inflige Daño Pyro en Área periódicamente.
+    - Se enfoca en buffs de equipo.
+    - Pasiva A1: Disminuye la RES Pyro y la RES Elemental correspondiente (Anemo, Dendro, Geo) en un 20% durante 6s.
+    - Con Pasiva Hexerei: 35% de Reducción de RES, reemplazando efectivamente a un usuario de 4 piezas de Sombra Verde Esmeralda.
+  </Card>
+  <Card title="Principio de Oscuridad: A medida que las Estrellas Arden (Forma Oscura)">
+    - Inflige Daño Pyro de objetivo único periódicamente.
+    - Se enfoca en el daño personal.
+    - Pasiva A1: Aumenta el Daño de Derretido y Vaporizado en un 40%.
+    - Con Pasiva Hexerei: 70% de Bono de Daño de Derretido y Vaporizado, aumentando significativamente el daño personal.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+La Pasiva Hexerei de Durin mejora sus buffs de Pasiva A1 en un 75% cuando se une a al menos otro personaje Hexerei. Esto hace que los compañeros de equipo Hexerei sean muy valiosos para maximizar la utilidad o el daño de Durin.
+</Callout>
+
+El hecho de que ninguna forma de la Habilidad Definitiva realice 'snapshot' significa que, ya sea que uses a Durin para la Reducción de RES o para el daño de reacción personal, los buffs deben estar activos durante el tiempo de actividad de la Habilidad Definitiva. Esto es particularmente importante para los equipos basados en reacciones (Derretido/Vaporizado) donde la Maestría Elemental y los bonos de Daño son cruciales.
+
+</Section>
+
+<Section icon={Trophy} title="Composición de Equipo y Rotaciones">
+Construir equipos efectivos alrededor de Durin requiere comprender su Habilidad Definitiva que no realiza 'snapshot'. Tu rotación debe priorizar la configuración de buffs antes de la Habilidad Definitiva de Durin y mantener los buffs clave durante toda su duración.
+
+### Ejemplo de Rotación para Sobrecargado/Vaporizado (Habilidad Definitiva sin 'Snapshotting')
+<Steps>
+  <Step num="1" title="Habilidad Elemental de Fischl (Solo en la primera rotación)">
+    Comienza con la Habilidad Elemental de Fischl para invocar a Oz y aplicar Electro fuera del campo.
+  </Step>
+  <Step num="2" title="Habilidad Elemental y Definitiva de Furina">
+    Usa la Habilidad Elemental de Furina y luego su Habilidad Definitiva para aplicar Hydro, comenzar a generar acumulaciones de Fanfarria y proporcionar su buff de Daño% para todo el equipo. Este buff se aplica en tiempo real a la Habilidad Definitiva de Durin.
+  </Step>
+  <Step num="3" title="Habilidad Elemental y Definitiva de Bennett">
+    Lanza la Habilidad Definitiva de Bennett para crear su campo de curación/buff de ATQ. Este buff de ATQ es crucial para los cálculos de daño en tiempo real de Durin.
+  </Step>
+  <Step num="4" title="Habilidad Definitiva / Elemental de Fischl">
+    Actualiza la duración de Oz con la Habilidad Definitiva o Elemental de Fischl si es necesario, asegurando una aplicación continua de Electro.
+  </Step>
+  <Step num="5" title="Combo de Habilidad Elemental, Ataque Normal 1 y Habilidad Definitiva de Durin">
+    Usa la Habilidad Elemental (E) de Durin, luego un Ataque Normal (N1) para entrar en su forma de Oscuridad (Oscuro), luego lanza inmediatamente su Habilidad Definitiva (Q). Su Habilidad Definitiva ahora se beneficiará del buff de Daño% de Furina y del buff de ATQ de Bennett en tiempo real.
+  </Step>
+  <Step num="6" title="Habilidad Elemental de Bennett (si es necesario)">
+    Si la Recarga de Energía de Bennett lo requiere, usa su Habilidad Elemental de nuevo.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+En equipos donde Durin puede lanzar su Habilidad Elemental dos veces por rotación, sus requisitos de Recarga de Energía (ER) se reducen significativamente. En el Nivel de Talento 9, entrar en cualquiera de los estados restaura 30 de Energía, que se activa inmediatamente.
+</Callout>
+
+### Tabla de Requisitos de ER (Nivel de Talento 9 de Habilidad Elemental)
+| Compañeros de Equipo | ER Fuera del Campo | ER en Campo |
+| :-------- | :----------- | :---------- |
+| **0 Pyro** | 120-150% | N/A |
+| **1 Pyro** | 100-150% | 100-125% |
+| **2 Pyro** | 100-110% | 100% |
+
+Estos valores asumen un lanzamiento de Habilidad Elemental. Si Durin puede lanzar su Habilidad Elemental dos veces en una rotación, es posible que no requiera ER en absoluto. Para cálculos precisos, usa una Calculadora de Recarga de Energía.
+
+</Section>
+
+<Section icon={Sparkles} title="Artefactos y Armas para Habilidades Definitivas sin 'Snapshotting'">
+Elegir los artefactos y armas adecuados para Durin es crucial dada su Habilidad Definitiva que no realiza 'snapshot'. Concéntrate en estadísticas que sean consistentemente altas o que proporcionen bonos en tiempo real.
+
+### Conjuntos de Artefactos Recomendados
+| Conjunto de Artefactos | Beneficio para Durin | Notas |
+| :----------- | :---------------- | :---- |
+| **4pc Ritual Antiguo de la Nobleza (NO)** | Daño de Habilidad Definitiva + Buff de ATQ para el equipo | Excelente si nadie más lo tiene, potencia la propia Habilidad Definitiva de Durin. |
+| **4pc Bruja Carmesí en Llamas (CW)** | Daño Pyro y Daño de Reacción | Mejor para equipos de Sobrecargado/Vaporizado, fuerte para Derretido/Vaporizado. |
+| **4pc Sueños Áureos (GD)** | Maestría Elemental y ATQ | Mejor para equipos de Florecimiento, bueno para builds centradas en reacciones. |
+| **4pc Emblema del Destino (ESF)** | Daño de Habilidad Definitiva basado en ER | Sólido y generalista, especialmente con altas necesidades de ER. |
+| **4pc Cazador Fantasma (MH)** | Prob. CRIT (en campo) | Fuerte con Furina si Durin está en campo, evita exceder la Prob. CRIT. |
+| **2pc Conjuntos Mixtos** | Daño de Habilidad Definitiva, Daño Pyro, ATQ%, Maestría Elemental, ER | Opción flexible mientras se buscan conjuntos de 4 piezas. 2pc NO + 2pc CW suele ser óptimo. |
+
+<Callout type="info">
+Un Cáliz de ATQ% y un Cáliz de Bono de Daño Pyro pueden rendir de manera similar; la mejor opción depende de las subestadísticas y los buffs del equipo. Prioriza la Prob. CRIT/Daño CRIT en la Tiara para equilibrar las proporciones.
+</Callout>
+
+### Mejores Opciones de Armas
+| Arma | Rareza | Beneficio Principal | Notas |
+| :----- | :----- | :----------- | :---- |
+| **Athame Artis** | 5★ | Prob. CRIT, Daño de Habilidad Definitiva%, ATQ% | Mejor en slot de Durin. Maximiza con un compañero Hexerei. |
+| **Cortador de Jade Primordial** | 5★ | Prob. CRIT, HP, ATQ% | Cercano segundo, generalmente fuerte. |
+| **Luz Segadora de la Luna** | 5★ | Prob. CRIT, Daño Elemental% | Excelente para Daño Elemental. |
+| **Colmillo de Lobo** | 4★ | Prob. CRIT, Daño de Habilidad Elemental/Definitiva% | Generalmente la mejor de 4★, compite con las de 5★ en R5. La pasiva no se acumula fuera del campo. |
+| **Finale del Abismo** | 4★ | ATQ%, buff de ATQ | Crafteable competitivo con curadores, supera a Colmillo de Lobo R1 con buffs de Daño. |
+| **Rugido del León** | 4★ | Bono de Daño contra enemigos afectados por Pyro/Electro | Viable en equipos de Sobrecarga/Quemadura. |
+| **Juramento por la Libertad** | 5★ | Maestría Elemental, Buff de ATQ para el equipo | Gran opción de soporte para DPS que escalan con ATQ. |
+| **Espada de Favonius** | 4★ | ER, Energía para el equipo | Buena para cubrir las necesidades de ER si no hay otras opciones de DPS disponibles. |
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes sobre la Habilidad Definitiva de Durin">
+
+<FAQ items={[
+  {
+    question: "¿La Habilidad Definitiva de Durin realiza 'snapshot' de los buffs?",
+    answer: "No, la Habilidad Definitiva de Durin no realiza 'snapshot' de los buffs. Esto significa que su daño se calcula dinámicamente en función de sus estadísticas actuales, por lo que los buffs deben estar activos durante toda su duración para afectar su daño."
+  },
+  {
+    question: "¿Qué significa que una habilidad realice 'snapshot'?",
+    answer: "El 'snapshotting' se refiere a que una habilidad registra las estadísticas de un personaje (como ATQ, Daño Elemental, CRIT) en el momento en que se lanza, y utiliza esas estadísticas fijas durante toda su duración, incluso si los buffs expiran o cambian posteriormente. Las habilidades que no realizan 'snapshot' actualizan su daño en tiempo real."
+  },
+  {
+    question: "¿Cómo debo sincronizar los buffs para la Habilidad Definitiva de Durin?",
+    answer: "Siempre aplica todos los buffs relevantes (por ejemplo, Reducción de RES, buffs de ATQ de Bennett, bonos de Daño Elemental de Furina) *antes* de lanzar la Habilidad Definitiva de Durin. Esto asegura que su Habilidad Definitiva se beneficie de estos buffs activos, ya que su daño se inflige en tiempo real."
+  },
+  {
+    question: "¿Hay alguna excepción a que la Habilidad Definitiva de Durin no realice 'snapshot'?",
+    answer: "No, tanto sus Habilidades Definitivas de Principio de Pureza (Forma Blanca) como de Principio de Oscuridad (Forma Oscura) siguen la misma regla: no realizan 'snapshot' de los buffs. Los efectos siempre son en tiempo real."
+  }
+]} />
+
+</Section>

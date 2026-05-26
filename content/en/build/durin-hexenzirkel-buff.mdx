@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Durin Hexenzirkel Buff: 2026 Meta Changes & Faction Mechanics",
+  description: "Master the Durin Hexenzirkel buff system in Genshin Impact 6.2. Detailed guide on Arcane Rite, character-specific enhancements, and new faction resonance.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Durin+Hexenzirkel+Buff+Guide",
+  date: "2026-05-26",
+  author: "Durin Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Durin Hexenzirkel Buff**: A new faction-based resonance system called "Arcane Rite" or "Secret Rite" introduced in Version 6.2.
+- **Activation Requirement**: You must include at least two **Hexenzirkel members** (Magisters) in your party to trigger the team-wide effects.
+- **Core Beneficiaries**: Major buffs are granted to Albedo, Venti, Klee, Mona, Fischl, Sucrose, and the new character Durin.
+- **Stat Scaling**: Many buffs scale directly with character-specific stats, such as Albedo's DEF or Durin's ATK.
+- **Unlocking Process**: Characters must complete specific "Witch's Homework" tasks to be officially recognized as Hexenzirkel members.
+</Callout>
+
+<Section icon={Map} title="Understanding the Hexenzirkel Secret Rite System">
+
+The introduction of Version 6.2 Luna III has fundamentally shifted the Mondstadt meta by introducing the **Durin Hexenzirkel buff** system. Officially known as the "Arcane Rite" or "Secret Rite," this mechanic acts as a specialized faction resonance. Unlike standard Elemental Resonance, the Secret Rite provides deep kit modifications to specific characters who are members of the mysterious Hexenzirkel organization.
+
+**Video Highlights:**
+- **Faction Resonance**: Requires two Hexenzirkel members to activate unique combat modifiers.
+- **Albedo Overhaul**: Massive quality-of-life changes to his Solar Isotoma and DEF-to-DMG scaling.
+- **Durin's Role**: Durin acts as the catalyst for these buffs, enhancing his own passives by 75%.
+- **Elemental Reactions**: Significant boosts to Overload, Electro-Charged, and Vaporize for faction members.
+
+<YouTubeEmbed videoId="ORV5I8trBXM" title="Durin & Jahoda kit and Hexenzirkel buffs!" />
+
+<Callout type="tip" title="Synergy Note">
+To maximize the Durin Hexenzirkel buff, always pair Durin with Albedo or Venti. The raw damage percentage increases provided by Albedo's new "Silver Isotoma" are currently unmatched by traditional supports like Furina for this specific faction.
+</Callout>
+
+| Feature | Standard Resonance | Hexenzirkel Secret Rite |
+| :--- | :--- | :--- |
+| **Trigger** | 2 Characters of same Element | 2 Characters of Hexenzirkel Faction |
+| **Buff Type** | Flat Stat Increase (ATK/HP) | Kit Overhauls & Unique Mechanics |
+| **Scaling** | Fixed | Dynamic (Scales with DEF/ATK/EM) |
+| **Exclusivity** | All characters of that element | Only recognized Magisters |
+
+</Section>
+
+<Section icon={Swords} title="Durin: The Catalyst of the Arcane Rite">
+
+Durin arrives as a Sword-wielding powerhouse with a base attack of 330 and Crit Damage ascension. His kit revolves around "Duality Segregation," a metallurgical process that allows him to shift between two distinct states: Whitening and Blackness Negation. The **Durin Hexenzirkel buff** specifically targets his passive talent, "Luminar Abides by the Divine Calculus," increasing its effectiveness by a staggering 75%.
+
+<CardGrid cols={2}>
+  <Card title="Whitening State">
+    - **Element**: Pyro AoE Damage
+    - **Duration**: 30 seconds
+    - **Effect**: Shreds enemy resistances through the "Skill Dragon" manifestation.
+  </Card>
+  <Card title="Blackness Negation">
+    - **Element**: Triple Pyro Hits
+    - **Duration**: 30 seconds
+    - **Effect**: Massive boost to Vaporize and Melt damage for Durin's own attacks.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Energy Management">
+Durin's Blackness Negation state restores 33 Energy upon activation, but it has a 12-second cooldown. Timing this transformation is crucial for maintaining a 100% burst uptime in high-difficulty content like the Spiral Abyss Floor 12.
+</Callout>
+
+| Durin Talent | Base Effect | With 75% Hexenzirkel Buff |
+| :--- | :--- | :--- |
+| **Resistance Shred** | 20% RES Reduction | 35% RES Reduction |
+| **Reaction Bonus** | 40% Vape/Melt DMG | 70% Vape/Melt DMG |
+| **Burst DMG Cap** | 1,000 Damage Bonus | 1,750 Damage Bonus |
+| **Energy Regen** | 6 Energy / 6s | 10.5 Energy / 6s |
+
+</Section>
+
+<Section icon={Sparkles} title="Albedo and Venti: The Premier Beneficiaries">
+
+The most significant impact of the **Durin Hexenzirkel buff** is felt by Albedo and Venti. Albedo's kit has been modernized to remove the frustration of his flower being destroyed by bosses. His new "Silver Isotoma" (or Oralith) is indestructible and provides massive damage bonuses based on his Defense stat.
+
+Venti, meanwhile, transitions from a pure CC support to a viable on-field driver. His Elemental Burst now grants him an Anemo Infusion, and triggering Swirl reactions provides a massive 50% Elemental DMG bonus to the corresponding element.
+
+<Steps>
+  <Step num="1" title="Albedo's Silver Isotoma">
+    Cast Elemental Skill to generate a Silver Isotoma. This field increases Hexenzirkel members' damage by 10% for every 1,000 DEF Albedo possesses, capping at 30%.
+  </Step>
+  <Step num="2" title="Transient Blossom Enhancement">
+    Transient Blossoms now deal additional damage equal to 120% of Albedo's DEF, scaling up to 250% if multiple Isotomas are present.
+  </Step>
+  <Step num="3" title="Venti's Stormeye Optimization">
+    Venti's Burst now spawns precisely at the center of the enemy. While active, any Swirl reaction increases Venti's Burst damage by 135%.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Meta Shift">
+With these buffs, a C6 Albedo can provide a damage bonus that exceeds Furina's Fanfare buff for Hexenzirkel members, making him the absolute "Best in Slot" support for Mondstadt-themed teams.
+</Callout>
+
+| Character | Primary Buff Mechanic | Scaled Value (Max) |
+| :--- | :--- | :--- |
+| **Albedo** | DEF-based All DMG Bonus | 42% Total (12% Gen + 30% Hex) |
+| **Venti** | Swirl-triggered Elemental Bonus | 50% DMG Bonus |
+| **Klee** | Boom Boost Stacks | 150% Charged Attack DMG |
+| **Sucrose** | Wind Spirit Summoning | 13% Combined DMG Bonus |
+
+</Section>
+
+<Section icon={Target} title="Support and 4-Star Faction Enhancements">
+
+The **Durin Hexenzirkel buff** doesn't just apply to 5-star units. Fischl, Mona, and Razor have received tailored updates that make them competitive with top-tier Fontaine and Natlan supports. Fischl, in particular, becomes a premier battery and buffer for Overload and Electro-Charged teams.
+
+<CardGrid cols={3}>
+  <Card title="Fischl: Prince of Night">
+    - **Overload**: +22.5% Team ATK
+    - **Electro-Charged**: +90 Team EM
+    - **Duration**: 10 seconds
+  </Card>
+  <Card title="Mona: Astral Glow">
+    - **Omen Extension**: +2s to +8s
+    - **Vape Bonus**: +10% per stack
+    - **Stacks**: 3 Max
+  </Card>
+  <Card title="Razor: Thunder Strike">
+    - **AoE DMG**: 150% ATK
+    - **Energy**: +7 per second
+    - **Condition**: Max Electro Sigils
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Mona's Driver Potential">
+Mona's ability to extend the Omen state through Normal and Charged attacks allows her to maintain the 60% DMG bonus for nearly the entire rotation. This makes her an incredible driver for Durin's off-field Pyro applications.
+</Callout>
+
+| Character | Reaction Buff | Secondary Effect |
+| :--- | :--- | :--- |
+| **Fischl** | Overload / Lunar | Team ATK & EM Boost |
+| **Mona** | Vaporize | Omen Duration Extension |
+| **Sucrose** | Swirl | All-Type DMG % Increase |
+| **Razor** | Electro-Charged | High Energy Self-Sustain |
+
+</Section>
+
+<Section icon={Shield} title="How to Unlock and Activate Secret Rites">
+
+Accessing the **Durin Hexenzirkel buff** is not automatic upon pulling the characters. Players must complete a series of progression milestones to "recognize" these units as official Magisters of the faction.
+
+<Checklist
+  id="hexenzirkel-unlock"
+  title="Magister Recognition Checklist:"
+  items={[
+    "Complete the 'Witch's Homework' world quest line in Mondstadt",
+    "Reach Level 90 with the target Hexenzirkel character",
+    "Equip a Level 90 weapon compatible with their specific Secret Rite",
+    "Complete the character-specific 'Trial of the Moon' challenge",
+    "Ensure at least two recognized members are in the active party"
+  ]}
+/>
+
+<Callout type="warning" title="Faction Limits">
+Currently, only characters listed in the Hexenzirkel roster (Albedo, Klee, Mona, Venti, Fischl, Sucrose, Razor, Durin, Varka, Nicole, and Prune) can trigger the Secret Rite. Characters like Jean or Diluc, despite being from Mondstadt, do not currently benefit from this system.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hexenzirkel Buff FAQ">
+
+<FAQ items={[
+  {
+    question: "Does the Durin Hexenzirkel buff stack with standard Elemental Resonance?",
+    answer: "Yes. You can simultaneously benefit from the Pyro Resonance (+25% ATK) and the Hexenzirkel Secret Rite buffs if your team composition meets both criteria."
+  },
+  {
+    question: "Is Albedo's new Silver Isotoma truly indestructible?",
+    answer: "Yes, unlike the Solar Isotoma, the Silver Isotoma generated through the Hexenzirkel buff cannot be destroyed by boss hitboxes or environmental damage, solving a long-standing issue with his kit."
+  },
+  {
+    question: "How long does Venti's Anemo Infusion last?",
+    answer: "Venti's Anemo Infusion lasts for the entire duration of his Elemental Burst (Stormeye). This allows him to act as a driver for reactions like Swirl or the new Lunar-Charged reaction."
+  },
+  {
+    question: "Which character benefits most from Durin's presence?",
+    answer: "Albedo is the biggest winner. Durin provides the necessary faction trigger to unlock Albedo's DEF-to-DMG scaling, which can reach up to a 42% total damage bonus for the entire team."
+  }
+]} />
+
+<Callout type="success" title="Final Verdict">
+The Durin Hexenzirkel buff successfully revitalizes the Mondstadt roster for 2026. By focusing on niche faction synergies rather than raw power creep, HoYoverse has given veteran players a reason to bring back classic units like Klee and Albedo into the modern meta.
+</Callout>
+
+</Section>
