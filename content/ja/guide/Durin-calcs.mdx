@@ -2,7 +2,7 @@ import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
 import { Callout } from '@/components/mdx/Callout'
 import { Card, CardGrid } from '@/components/mdx/CardGrid'
 import { Checklist } from '@/components/mdx/Checklist'
-import { FAQ } from '@/components/mdx/FAQ'
+import { FAQ, FAQItem } from '@/components/mdx/FAQ'
 import { Steps, Step } from '@/components/mdx/Steps'
 import { Section } from '@/components/mdx/Section'
 import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
@@ -273,27 +273,27 @@ export const metadata = {
 <Section icon={Sparkles} title="よくある質問">
 ドゥリンの最適化に関するよくある質問。
 
-<FAQ
+<FAQItem
   question="白龍と黒龍のどちらの形態が優れていますか？"
   answer="どちらの形態も特定の状況で優れています。白龍は安定した物理ダメージに優れ、黒龍は元素反応とバーストダメージに優れています。あなたのプレイスタイルとチームのニーズに応じて選択してください。"
 />
 
-<FAQ
+<FAQItem
   question="最適なアーティファクト統計をどのように決定すればよいですか？"
   answer="砂、杯、冠の主要統計は、ドゥリンの形態とチーム構成によって異なります。一般的に、白龍は物理ダメージボーナス、黒龍は元素ダメージボーナスに焦点を当てます。サブ統計では、常に会心率と会心ダメージを優先してください。"
 />
 
-<FAQ
+<FAQItem
   question="ドゥリンに最適な無料プレイ武器は何ですか？"
   answer="白龍ドゥリンには雪葬の星銀、黒龍ドゥリンには西風大剣や祭礼の大剣が優れた無料プレイの選択肢です。これらの武器は、ドゥリンの能力を補完する有用なサブステータスとスキルを提供します。"
 />
 
-<FAQ
+<FAQItem
   question="ドゥリンの元素チャージ効率はどのくらい必要ですか？"
   answer="元素チャージ効率の要件は、チーム構成と元素粒子の生成量によって異なります。黒龍ドゥリンの場合、元素爆発をスムーズに発動するために、160%〜200%以上の元素チャージ効率を目指すのが一般的です。"
 />
 
-<FAQ
+<FAQItem
   question="ドゥリンのダメージを最大化するために、元素熟知は重要ですか？"
   answer="白龍ドゥリンの場合、元素熟知はそれほど重要ではありません。しかし、黒龍ドゥリンが元素反応（蒸発、溶解、開花など）に依存している場合、元素熟知はダメージ出力を大幅に向上させることができます。"
 />
