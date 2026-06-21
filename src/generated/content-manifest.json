@@ -1,0 +1,1562 @@
+{
+  "en": {
+    "build": [
+      {
+        "slug": "Durin-artifact-set",
+        "file": "Durin-artifact-set"
+      },
+      {
+        "slug": "Durin-artifact-stats",
+        "file": "Durin-artifact-stats"
+      },
+      {
+        "slug": "Durin-artifacts",
+        "file": "Durin-artifacts"
+      },
+      {
+        "slug": "Durin-best-artifacts",
+        "file": "Durin-best-artifacts"
+      },
+      {
+        "slug": "Durin-best-build",
+        "file": "Durin-best-build"
+      },
+      {
+        "slug": "Durin-build",
+        "file": "Durin-build"
+      },
+      {
+        "slug": "Durin-dps-build",
+        "file": "Durin-dps-build"
+      },
+      {
+        "slug": "Durin-genshin-build",
+        "file": "Durin-genshin-build"
+      },
+      {
+        "slug": "Durin-support-build",
+        "file": "Durin-support-build"
+      },
+      {
+        "slug": "durin-energy-recharge-requirement",
+        "file": "durin-energy-recharge-requirement"
+      },
+      {
+        "slug": "durin-hexenzirkel-buff",
+        "file": "durin-hexenzirkel-buff"
+      },
+      {
+        "slug": "durin-noblesse-or-rising-winds",
+        "file": "durin-noblesse-or-rising-winds"
+      },
+      {
+        "slug": "durin-res-shred",
+        "file": "durin-res-shred"
+      },
+      {
+        "slug": "durin-ult-snapshot",
+        "file": "durin-ult-snapshot"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Durin-and-dvalin",
+        "file": "Durin-and-dvalin"
+      },
+      {
+        "slug": "Durin-banner",
+        "file": "Durin-banner"
+      },
+      {
+        "slug": "Durin-boss",
+        "file": "Durin-boss"
+      },
+      {
+        "slug": "Durin-c1-or-r1",
+        "file": "Durin-c1-or-r1"
+      },
+      {
+        "slug": "Durin-calcs",
+        "file": "Durin-calcs"
+      },
+      {
+        "slug": "Durin-game8",
+        "file": "Durin-game8"
+      },
+      {
+        "slug": "Durin-guide",
+        "file": "Durin-guide"
+      },
+      {
+        "slug": "Durin-hexenzirkel",
+        "file": "Durin-hexenzirkel"
+      },
+      {
+        "slug": "Durin-kit",
+        "file": "Durin-kit"
+      },
+      {
+        "slug": "Durin-kqm",
+        "file": "Durin-kqm"
+      },
+      {
+        "slug": "Durin-lore",
+        "file": "Durin-lore"
+      },
+      {
+        "slug": "Durin-quest",
+        "file": "Durin-quest"
+      },
+      {
+        "slug": "Durin-quick-guide",
+        "file": "Durin-quick-guide"
+      },
+      {
+        "slug": "Durin-release-date",
+        "file": "Durin-release-date"
+      },
+      {
+        "slug": "Durin-special-dish",
+        "file": "Durin-special-dish"
+      },
+      {
+        "slug": "Durin-talent-priority",
+        "file": "Durin-talent-priority"
+      },
+      {
+        "slug": "Durin-talents",
+        "file": "Durin-talents"
+      },
+      {
+        "slug": "Durin-vision",
+        "file": "Durin-vision"
+      },
+      {
+        "slug": "Durin-voice-actor",
+        "file": "Durin-voice-actor"
+      },
+      {
+        "slug": "durin-ascension-stat",
+        "file": "durin-ascension-stat"
+      },
+      {
+        "slug": "durin-birthday",
+        "file": "durin-birthday"
+      },
+      {
+        "slug": "durin-constellations",
+        "file": "durin-constellations"
+      },
+      {
+        "slug": "durin-cosplay",
+        "file": "durin-cosplay"
+      },
+      {
+        "slug": "durin-dragon-form",
+        "file": "durin-dragon-form"
+      },
+      {
+        "slug": "durin-element",
+        "file": "durin-element"
+      },
+      {
+        "slug": "durin-fanart",
+        "file": "durin-fanart"
+      },
+      {
+        "slug": "durin-free-skin",
+        "file": "durin-free-skin"
+      },
+      {
+        "slug": "durin-leaderboard",
+        "file": "durin-leaderboard"
+      },
+      {
+        "slug": "durin-model",
+        "file": "durin-model"
+      },
+      {
+        "slug": "durin-mother",
+        "file": "durin-mother"
+      },
+      {
+        "slug": "durin-namecard",
+        "file": "durin-namecard"
+      },
+      {
+        "slug": "durin-original-form",
+        "file": "durin-original-form"
+      },
+      {
+        "slug": "durin-outfit",
+        "file": "durin-outfit"
+      },
+      {
+        "slug": "durin-passive",
+        "file": "durin-passive"
+      },
+      {
+        "slug": "durin-personality",
+        "file": "durin-personality"
+      },
+      {
+        "slug": "durin-quest-choices",
+        "file": "durin-quest-choices"
+      },
+      {
+        "slug": "durin-quest-day-5",
+        "file": "durin-quest-day-5"
+      },
+      {
+        "slug": "durin-quest-endings",
+        "file": "durin-quest-endings"
+      },
+      {
+        "slug": "durin-quotes",
+        "file": "durin-quotes"
+      },
+      {
+        "slug": "durin-rerun",
+        "file": "durin-rerun"
+      },
+      {
+        "slug": "durin-skill-priority",
+        "file": "durin-skill-priority"
+      },
+      {
+        "slug": "durin-voice-lines",
+        "file": "durin-voice-lines"
+      },
+      {
+        "slug": "durin-vs-dvalin",
+        "file": "durin-vs-dvalin"
+      },
+      {
+        "slug": "durin-weekly-boss",
+        "file": "durin-weekly-boss"
+      }
+    ],
+    "materials": [
+      {
+        "slug": "Durin-ascension-materials",
+        "file": "Durin-ascension-materials"
+      },
+      {
+        "slug": "Durin-boss-material",
+        "file": "Durin-boss-material"
+      },
+      {
+        "slug": "Durin-farming-guide",
+        "file": "Durin-farming-guide"
+      },
+      {
+        "slug": "Durin-genshin-materials",
+        "file": "Durin-genshin-materials"
+      },
+      {
+        "slug": "Durin-materials",
+        "file": "Durin-materials"
+      },
+      {
+        "slug": "Durin-mats",
+        "file": "Durin-mats"
+      },
+      {
+        "slug": "Durin-pre-farm",
+        "file": "Durin-pre-farm"
+      },
+      {
+        "slug": "Durin-talent-materials",
+        "file": "Durin-talent-materials"
+      },
+      {
+        "slug": "durin-farming-schedule",
+        "file": "durin-farming-schedule"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "Durin-arlecchino-team",
+        "file": "Durin-arlecchino-team"
+      },
+      {
+        "slug": "Durin-best-teams",
+        "file": "Durin-best-teams"
+      },
+      {
+        "slug": "Durin-f2p-team",
+        "file": "Durin-f2p-team"
+      },
+      {
+        "slug": "Durin-genshin-teams",
+        "file": "Durin-genshin-teams"
+      },
+      {
+        "slug": "Durin-kinich-team",
+        "file": "Durin-kinich-team"
+      },
+      {
+        "slug": "Durin-neuvillette-team",
+        "file": "Durin-neuvillette-team"
+      },
+      {
+        "slug": "Durin-premium-team",
+        "file": "Durin-premium-team"
+      },
+      {
+        "slug": "Durin-team-comp",
+        "file": "Durin-team-comp"
+      },
+      {
+        "slug": "Durin-team",
+        "file": "Durin-team"
+      },
+      {
+        "slug": "Durin-teams",
+        "file": "Durin-teams"
+      },
+      {
+        "slug": "Durin-venti-team",
+        "file": "Durin-venti-team"
+      },
+      {
+        "slug": "Durin-yoimiya-team",
+        "file": "Durin-yoimiya-team"
+      },
+      {
+        "slug": "durin-and-wanderer-team",
+        "file": "durin-and-wanderer-team"
+      },
+      {
+        "slug": "durin-or-mavuika-for-varesa",
+        "file": "durin-or-mavuika-for-varesa"
+      },
+      {
+        "slug": "durin-or-mavuika",
+        "file": "durin-or-mavuika"
+      },
+      {
+        "slug": "durin-overload-teams",
+        "file": "durin-overload-teams"
+      },
+      {
+        "slug": "durin-vape-team",
+        "file": "durin-vape-team"
+      },
+      {
+        "slug": "durin-yelan-team",
+        "file": "durin-yelan-team"
+      },
+      {
+        "slug": "durin-zibai-team",
+        "file": "durin-zibai-team"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Durin-f2p-weapon",
+        "file": "Durin-f2p-weapon"
+      },
+      {
+        "slug": "Durin-signature-weapon",
+        "file": "Durin-signature-weapon"
+      },
+      {
+        "slug": "Durin-weapon-ranking",
+        "file": "Durin-weapon-ranking"
+      },
+      {
+        "slug": "Durin-weapon",
+        "file": "Durin-weapon"
+      },
+      {
+        "slug": "Durin-weapons-comparison",
+        "file": "Durin-weapons-comparison"
+      },
+      {
+        "slug": "Durin-weapons",
+        "file": "Durin-weapons"
+      },
+      {
+        "slug": "durin-4-star-weapon",
+        "file": "durin-4-star-weapon"
+      },
+      {
+        "slug": "durin-weapon-calcs",
+        "file": "durin-weapon-calcs"
+      },
+      {
+        "slug": "durin-weapon-comparison",
+        "file": "durin-weapon-comparison"
+      },
+      {
+        "slug": "durin-weapon-tier-list",
+        "file": "durin-weapon-tier-list"
+      }
+    ]
+  },
+  "es": {
+    "build": [
+      {
+        "slug": "Durin-artifact-set",
+        "file": "Durin-artifact-set"
+      },
+      {
+        "slug": "Durin-artifact-stats",
+        "file": "Durin-artifact-stats"
+      },
+      {
+        "slug": "Durin-artifacts",
+        "file": "Durin-artifacts"
+      },
+      {
+        "slug": "Durin-best-artifacts",
+        "file": "Durin-best-artifacts"
+      },
+      {
+        "slug": "Durin-best-build",
+        "file": "Durin-best-build"
+      },
+      {
+        "slug": "Durin-build",
+        "file": "Durin-build"
+      },
+      {
+        "slug": "Durin-dps-build",
+        "file": "Durin-dps-build"
+      },
+      {
+        "slug": "Durin-genshin-build",
+        "file": "Durin-genshin-build"
+      },
+      {
+        "slug": "Durin-support-build",
+        "file": "Durin-support-build"
+      },
+      {
+        "slug": "durin-energy-recharge-requirement",
+        "file": "durin-energy-recharge-requirement"
+      },
+      {
+        "slug": "durin-hexenzirkel-buff",
+        "file": "durin-hexenzirkel-buff"
+      },
+      {
+        "slug": "durin-noblesse-or-rising-winds",
+        "file": "durin-noblesse-or-rising-winds"
+      },
+      {
+        "slug": "durin-res-shred",
+        "file": "durin-res-shred"
+      },
+      {
+        "slug": "durin-ult-snapshot",
+        "file": "durin-ult-snapshot"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Durin-calcs",
+        "file": "Durin-calcs"
+      },
+      {
+        "slug": "Durin-game8",
+        "file": "Durin-game8"
+      },
+      {
+        "slug": "Durin-guide",
+        "file": "Durin-guide"
+      },
+      {
+        "slug": "Durin-hexenzirkel",
+        "file": "Durin-hexenzirkel"
+      },
+      {
+        "slug": "Durin-kit",
+        "file": "Durin-kit"
+      },
+      {
+        "slug": "Durin-kqm",
+        "file": "Durin-kqm"
+      },
+      {
+        "slug": "Durin-lore",
+        "file": "Durin-lore"
+      },
+      {
+        "slug": "Durin-quest",
+        "file": "Durin-quest"
+      },
+      {
+        "slug": "Durin-quick-guide",
+        "file": "Durin-quick-guide"
+      },
+      {
+        "slug": "Durin-release-date",
+        "file": "Durin-release-date"
+      },
+      {
+        "slug": "Durin-special-dish",
+        "file": "Durin-special-dish"
+      },
+      {
+        "slug": "Durin-talent-priority",
+        "file": "Durin-talent-priority"
+      },
+      {
+        "slug": "Durin-talents",
+        "file": "Durin-talents"
+      },
+      {
+        "slug": "Durin-vision",
+        "file": "Durin-vision"
+      },
+      {
+        "slug": "Durin-voice-actor",
+        "file": "Durin-voice-actor"
+      },
+      {
+        "slug": "durin-ascension-stat",
+        "file": "durin-ascension-stat"
+      },
+      {
+        "slug": "durin-birthday",
+        "file": "durin-birthday"
+      },
+      {
+        "slug": "durin-constellations",
+        "file": "durin-constellations"
+      },
+      {
+        "slug": "durin-cosplay",
+        "file": "durin-cosplay"
+      },
+      {
+        "slug": "durin-dragon-form",
+        "file": "durin-dragon-form"
+      },
+      {
+        "slug": "durin-element",
+        "file": "durin-element"
+      },
+      {
+        "slug": "durin-fanart",
+        "file": "durin-fanart"
+      },
+      {
+        "slug": "durin-free-skin",
+        "file": "durin-free-skin"
+      },
+      {
+        "slug": "durin-leaderboard",
+        "file": "durin-leaderboard"
+      },
+      {
+        "slug": "durin-model",
+        "file": "durin-model"
+      },
+      {
+        "slug": "durin-mother",
+        "file": "durin-mother"
+      },
+      {
+        "slug": "durin-namecard",
+        "file": "durin-namecard"
+      },
+      {
+        "slug": "durin-original-form",
+        "file": "durin-original-form"
+      },
+      {
+        "slug": "durin-outfit",
+        "file": "durin-outfit"
+      },
+      {
+        "slug": "durin-passive",
+        "file": "durin-passive"
+      },
+      {
+        "slug": "durin-personality",
+        "file": "durin-personality"
+      },
+      {
+        "slug": "durin-quest-choices",
+        "file": "durin-quest-choices"
+      },
+      {
+        "slug": "durin-quest-day-5",
+        "file": "durin-quest-day-5"
+      },
+      {
+        "slug": "durin-quest-endings",
+        "file": "durin-quest-endings"
+      },
+      {
+        "slug": "durin-quotes",
+        "file": "durin-quotes"
+      },
+      {
+        "slug": "durin-rerun",
+        "file": "durin-rerun"
+      },
+      {
+        "slug": "durin-skill-priority",
+        "file": "durin-skill-priority"
+      },
+      {
+        "slug": "durin-voice-lines",
+        "file": "durin-voice-lines"
+      },
+      {
+        "slug": "durin-vs-dvalin",
+        "file": "durin-vs-dvalin"
+      },
+      {
+        "slug": "durin-weekly-boss",
+        "file": "durin-weekly-boss"
+      }
+    ],
+    "materials": [
+      {
+        "slug": "Durin-ascension-materials",
+        "file": "Durin-ascension-materials"
+      },
+      {
+        "slug": "Durin-boss-material",
+        "file": "Durin-boss-material"
+      },
+      {
+        "slug": "Durin-farming-guide",
+        "file": "Durin-farming-guide"
+      },
+      {
+        "slug": "Durin-genshin-materials",
+        "file": "Durin-genshin-materials"
+      },
+      {
+        "slug": "Durin-materials",
+        "file": "Durin-materials"
+      },
+      {
+        "slug": "Durin-mats",
+        "file": "Durin-mats"
+      },
+      {
+        "slug": "Durin-pre-farm",
+        "file": "Durin-pre-farm"
+      },
+      {
+        "slug": "Durin-talent-materials",
+        "file": "Durin-talent-materials"
+      },
+      {
+        "slug": "durin-farming-schedule",
+        "file": "durin-farming-schedule"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "Durin-arlecchino-team",
+        "file": "Durin-arlecchino-team"
+      },
+      {
+        "slug": "Durin-best-teams",
+        "file": "Durin-best-teams"
+      },
+      {
+        "slug": "Durin-f2p-team",
+        "file": "Durin-f2p-team"
+      },
+      {
+        "slug": "Durin-genshin-teams",
+        "file": "Durin-genshin-teams"
+      },
+      {
+        "slug": "Durin-kinich-team",
+        "file": "Durin-kinich-team"
+      },
+      {
+        "slug": "Durin-neuvillette-team",
+        "file": "Durin-neuvillette-team"
+      },
+      {
+        "slug": "Durin-premium-team",
+        "file": "Durin-premium-team"
+      },
+      {
+        "slug": "Durin-team-comp",
+        "file": "Durin-team-comp"
+      },
+      {
+        "slug": "Durin-team",
+        "file": "Durin-team"
+      },
+      {
+        "slug": "Durin-teams",
+        "file": "Durin-teams"
+      },
+      {
+        "slug": "Durin-venti-team",
+        "file": "Durin-venti-team"
+      },
+      {
+        "slug": "Durin-yoimiya-team",
+        "file": "Durin-yoimiya-team"
+      },
+      {
+        "slug": "durin-and-wanderer-team",
+        "file": "durin-and-wanderer-team"
+      },
+      {
+        "slug": "durin-or-mavuika-for-varesa",
+        "file": "durin-or-mavuika-for-varesa"
+      },
+      {
+        "slug": "durin-or-mavuika",
+        "file": "durin-or-mavuika"
+      },
+      {
+        "slug": "durin-overload-teams",
+        "file": "durin-overload-teams"
+      },
+      {
+        "slug": "durin-vape-team",
+        "file": "durin-vape-team"
+      },
+      {
+        "slug": "durin-yelan-team",
+        "file": "durin-yelan-team"
+      },
+      {
+        "slug": "durin-zibai-team",
+        "file": "durin-zibai-team"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Durin-f2p-weapon",
+        "file": "Durin-f2p-weapon"
+      },
+      {
+        "slug": "Durin-signature-weapon",
+        "file": "Durin-signature-weapon"
+      },
+      {
+        "slug": "Durin-weapon-ranking",
+        "file": "Durin-weapon-ranking"
+      },
+      {
+        "slug": "Durin-weapon",
+        "file": "Durin-weapon"
+      },
+      {
+        "slug": "Durin-weapons-comparison",
+        "file": "Durin-weapons-comparison"
+      },
+      {
+        "slug": "Durin-weapons",
+        "file": "Durin-weapons"
+      },
+      {
+        "slug": "durin-4-star-weapon",
+        "file": "durin-4-star-weapon"
+      },
+      {
+        "slug": "durin-weapon-calcs",
+        "file": "durin-weapon-calcs"
+      },
+      {
+        "slug": "durin-weapon-comparison",
+        "file": "durin-weapon-comparison"
+      },
+      {
+        "slug": "durin-weapon-tier-list",
+        "file": "durin-weapon-tier-list"
+      }
+    ]
+  },
+  "fr": {
+    "build": [
+      {
+        "slug": "Durin-artifact-set",
+        "file": "Durin-artifact-set"
+      },
+      {
+        "slug": "Durin-artifact-stats",
+        "file": "Durin-artifact-stats"
+      },
+      {
+        "slug": "Durin-artifacts",
+        "file": "Durin-artifacts"
+      },
+      {
+        "slug": "Durin-best-artifacts",
+        "file": "Durin-best-artifacts"
+      },
+      {
+        "slug": "Durin-best-build",
+        "file": "Durin-best-build"
+      },
+      {
+        "slug": "Durin-build",
+        "file": "Durin-build"
+      },
+      {
+        "slug": "Durin-dps-build",
+        "file": "Durin-dps-build"
+      },
+      {
+        "slug": "Durin-genshin-build",
+        "file": "Durin-genshin-build"
+      },
+      {
+        "slug": "Durin-support-build",
+        "file": "Durin-support-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Durin-game8",
+        "file": "Durin-game8"
+      },
+      {
+        "slug": "Durin-guide",
+        "file": "Durin-guide"
+      },
+      {
+        "slug": "Durin-kit",
+        "file": "Durin-kit"
+      },
+      {
+        "slug": "Durin-kqm",
+        "file": "Durin-kqm"
+      },
+      {
+        "slug": "Durin-quick-guide",
+        "file": "Durin-quick-guide"
+      },
+      {
+        "slug": "Durin-talent-priority",
+        "file": "Durin-talent-priority"
+      },
+      {
+        "slug": "Durin-talents",
+        "file": "Durin-talents"
+      }
+    ],
+    "materials": [
+      {
+        "slug": "Durin-ascension-materials",
+        "file": "Durin-ascension-materials"
+      },
+      {
+        "slug": "Durin-boss-material",
+        "file": "Durin-boss-material"
+      },
+      {
+        "slug": "Durin-farming-guide",
+        "file": "Durin-farming-guide"
+      },
+      {
+        "slug": "Durin-genshin-materials",
+        "file": "Durin-genshin-materials"
+      },
+      {
+        "slug": "Durin-materials",
+        "file": "Durin-materials"
+      },
+      {
+        "slug": "Durin-mats",
+        "file": "Durin-mats"
+      },
+      {
+        "slug": "Durin-pre-farm",
+        "file": "Durin-pre-farm"
+      },
+      {
+        "slug": "Durin-talent-materials",
+        "file": "Durin-talent-materials"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "Durin-arlecchino-team",
+        "file": "Durin-arlecchino-team"
+      },
+      {
+        "slug": "Durin-best-teams",
+        "file": "Durin-best-teams"
+      },
+      {
+        "slug": "Durin-f2p-team",
+        "file": "Durin-f2p-team"
+      },
+      {
+        "slug": "Durin-genshin-teams",
+        "file": "Durin-genshin-teams"
+      },
+      {
+        "slug": "Durin-premium-team",
+        "file": "Durin-premium-team"
+      },
+      {
+        "slug": "Durin-team-comp",
+        "file": "Durin-team-comp"
+      },
+      {
+        "slug": "Durin-team",
+        "file": "Durin-team"
+      },
+      {
+        "slug": "Durin-teams",
+        "file": "Durin-teams"
+      },
+      {
+        "slug": "Durin-venti-team",
+        "file": "Durin-venti-team"
+      },
+      {
+        "slug": "Durin-yoimiya-team",
+        "file": "Durin-yoimiya-team"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Durin-f2p-weapon",
+        "file": "Durin-f2p-weapon"
+      },
+      {
+        "slug": "Durin-signature-weapon",
+        "file": "Durin-signature-weapon"
+      },
+      {
+        "slug": "Durin-weapon-ranking",
+        "file": "Durin-weapon-ranking"
+      },
+      {
+        "slug": "Durin-weapon",
+        "file": "Durin-weapon"
+      },
+      {
+        "slug": "Durin-weapons-comparison",
+        "file": "Durin-weapons-comparison"
+      },
+      {
+        "slug": "Durin-weapons",
+        "file": "Durin-weapons"
+      }
+    ]
+  },
+  "ja": {
+    "build": [
+      {
+        "slug": "durin-energy-recharge-requirement",
+        "file": "durin-energy-recharge-requirement"
+      },
+      {
+        "slug": "durin-hexenzirkel-buff",
+        "file": "durin-hexenzirkel-buff"
+      },
+      {
+        "slug": "durin-noblesse-or-rising-winds",
+        "file": "durin-noblesse-or-rising-winds"
+      },
+      {
+        "slug": "durin-res-shred",
+        "file": "durin-res-shred"
+      },
+      {
+        "slug": "durin-ult-snapshot",
+        "file": "durin-ult-snapshot"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Durin-calcs",
+        "file": "Durin-calcs"
+      },
+      {
+        "slug": "Durin-hexenzirkel",
+        "file": "Durin-hexenzirkel"
+      },
+      {
+        "slug": "Durin-lore",
+        "file": "Durin-lore"
+      },
+      {
+        "slug": "Durin-quest",
+        "file": "Durin-quest"
+      },
+      {
+        "slug": "Durin-release-date",
+        "file": "Durin-release-date"
+      },
+      {
+        "slug": "Durin-special-dish",
+        "file": "Durin-special-dish"
+      },
+      {
+        "slug": "Durin-vision",
+        "file": "Durin-vision"
+      },
+      {
+        "slug": "Durin-voice-actor",
+        "file": "Durin-voice-actor"
+      },
+      {
+        "slug": "durin-ascension-stat",
+        "file": "durin-ascension-stat"
+      },
+      {
+        "slug": "durin-birthday",
+        "file": "durin-birthday"
+      },
+      {
+        "slug": "durin-constellations",
+        "file": "durin-constellations"
+      },
+      {
+        "slug": "durin-cosplay",
+        "file": "durin-cosplay"
+      },
+      {
+        "slug": "durin-dragon-form",
+        "file": "durin-dragon-form"
+      },
+      {
+        "slug": "durin-element",
+        "file": "durin-element"
+      },
+      {
+        "slug": "durin-fanart",
+        "file": "durin-fanart"
+      },
+      {
+        "slug": "durin-free-skin",
+        "file": "durin-free-skin"
+      },
+      {
+        "slug": "durin-leaderboard",
+        "file": "durin-leaderboard"
+      },
+      {
+        "slug": "durin-model",
+        "file": "durin-model"
+      },
+      {
+        "slug": "durin-mother",
+        "file": "durin-mother"
+      },
+      {
+        "slug": "durin-namecard",
+        "file": "durin-namecard"
+      },
+      {
+        "slug": "durin-original-form",
+        "file": "durin-original-form"
+      },
+      {
+        "slug": "durin-outfit",
+        "file": "durin-outfit"
+      },
+      {
+        "slug": "durin-passive",
+        "file": "durin-passive"
+      },
+      {
+        "slug": "durin-personality",
+        "file": "durin-personality"
+      },
+      {
+        "slug": "durin-quest-choices",
+        "file": "durin-quest-choices"
+      },
+      {
+        "slug": "durin-quest-day-5",
+        "file": "durin-quest-day-5"
+      },
+      {
+        "slug": "durin-quest-endings",
+        "file": "durin-quest-endings"
+      },
+      {
+        "slug": "durin-quotes",
+        "file": "durin-quotes"
+      },
+      {
+        "slug": "durin-rerun",
+        "file": "durin-rerun"
+      },
+      {
+        "slug": "durin-skill-priority",
+        "file": "durin-skill-priority"
+      },
+      {
+        "slug": "durin-voice-lines",
+        "file": "durin-voice-lines"
+      },
+      {
+        "slug": "durin-vs-dvalin",
+        "file": "durin-vs-dvalin"
+      },
+      {
+        "slug": "durin-weekly-boss",
+        "file": "durin-weekly-boss"
+      }
+    ],
+    "materials": [
+      {
+        "slug": "durin-farming-schedule",
+        "file": "durin-farming-schedule"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "Durin-kinich-team",
+        "file": "Durin-kinich-team"
+      },
+      {
+        "slug": "Durin-neuvillette-team",
+        "file": "Durin-neuvillette-team"
+      },
+      {
+        "slug": "durin-and-wanderer-team",
+        "file": "durin-and-wanderer-team"
+      },
+      {
+        "slug": "durin-or-mavuika-for-varesa",
+        "file": "durin-or-mavuika-for-varesa"
+      },
+      {
+        "slug": "durin-or-mavuika",
+        "file": "durin-or-mavuika"
+      },
+      {
+        "slug": "durin-overload-teams",
+        "file": "durin-overload-teams"
+      },
+      {
+        "slug": "durin-vape-team",
+        "file": "durin-vape-team"
+      },
+      {
+        "slug": "durin-yelan-team",
+        "file": "durin-yelan-team"
+      },
+      {
+        "slug": "durin-zibai-team",
+        "file": "durin-zibai-team"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "durin-4-star-weapon",
+        "file": "durin-4-star-weapon"
+      },
+      {
+        "slug": "durin-weapon-calcs",
+        "file": "durin-weapon-calcs"
+      },
+      {
+        "slug": "durin-weapon-comparison",
+        "file": "durin-weapon-comparison"
+      },
+      {
+        "slug": "durin-weapon-tier-list",
+        "file": "durin-weapon-tier-list"
+      }
+    ]
+  },
+  "ko": {
+    "build": [
+      {
+        "slug": "durin-energy-recharge-requirement",
+        "file": "durin-energy-recharge-requirement"
+      },
+      {
+        "slug": "durin-hexenzirkel-buff",
+        "file": "durin-hexenzirkel-buff"
+      },
+      {
+        "slug": "durin-noblesse-or-rising-winds",
+        "file": "durin-noblesse-or-rising-winds"
+      },
+      {
+        "slug": "durin-res-shred",
+        "file": "durin-res-shred"
+      },
+      {
+        "slug": "durin-ult-snapshot",
+        "file": "durin-ult-snapshot"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Durin-calcs",
+        "file": "Durin-calcs"
+      },
+      {
+        "slug": "Durin-hexenzirkel",
+        "file": "Durin-hexenzirkel"
+      },
+      {
+        "slug": "Durin-lore",
+        "file": "Durin-lore"
+      },
+      {
+        "slug": "Durin-quest",
+        "file": "Durin-quest"
+      },
+      {
+        "slug": "Durin-release-date",
+        "file": "Durin-release-date"
+      },
+      {
+        "slug": "Durin-special-dish",
+        "file": "Durin-special-dish"
+      },
+      {
+        "slug": "Durin-vision",
+        "file": "Durin-vision"
+      },
+      {
+        "slug": "Durin-voice-actor",
+        "file": "Durin-voice-actor"
+      },
+      {
+        "slug": "durin-ascension-stat",
+        "file": "durin-ascension-stat"
+      },
+      {
+        "slug": "durin-birthday",
+        "file": "durin-birthday"
+      },
+      {
+        "slug": "durin-constellations",
+        "file": "durin-constellations"
+      },
+      {
+        "slug": "durin-cosplay",
+        "file": "durin-cosplay"
+      },
+      {
+        "slug": "durin-dragon-form",
+        "file": "durin-dragon-form"
+      },
+      {
+        "slug": "durin-element",
+        "file": "durin-element"
+      },
+      {
+        "slug": "durin-fanart",
+        "file": "durin-fanart"
+      },
+      {
+        "slug": "durin-free-skin",
+        "file": "durin-free-skin"
+      },
+      {
+        "slug": "durin-leaderboard",
+        "file": "durin-leaderboard"
+      },
+      {
+        "slug": "durin-model",
+        "file": "durin-model"
+      },
+      {
+        "slug": "durin-mother",
+        "file": "durin-mother"
+      },
+      {
+        "slug": "durin-namecard",
+        "file": "durin-namecard"
+      },
+      {
+        "slug": "durin-original-form",
+        "file": "durin-original-form"
+      },
+      {
+        "slug": "durin-outfit",
+        "file": "durin-outfit"
+      },
+      {
+        "slug": "durin-passive",
+        "file": "durin-passive"
+      },
+      {
+        "slug": "durin-personality",
+        "file": "durin-personality"
+      },
+      {
+        "slug": "durin-quest-choices",
+        "file": "durin-quest-choices"
+      },
+      {
+        "slug": "durin-quest-day-5",
+        "file": "durin-quest-day-5"
+      },
+      {
+        "slug": "durin-quest-endings",
+        "file": "durin-quest-endings"
+      },
+      {
+        "slug": "durin-quotes",
+        "file": "durin-quotes"
+      },
+      {
+        "slug": "durin-rerun",
+        "file": "durin-rerun"
+      },
+      {
+        "slug": "durin-skill-priority",
+        "file": "durin-skill-priority"
+      },
+      {
+        "slug": "durin-voice-lines",
+        "file": "durin-voice-lines"
+      },
+      {
+        "slug": "durin-vs-dvalin",
+        "file": "durin-vs-dvalin"
+      },
+      {
+        "slug": "durin-weekly-boss",
+        "file": "durin-weekly-boss"
+      }
+    ],
+    "materials": [
+      {
+        "slug": "durin-farming-schedule",
+        "file": "durin-farming-schedule"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "Durin-kinich-team",
+        "file": "Durin-kinich-team"
+      },
+      {
+        "slug": "Durin-neuvillette-team",
+        "file": "Durin-neuvillette-team"
+      },
+      {
+        "slug": "durin-and-wanderer-team",
+        "file": "durin-and-wanderer-team"
+      },
+      {
+        "slug": "durin-or-mavuika-for-varesa",
+        "file": "durin-or-mavuika-for-varesa"
+      },
+      {
+        "slug": "durin-or-mavuika",
+        "file": "durin-or-mavuika"
+      },
+      {
+        "slug": "durin-overload-teams",
+        "file": "durin-overload-teams"
+      },
+      {
+        "slug": "durin-vape-team",
+        "file": "durin-vape-team"
+      },
+      {
+        "slug": "durin-yelan-team",
+        "file": "durin-yelan-team"
+      },
+      {
+        "slug": "durin-zibai-team",
+        "file": "durin-zibai-team"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "durin-4-star-weapon",
+        "file": "durin-4-star-weapon"
+      },
+      {
+        "slug": "durin-weapon-calcs",
+        "file": "durin-weapon-calcs"
+      },
+      {
+        "slug": "durin-weapon-comparison",
+        "file": "durin-weapon-comparison"
+      },
+      {
+        "slug": "durin-weapon-tier-list",
+        "file": "durin-weapon-tier-list"
+      }
+    ]
+  },
+  "pt": {
+    "build": [
+      {
+        "slug": "Durin-artifact-set",
+        "file": "Durin-artifact-set"
+      },
+      {
+        "slug": "Durin-artifact-stats",
+        "file": "Durin-artifact-stats"
+      },
+      {
+        "slug": "Durin-artifacts",
+        "file": "Durin-artifacts"
+      },
+      {
+        "slug": "Durin-best-artifacts",
+        "file": "Durin-best-artifacts"
+      },
+      {
+        "slug": "Durin-best-build",
+        "file": "Durin-best-build"
+      },
+      {
+        "slug": "Durin-build",
+        "file": "Durin-build"
+      },
+      {
+        "slug": "Durin-dps-build",
+        "file": "Durin-dps-build"
+      },
+      {
+        "slug": "Durin-genshin-build",
+        "file": "Durin-genshin-build"
+      },
+      {
+        "slug": "Durin-support-build",
+        "file": "Durin-support-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Durin-game8",
+        "file": "Durin-game8"
+      },
+      {
+        "slug": "Durin-guide",
+        "file": "Durin-guide"
+      },
+      {
+        "slug": "Durin-kit",
+        "file": "Durin-kit"
+      },
+      {
+        "slug": "Durin-kqm",
+        "file": "Durin-kqm"
+      },
+      {
+        "slug": "Durin-quick-guide",
+        "file": "Durin-quick-guide"
+      },
+      {
+        "slug": "Durin-talent-priority",
+        "file": "Durin-talent-priority"
+      },
+      {
+        "slug": "Durin-talents",
+        "file": "Durin-talents"
+      }
+    ],
+    "materials": [
+      {
+        "slug": "Durin-ascension-materials",
+        "file": "Durin-ascension-materials"
+      },
+      {
+        "slug": "Durin-boss-material",
+        "file": "Durin-boss-material"
+      },
+      {
+        "slug": "Durin-farming-guide",
+        "file": "Durin-farming-guide"
+      },
+      {
+        "slug": "Durin-genshin-materials",
+        "file": "Durin-genshin-materials"
+      },
+      {
+        "slug": "Durin-materials",
+        "file": "Durin-materials"
+      },
+      {
+        "slug": "Durin-mats",
+        "file": "Durin-mats"
+      },
+      {
+        "slug": "Durin-pre-farm",
+        "file": "Durin-pre-farm"
+      },
+      {
+        "slug": "Durin-talent-materials",
+        "file": "Durin-talent-materials"
+      }
+    ],
+    "teams": [
+      {
+        "slug": "Durin-arlecchino-team",
+        "file": "Durin-arlecchino-team"
+      },
+      {
+        "slug": "Durin-best-teams",
+        "file": "Durin-best-teams"
+      },
+      {
+        "slug": "Durin-f2p-team",
+        "file": "Durin-f2p-team"
+      },
+      {
+        "slug": "Durin-genshin-teams",
+        "file": "Durin-genshin-teams"
+      },
+      {
+        "slug": "Durin-premium-team",
+        "file": "Durin-premium-team"
+      },
+      {
+        "slug": "Durin-team-comp",
+        "file": "Durin-team-comp"
+      },
+      {
+        "slug": "Durin-team",
+        "file": "Durin-team"
+      },
+      {
+        "slug": "Durin-teams",
+        "file": "Durin-teams"
+      },
+      {
+        "slug": "Durin-venti-team",
+        "file": "Durin-venti-team"
+      },
+      {
+        "slug": "Durin-yoimiya-team",
+        "file": "Durin-yoimiya-team"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Durin-f2p-weapon",
+        "file": "Durin-f2p-weapon"
+      },
+      {
+        "slug": "Durin-signature-weapon",
+        "file": "Durin-signature-weapon"
+      },
+      {
+        "slug": "Durin-weapon-ranking",
+        "file": "Durin-weapon-ranking"
+      },
+      {
+        "slug": "Durin-weapon",
+        "file": "Durin-weapon"
+      },
+      {
+        "slug": "Durin-weapons-comparison",
+        "file": "Durin-weapons-comparison"
+      },
+      {
+        "slug": "Durin-weapons",
+        "file": "Durin-weapons"
+      }
+    ]
+  }
+}
